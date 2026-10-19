@@ -1,0 +1,12 @@
+name: "Square"
+vendor: block
+category: payments
+links: [pay, data, depend]
+description: "Payment processing and point-of-sale platform by Block, Inc."
+website: https://squareup.com
+detect:
+  npm: ["square", "react-square-web-payments-sdk"]
+  composer: ["square/square"]
+  pypi: ["squareup"]
+  gems: ["square.rb"]
+alternatives: [mollie, adyen, sumup]

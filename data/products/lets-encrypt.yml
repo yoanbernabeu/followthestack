@@ -1,0 +1,9 @@
+name: "Let's Encrypt"
+vendor: internet-security-research-group
+category: cdn-dns-security
+links: [depend]
+description: "Free, automated certificate authority run by the non-profit Internet Security Research Group."
+website: https://letsencrypt.org
+detect:
+  pypi: ["certbot"]
+  docker: ["certbot/certbot"]

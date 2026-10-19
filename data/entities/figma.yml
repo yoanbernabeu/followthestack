@@ -1,0 +1,11 @@
+name: "Figma, Inc."
+type: company
+description: "US company developing the Figma collaborative interface design tool."
+country: US
+website: https://www.figma.com
+relations:
+  - target: dylan-field
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Figma
+        outlet: Wikipedia

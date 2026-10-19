@@ -1,0 +1,17 @@
+name: "Snap Inc."
+type: company
+description: "US company operating Snapchat."
+country: US
+website: https://snap.com
+wikidata: Q27022329
+relations:
+  - target: evan-spiegel
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Snap_Inc.
+        outlet: Wikipedia
+  - target: evan-spiegel
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Snap_Inc.
+        outlet: Wikipedia

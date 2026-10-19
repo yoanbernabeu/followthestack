@@ -1,0 +1,7 @@
+name: "v0"
+vendor: vercel
+category: ai
+links: [pay, data]
+description: "AI tool by Vercel that generates web interfaces and apps from prompts."
+website: https://v0.app
+alternatives: [lovable, bolt-new, replit]

@@ -1,0 +1,17 @@
+name: "Andreessen Horowitz (a16z)"
+type: investment-fund
+description: "US venture capital firm founded by Marc Andreessen and Ben Horowitz."
+country: US
+website: https://a16z.com
+wikidata: Q4034010
+relations:
+  - target: marc-andreessen
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Andreessen_Horowitz
+        outlet: "Wikipedia"
+  - target: ben-horowitz
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Andreessen_Horowitz
+        outlet: "Wikipedia"

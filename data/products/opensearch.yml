@@ -1,0 +1,13 @@
+name: "OpenSearch"
+vendor: linux-foundation
+category: databases
+links: [depend]
+description: "Open source (Apache 2.0) fork of Elasticsearch, governed by the OpenSearch Software Foundation under the Linux Foundation."
+website: https://opensearch.org
+detect:
+  npm: ["@opensearch-project/opensearch"]
+  composer: ["opensearch-project/opensearch-php"]
+  gems: ["opensearch-ruby"]
+  pypi: ["opensearch-py"]
+  docker: ["opensearchproject/opensearch"]
+alternatives: ["elasticsearch"]

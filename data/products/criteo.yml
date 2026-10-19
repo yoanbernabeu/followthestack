@@ -1,0 +1,7 @@
+name: "Criteo"
+vendor: criteo
+category: advertising
+links: [pay, data]
+description: "Retargeting and retail media advertising platform by Criteo."
+website: https://www.criteo.com
+alternatives: [google-ads, amazon-ads]

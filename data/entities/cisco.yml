@@ -1,0 +1,12 @@
+name: "Cisco"
+type: company
+description: "US networking, security and software conglomerate, owner of Splunk."
+country: US
+website: https://www.cisco.com
+wikidata: Q173395
+relations:
+  - target: chuck-robbins
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Cisco
+        outlet: "Wikipedia"

@@ -1,0 +1,21 @@
+subject: elon-musk
+grievances: [far-right-support]
+date: "2023-12-10"
+summary: "Restored the X account of Infowars host Alex Jones, described by NBC News as a far-right radio host, banned from Twitter in 2018 for abusive behaviour, after a poll he posted showed about 70% of respondents in favour. Jones had repeatedly called the 2012 Sandy Hook school shooting a hoax, and relatives of victims had won nearly $1.5 billion in defamation judgments against him. In November 2022 Musk had said he would not reinstate Jones."
+quote:
+  text: "The people have spoken and so it shall be."
+  lang: en
+status: established
+response: "Musk presented the move as a matter of free speech, writing that it was likely that Community Notes \"will respond rapidly to any AJ post that needs correction.\""
+sources:
+  - url: https://apnews.com/article/alex-jones-x-account-elon-musk-90cfc990631dec5e8f337167fbe16372
+    outlet: "Associated Press"
+    date: "2023-12-10"
+    archive: https://web.archive.org/web/20240131210945/https://apnews.com/article/alex-jones-x-account-elon-musk-90cfc990631dec5e8f337167fbe16372
+  - url: https://www.reuters.com/technology/musk-poll-shows-x-users-want-us-conspiracy-theorist-jones-account-back-2023-12-10/
+    outlet: "Reuters"
+    date: "2023-12-10"
+    archive: https://web.archive.org/web/20231210072240/https://www.reuters.com/technology/musk-poll-shows-x-users-want-us-conspiracy-theorist-jones-account-back-2023-12-10/
+  - url: https://www.nbcnews.com/tech/internet/elon-musk-alex-jones-account-x-twitter-conspiracy-rcna129008
+    outlet: "NBC News"
+    date: "2023-12-11"

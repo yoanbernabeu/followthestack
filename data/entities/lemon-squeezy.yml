@@ -1,0 +1,11 @@
+name: "Lemon Squeezy"
+type: company
+description: "Merchant-of-record payments platform for digital products, acquired by Stripe in 2024."
+country: US
+website: https://www.lemonsqueezy.com
+relations:
+  - target: stripe
+    role: subsidiary-of
+    sources:
+      - url: https://www.lemonsqueezy.com/blog/stripe-acquires-lemon-squeezy
+        outlet: "Lemon Squeezy"

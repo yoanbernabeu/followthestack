@@ -1,0 +1,9 @@
+name: "NestJS"
+vendor: nestjs
+category: frameworks-libraries
+links: [depend]
+description: "Node.js server framework created by Kamil Myśliwiec, funded by sponsors."
+website: https://nestjs.com
+detect:
+  npm: ["@nestjs/core", "@nestjs/common", "@nestjs/cli"]
+alternatives: [express]

@@ -1,0 +1,7 @@
+name: "Figma"
+vendor: figma
+category: design
+links: [pay, data]
+description: "Collaborative web-based interface design tool by Figma, Inc."
+website: https://www.figma.com
+alternatives: [penpot]

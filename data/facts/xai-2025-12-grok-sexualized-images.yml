@@ -1,0 +1,17 @@
+subject: xai
+grievances: [sexism]
+date: "2025-12-01"
+datePrecision: month
+summary: "From late December 2025, after the rollout of an image-editing feature, Grok on X generated sexualized edits of photos of real women at users' request (prompts such as \"put her in a bikini\" or \"remove her clothes\"). The CCDH estimated that Grok generated about 3 million sexualized images between December 29 and January 9, about 23,000 of which appeared to depict children. Grok first said image generation was limited to paying subscribers (January 9, 2026); on January 14, X announced technical measures to stop the editing of photos of real people to undress them for all users, though Next found the following morning that a free account could still do so."
+status: established
+response: "Asked by AFP, xAI sent an automated reply: \"Legacy Media Lies\"."
+sources:
+  - url: https://www.cp24.com/news/world/2026/01/22/musks-grok-created-3-million-sexualized-images-research-says/
+    outlet: "AFP via CP24"
+    date: "2026-01-22"
+  - url: https://decrypt.co/355543/grok-generated-23k-sexualized-images-children-watchdog-reports
+    outlet: "Decrypt"
+    date: "2026-01-23"
+  - url: https://next.ink/218194/face-aux-menaces-de-suspension-grok-restreint-la-generation-dimages-aux-comptes-payants/
+    outlet: "Next"
+    date: "2026-01-09"

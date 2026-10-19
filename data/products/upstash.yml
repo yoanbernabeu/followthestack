@@ -1,0 +1,10 @@
+name: "Upstash"
+vendor: upstash
+category: databases
+links: [pay, data]
+description: "Serverless Redis-compatible, vector and message queue services."
+website: https://upstash.com
+detect:
+  npm: ["@upstash/redis"]
+  pypi: ["upstash-redis"]
+alternatives: ["redis", "valkey"]

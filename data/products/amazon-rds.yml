@@ -1,0 +1,9 @@
+name: "Amazon RDS / Aurora"
+vendor: amazon
+category: databases
+links: [pay, data]
+description: "Managed relational databases (PostgreSQL, MySQL, MariaDB, Oracle, SQL Server, Aurora) on AWS."
+website: https://aws.amazon.com/rds/
+detect:
+  npm: ["@aws-sdk/client-rds"]
+alternatives: ["neon", "supabase", "planetscale", "google-cloud-sql", "aiven", "postgresql", "turso"]

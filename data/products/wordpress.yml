@@ -1,0 +1,10 @@
+name: "WordPress"
+vendor: wordpress-foundation
+category: frameworks-libraries
+links: [depend]
+description: "Open source CMS. The trademark belongs to the WordPress Foundation; WordPress.org is controlled by Matt Mullenweg, who also runs Automattic."
+website: https://wordpress.org
+detect:
+  composer: ["johnpbloch/wordpress", "roots/wordpress"]
+  docker: ["wordpress"]
+alternatives: [drupal]

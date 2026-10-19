@@ -1,0 +1,11 @@
+name: "Oracle Database"
+vendor: oracle
+category: databases
+links: [pay, data, depend]
+description: "Oracle's proprietary relational database, also offered as Autonomous Database in Oracle Cloud."
+website: https://www.oracle.com/database/
+detect:
+  npm: ["oracledb"]
+  gems: ["ruby-oci8"]
+  pypi: ["oracledb", "cx_Oracle"]
+alternatives: ["postgresql", "mariadb", "mysql"]

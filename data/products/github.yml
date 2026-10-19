@@ -1,0 +1,7 @@
+name: "GitHub"
+vendor: github
+category: code-hosting
+links: [pay, data, depend]
+description: "Git hosting, pull requests, issues and developer platform owned by Microsoft."
+website: https://github.com
+alternatives: [gitlab, codeberg, bitbucket, forgejo, gitea]

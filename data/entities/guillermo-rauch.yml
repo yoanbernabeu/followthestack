@@ -1,0 +1,5 @@
+name: "Guillermo Rauch"
+type: person
+publicFigure: true
+description: "Founder and CEO of Vercel, creator of Socket.IO and steward of Next.js."
+country: US

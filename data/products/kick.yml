@@ -1,0 +1,7 @@
+name: "Kick"
+vendor: kick
+category: social-media
+links: [pay, data]
+description: "Live-streaming platform backed by the founders of the Stake online casino."
+website: https://kick.com
+alternatives: [peertube]

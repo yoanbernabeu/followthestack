@@ -1,0 +1,10 @@
+name: "Element"
+vendor: element
+category: communication
+links: [pay, depend]
+description: "Messaging and collaboration app built on the open Matrix protocol, developed by the British company Element."
+website: https://element.io
+detect:
+  npm: ["matrix-js-sdk"]
+  pypi: ["matrix-nio"]
+  docker: ["vectorim/element-web"]

@@ -1,0 +1,12 @@
+name: "Adyen"
+vendor: adyen
+category: payments
+links: [pay, data, depend]
+description: "Payment platform by Dutch company Adyen."
+website: https://www.adyen.com
+detect:
+  npm: ["@adyen/adyen-web", "@adyen/api-library"]
+  composer: ["adyen/php-api-library"]
+  pypi: ["Adyen"]
+  gems: ["adyen-ruby-api-library"]
+alternatives: [mollie, stripe, checkout-com]

@@ -1,0 +1,15 @@
+name: "Bluesky Social PBC"
+type: company
+description: "US public benefit corporation developing the Bluesky social network and the AT Protocol, started inside Twitter in 2019."
+country: US
+website: https://bsky.social
+relations:
+  - target: jack-dorsey
+    role: founded-by
+    until: "2024-05-04"
+    sources:
+      - url: https://en.wikipedia.org/wiki/Bluesky
+        outlet: Wikipedia
+      - url: https://www.businesstoday.in/technology/news/story/twitters-ex-ceo-jack-dorsey-confirms-hes-no-longer-a-part-of-bluesky-board-428383-2024-05-06
+        outlet: "Business Today"
+        date: "2024-05-06"

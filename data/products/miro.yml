@@ -1,0 +1,7 @@
+name: "Miro"
+vendor: miro
+category: collaboration
+links: [pay, data]
+description: "Online collaborative whiteboard platform."
+website: https://miro.com
+alternatives: [cryptpad]

@@ -1,0 +1,62 @@
+name: Report a documented fact
+description: A public statement or action by a company, fund or public figure, backed by sources.
+title: "[Fact] <who> – <what> (<date>)"
+labels: ["fact", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Facts only. Every claim needs at least one reliable source (major outlet, court record, official document, or the person's own post/blog).
+        We do not accept facts about private individuals: only organisations and public figures.
+  - type: input
+    id: subject
+    attributes:
+      label: Who (company, fund or public figure)
+      placeholder: e.g. Elon Musk, Palantir Technologies
+    validations: { required: true }
+  - type: dropdown
+    id: grievances
+    attributes:
+      label: Grievance(s)
+      multiple: true
+      options:
+        - racism
+        - antisemitism
+        - islamophobia
+        - lgbtphobia
+        - sexism
+        - anti-immigration
+        - far-right-support
+        - anti-democracy
+        - surveillance-deportation
+        - press-justice-attacks
+        - violent-rhetoric
+        - authoritarian-alignment
+        - far-right-funding
+        - war-crimes-support
+    validations: { required: true }
+  - type: input
+    id: date
+    attributes:
+      label: Date of the fact
+      placeholder: YYYY-MM-DD (or YYYY-MM if the day is unknown)
+    validations: { required: true }
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened (neutral, factual summary)
+    validations: { required: true }
+  - type: textarea
+    id: quote
+    attributes:
+      label: Exact quote (original language), if any
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources (one URL per line, at least one)
+      placeholder: https://...
+    validations: { required: true }
+  - type: textarea
+    id: response
+    attributes:
+      label: Denial, apology or response by the subject, if any

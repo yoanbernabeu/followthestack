@@ -1,0 +1,53 @@
+name: "OpenAI"
+type: company
+description: "Artificial intelligence company developing the GPT models, ChatGPT and the OpenAI API."
+country: US
+website: https://openai.com
+wikidata: Q21708200
+relations:
+  - target: sam-altman
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/OpenAI
+        outlet: "Wikipedia"
+  - target: sam-altman
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/OpenAI
+        outlet: "Wikipedia"
+  - target: elon-musk
+    role: founded-by
+    until: "2018-02-20"
+    sources:
+      - url: https://en.wikipedia.org/wiki/OpenAI
+        outlet: "Wikipedia"
+      - url: https://fortune.com/2018/02/21/elon-musk-leaving-board-openai
+        outlet: "Fortune"
+        date: "2018-02-21"
+  - target: microsoft
+    role: invested-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/OpenAI
+        outlet: "Wikipedia"
+  - target: softbank
+    role: invested-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/OpenAI
+        outlet: "Wikipedia"
+  - target: nvidia
+    role: invested-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/OpenAI
+        outlet: "Wikipedia"
+  - target: amazon
+    role: invested-by
+    since: "2026-02-27"
+    sources:
+      - url: https://capacityglobal.com/news/openai-amazon-partnership/
+        outlet: "Capacity Media"
+        date: "2026-02-27"
+  - target: thrive-capital
+    role: invested-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/OpenAI
+        outlet: "Wikipedia"

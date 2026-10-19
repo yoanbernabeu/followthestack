@@ -1,0 +1,12 @@
+name: "Splunk"
+type: company
+description: "Log management, observability and security analytics company, subsidiary of Cisco."
+country: US
+website: https://www.splunk.com
+wikidata: Q1835753
+relations:
+  - target: cisco
+    role: subsidiary-of
+    sources:
+      - url: https://en.wikipedia.org/wiki/Splunk
+        outlet: "Wikipedia"

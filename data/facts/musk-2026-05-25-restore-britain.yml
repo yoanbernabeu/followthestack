@@ -1,0 +1,12 @@
+subject: elon-musk
+grievances: [far-right-support]
+date: "2026-05-25"
+summary: "Posted that only Restore Britain, the party led by MP Rupert Lowe that pledges a programme of mass deportations and is described by Al Jazeera as far-right, can save Britain."
+quote:
+  text: "Only Restore Britain can save Britain"
+  lang: en
+status: established
+sources:
+  - url: https://www.aljazeera.com/amp/news/2026/6/3/does-uks-new-far-right-party-restore-pose-a-threat-to-farages-reform
+    outlet: "Al Jazeera"
+    date: "2026-06-03"

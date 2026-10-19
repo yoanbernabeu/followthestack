@@ -1,0 +1,14 @@
+subject: microsoft
+grievances: [authoritarian-alignment]
+date: "2025-05-01"
+datePrecision: month
+summary: "The Associated Press reported in May 2025 that Microsoft had cancelled, according to ICC staffers, the email address of International Criminal Court chief prosecutor Karim Khan after President Trump sanctioned him by executive order. A Microsoft spokesperson later referred to \"the process that resulted in the disconnection of its sanctioned official from Microsoft services\"."
+status: contested
+response: "Microsoft said that \"at no point did Microsoft cease or suspend its services to the ICC\". Brad Smith said Microsoft's actions \"did not in any way involve the cessation of services to the ICC\"."
+sources:
+  - url: https://www.bostonglobe.com/2025/05/15/world/trumps-sanctions-icc-prosecutor-have-halted-tribunals-work
+    outlet: "AP via The Boston Globe"
+    date: "2025-05-15"
+  - url: https://www.politico.eu/article/microsoft-did-not-cut-services-international-criminal-court-president-american-sanctions-trump-tech-icc-amazon-google/
+    outlet: "Politico Europe"
+    date: "2025-06-04"

@@ -1,0 +1,8 @@
+name: "Nextcloud"
+vendor: nextcloud-gmbh
+category: collaboration
+links: [pay, depend]
+description: "Open source, self-hostable file sync and collaboration platform developed by the German company Nextcloud GmbH."
+website: https://nextcloud.com
+detect:
+  docker: ["nextcloud"]

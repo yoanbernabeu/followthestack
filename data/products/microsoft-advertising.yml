@@ -1,0 +1,10 @@
+name: "Microsoft Advertising"
+vendor: microsoft
+category: advertising
+links: [pay, data]
+description: "Microsoft's search and native advertising platform (formerly Bing Ads)."
+website: https://ads.microsoft.com
+detect:
+  composer: ["microsoft/bingads"]
+  pypi: ["bingads"]
+alternatives: [google-ads]

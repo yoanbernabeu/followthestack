@@ -1,0 +1,8 @@
+name: "Lit"
+vendor: google
+category: frameworks-libraries
+links: [depend]
+description: "Web components library developed by Google."
+website: https://lit.dev
+detect:
+  npm: ["lit"]

@@ -1,0 +1,9 @@
+name: "Sourcegraph (Code Search, Amp)"
+vendor: sourcegraph
+category: dev-tools
+links: [pay, data]
+description: "Code search across repositories and the Amp AI coding agent."
+website: https://sourcegraph.com
+detect:
+  npm: ["@sourcegraph/amp"]
+alternatives: [claude-code, github-copilot]

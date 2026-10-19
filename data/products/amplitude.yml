@@ -1,0 +1,10 @@
+name: "Amplitude"
+vendor: amplitude
+category: analytics
+links: [pay, data]
+description: "Product and digital analytics SaaS by Amplitude."
+website: https://amplitude.com
+detect:
+  npm: ["@amplitude/analytics-browser", "@amplitude/analytics-node", "amplitude-js"]
+  pypi: ["amplitude-analytics"]
+alternatives: [posthog, matomo, plausible]

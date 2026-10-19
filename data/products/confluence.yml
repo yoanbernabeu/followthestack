@@ -1,0 +1,7 @@
+name: "Confluence"
+vendor: atlassian
+category: collaboration
+links: [pay, data]
+description: "Team wiki and documentation software by Atlassian."
+website: https://www.atlassian.com/software/confluence
+alternatives: [xwiki, la-suite-docs]

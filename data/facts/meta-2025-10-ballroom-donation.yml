@@ -1,0 +1,17 @@
+subject: meta
+grievances: [authoritarian-alignment]
+date: "2025-10-01"
+datePrecision: month
+summary: "Listed by the White House among the donors funding President Donald Trump's ballroom. Individual amounts were not disclosed. The Washington Post later reported that Meta made a contribution in the millions of dollars."
+status: established
+response: "Meta declined to comment on the Washington Post report."
+sources:
+  - url: https://www.cnn.com/2025/10/23/politics/ballroom-donors-white-house-trump
+    outlet: "CNN"
+    date: "2025-10-23"
+  - url: https://www.cnbc.com/2025/10/23/trump-white-house-east-wing-ballroom-donors-apple-amazon-meta-microsoft-google.html
+    outlet: "CNBC"
+    date: "2025-10-23"
+  - url: https://www.cnbc.com/2026/10/15/trump-ballroom-nvidia-cisco-donations.html
+    outlet: "CNBC"
+    date: "2026-10-15"

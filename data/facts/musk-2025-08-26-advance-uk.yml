@@ -1,0 +1,15 @@
+subject: elon-musk
+grievances: [far-right-support]
+date: "2025-08-26"
+summary: "Endorsed Advance UK, the party led by former Reform UK deputy leader Ben Habib, which The Independent places among Britain's far-right fringe parties, writing that it would \"actually drive change\" while calling Nigel Farage \"weak sauce\"."
+quote:
+  text: "Advance UK will actually drive change. Farage is weak sauce who will do nothing"
+  lang: en
+status: established
+sources:
+  - url: https://www.independent.co.uk/news/uk/politics/elon-musk-nigel-farage-reform-weak-b2814630.html
+    outlet: "The Independent"
+    date: "2025-08-26"
+  - url: https://www.independent.co.uk/news/uk/politics/politics-explained/restore-britain-rupert-lowe-reform-farage-ben-habib-b2779651.html
+    outlet: "The Independent"
+    date: "2025-06-30"

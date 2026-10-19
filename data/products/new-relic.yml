@@ -1,0 +1,12 @@
+name: "New Relic"
+vendor: new-relic
+category: monitoring
+links: [pay, data]
+description: "SaaS observability and APM platform."
+website: https://newrelic.com
+detect:
+  npm: ["newrelic"]
+  gems: ["newrelic_rpm"]
+  pypi: ["newrelic"]
+  docker: ["newrelic/infrastructure"]
+alternatives: [datadog, grafana, signoz, opentelemetry]

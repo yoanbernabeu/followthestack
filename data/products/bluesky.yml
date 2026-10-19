@@ -1,0 +1,9 @@
+name: "Bluesky"
+vendor: bluesky-social
+category: social-media
+links: [data]
+description: "Microblogging social network built on the AT Protocol by Bluesky Social PBC."
+website: https://bsky.app
+detect:
+  npm: ["@atproto/api"]
+alternatives: [mastodon]

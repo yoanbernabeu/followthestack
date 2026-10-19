@@ -1,0 +1,22 @@
+name: "Klarna"
+type: company
+description: "Swedish buy-now-pay-later and payments company."
+country: SE
+website: https://www.klarna.com
+wikidata: Q1165072
+relations:
+  - target: sebastian-siemiatkowski
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Klarna
+        outlet: "Wikipedia"
+  - target: sebastian-siemiatkowski
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Klarna
+        outlet: "Wikipedia"
+  - target: sequoia-capital
+    role: invested-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Klarna
+        outlet: "Wikipedia"

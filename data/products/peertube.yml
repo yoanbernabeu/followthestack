@@ -1,0 +1,8 @@
+name: "PeerTube"
+vendor: framasoft
+category: social-media
+links: [depend]
+description: "Free, federated video hosting software developed by the French non-profit Framasoft."
+website: https://joinpeertube.org
+detect:
+  docker: ["chocobozzz/peertube"]

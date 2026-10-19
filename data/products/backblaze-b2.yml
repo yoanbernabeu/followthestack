@@ -1,0 +1,10 @@
+name: "Backblaze B2"
+vendor: backblaze
+category: storage
+links: [pay, data]
+description: "S3-compatible cloud object storage."
+website: https://www.backblaze.com/cloud-storage
+detect:
+  npm: ["backblaze-b2"]
+  pypi: ["b2sdk"]
+alternatives: ["amazon-s3", "cloudflare-r2", "wasabi", "azure-blob-storage", "google-cloud-storage", "minio", "scaleway-object-storage", "ovhcloud-object-storage"]

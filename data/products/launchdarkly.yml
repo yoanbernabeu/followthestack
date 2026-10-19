@@ -1,0 +1,12 @@
+name: "LaunchDarkly"
+vendor: launchdarkly
+category: dev-tools
+links: [pay, data]
+description: "Feature flag and experimentation SaaS."
+website: https://launchdarkly.com
+detect:
+  npm: ["@launchdarkly/node-server-sdk", "launchdarkly-node-server-sdk", "launchdarkly-js-client-sdk", "launchdarkly-react-client-sdk"]
+  composer: ["launchdarkly/server-sdk"]
+  gems: ["launchdarkly-server-sdk"]
+  pypi: ["launchdarkly-server-sdk"]
+alternatives: [unleash, flagsmith]

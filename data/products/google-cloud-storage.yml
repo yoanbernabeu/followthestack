@@ -1,0 +1,12 @@
+name: "Google Cloud Storage"
+vendor: google
+category: storage
+links: [pay, data]
+description: "Object storage service of Google Cloud."
+website: https://cloud.google.com/storage
+detect:
+  npm: ["@google-cloud/storage"]
+  composer: ["google/cloud-storage"]
+  gems: ["google-cloud-storage"]
+  pypi: ["google-cloud-storage"]
+alternatives: ["amazon-s3", "cloudflare-r2", "backblaze-b2", "wasabi", "azure-blob-storage", "minio", "scaleway-object-storage", "ovhcloud-object-storage"]

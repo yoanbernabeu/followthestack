@@ -1,0 +1,9 @@
+name: "Node.js"
+vendor: openjs-foundation
+category: frameworks-libraries
+links: [depend]
+description: "JavaScript runtime hosted by the OpenJS Foundation, governed by a technical steering committee; not controlled by one company."
+website: https://nodejs.org
+detect:
+  docker: ["node"]
+alternatives: [deno, bun]

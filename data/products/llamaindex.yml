@@ -1,0 +1,10 @@
+name: "LlamaIndex"
+vendor: llamaindex
+category: frameworks-libraries
+links: [depend]
+description: "LLM data framework developed by LlamaIndex, Inc."
+website: https://www.llamaindex.ai
+detect:
+  npm: ["llamaindex"]
+  pypi: ["llama-index"]
+alternatives: [langchain]

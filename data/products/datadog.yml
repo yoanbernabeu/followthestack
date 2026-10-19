@@ -1,0 +1,13 @@
+name: "Datadog"
+vendor: datadog
+category: monitoring
+links: [pay, data]
+description: "SaaS monitoring, APM, logs and security platform."
+website: https://www.datadoghq.com
+detect:
+  npm: ["dd-trace", "@datadog/browser-rum", "@datadog/browser-logs"]
+  composer: ["datadog/dd-trace"]
+  gems: ["datadog", "ddtrace"]
+  pypi: ["ddtrace", "datadog"]
+  docker: ["datadog/agent"]
+alternatives: [grafana, signoz, new-relic, opentelemetry, prometheus]

@@ -1,0 +1,15 @@
+name: "Mastodon gGmbH"
+type: company
+description: "German non-profit company that develops the open source Mastodon decentralised social network software."
+country: DE
+website: https://joinmastodon.org
+relations:
+  - target: eugen-rochko
+    role: founded-by
+    until: "2025-11-18"
+    sources:
+      - url: https://en.wikipedia.org/wiki/Mastodon_(social_network)
+        outlet: Wikipedia
+      - url: https://techcrunch.com/2025/11/18/mastodon-ceo-steps-down-as-the-social-network-restructures
+        outlet: "TechCrunch"
+        date: "2025-11-18"

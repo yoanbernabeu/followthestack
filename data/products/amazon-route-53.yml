@@ -1,0 +1,9 @@
+name: "Amazon Route 53"
+vendor: amazon
+category: cdn-dns-security
+links: [pay, data]
+description: "Managed DNS and domain registration service of Amazon Web Services."
+website: https://aws.amazon.com/route53/
+detect:
+  npm: ["@aws-sdk/client-route-53"]
+alternatives: ["cloudflare-cdn", "bunny-net", "gcore", "ovhcloud"]

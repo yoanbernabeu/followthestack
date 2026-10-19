@@ -1,0 +1,9 @@
+name: "Jest"
+vendor: openjs-foundation
+category: dev-tools
+links: [depend]
+description: "JavaScript test framework created at Facebook, transferred to the OpenJS Foundation in 2022."
+website: https://jestjs.io
+detect:
+  npm: ["jest"]
+alternatives: [vitest]

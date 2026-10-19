@@ -1,0 +1,12 @@
+name: "SmartBear"
+type: company
+description: "Software testing and API tooling company (Swagger, SoapUI, BugSnag), majority-owned by Francisco Partners since 2017."
+country: US
+website: https://smartbear.com
+wikidata: Q28406315
+relations:
+  - target: francisco-partners
+    role: owned-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/SmartBear_Software
+        outlet: "Wikipedia"

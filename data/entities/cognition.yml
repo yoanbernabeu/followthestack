@@ -1,0 +1,17 @@
+name: "Cognition AI"
+type: company
+description: "AI company behind the Devin coding agent; acquired the Windsurf IDE in 2025."
+country: US
+website: https://cognition.ai
+wikidata: Q126095776
+relations:
+  - target: scott-wu
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Cognition_AI
+        outlet: "Wikipedia"
+  - target: scott-wu
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Cognition_AI
+        outlet: "Wikipedia"

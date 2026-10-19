@@ -1,0 +1,19 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import FactCard from '@/components/site/FactCard.astro';
+import { loadDataset } from '@/lib/dataset';
+import { GRIEVANCE_LABELS } from '@/lib/labels';
+import { url } from '@/lib/urls';
+const data = await loadDataset();
+const counts = Object.keys(GRIEVANCE_LABELS).map((g) => [g, data.facts.filter((f) => f.grievances.includes(g)).length] as const).filter(([, n]) => n);
+---
+<Layout title="Facts" description="Every documented fact in the database, with its sources." jsonLd={{ '@type': 'Dataset', name: 'Follow the Stack dataset', description: 'Tech products, the organisations and people behind them, and documented, sourced facts about them.', license: 'https://creativecommons.org/licenses/by-sa/4.0/', isAccessibleForFree: true, creator: { '@type': 'Person', name: 'Yoan Bernabeu', url: 'https://yoandev.co' }, distribution: [{ '@type': 'DataDownload', encodingFormat: 'application/json', contentUrl: new URL(`${import.meta.env.BASE_URL.replace(/\/?$/, '/')}data.json`, Astro.site).href }] }}>
+  <h1 class="mb-2 text-3xl font-semibold">Documented facts</h1>
+  <p class="mb-4 text-muted-foreground">{data.facts.length} facts, newest first. Each one links to its sources.</p>
+  <div class="mb-8 flex flex-wrap gap-2">
+    {counts.map(([g, n]) => <a href={url.grievance(g)} class="rounded-full bg-destructive/10 px-3 py-1 text-xs font-medium text-destructive hover:bg-destructive/20">{GRIEVANCE_LABELS[g]} · {n}</a>)}
+  </div>
+  <ul class="grid gap-4">
+    {data.facts.map((f) => <FactCard fact={f} subjectName={data.entities[f.subject]?.name} />)}
+  </ul>
+</Layout>

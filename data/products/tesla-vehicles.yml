@@ -1,0 +1,6 @@
+name: "Tesla vehicles"
+vendor: tesla
+category: os-hardware
+links: [pay, data]
+description: "Electric cars sold or leased by Tesla, including to company fleets."
+website: https://www.tesla.com

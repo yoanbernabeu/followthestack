@@ -1,0 +1,7 @@
+name: "Microsoft 365"
+vendor: microsoft
+category: collaboration
+links: [pay, data]
+description: "Microsoft's subscription office suite (Word, Excel, PowerPoint, SharePoint, OneDrive, Teams)."
+website: https://www.microsoft.com/microsoft-365
+alternatives: [nextcloud, onlyoffice, collabora-online, libreoffice, la-suite-docs, infomaniak-ksuite, proton-drive, cryptpad]

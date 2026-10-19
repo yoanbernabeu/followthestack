@@ -1,0 +1,8 @@
+name: "jQuery"
+vendor: openjs-foundation
+category: frameworks-libraries
+links: [depend]
+description: "JavaScript library hosted by the OpenJS Foundation."
+website: https://jquery.com
+detect:
+  npm: ["jquery"]

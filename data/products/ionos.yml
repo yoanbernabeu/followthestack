@@ -1,0 +1,7 @@
+name: "IONOS"
+vendor: ionos
+category: cloud-hosting
+links: [pay, data]
+description: "German web hosting, domains and cloud services provider."
+website: https://www.ionos.com
+alternatives: ["amazon-web-services", "microsoft-azure", "google-cloud", "oracle-cloud-infrastructure", "alibaba-cloud", "ovhcloud", "scaleway", "hetzner-cloud"]

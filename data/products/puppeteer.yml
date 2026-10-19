@@ -1,0 +1,9 @@
+name: "Puppeteer"
+vendor: google
+category: dev-tools
+links: [depend]
+description: "Browser automation library maintained by the Chrome team at Google."
+website: https://pptr.dev
+detect:
+  npm: ["puppeteer", "puppeteer-core"]
+alternatives: [playwright]

@@ -1,0 +1,7 @@
+name: "ClickUp"
+vendor: clickup
+category: collaboration
+links: [pay, data]
+description: "Productivity and project management SaaS."
+website: https://clickup.com
+alternatives: [openproject]

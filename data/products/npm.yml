@@ -1,0 +1,6 @@
+name: "npm registry"
+vendor: github
+category: code-hosting
+links: [depend]
+description: "Default JavaScript package registry and CLI, operated by GitHub (Microsoft)."
+website: https://www.npmjs.com

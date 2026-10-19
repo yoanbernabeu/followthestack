@@ -1,0 +1,8 @@
+name: "Mastodon"
+vendor: mastodon-ggmbh
+category: social-media
+links: [depend]
+description: "Open source, decentralised social network software based on ActivityPub, run on independent servers."
+website: https://joinmastodon.org
+detect:
+  docker: ["tootsuite/mastodon", "ghcr.io/mastodon/mastodon"]

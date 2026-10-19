@@ -1,0 +1,7 @@
+name: "Proton Pass"
+vendor: proton
+category: auth-identity
+links: [pay, data]
+description: "End-to-end encrypted password manager by Swiss company Proton AG."
+website: https://proton.me/pass
+alternatives: [bitwarden, 1password]

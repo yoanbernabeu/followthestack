@@ -1,0 +1,17 @@
+name: "Salesforce"
+type: company
+description: "Customer relationship management software company, owner of Slack, Tableau and MuleSoft."
+country: US
+website: https://www.salesforce.com
+wikidata: Q941127
+relations:
+  - target: marc-benioff
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Salesforce
+        outlet: "Wikipedia"
+  - target: marc-benioff
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Salesforce
+        outlet: "Wikipedia"

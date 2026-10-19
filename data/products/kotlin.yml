@@ -1,0 +1,6 @@
+name: "Kotlin"
+vendor: jetbrains
+category: frameworks-libraries
+links: [depend]
+description: "Programming language created and mainly developed by JetBrains; promoted by the Kotlin Foundation (JetBrains, Google)."
+website: https://kotlinlang.org

@@ -1,0 +1,29 @@
+name: "Microsoft"
+type: company
+description: "Software and cloud company behind Windows, Microsoft 365, Azure and LinkedIn."
+country: US
+website: https://www.microsoft.com
+wikidata: Q2283
+relations:
+  - target: satya-nadella
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Microsoft
+        outlet: "Wikipedia"
+  - target: bill-gates
+    role: founded-by
+    until: "2020-03-13"
+    sources:
+      - url: https://en.wikipedia.org/wiki/Microsoft
+        outlet: "Wikipedia"
+      - url: https://news.microsoft.com/source/2020/03/13/microsoft-announces-change-to-its-board-of-directors/
+        outlet: "Microsoft News"
+        date: "2020-03-13"
+  - target: paul-allen
+    role: founded-by
+    until: "2000-11-09"
+    sources:
+      - url: https://en.wikipedia.org/wiki/Microsoft
+        outlet: "Wikipedia"
+      - url: https://en.wikipedia.org/wiki/Paul_Allen
+        outlet: "Wikipedia"

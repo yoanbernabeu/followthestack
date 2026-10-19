@@ -1,0 +1,10 @@
+name: "Google Cloud SQL"
+vendor: google
+category: databases
+links: [pay, data]
+description: "Managed PostgreSQL, MySQL and SQL Server on Google Cloud."
+website: https://cloud.google.com/sql
+detect:
+  npm: ["@google-cloud/cloud-sql-connector"]
+  pypi: ["cloud-sql-python-connector"]
+alternatives: ["neon", "supabase", "planetscale", "amazon-rds", "aiven", "postgresql", "turso"]

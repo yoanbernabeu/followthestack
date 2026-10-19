@@ -1,0 +1,11 @@
+name: "Brave Software"
+type: company
+description: "US company developing the Brave web browser and Brave Search, co-founded by Brendan Eich."
+country: US
+website: https://brave.com
+relations:
+  - target: brendan-eich
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Brendan_Eich
+        outlet: Wikipedia

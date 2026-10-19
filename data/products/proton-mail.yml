@@ -1,0 +1,7 @@
+name: "Proton Mail"
+vendor: proton
+category: email
+links: [pay, data]
+description: "End-to-end encrypted email service by Swiss company Proton AG."
+website: https://proton.me/mail
+alternatives: [tuta, infomaniak-mail, fastmail]

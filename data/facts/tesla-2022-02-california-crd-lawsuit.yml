@@ -1,0 +1,20 @@
+subject: tesla
+grievances: [racism]
+date: "2022-02-01"
+datePrecision: month
+summary: "California's civil rights agency (then DFEH, now the Civil Rights Department) sued Tesla after a roughly three-year investigation, alleging systemic harassment, segregation, pay discrimination and retaliation against Black workers at its Fremont factory, including racial slurs and the factory being called the \"plantation\". In May 2026 the Alameda County Superior Court denied Tesla's latest attempt to have the case thrown out, and a bench trial before Judge Peter Borkon opened in Oakland on 21 September 2026."
+status: contested
+response: "Tesla denies wrongdoing, says it \"does not tolerate discrimination\" and has fired workers found to have engaged in misconduct; it called the suit politically motivated and accused the agency of using \"underground regulations\"."
+sources:
+  - url: https://calcivilrights.ca.gov/2026/05/27/state-court-order-clears-path-for-tesla-race-discrimination-case-to-go-to-trial/
+    outlet: "California Civil Rights Department (official)"
+    date: "2026-05-27"
+  - url: https://www.staradvertiser.com/2026/09/21/breaking-news/tesla-faces-major-trial-for-alleged-bias-against-black-workers/
+    outlet: "Bloomberg via Honolulu Star-Advertiser"
+    date: "2026-09-21"
+  - url: https://digital-release.newsnationnow.com/?p=1927304
+    outlet: "Reuters via NewsNation"
+    date: "2022-06-07"
+  - url: https://news.bloomberglaw.com/litigation/tesla-workers-endure-rampant-racism-california-says-at-trial
+    outlet: "Bloomberg Law"
+    date: "2026-09-21"

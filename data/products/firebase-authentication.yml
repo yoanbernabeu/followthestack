@@ -1,0 +1,9 @@
+name: "Firebase Authentication"
+vendor: google
+category: auth-identity
+links: [data, depend]
+description: "Authentication service of Google's Firebase platform."
+website: https://firebase.google.com/products/auth
+detect:
+  npm: ["@react-native-firebase/auth", "firebaseui"]
+alternatives: [keycloak, ory, zitadel, clerk]

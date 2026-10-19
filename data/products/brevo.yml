@@ -1,0 +1,12 @@
+name: "Brevo"
+vendor: brevo
+category: crm-marketing
+links: [pay, data]
+description: "French email marketing, transactional email and CRM platform, formerly Sendinblue."
+website: https://www.brevo.com
+detect:
+  npm: ["@getbrevo/brevo", "sib-api-v3-sdk", "sib-api-v3-typescript"]
+  composer: ["getbrevo/brevo-php", "sendinblue/api-v3-sdk"]
+  pypi: ["brevo-python", "sib-api-v3-sdk"]
+  gems: ["brevo", "sib-api-v3-sdk"]
+alternatives: [mailchimp, klaviyo, hubspot]

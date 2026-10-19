@@ -1,0 +1,13 @@
+name: "Red Hat"
+type: company
+description: "Open source software company, subsidiary of IBM since 2019, sponsor of Keycloak."
+country: US
+website: https://www.redhat.com
+wikidata: Q485593
+relations:
+  - target: ibm
+    role: subsidiary-of
+    since: 2019-07-09
+    sources:
+      - url: https://en.wikipedia.org/wiki/Red_Hat
+        outlet: "Wikipedia"

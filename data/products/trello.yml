@@ -1,0 +1,7 @@
+name: "Trello"
+vendor: atlassian
+category: collaboration
+links: [pay, data]
+description: "Kanban-style task board app owned by Atlassian."
+website: https://trello.com
+alternatives: [openproject, nextcloud]

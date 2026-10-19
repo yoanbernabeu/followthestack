@@ -1,0 +1,9 @@
+name: "Deno"
+vendor: deno-land
+category: frameworks-libraries
+links: [depend]
+description: "JavaScript/TypeScript runtime created by Deno Land Inc. Its team joined Cloudflare in October 2026, which plans one more year of maintenance releases before ending development."
+website: https://deno.com
+detect:
+  docker: ["denoland/deno"]
+alternatives: [nodejs, bun]

@@ -1,0 +1,17 @@
+name: "Amazon"
+type: company
+description: "E-commerce, advertising and cloud computing company (Amazon Web Services)."
+country: US
+website: https://www.aboutamazon.com
+wikidata: Q3884
+relations:
+  - target: andy-jassy
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Amazon_(company)
+        outlet: "Wikipedia"
+  - target: jeff-bezos
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Amazon_(company)
+        outlet: "Wikipedia"

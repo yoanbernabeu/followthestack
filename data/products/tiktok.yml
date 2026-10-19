@@ -1,0 +1,7 @@
+name: "TikTok"
+vendor: bytedance
+category: social-media
+links: [pay, data]
+description: "Short-form video social network developed by the Chinese company ByteDance."
+website: https://www.tiktok.com
+alternatives: [peertube, pixelfed]

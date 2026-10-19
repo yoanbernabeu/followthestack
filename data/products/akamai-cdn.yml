@@ -1,0 +1,10 @@
+name: "Akamai CDN & Security"
+vendor: akamai
+category: cdn-dns-security
+links: [pay, data]
+description: "Content delivery network and web security services (WAF, DDoS, bot management)."
+website: https://www.akamai.com
+detect:
+  npm: ["akamai-edgegrid"]
+  pypi: ["edgegrid-python"]
+alternatives: ["cloudflare-cdn", "fastly", "bunny-net", "gcore", "amazon-cloudfront", "imperva"]

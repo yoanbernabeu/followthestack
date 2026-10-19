@@ -1,0 +1,12 @@
+subject: google
+grievances: [authoritarian-alignment]
+date: "2025-10-23"
+summary: "Listed by the White House among the donors funding President Donald Trump's planned White House ballroom. According to CNBC, Alphabet is contributing $22 million, about 7% of the project's estimated cost, under the settlement reached with Trump the previous month over his lawsuit against YouTube for banning him from the platform after the January 6, 2021 riot at the Capitol; the settlement says the money will be contributed on Trump's behalf to the Trust for the National Mall."
+status: established
+sources:
+  - url: https://www.cnbc.com/2025/10/23/trump-white-house-east-wing-ballroom-donors-apple-amazon-meta-microsoft-google.html
+    outlet: "CNBC"
+    date: "2025-10-23"
+  - url: https://www.cnn.com/2025/10/23/politics/ballroom-donors-white-house-trump
+    outlet: "CNN"
+    date: "2025-10-23"

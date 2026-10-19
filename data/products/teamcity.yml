@@ -1,0 +1,9 @@
+name: "TeamCity"
+vendor: jetbrains
+category: code-hosting
+links: [pay, data]
+description: "CI/CD server by JetBrains, available on-premises or as a cloud service."
+website: https://www.jetbrains.com/teamcity/
+detect:
+  docker: ["jetbrains/teamcity-server"]
+alternatives: [jenkins, gitlab, github-actions]

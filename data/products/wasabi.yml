@@ -1,0 +1,7 @@
+name: "Wasabi Hot Cloud Storage"
+vendor: wasabi
+category: storage
+links: [pay, data]
+description: "S3-compatible cloud object storage."
+website: https://wasabi.com
+alternatives: ["amazon-s3", "cloudflare-r2", "backblaze-b2", "azure-blob-storage", "google-cloud-storage", "minio", "scaleway-object-storage", "ovhcloud-object-storage"]

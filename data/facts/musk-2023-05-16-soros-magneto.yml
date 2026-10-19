@@ -1,0 +1,16 @@
+subject: elon-musk
+grievances: [antisemitism]
+date: "2023-05-15"
+summary: "After George Soros's fund sold a Tesla stake, compared the Jewish Holocaust survivor and philanthropist to Magneto, a comic-book villain whose backstory involves Nazi persecution, and wrote that Soros \"wants to erode the very fabric of civilization\" and \"hates humanity\". Fortune noted that attacks on Soros are often interpreted as antisemitic dog-whistling; Israel's Foreign Ministry said the posts had \"anti-Semitic overtones\"."
+quote:
+  text: "He wants to erode the very fabric of civilization. Soros hates humanity."
+  lang: en
+status: contested
+response: "Asked about the criticism in a CNBC interview the next day, Musk denied being antisemitic: \"I'm a pro-Semite, if anything.\""
+sources:
+  - url: https://fortune.com/2023/05/16/elon-musk-smears-billionaire-george-soros-after-he-sells-tesla-stake-comparison-magneto-supervillain-hates-humanity/
+    outlet: "Fortune"
+    date: "2023-05-16"
+  - url: https://www.cnbc.com/2023/05/16/elon-musk-defends-inflammatory-tweets-ill-say-what-i-want.html
+    outlet: "CNBC"
+    date: "2023-05-16"

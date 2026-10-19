@@ -1,0 +1,8 @@
+name: "Penpot"
+vendor: kaleidos
+category: design
+links: [pay, depend]
+description: "Open source, self-hostable design and prototyping tool developed by the Spanish company Kaleidos."
+website: https://penpot.app
+detect:
+  docker: ["penpotapp/frontend", "penpotapp/backend"]

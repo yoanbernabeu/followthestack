@@ -1,0 +1,11 @@
+name: "Customer.io"
+vendor: customer-io
+category: crm-marketing
+links: [pay, data]
+description: "Messaging automation platform for email, push and SMS."
+website: https://customer.io
+detect:
+  npm: ["customerio-node", "@customerio/cdp-analytics-browser"]
+  pypi: ["customerio"]
+  gems: ["customerio"]
+alternatives: [brevo, klaviyo]

@@ -1,0 +1,16 @@
+subject: shopify
+grievances: [far-right-support]
+date: "2017-02-08"
+summary: "After receiving more than 10,000 emails, tweets and messages urging Shopify to drop the online store of Breitbart News, CEO Tobias Lütke published a blog post defending the decision to keep hosting it on free-speech grounds. Fortune described Breitbart as a far-right website; TechCrunch described it as a right-wing publication that regularly publishes racist and sexist headlines and content."
+quote:
+  text: "We don't like Breitbart, but products are speech and we are pro free speech"
+  lang: en
+status: contested
+response: "Lütke argued that applying a moral lens to which stores operate on Shopify would amount to censorship, calling commerce \"a powerful, underestimated form of expression\"; a spokesperson said Shopify is a \"neutral platform\"."
+sources:
+  - url: https://techcrunch.com/2017/02/09/shopify-ceo-attempts-to-defend-continued-hosting-of-breitbarts-online-store/
+    outlet: "TechCrunch"
+    date: "2017-02-09"
+  - url: https://fortune.com/2017/02/09/shopify-wont-remove-breitbarts-online-shop-claiming-free-speech/
+    outlet: "Fortune"
+    date: "2017-02-09"

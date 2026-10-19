@@ -1,0 +1,14 @@
+subject: amazon
+grievances: [surveillance-deportation]
+date: "2018-06-01"
+datePrecision: month
+summary: "Amazon Web Services sales staff pitched the Rekognition facial recognition service to ICE's Homeland Security Investigations unit at a June 2018 meeting, according to emails obtained by the Project on Government Oversight. An AWS employee wrote that the company was \"ready and willing to support the vital HSI mission\"."
+status: established
+response: "AWS said Rekognition was discussed at technology \"boot camps\" and that it followed up with interested customers, ICE being one of them. ICE said it had no contract to buy Rekognition."
+sources:
+  - url: https://www.govtech.com/biz/Amazon-Pitches-Facial-Recognition-AI-to-ICE.html
+    outlet: "The Seattle Times via GovTech"
+    date: "2018-10-24"
+  - url: https://www.foxnews.com/tech/amazon-met-with-ice-officials-over-facial-recognition-system-to-identify-immigrants.print
+    outlet: "Fox News"
+    date: "2018-10-25"

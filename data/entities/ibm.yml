@@ -1,0 +1,12 @@
+name: "IBM"
+type: company
+description: "Information technology company, parent of Red Hat since 2019."
+country: US
+website: https://www.ibm.com
+wikidata: Q37156
+relations:
+  - target: arvind-krishna
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/IBM
+        outlet: "Wikipedia"

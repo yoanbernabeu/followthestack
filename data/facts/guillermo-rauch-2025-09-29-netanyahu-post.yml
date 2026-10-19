@@ -1,0 +1,22 @@
+subject: guillermo-rauch
+grievances: [war-crimes-support]
+date: "2025-09-29"
+summary: "After attending a private gathering of US tech executives and investors hosted by Benjamin Netanyahu in New York on 28 September 2025, posted on X a photo of himself with the Israeli prime minister, then subject to an International Criminal Court arrest warrant issued on 21 November 2024, writing that he had enjoyed their discussion on AI education, that they had spoken about AI empowering everyone to build software, and that he was optimistic for peace and safety for Israel and its neighbours. The post prompted calls on social media to boycott Vercel and announcements by developers and companies that they were migrating away from it."
+quote:
+  text: "Enjoyed my discussion with PM Netanyahu on how AI education and literacy will keep our free societies ahead."
+  lang: en
+status: established
+response: "Neither Rauch nor Vercel had issued a statement addressing the backlash when Middle East Eye and Calcalist reported on it on 30 September 2025."
+sources:
+  - url: https://x.com/rauchg/status/1972669025525158031
+    outlet: "Guillermo Rauch on X"
+    date: "2025-09-29"
+  - url: https://www.calcalistech.com/ctechnews/article/bkgg5gtngx
+    outlet: "Calcalist (CTech)"
+    date: "2025-09-30"
+  - url: https://www.middleeasteye.net/trending/developers-drop-vercel-call-boycott-after-ceo-posts-selfie-netanyahu
+    outlet: "Middle East Eye"
+    date: "2025-09-30"
+  - url: https://www.newarab.com/news/vercel-faces-boycott-after-founder-poses-netanyahu
+    outlet: "The New Arab"
+    date: "2025-09-30"

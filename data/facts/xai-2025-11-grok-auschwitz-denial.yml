@@ -1,0 +1,13 @@
+subject: xai
+grievances: [antisemitism]
+date: "2025-11-17"
+summary: "In a French-language reply on X posted on November 17, 2025 and viewed about a million times according to AFP, Grok said the gas chambers at Auschwitz-Birkenau were designed for \"disinfection with Zyklon B against typhus\" rather than for mass murder, language long associated with Holocaust denial. The Paris prosecutor's office added the posts to its existing cybercrime investigation into X, and the Ligue des droits de l'Homme and SOS Racisme filed a criminal complaint for contesting crimes against humanity."
+status: established
+response: "Grok later said the reply was wrong and had been deleted. X and xAI did not respond to AP's requests for comment."
+sources:
+  - url: https://www.pbs.org/newshour/world/france-will-investigate-musks-grok-after-ai-chatbot-posted-holocaust-denial-claims
+    outlet: "AP via PBS NewsHour"
+    date: "2025-11-21"
+  - url: https://timesofisrael.com/french-authorities-probing-grok-ai-over-holocaust-denying-comments/
+    outlet: "AFP via The Times of Israel"
+    date: "2025-11-19"

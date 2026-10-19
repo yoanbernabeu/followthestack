@@ -1,0 +1,11 @@
+subject: zoom
+grievances: [authoritarian-alignment]
+date: "2020-06-01"
+datePrecision: month
+summary: "After the Chinese government demanded that Zoom terminate meetings commemorating the June 4 Tiananmen Square crackdown and their host accounts, Zoom ended three of the four meetings and suspended or terminated host accounts (one in Hong Kong, four in the US), including actions affecting Hong Kong activist Lee Cheuk-yan and US-based dissidents Wang Dan and Zhou Fengsuo. It also gave Chinese authorities a limited amount of data on China-based attendees."
+status: established
+response: "Zoom acknowledged two mistakes, reinstated all the host accounts and said it \"will not allow requests from the Chinese government to impact anyone outside of mainland China.\""
+sources:
+  - url: https://www.zoom.com/en/blog/improving-our-policies-as-we-continue-to-enable-global-collaboration/
+    outlet: "Zoom blog"
+    date: "2020-06-11"

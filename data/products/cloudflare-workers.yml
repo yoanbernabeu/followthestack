@@ -1,0 +1,9 @@
+name: "Cloudflare Workers"
+vendor: cloudflare
+category: cloud-hosting
+links: [pay, data, depend]
+description: "Serverless edge compute platform running on Cloudflare's network."
+website: https://workers.cloudflare.com
+detect:
+  npm: ["wrangler", "@cloudflare/workers-types"]
+alternatives: ["aws-lambda", "vercel", "netlify", "scaleway", "google-cloud", "microsoft-azure"]

@@ -1,0 +1,14 @@
+subject: meta
+grievances: [authoritarian-alignment]
+date: "2020-04-01"
+datePrecision: month
+summary: "Agreed to significantly increase restrictions on \"anti-state\" posts for users in Vietnam after state-owned telecoms throttled Facebook for about seven weeks, according to Reuters sources."
+status: established
+response: "Facebook confirmed it had reluctantly complied with the government's request to restrict access to content it deemed illegal."
+sources:
+  - url: https://techcrunch.com/2020/04/21/facebook-agrees-to-restrict-anti-government-content-in-vietnam-after-months-of-throttling/
+    outlet: "TechCrunch"
+    date: "2020-04-21"
+  - url: https://www.aljazeera.com/economy/2020/4/22/facebook-versus-vietnam-censorship-wins
+    outlet: "Al Jazeera"
+    date: "2020-04-22"

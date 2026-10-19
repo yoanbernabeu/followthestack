@@ -1,0 +1,34 @@
+name: "PayPal"
+type: company
+description: "Online payments company, owner of Braintree and Venmo."
+country: US
+website: https://www.paypal.com
+wikidata: Q483959
+relations:
+  - target: enrique-lores
+    role: led-by
+    since: "2026-03-01"
+    sources:
+      - url: https://www.sec.gov/Archives/edgar/data/1633917/000119312526035860/d68718d8k.htm
+        outlet: "PayPal Form 8-K (SEC)"
+        date: "2026-02-03"
+  - target: peter-thiel
+    role: founded-by
+    until: "2002-10-03"
+    sources:
+      - url: https://en.wikipedia.org/wiki/PayPal
+        outlet: "Wikipedia"
+  - target: elon-musk
+    role: founded-by
+    until: "2002-10-03"
+    sources:
+      - url: https://en.wikipedia.org/wiki/PayPal
+        outlet: "Wikipedia"
+  - target: max-levchin
+    role: founded-by
+    until: "2002-10-03"
+    sources:
+      - url: https://en.wikipedia.org/wiki/PayPal
+        outlet: "Wikipedia"
+      - url: https://en.wikipedia.org/wiki/Max_Levchin
+        outlet: "Wikipedia"

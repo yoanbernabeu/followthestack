@@ -1,0 +1,12 @@
+name: "Azure Blob Storage"
+vendor: microsoft
+category: storage
+links: [pay, data]
+description: "Object storage service of Microsoft Azure."
+website: https://azure.microsoft.com/products/storage/blobs
+detect:
+  npm: ["@azure/storage-blob"]
+  composer: ["microsoft/azure-storage-blob"]
+  gems: ["azure-storage-blob"]
+  pypi: ["azure-storage-blob"]
+alternatives: ["amazon-s3", "cloudflare-r2", "backblaze-b2", "wasabi", "google-cloud-storage", "minio", "scaleway-object-storage", "ovhcloud-object-storage"]

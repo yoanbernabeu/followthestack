@@ -1,0 +1,16 @@
+subject: donald-trump
+grievances: [racism, anti-immigration]
+date: "2025-12-09"
+summary: "In a speech in Mount Pocono, Pennsylvania, after announcing a \"permanent pause on Third World migration, including from hellholes like Afghanistan, Haiti, Somalia\", said he had asked senators at a past meeting why the US only takes people from \"shithole countries\" rather than from Norway, Sweden or Denmark, adding \"we always take people from Somalia. Places that are a disaster, right? Filthy, dirty, disgusting, ridden with crime.\" CNN reported that his account matched reports of the January 2018 meeting at which he had been reported to use the phrase, and that it was the first time he explicitly confirmed it."
+quote:
+  text: "Why is it we only take people from shithole countries, right? Why can't we have some people from Norway, Sweden – just a few – let us have a few."
+  lang: en
+status: established
+response: "In January 2018 Trump had denied the remark, writing that \"this was not the language used\"."
+sources:
+  - url: https://www.cnn.com/2025/12/10/politics/donald-trump-shithole-countries-phrase
+    outlet: "CNN"
+    date: "2025-12-10"
+  - url: https://www.factcheck.org/2018/01/trump-say-immigration-meeting/
+    outlet: "FactCheck.org"
+    date: "2018-01-16"

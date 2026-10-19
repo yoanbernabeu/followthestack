@@ -1,0 +1,29 @@
+name: "Vercel"
+type: company
+description: "US cloud platform company for front-end and serverless deployment, steward of Next.js."
+country: US
+website: https://vercel.com
+wikidata: Q56069184
+relations:
+  - target: guillermo-rauch
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Vercel
+        outlet: "Wikipedia"
+  - target: guillermo-rauch
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Vercel
+        outlet: "Wikipedia"
+  - target: accel
+    role: invested-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Vercel
+        outlet: "Wikipedia"
+  - target: gic
+    role: invested-by
+    sources:
+      - url: https://vercel.com/blog/series-f
+        outlet: "Vercel blog"
+      - url: https://en.wikipedia.org/wiki/Vercel
+        outlet: "Wikipedia"

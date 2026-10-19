@@ -1,0 +1,13 @@
+subject: palantir
+grievances: [surveillance-deportation]
+date: "2025-05-30"
+summary: "The New York Times reported that the Trump administration had turned to Palantir to put in place the technical building blocks for sharing data on Americans across federal agencies, following a March 2025 executive order, with its Foundry software deployed in at least four federal agencies, including the Department of Homeland Security and the Department of Health and Human Services. Ten Democratic lawmakers wrote to Palantir calling a possible searchable \"mega-database\" a \"surveillance nightmare\"."
+status: contested
+response: "Palantir denied many of the claims in a May 30 blog post, saying it does not have the ability to \"proactively share data across federal government sources\", and in a June 17 response to the lawmakers stated that \"Palantir is not building a master database, and Palantir is neither conducting nor enabling mass surveillance of American citizens.\""
+sources:
+  - url: https://www.hawaiitribune-herald.com/2025/06/01/nation-world-news/news-in-brief-for-june-1
+    outlet: "The New York Times via Hawaii Tribune-Herald"
+    date: "2025-06-01"
+  - url: https://nextgov.com/modernization/2025/06/democrats-press-palantir-about-reported-creation-irs-mega-database/406144/
+    outlet: "Nextgov/FCW"
+    date: "2025-06-17"

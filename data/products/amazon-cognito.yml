@@ -1,0 +1,10 @@
+name: "Amazon Cognito"
+vendor: amazon
+category: auth-identity
+links: [pay, data, depend]
+description: "User authentication service of Amazon Web Services."
+website: https://aws.amazon.com/cognito/
+detect:
+  npm: ["amazon-cognito-identity-js", "@aws-sdk/client-cognito-identity-provider"]
+  gems: ["aws-sdk-cognitoidentityprovider"]
+alternatives: [keycloak, ory, zitadel]

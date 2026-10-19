@@ -1,0 +1,9 @@
+name: "Next.js"
+vendor: vercel
+category: frameworks-libraries
+links: [depend]
+description: "React framework created and maintained by Vercel; its roadmap is driven by Vercel employees."
+website: https://nextjs.org
+detect:
+  npm: ["next"]
+alternatives: [remix, react-router, astro, nuxt, sveltekit]

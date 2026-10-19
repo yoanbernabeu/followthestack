@@ -1,0 +1,20 @@
+subject: garry-tan
+grievances: [violent-rhetoric]
+date: "2024-01-01"
+datePrecision: month
+summary: "Posted on X in late January 2024 a message naming seven San Francisco supervisors that ended with \"Die slow motherfuckers\", then deleted it. Days later, five of the supervisors he named received mailed threats bearing his face and referencing his post; Supervisor Aaron Peskin said he did not believe the letter he received came from Tan."
+quote:
+  text: "Die slow motherfuckers."
+  lang: en
+status: established
+response: "Tan deleted the post, said it was a reference to a Tupac Shakur song (\"I thought everyone would get the rap reference but that wasn't a good call, reference or not – sorry!\") and sent the board an apology saying \"there is no place, no excuse and no reason for this type of speech and charged language in discourse\"."
+sources:
+  - url: https://techcrunch.com/2024/01/28/y-combinator-president-garry-tan-publishes-a-menacing-tweet-before-deleting-it-apologizing-die-slow-motherfckers/
+    outlet: "TechCrunch"
+    date: "2024-01-28"
+  - url: https://missionlocal.org/2024/01/two-more-sf-supervisors-get-death-threats-referencing-y-combinator-ceos-posts/
+    outlet: "Mission Local"
+    date: "2024-01-31"
+  - url: https://techcrunch.com/2024/01/31/san-francisco-supervisors-threats-yc-garry-tans-tweet
+    outlet: "TechCrunch"
+    date: "2024-01-31"

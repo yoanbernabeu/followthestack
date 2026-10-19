@@ -1,0 +1,17 @@
+name: "Perplexity AI"
+type: company
+description: "AI-powered answer engine company."
+country: US
+website: https://www.perplexity.ai
+wikidata: Q124333951
+relations:
+  - target: aravind-srinivas
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Perplexity_AI
+        outlet: "Wikipedia"
+  - target: aravind-srinivas
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Perplexity_AI
+        outlet: "Wikipedia"

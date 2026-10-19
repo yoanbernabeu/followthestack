@@ -1,0 +1,6 @@
+name: "Olvid"
+vendor: olvid
+category: communication
+links: [pay]
+description: "French end-to-end encrypted messenger that requires no phone number."
+website: https://www.olvid.io

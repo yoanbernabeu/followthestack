@@ -1,0 +1,7 @@
+name: "Zed"
+vendor: zed-industries
+category: dev-tools
+links: [depend]
+description: "Open source code editor written in Rust, with optional paid AI features."
+website: https://zed.dev
+alternatives: [vs-code, vscodium, cursor, jetbrains-ides]

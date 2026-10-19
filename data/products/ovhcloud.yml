@@ -1,0 +1,10 @@
+name: "OVHcloud"
+vendor: ovhcloud
+category: cloud-hosting
+links: [pay, data]
+description: "French provider of dedicated servers, public cloud, web hosting and domains."
+website: https://www.ovhcloud.com
+detect:
+  composer: ["ovh/ovh"]
+  pypi: ["ovh"]
+alternatives: ["amazon-web-services", "microsoft-azure", "google-cloud", "oracle-cloud-infrastructure", "alibaba-cloud", "scaleway", "ionos", "hetzner-cloud"]

@@ -1,0 +1,7 @@
+name: "Google Workspace"
+vendor: google
+category: collaboration
+links: [pay, data]
+description: "Google's cloud office suite (Docs, Sheets, Drive, Calendar, Meet) sold to businesses."
+website: https://workspace.google.com
+alternatives: [nextcloud, onlyoffice, collabora-online, libreoffice, la-suite-docs, infomaniak-ksuite, proton-drive, cryptpad]

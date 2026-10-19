@@ -1,0 +1,11 @@
+name: "ClickHouse"
+vendor: clickhouse
+category: databases
+links: [pay, data]
+description: "Open source columnar analytics database, also offered as ClickHouse Cloud."
+website: https://clickhouse.com
+detect:
+  npm: ["@clickhouse/client"]
+  pypi: ["clickhouse-connect"]
+  docker: ["clickhouse/clickhouse-server"]
+alternatives: ["snowflake", "databricks", "google-bigquery"]

@@ -1,0 +1,12 @@
+name: "Stripe"
+vendor: stripe
+category: payments
+links: [pay, data, depend]
+description: "Online payment processing and billing platform by Stripe."
+website: https://stripe.com
+detect:
+  npm: ["stripe", "@stripe/stripe-js", "@stripe/react-stripe-js"]
+  composer: ["stripe/stripe-php"]
+  pypi: ["stripe"]
+  gems: ["stripe"]
+alternatives: [adyen, mollie, paddle, gocardless]

@@ -1,0 +1,12 @@
+name: "OVHcloud"
+type: company
+description: "French cloud computing and hosting company, founded by the Klaba family in 1999."
+country: FR
+website: https://www.ovhcloud.com
+wikidata: Q568183
+relations:
+  - target: octave-klaba
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/OVHcloud
+        outlet: "Wikipedia"

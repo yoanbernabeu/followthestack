@@ -1,0 +1,7 @@
+name: "Freshdesk"
+vendor: freshworks
+category: crm-marketing
+links: [pay, data]
+description: "Customer support software by Freshworks."
+website: https://www.freshworks.com/freshdesk/
+alternatives: [zendesk, crisp, chatwoot]

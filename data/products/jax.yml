@@ -1,0 +1,9 @@
+name: "JAX"
+vendor: google
+category: frameworks-libraries
+links: [depend]
+description: "Numerical computing and machine learning library developed by Google."
+website: https://docs.jax.dev
+detect:
+  pypi: ["jax"]
+alternatives: [pytorch, tensorflow]

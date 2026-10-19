@@ -1,0 +1,10 @@
+name: "Neo4j"
+vendor: neo4j
+category: databases
+links: [pay, data]
+description: "Graph database, self-hosted or managed as AuraDB."
+website: https://neo4j.com
+detect:
+  npm: ["neo4j-driver"]
+  pypi: ["neo4j"]
+  docker: ["neo4j"]

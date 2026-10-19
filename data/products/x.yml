@@ -1,0 +1,7 @@
+name: X (Twitter)
+vendor: x-corp
+category: social-media
+links: [pay, data]
+description: Social network. Paying for Premium or ads funds X Corp.; posting there feeds its engagement.
+website: https://x.com
+alternatives: [mastodon, bluesky]

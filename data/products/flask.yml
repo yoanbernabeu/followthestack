@@ -1,0 +1,9 @@
+name: "Flask"
+vendor: pallets
+category: frameworks-libraries
+links: [depend]
+description: "Python micro-framework maintained by the community Pallets organization."
+website: https://flask.palletsprojects.com
+detect:
+  pypi: ["flask", "werkzeug"]
+alternatives: [django, fastapi]

@@ -1,0 +1,8 @@
+name: "k6"
+vendor: grafana-labs
+category: dev-tools
+links: [depend]
+description: "Open source load testing tool by Grafana Labs, with a paid cloud offering."
+website: https://grafana.com
+detect:
+  docker: ["grafana/k6"]

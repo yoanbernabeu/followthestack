@@ -1,0 +1,8 @@
+name: "Headless UI / Heroicons"
+vendor: tailwind-labs
+category: frameworks-libraries
+links: [depend]
+description: "UI component and icon libraries by Tailwind Labs (Shopify since 2026)."
+website: https://headlessui.com
+detect:
+  npm: ["@headlessui/react", "@headlessui/vue", "@heroicons/react", "@heroicons/vue"]

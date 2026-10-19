@@ -1,0 +1,6 @@
+name: "Threema"
+vendor: threema
+category: communication
+links: [pay]
+description: "Paid end-to-end encrypted messenger by the Swiss company Threema."
+website: https://threema.com

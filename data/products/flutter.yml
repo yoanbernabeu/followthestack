@@ -1,0 +1,7 @@
+name: "Flutter"
+vendor: google
+category: frameworks-libraries
+links: [depend]
+description: "Cross-platform UI toolkit developed by Google."
+website: https://flutter.dev
+alternatives: [react-native]

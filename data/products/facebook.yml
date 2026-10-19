@@ -1,0 +1,7 @@
+name: "Facebook"
+vendor: meta
+category: social-media
+links: [pay, data]
+description: "Social network owned by Meta. Advertising and engagement fund Meta."
+website: https://www.facebook.com
+alternatives: [mastodon]

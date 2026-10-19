@@ -1,0 +1,8 @@
+name: "Collabora Online"
+vendor: collabora
+category: collaboration
+links: [pay, depend]
+description: "LibreOffice-based online office suite, self-hostable or hosted, developed by Collabora."
+website: https://www.collabora.com
+detect:
+  docker: ["collabora/code"]

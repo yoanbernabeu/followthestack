@@ -1,0 +1,12 @@
+subject: flock-safety
+grievances: [surveillance-deportation]
+date: "2025-05-27"
+summary: "Search logs obtained through a public records request showed more than 4,000 lookups in Flock's nationwide automatic license plate reader network by local and state police done at the behest of federal law enforcement, as an \"informal\" favor to it, or with a potential immigration focus, with reasons such as \"immigration\", \"ICE\" and \"ICE+ERO\", giving federal law enforcement side-door access to a tool for which Flock had no formal contract with ICE."
+status: established
+sources:
+  - url: https://www.404media.co/ice-taps-into-nationwide-ai-enabled-camera-network-data-shows/
+    outlet: "404 Media"
+    date: "2025-05-27"
+  - url: https://san.com/cc/ice-illegally-gains-informal-access-to-nationwide-license-plate-camera-network/
+    outlet: "Straight Arrow News"
+    date: "2025-05-30"

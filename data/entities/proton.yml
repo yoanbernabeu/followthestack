@@ -1,0 +1,17 @@
+name: "Proton AG"
+type: company
+description: "Swiss company behind Proton Mail, Proton VPN and Proton Drive, majority-owned by the Proton Foundation."
+country: CH
+website: https://proton.me
+wikidata: Q30537036
+relations:
+  - target: andy-yen
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Proton_AG
+        outlet: "Wikipedia"
+  - target: andy-yen
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Proton_AG
+        outlet: "Wikipedia"

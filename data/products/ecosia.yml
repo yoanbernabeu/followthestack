@@ -1,0 +1,6 @@
+name: "Ecosia"
+vendor: ecosia
+category: browser-search
+links: [data]
+description: "Berlin-based search engine that funds environmental projects, using its own index and Google and Bing results."
+website: https://www.ecosia.org

@@ -1,0 +1,6 @@
+name: "GrapheneOS"
+vendor: grapheneos-foundation
+category: os-hardware
+links: [depend]
+description: "Privacy- and security-focused open source Android-based operating system."
+website: https://grapheneos.org

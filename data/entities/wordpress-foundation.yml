@@ -1,0 +1,11 @@
+name: "WordPress Foundation"
+type: foundation
+description: "Charitable organization founded by Matt Mullenweg that holds the WordPress trademark."
+country: "US"
+website: "https://wordpressfoundation.org"
+relations:
+  - target: matt-mullenweg
+    role: founded-by
+    sources:
+      - url: https://wordpressfoundation.org/
+        outlet: "WordPress Foundation"

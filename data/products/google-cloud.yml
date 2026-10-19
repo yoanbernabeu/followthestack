@@ -1,0 +1,10 @@
+name: "Google Cloud"
+vendor: google
+category: cloud-hosting
+links: [pay, data, depend]
+description: "Google's public cloud platform (Compute Engine, Cloud Run, GKE...)."
+website: https://cloud.google.com
+detect:
+  npm: ["@google-cloud/functions-framework"]
+  pypi: ["google-cloud-core", "functions-framework"]
+alternatives: ["amazon-web-services", "microsoft-azure", "oracle-cloud-infrastructure", "alibaba-cloud", "ovhcloud", "scaleway", "ionos", "hetzner-cloud"]

@@ -1,0 +1,8 @@
+name: "Lodash"
+vendor: openjs-foundation
+category: frameworks-libraries
+links: [depend]
+description: "JavaScript utility library hosted by the OpenJS Foundation."
+website: https://lodash.com
+detect:
+  npm: ["lodash", "lodash-es"]

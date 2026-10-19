@@ -1,0 +1,8 @@
+name: Ruby on Rails
+vendor: 37signals
+category: frameworks-libraries
+links: [depend]
+description: Open source web framework created by DHH and stewarded by 37signals. Free to use; using it does not fund 37signals.
+website: https://rubyonrails.org
+detect:
+  gems: [rails]

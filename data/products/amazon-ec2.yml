@@ -1,0 +1,10 @@
+name: "Amazon EC2"
+vendor: amazon
+category: cloud-hosting
+links: [pay, data]
+description: "Virtual servers on Amazon Web Services."
+website: https://aws.amazon.com/ec2/
+detect:
+  npm: ["@aws-sdk/client-ec2"]
+  gems: ["aws-sdk-ec2"]
+alternatives: ["digitalocean", "akamai-cloud", "hetzner-cloud", "ovhcloud", "scaleway", "vultr", "upcloud", "exoscale"]

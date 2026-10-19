@@ -1,0 +1,27 @@
+name: Palantir Technologies
+type: company
+description: Data analytics and surveillance software company, contractor for US Immigration and Customs Enforcement (ICE) and the French DGSI.
+country: US
+website: https://www.palantir.com
+relations:
+  - target: peter-thiel
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Palantir_Technologies
+        outlet: Wikipedia
+  - target: alex-karp
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Alex_Karp
+        outlet: Wikipedia
+  - target: alex-karp
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Alex_Karp
+        outlet: Wikipedia
+  - target: joe-lonsdale
+    role: founded-by
+    until: "2009-01-01"
+    sources:
+      - url: https://en.wikipedia.org/wiki/Joe_Lonsdale
+        outlet: Wikipedia

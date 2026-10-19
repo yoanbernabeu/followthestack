@@ -1,0 +1,6 @@
+name: "CryptPad"
+vendor: xwiki-sas
+category: collaboration
+links: [depend]
+description: "Open source, end-to-end encrypted collaborative office suite developed by XWiki SAS."
+website: https://cryptpad.org

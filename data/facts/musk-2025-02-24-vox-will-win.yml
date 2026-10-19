@@ -1,0 +1,15 @@
+subject: elon-musk
+grievances: [far-right-support]
+date: "2025-02-22"
+summary: "Reposted a clip of Donald Trump praising Santiago Abascal, leader of Spain's far-right Vox party, at CPAC, adding that Vox would win Spain's next election."
+quote:
+  text: "Vox will win the next election"
+  lang: en
+status: established
+sources:
+  - url: https://www.thelocal.es/20250224/musk-says-vox-will-win-spains-next-election-as-trump-praises-abascal
+    outlet: "The Local Spain"
+    date: "2025-02-24"
+  - url: https://www.publico.es/internacional/eeuu/trump-musk-ensalzan-abascal-foro-conservador-washington.html
+    outlet: "EFE via Público"
+    date: "2025-02-23"

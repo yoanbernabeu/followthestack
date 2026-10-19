@@ -1,0 +1,6 @@
+name: "Fresh"
+vendor: deno-land
+category: frameworks-libraries
+links: [depend]
+description: "Web framework for Deno developed by Deno Land Inc. (Cloudflare since October 2026)."
+website: https://fresh.deno.dev

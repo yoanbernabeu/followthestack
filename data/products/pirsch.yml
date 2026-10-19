@@ -1,0 +1,9 @@
+name: "Pirsch Analytics"
+vendor: pirsch
+category: analytics
+links: [pay, data]
+description: "Cookie-free web analytics SaaS hosted in Germany."
+website: https://pirsch.io
+detect:
+  npm: ["pirsch-sdk"]
+alternatives: [plausible, umami, matomo]

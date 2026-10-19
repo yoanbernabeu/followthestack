@@ -1,0 +1,9 @@
+name: "Perplexity"
+vendor: perplexity
+category: ai
+links: [pay, data]
+description: "AI answer engine and Sonar API that combine web search with language models."
+website: https://www.perplexity.ai
+detect:
+  npm: ["@ai-sdk/perplexity"]
+alternatives: [chatgpt, claude, le-chat]

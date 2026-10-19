@@ -1,0 +1,6 @@
+name: "Firefox"
+vendor: mozilla-corporation
+category: browser-search
+links: [depend]
+description: "Open source web browser developed by the Mozilla Corporation, a subsidiary of the Mozilla Foundation."
+website: https://www.firefox.com

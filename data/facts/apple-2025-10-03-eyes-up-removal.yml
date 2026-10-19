@@ -1,0 +1,13 @@
+subject: apple
+grievances: [authoritarian-alignment]
+date: "2025-10-03"
+summary: "Removed Eyes Up, an app that archived TikToks, Instagram reels, news reports and videos documenting abuses by Immigration and Customs Enforcement (ICE) officers, from the App Store on October 3, 2025, according to its administrator. 404 Media reported that the app had been swept up in Apple's and Google's crackdown on ICE-spotting apps, which started after Department of Justice pressure on Apple to remove ICEBlock, although Eyes Up did not report sightings of ICE officers in real time. Engadget reported that Apple had removed ICEBlock the previous week following, according to Fox Business, a direct request from Attorney General Pam Bondi, and that Eyes Up remained available on the Google Play Store."
+status: established
+response: "According to 404 Media, as reported by Engadget, Apple said it removed Eyes Up for violating its \"objectionable content\" policy and because it had received information from law enforcement that the app was used \"to provide location information about law enforcement officers that can be used to harm such officers individually or as a group.\""
+sources:
+  - url: https://www.404media.co/apple-banned-an-app-that-simply-archived-videos-of-ice-abuses/
+    outlet: "404 Media"
+    date: "2025-10-08"
+  - url: https://www.engadget.com/apps/apple-removed-an-app-that-archives-videos-of-ice-arrests-212946540.html
+    outlet: "Engadget"
+    date: "2025-10-08"

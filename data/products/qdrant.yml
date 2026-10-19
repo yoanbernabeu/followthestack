@@ -1,0 +1,11 @@
+name: "Qdrant"
+vendor: qdrant
+category: databases
+links: [pay, data]
+description: "Open source vector database, self-hosted or managed as Qdrant Cloud."
+website: https://qdrant.tech
+detect:
+  npm: ["@qdrant/js-client-rest"]
+  pypi: ["qdrant-client"]
+  docker: ["qdrant/qdrant"]
+alternatives: ["pinecone", "weaviate"]

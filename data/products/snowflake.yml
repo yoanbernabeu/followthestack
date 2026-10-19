@@ -1,0 +1,10 @@
+name: "Snowflake"
+vendor: snowflake
+category: databases
+links: [pay, data]
+description: "Cloud data warehouse and data platform."
+website: https://www.snowflake.com
+detect:
+  npm: ["snowflake-sdk"]
+  pypi: ["snowflake-connector-python", "snowflake-snowpark-python"]
+alternatives: ["databricks", "google-bigquery", "clickhouse"]

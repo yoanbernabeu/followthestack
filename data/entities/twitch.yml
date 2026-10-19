@@ -1,0 +1,12 @@
+name: "Twitch Interactive"
+type: company
+description: "Live-streaming platform owned by Amazon since 2014."
+country: US
+website: https://www.twitch.tv
+wikidata: Q4555537
+relations:
+  - target: amazon
+    role: subsidiary-of
+    sources:
+      - url: https://en.wikipedia.org/wiki/Twitch_(service)
+        outlet: Wikipedia

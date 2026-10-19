@@ -1,0 +1,17 @@
+name: "Okta"
+type: company
+description: "Identity and access management company, owner of Auth0 since 2021."
+country: US
+website: https://www.okta.com
+wikidata: Q55627388
+relations:
+  - target: todd-mckinnon
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Okta,_Inc.
+        outlet: "Wikipedia"
+  - target: todd-mckinnon
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Okta,_Inc.
+        outlet: "Wikipedia"

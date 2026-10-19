@@ -1,0 +1,12 @@
+subject: elon-musk
+grievances: [far-right-support]
+date: "2025-01-09"
+summary: "Hosted a livestreamed conversation on X with AfD chancellor candidate Alice Weidel, followed by about 200,000 listeners, during which he urged Germans to back the party; Weidel claimed in the exchange that Adolf Hitler was a \"communist\". European Commission officials monitored the event under the Digital Services Act."
+quote:
+  text: "People really need to get behind the AfD. Otherwise, things are going to get very much worse in Germany."
+  lang: en
+status: established
+sources:
+  - url: https://www.hppr.org/2025-01-10/elon-musks-latest-foray-into-politics-a-live-chat-with-germanys-far-right-candidate
+    outlet: "NPR via HPPR"
+    date: "2025-01-10"

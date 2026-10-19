@@ -1,0 +1,7 @@
+name: "Arc"
+vendor: the-browser-company
+category: browser-search
+links: [data]
+description: "Chromium-based web browser by The Browser Company, owned by Atlassian."
+website: https://arc.net
+alternatives: [firefox, vivaldi]

@@ -1,0 +1,25 @@
+name: "Flock Safety"
+type: company
+description: "US maker of AI-powered automatic license plate reader (ALPR) cameras and surveillance software used by thousands of police departments."
+country: US
+website: https://www.flocksafety.com
+wikidata: Q108485435
+relations:
+  - target: andreessen-horowitz
+    role: invested-by
+    sources:
+      - url: https://www.flocksafety.com/blog/flock-safety-secures-major-funding
+        outlet: "Flock Safety (company blog)"
+        date: 2025-03-13
+  - target: founders-fund
+    role: invested-by
+    sources:
+      - url: https://www.flocksafety.com/blog/flock-safety-secures-major-funding
+        outlet: "Flock Safety (company blog)"
+        date: 2025-03-13
+  - target: y-combinator
+    role: invested-by
+    sources:
+      - url: https://www.flocksafety.com/blog/flock-safety-secures-major-funding
+        outlet: "Flock Safety (company blog)"
+        date: 2025-03-13

@@ -1,0 +1,11 @@
+subject: bytedance
+grievances: [press-justice-attacks]
+date: "2022-12-22"
+summary: "An internal ByteDance investigation found that employees on a team monitoring staff conduct had accessed the IP addresses and other TikTok data of two journalists, Emily Baker-White (then BuzzFeed, later Forbes) and Cristina Criddle (Financial Times), and of people connected to them, in summer 2022 to try to identify sources of leaks."
+status: established
+response: "ByteDance said all four employees involved were fired, that it had restructured its internal audit and risk team and removed that department's access to US data."
+sources:
+  - url: https://www.nytimes.com/2022/12/22/technology/byte-dance-tik-tok-internal-investigation.html
+    outlet: "The New York Times"
+    date: "2022-12-22"
+    archive: https://web.archive.org/web/20221223000342/https://www.nytimes.com/2022/12/22/technology/byte-dance-tik-tok-internal-investigation.html

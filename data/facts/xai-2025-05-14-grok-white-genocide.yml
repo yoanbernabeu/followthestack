@@ -1,0 +1,10 @@
+subject: xai
+grievances: [racism]
+date: "2025-05-14"
+summary: "The Grok chatbot repeatedly raised the \"white genocide\" conspiracy narrative about South Africa in replies to X users on unrelated topics."
+status: established
+response: "xAI said an \"unauthorized modification\" by an employee had directed Grok to give a specific response on a political topic, and promised to publish Grok's system prompts."
+sources:
+  - url: https://www.ksat.com/business/2025/05/16/elon-musks-ai-company-says-grok-chatbot-focus-on-south-africas-racial-politics-was-unauthorized/
+    outlet: "AP via KSAT"
+    date: "2025-05-16"

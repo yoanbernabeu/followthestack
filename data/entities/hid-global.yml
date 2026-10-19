@@ -1,0 +1,17 @@
+name: "HID Global"
+type: company
+description: "US identity and access technology company, a subsidiary of ASSA ABLOY since 2000."
+country: US
+website: https://www.hidglobal.com
+wikidata: Q5629634
+relations:
+  - target: assa-abloy
+    role: subsidiary-of
+    since: "2000-11-06"
+    sources:
+      - url: https://www.assaabloy.com/group/en/news-media/press-releases/id.c2e3a5d6d6d11112
+        outlet: "ASSA ABLOY press release"
+        date: "2000-11-06"
+      - url: https://newsroom.hidglobal.com/hid-enhances-its-pki-offerings-acquisition-trusted-certificate-service-provider-zerossl
+        outlet: "HID Global newsroom"
+        date: "2024-01-11"

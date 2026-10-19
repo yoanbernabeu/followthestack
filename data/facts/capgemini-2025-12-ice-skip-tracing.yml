@@ -1,0 +1,17 @@
+subject: capgemini
+grievances: [surveillance-deportation]
+date: "2025-12-01"
+datePrecision: month
+summary: "Capgemini's US subsidiary Capgemini Government Solutions won the largest share of a US Immigration and Customs Enforcement (ICE) tender for nationwide \"skip tracing\" services to identify and locate foreign nationals, with a first $4.8 million order released in December 2025 and a potential value of up to $365 million, including bonuses tied to the rate of verified addresses. A Capgemini web page had described the work as helping to reduce the time and cost of deportations; it was removed after the contract was reported. On 1 February 2026 Capgemini announced it would sell the subsidiary."
+status: established
+response: "Capgemini said US rules on classified contracts prevented it from accessing the subsidiary's contracts and from exercising \"appropriate control over certain aspects of the operations of this subsidiary\". CEO Aiman Ezzat wrote that \"the nature and scope of this work has raised questions\" and that the subsidiary's independent board \"has already begun the process of reviewing the content and scope of this contract\"."
+sources:
+  - url: https://multinationales.org/fr/a-chaud/actualites/comment-un-champion-du-cac40-aide-l-ice-de-trump-a-traquer-les-migrants
+    outlet: "Observatoire des multinationales"
+    date: "2026-01-21"
+  - url: https://www.franceinfo.fr/monde/usa/police-de-l-immigration-americaine/comment-le-groupe-francais-capgemini-aide-la-police-federale-americaine-ice-a-localiser-les-migrants_7766420.html
+    outlet: "franceinfo"
+    date: "2026-01-26"
+  - url: https://www.theregister.com/on-prem/2026/02/02/capgemini-to-sell-biz-that-has-a-deal-to-help-ice/4842109
+    outlet: "The Register"
+    date: "2026-02-02"

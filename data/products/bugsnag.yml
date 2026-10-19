@@ -1,0 +1,12 @@
+name: "BugSnag"
+vendor: smartbear
+category: monitoring
+links: [pay, data]
+description: "Error monitoring and stability management SaaS by SmartBear."
+website: https://www.bugsnag.com
+detect:
+  npm: ["@bugsnag/js", "@bugsnag/node", "@bugsnag/browser"]
+  composer: ["bugsnag/bugsnag", "bugsnag/bugsnag-laravel", "bugsnag/bugsnag-symfony"]
+  gems: ["bugsnag"]
+  pypi: ["bugsnag"]
+alternatives: [sentry, glitchtip]

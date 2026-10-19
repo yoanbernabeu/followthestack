@@ -1,0 +1,11 @@
+name: "MinIO"
+vendor: minio
+category: storage
+links: [depend]
+description: "Self-hostable S3-compatible object storage server."
+website: https://www.min.io
+detect:
+  npm: ["minio"]
+  pypi: ["minio"]
+  docker: ["minio/minio", "quay.io/minio/minio"]
+alternatives: ["amazon-s3", "cloudflare-r2", "backblaze-b2", "wasabi", "azure-blob-storage", "google-cloud-storage", "scaleway-object-storage", "ovhcloud-object-storage"]

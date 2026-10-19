@@ -1,0 +1,12 @@
+name: "Meta Ads"
+vendor: meta
+category: advertising
+links: [pay, data]
+description: "Advertising platform for Facebook, Instagram and the Meta Audience Network, including the Meta Pixel."
+website: https://www.facebook.com/business/ads
+detect:
+  npm: ["facebook-nodejs-business-sdk", "react-facebook-pixel"]
+  composer: ["facebook/php-business-sdk"]
+  pypi: ["facebook-business"]
+  gems: ["facebookbusiness"]
+alternatives: [linkedin-ads, google-ads]

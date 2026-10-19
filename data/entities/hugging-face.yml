@@ -1,0 +1,19 @@
+name: "Hugging Face"
+type: company
+description: "Machine learning platform hosting open models and datasets, developer of the Transformers library. Nvidia announced an agreement to acquire it in September 2026."
+country: US
+website: https://huggingface.co
+wikidata: Q108943604
+relations:
+  - target: nvidia
+    role: invested-by
+    since: 2023-08-01
+    sources:
+      - url: https://en.wikipedia.org/wiki/Hugging_Face
+        outlet: "Wikipedia"
+  - target: google
+    role: invested-by
+    since: 2023-08-01
+    sources:
+      - url: https://en.wikipedia.org/wiki/Hugging_Face
+        outlet: "Wikipedia"

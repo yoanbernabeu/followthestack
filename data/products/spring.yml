@@ -1,0 +1,6 @@
+name: "Spring / Spring Boot"
+vendor: broadcom
+category: frameworks-libraries
+links: [depend]
+description: "Java framework developed by the Tanzu division of VMware, owned by Broadcom since 2023."
+website: https://spring.io

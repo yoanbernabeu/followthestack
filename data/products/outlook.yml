@@ -1,0 +1,11 @@
+name: "Outlook / Exchange Online"
+vendor: microsoft
+category: email
+links: [pay, data]
+description: "Microsoft's email service, sold to businesses as part of Microsoft 365."
+website: https://www.microsoft.com/microsoft-365/exchange/email
+detect:
+  npm: ["@microsoft/microsoft-graph-client"]
+  composer: ["microsoft/microsoft-graph"]
+  pypi: ["msgraph-sdk"]
+alternatives: [proton-mail, infomaniak-mail, fastmail, tuta]

@@ -1,0 +1,16 @@
+name: "GitHub"
+type: company
+description: "Code hosting and developer platform, subsidiary of Microsoft since 2018. Also operates the npm registry."
+country: US
+website: https://github.com
+wikidata: Q364
+relations:
+  - target: microsoft
+    role: subsidiary-of
+    since: "2018-10-26"
+    sources:
+      - url: https://blogs.microsoft.com/blog/2018/10/26/microsoft-completes-github-acquisition/
+        outlet: "Official Microsoft Blog"
+        date: "2018-10-26"
+      - url: https://en.wikipedia.org/wiki/GitHub
+        outlet: "Wikipedia"

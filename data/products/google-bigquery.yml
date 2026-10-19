@@ -1,0 +1,12 @@
+name: "Google BigQuery"
+vendor: google
+category: databases
+links: [pay, data, depend]
+description: "Serverless data warehouse on Google Cloud."
+website: https://cloud.google.com/bigquery
+detect:
+  npm: ["@google-cloud/bigquery"]
+  composer: ["google/cloud-bigquery"]
+  gems: ["google-cloud-bigquery"]
+  pypi: ["google-cloud-bigquery"]
+alternatives: ["snowflake", "databricks", "clickhouse"]

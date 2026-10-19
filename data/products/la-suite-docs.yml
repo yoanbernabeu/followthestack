@@ -1,0 +1,6 @@
+name: "Docs (La Suite numérique)"
+vendor: dinum
+category: collaboration
+links: [depend]
+description: "Open source collaborative document editor developed by the French government (DINUM) as part of La Suite numérique."
+website: https://docs.numerique.gouv.fr

@@ -1,0 +1,14 @@
+name: "IONOS"
+type: company
+description: "German web hosting and cloud provider, subsidiary of United Internet."
+country: DE
+website: https://www.ionos.com
+wikidata: Q882107
+relations:
+  - target: united-internet
+    role: subsidiary-of
+    sources:
+      - url: https://en.wikipedia.org/wiki/Ionos
+        outlet: "Wikipedia"
+      - url: https://en.wikipedia.org/wiki/United_Internet
+        outlet: "Wikipedia"

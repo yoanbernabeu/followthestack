@@ -1,0 +1,9 @@
+name: "Gatsby"
+vendor: netlify
+category: frameworks-libraries
+links: [depend]
+description: "React static site framework; Gatsby Inc. was acquired by Netlify in February 2023."
+website: https://www.gatsbyjs.com
+detect:
+  npm: ["gatsby"]
+alternatives: [astro, nextjs]

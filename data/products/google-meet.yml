@@ -1,0 +1,7 @@
+name: "Google Meet"
+vendor: google
+category: communication
+links: [pay, data]
+description: "Video conferencing service by Google, part of Google Workspace."
+website: https://meet.google.com
+alternatives: [jitsi-meet, visio, whereby]

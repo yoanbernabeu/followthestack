@@ -1,0 +1,9 @@
+name: "Clever Cloud"
+vendor: clever-cloud
+category: cloud-hosting
+links: [pay, data]
+description: "French platform-as-a-service to deploy applications and managed databases."
+website: https://www.clever.cloud
+detect:
+  npm: ["clever-tools"]
+alternatives: ["vercel", "netlify", "cloudflare-pages", "render", "fly-io", "railway", "heroku", "digitalocean"]

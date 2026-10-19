@@ -1,0 +1,11 @@
+name: "Okta Workforce Identity"
+vendor: okta
+category: auth-identity
+links: [pay, data, depend]
+description: "Enterprise single sign-on and identity management platform by Okta."
+website: https://www.okta.com
+detect:
+  npm: ["@okta/okta-auth-js", "@okta/okta-react", "@okta/okta-sdk-nodejs"]
+  composer: ["okta/sdk"]
+  pypi: ["okta"]
+alternatives: [keycloak, zitadel, authentik, microsoft-entra-id]

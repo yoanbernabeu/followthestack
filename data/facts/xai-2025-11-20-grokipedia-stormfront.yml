@@ -1,0 +1,10 @@
+subject: xai
+grievances: [racism]
+date: "2025-11-20"
+summary: "A Cornell preprint study of more than 883,000 articles of Grokipedia, the AI-generated encyclopedia xAI launched in October 2025, found it cited the neo-Nazi forum Stormfront 42 times, the white nationalist site VDare 107 times and Infowars 34 times, and NBC News reported that its article on a white nationalist publication used euphemisms such as \"advancement of peoples of European descent\" in place of \"white nationalist\"."
+status: established
+response: "xAI's media inbox replied with an automated message: \"Legacy Media Lies\"."
+sources:
+  - url: https://www.nbcnews.com/tech/elon-musk/elon-musk-grokipedia-wikipedia-neo-nazi-grok-42-encyclopedia-rcna244749
+    outlet: "NBC News"
+    date: "2025-11-20"

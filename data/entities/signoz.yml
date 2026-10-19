@@ -1,0 +1,4 @@
+name: "SigNoz"
+type: company
+description: "Company behind SigNoz, an open source OpenTelemetry-native observability platform."
+website: https://signoz.io

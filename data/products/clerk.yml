@@ -1,0 +1,10 @@
+name: "Clerk"
+vendor: clerk
+category: auth-identity
+links: [pay, data, depend]
+description: "Authentication and user management SaaS for web applications."
+website: https://clerk.com
+detect:
+  npm: ["@clerk/nextjs", "@clerk/clerk-react", "@clerk/clerk-js", "@clerk/backend", "@clerk/express"]
+  pypi: ["clerk-backend-api"]
+alternatives: [auth0, ory, zitadel, keycloak]

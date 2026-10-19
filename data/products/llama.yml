@@ -1,0 +1,7 @@
+name: "Llama"
+vendor: meta
+category: ai
+links: [depend]
+description: "Family of open-weight large language models released by Meta under its own community license."
+website: https://www.llama.com
+alternatives: [mistral-api, deepseek, ollama, hugging-face]

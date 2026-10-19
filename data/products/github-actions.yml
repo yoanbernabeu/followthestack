@@ -1,0 +1,7 @@
+name: "GitHub Actions"
+vendor: github
+category: code-hosting
+links: [pay, data, depend]
+description: "CI/CD service integrated into GitHub, billed by runner minutes."
+website: https://github.com/features/actions
+alternatives: [gitlab, circleci, jenkins, forgejo]

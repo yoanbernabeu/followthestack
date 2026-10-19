@@ -1,0 +1,32 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { loadDataset } from '@/lib/dataset';
+import { buildReport } from '@/lib/report';
+import { CATEGORY_LABELS } from '@/lib/labels';
+import { url } from '@/lib/urls';
+export function getStaticPaths() {
+  return Object.keys(CATEGORY_LABELS).map((id) => ({ params: { id } }));
+}
+const { id } = Astro.params;
+const data = await loadDataset();
+const products = data.products.filter((p) => p.category === id);
+const reports = new Map(buildReport(data, products.map((p) => p.id)).map((r) => [r.product.id, r]));
+---
+<Layout title={CATEGORY_LABELS[id!]} description={`Tools in the ${CATEGORY_LABELS[id!]} category and who is behind them.`} image={`og/category/${id}.png`}>
+  <p class="mb-2 text-sm text-muted-foreground"><a class="hover:underline" href={url.home()}>Follow the Stack</a> · Category</p>
+  <h1 class="mb-6 text-3xl font-semibold">{CATEGORY_LABELS[id!]}</h1>
+  <ul class="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+    {products.map((p) => {
+      const n = reports.get(p.id)?.facts.length ?? 0;
+      return (
+        <li>
+          <a href={url.product(p.id)} class="flex items-center gap-2 rounded-lg border p-3 text-sm hover:bg-muted">
+            <span class="font-medium">{p.name}</span>
+            <span class="truncate text-muted-foreground">{data.entities[p.vendor]?.name}</span>
+            {n > 0 && <span class="ml-auto rounded-full bg-destructive/10 px-2 py-0.5 text-xs font-medium text-destructive">{n} fact{n === 1 ? '' : 's'}</span>}
+          </a>
+        </li>
+      );
+    })}
+  </ul>
+</Layout>

@@ -1,0 +1,8 @@
+name: "Java (OpenJDK)"
+vendor: oracle
+category: frameworks-libraries
+links: [depend]
+description: "Programming language and platform; Oracle owns the Java trademark and leads OpenJDK."
+website: https://www.java.com
+detect:
+  docker: ["openjdk"]

@@ -1,0 +1,16 @@
+name: "MariaDB plc"
+type: company
+description: "Company developing and selling MariaDB, taken private by K1 Investment Management in 2024."
+website: https://mariadb.com
+relations:
+  - target: michael-widenius
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/MariaDB
+        outlet: "Wikipedia"
+  - target: k1-investment-management
+    role: owned-by
+    since: "2024-09"
+    sources:
+      - url: https://en.wikipedia.org/wiki/MariaDB
+        outlet: "Wikipedia"

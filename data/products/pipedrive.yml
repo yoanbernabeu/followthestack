@@ -1,0 +1,10 @@
+name: "Pipedrive"
+vendor: pipedrive
+category: crm-marketing
+links: [pay, data]
+description: "Sales CRM SaaS by Pipedrive."
+website: https://www.pipedrive.com
+detect:
+  npm: ["pipedrive"]
+  composer: ["pipedrive/pipedrive"]
+alternatives: [hubspot, brevo, twenty]

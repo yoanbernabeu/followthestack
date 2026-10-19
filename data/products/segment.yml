@@ -1,0 +1,12 @@
+name: "Segment"
+vendor: twilio
+category: analytics
+links: [pay, data]
+description: "Customer data platform by Twilio that collects and routes event data."
+website: https://segment.com
+detect:
+  npm: ["@segment/analytics-next", "@segment/analytics-node", "analytics-node"]
+  composer: ["segmentio/analytics-php"]
+  pypi: ["segment-analytics-python", "analytics-python"]
+  gems: ["analytics-ruby"]
+alternatives: [posthog, rudderstack]

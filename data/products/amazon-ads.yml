@@ -1,0 +1,7 @@
+name: "Amazon Ads"
+vendor: amazon
+category: advertising
+links: [pay, data]
+description: "Amazon's advertising platform for sponsored products, display and streaming ads."
+website: https://advertising.amazon.com
+alternatives: [criteo, google-ads]

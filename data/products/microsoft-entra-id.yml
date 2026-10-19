@@ -1,0 +1,10 @@
+name: "Microsoft Entra ID"
+vendor: microsoft
+category: auth-identity
+links: [pay, data, depend]
+description: "Microsoft's cloud identity and access management service, formerly Azure Active Directory."
+website: https://www.microsoft.com/security/business/identity-access/microsoft-entra-id
+detect:
+  npm: ["@azure/msal-browser", "@azure/msal-node", "@azure/msal-react"]
+  pypi: ["msal"]
+alternatives: [keycloak, zitadel, authentik, okta]

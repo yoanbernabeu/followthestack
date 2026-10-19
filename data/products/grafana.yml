@@ -1,0 +1,10 @@
+name: "Grafana (Grafana Cloud, Loki, Tempo, Mimir)"
+vendor: grafana-labs
+category: monitoring
+links: [pay, data, depend]
+description: "Open source dashboards and observability stack, also sold as the hosted Grafana Cloud."
+website: https://grafana.com
+detect:
+  npm: ["@grafana/faro-web-sdk"]
+  docker: ["grafana/grafana", "grafana/grafana-oss", "grafana/loki", "grafana/tempo", "grafana/mimir"]
+alternatives: [prometheus, signoz, datadog]

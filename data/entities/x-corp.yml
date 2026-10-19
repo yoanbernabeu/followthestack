@@ -1,0 +1,23 @@
+name: X Corp.
+type: company
+description: "Company operating the X social network (formerly Twitter), acquired by Elon Musk in October 2022, folded into xAI in March 2025 (now part of SpaceX via xAI)."
+country: US
+website: https://x.com
+relations:
+  - target: elon-musk
+    role: owned-by
+    since: "2022-10-27"
+    until: "2025-03-28"
+    sources:
+      - url: https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk
+        outlet: Wikipedia
+  - target: xai
+    role: subsidiary-of
+    since: "2025-03-28"
+    sources:
+      - url: https://techcrunch.com/2025/03/28/elon-musk-says-xai-acquired-x/
+        outlet: "TechCrunch"
+        date: "2025-03-28"
+      - url: https://finance.yahoo.com/news/musks-spacex-merge-xai-combined-212210116.html
+        outlet: "Reuters (via Yahoo Finance)"
+        date: "2026-02-02"

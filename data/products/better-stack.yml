@@ -1,0 +1,12 @@
+name: "Better Stack"
+vendor: better-stack
+category: monitoring
+links: [pay, data]
+description: "Uptime monitoring, status pages, on-call and log management SaaS."
+website: https://betterstack.com
+detect:
+  npm: ["@logtail/node", "@logtail/js"]
+  composer: ["logtail/monolog-logtail"]
+  gems: ["logtail"]
+  pypi: ["logtail-python"]
+alternatives: [pagerduty, checkly, uptime-kuma]

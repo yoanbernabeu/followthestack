@@ -1,0 +1,7 @@
+name: "YouTube"
+vendor: youtube
+category: social-media
+links: [pay, data]
+description: "Video sharing platform owned by Google."
+website: https://www.youtube.com
+alternatives: [peertube]

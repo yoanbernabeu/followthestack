@@ -1,0 +1,7 @@
+name: "macOS"
+vendor: apple
+category: os-hardware
+links: [pay, data]
+description: "Apple's operating system for Mac computers."
+website: https://www.apple.com/macos/
+alternatives: [ubuntu, fedora, debian, linux-mint]

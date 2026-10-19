@@ -1,0 +1,15 @@
+subject: elon-musk
+grievances: [press-justice-attacks, far-right-support]
+date: "2025-03-31"
+summary: "Reacted to Marine Le Pen's conviction for misusing EU funds by accusing the \"radical left\" of abusing the legal system to jail opponents, then a few days later reposted a Trump message with \"Free Le Pen\"."
+quote:
+  text: "When the radical left can't win via democratic vote, they abuse the legal system to jail their opponents."
+  lang: en
+status: established
+sources:
+  - url: https://www.euronews.com/my-europe/2025/03/31/marine-le-pen-denounces-a-disastrous-day-for-democracy
+    outlet: "Euronews"
+    date: "2025-03-31"
+  - url: https://www.tovima.com/world/trump-and-musk-post-free-le-pen-after-election-ban/
+    outlet: "To Vima"
+    date: "2025-04-04"

@@ -1,0 +1,14 @@
+subject: palantir
+grievances: [surveillance-deportation]
+date: "2025-03-01"
+datePrecision: month
+summary: "Signed a five-year contract worth about €24 million, reportedly without an exit clause, with the Baden-Württemberg interior ministry for police data analysis, before the state had a legal basis for automated police data analysis and, according to taz, apparently without the knowledge of the Green coalition partner. The enabling bill was only tabled in September 2025; bodies consulted on it, including the DGB union confederation, criticised the contract being signed before a legal basis existed."
+status: established
+response: "The state government says funds for the software were approved in the 2025/2026 budget in December 2024 and that a first draft of the enabling law already existed when the contract was signed."
+sources:
+  - url: https://taz.de/Verfassungsbeschwerde-gegen-Palantir-/!6102522/
+    outlet: "taz"
+    date: "2025-07-23"
+  - url: https://www.landtag-bw.de/resource/blob/596660/4e61c8adee1d16d9d2d8017a1bee8e0e/17_9478_D.pdf
+    outlet: "Landtag von Baden-Württemberg (Drucksache 17/9478)"
+    date: "2025-09-23"

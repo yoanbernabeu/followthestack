@@ -1,0 +1,13 @@
+subject: github
+grievances: [surveillance-deportation]
+date: "2019-10-09"
+summary: "GitHub CEO Nat Friedman told staff in a leaked internal email that the company would renew its $200,000 GitHub Enterprise Server licence with US Immigration and Customs Enforcement (ICE), despite employee objections to the agency's immigration policies; employees later resigned after the renewal, according to CNBC."
+status: established
+response: "Friedman wrote that GitHub had no agreement to provide professional services to ICE and \"has no visibility into how this software is being used\", and announced a $500,000 donation to immigration nonprofits."
+sources:
+  - url: https://www.theverge.com/2019/10/9/20906213/github-ice-microsoft-software-email-contract-immigration-nonprofit-donation
+    outlet: "The Verge"
+    date: "2019-10-09"
+  - url: https://www.cnbc.com/2020/11/29/microsofts-github-has-become-magnet-for-thorny-issues-like-riaa.html
+    outlet: "CNBC"
+    date: "2020-11-29"

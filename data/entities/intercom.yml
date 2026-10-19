@@ -1,0 +1,17 @@
+name: "Fin (formerly Intercom)"
+type: company
+description: "Customer service and messaging software company, renamed Fin from Intercom."
+country: US
+website: https://fin.ai
+wikidata: Q48965215
+relations:
+  - target: eoghan-mccabe
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Fin_(company)
+        outlet: "Wikipedia"
+  - target: eoghan-mccabe
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Fin_(company)
+        outlet: "Wikipedia"

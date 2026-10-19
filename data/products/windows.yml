@@ -1,0 +1,7 @@
+name: "Windows"
+vendor: microsoft
+category: os-hardware
+links: [pay, data]
+description: "Microsoft's desktop operating system."
+website: https://www.microsoft.com/windows
+alternatives: [ubuntu, fedora, debian, linux-mint]

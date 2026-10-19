@@ -1,0 +1,13 @@
+name: "Sentry"
+vendor: sentry
+category: monitoring
+links: [pay, data]
+description: "Error tracking and performance monitoring, available as SaaS or self-hosted under a source-available license."
+website: https://sentry.io
+detect:
+  npm: ["@sentry/node", "@sentry/browser", "@sentry/react", "@sentry/nextjs", "@sentry/vue", "@sentry/angular"]
+  composer: ["sentry/sentry", "sentry/sentry-symfony", "sentry/sentry-laravel"]
+  gems: ["sentry-ruby", "sentry-rails"]
+  pypi: ["sentry-sdk"]
+  docker: ["getsentry/sentry"]
+alternatives: [glitchtip, bugsnag, signoz]

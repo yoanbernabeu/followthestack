@@ -1,0 +1,9 @@
+name: "ZITADEL"
+vendor: zitadel
+category: auth-identity
+links: [depend]
+description: "Open source identity and access management platform, self-hosted or cloud."
+website: https://zitadel.com
+detect:
+  docker: ["ghcr.io/zitadel/zitadel"]
+alternatives: [keycloak, ory, authentik]

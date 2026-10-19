@@ -1,0 +1,10 @@
+name: "Google Gemini"
+vendor: google
+category: ai
+links: [pay, data, depend]
+description: "Google's family of AI models, its Gemini assistant app and the Gemini API."
+website: https://gemini.google.com
+detect:
+  npm: ["@google/genai", "@google/generative-ai", "@ai-sdk/google"]
+  pypi: ["google-genai", "google-generativeai"]
+alternatives: [chatgpt, claude, le-chat, mistral-api]

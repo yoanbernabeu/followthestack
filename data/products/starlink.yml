@@ -1,0 +1,6 @@
+name: "Starlink"
+vendor: spacex
+category: os-hardware
+links: [pay, data]
+description: "Satellite internet service operated by SpaceX."
+website: https://www.starlink.com

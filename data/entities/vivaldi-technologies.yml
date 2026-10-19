@@ -1,0 +1,12 @@
+name: "Vivaldi Technologies"
+type: company
+description: "Norwegian employee-owned company developing the Vivaldi web browser."
+country: NO
+website: https://vivaldi.com
+wikidata: Q23498557
+relations:
+  - target: jon-von-tetzchner
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Vivaldi_(web_browser)
+        outlet: Wikipedia

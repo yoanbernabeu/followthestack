@@ -1,0 +1,12 @@
+name: "Airtable"
+type: company
+description: "San Francisco-based company developing the Airtable cloud spreadsheet-database platform, owned by Bending Spoons."
+country: US
+website: https://www.airtable.com
+wikidata: Q23016614
+relations:
+  - target: bending-spoons
+    role: owned-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Bending_Spoons
+        outlet: Wikipedia

@@ -1,0 +1,7 @@
+name: "Travis CI"
+vendor: idera
+category: code-hosting
+links: [pay, data]
+description: "Hosted CI service owned by Idera."
+website: https://www.travis-ci.com
+alternatives: [github-actions, gitlab, circleci, jenkins]

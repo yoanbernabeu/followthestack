@@ -1,0 +1,17 @@
+name: "Canonical"
+type: company
+description: "UK-based software company that publishes the Ubuntu Linux distribution."
+country: GB
+website: https://canonical.com
+wikidata: Q39064
+relations:
+  - target: mark-shuttleworth
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Canonical_(company)
+        outlet: Wikipedia
+  - target: mark-shuttleworth
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Canonical_(company)
+        outlet: Wikipedia

@@ -1,0 +1,16 @@
+name: "Cockroach Labs"
+type: company
+description: "US company developing the CockroachDB distributed SQL database."
+country: US
+website: https://www.cockroachlabs.com
+relations:
+  - target: spencer-kimball
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/CockroachDB
+        outlet: "Wikipedia"
+  - target: spencer-kimball
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/CockroachDB
+        outlet: "Wikipedia"

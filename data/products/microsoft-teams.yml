@@ -1,0 +1,7 @@
+name: "Microsoft Teams"
+vendor: microsoft
+category: communication
+links: [pay, data]
+description: "Messaging and video meeting platform by Microsoft, bundled with Microsoft 365."
+website: https://www.microsoft.com/microsoft-teams
+alternatives: [element, mattermost, rocket-chat, tchap, wire, jitsi-meet, visio, whereby]

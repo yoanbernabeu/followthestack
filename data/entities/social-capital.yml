@@ -1,0 +1,11 @@
+name: "Social Capital"
+type: investment-fund
+description: "US venture capital and investment firm founded by Chamath Palihapitiya."
+country: US
+wikidata: Q19903657
+relations:
+  - target: chamath-palihapitiya
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Social_Capital_(venture_capital_firm)
+        outlet: "Wikipedia"

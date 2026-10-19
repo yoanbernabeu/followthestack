@@ -1,0 +1,9 @@
+name: "Angular"
+vendor: google
+category: frameworks-libraries
+links: [depend]
+description: "Web application framework developed and controlled by Google."
+website: https://angular.dev
+detect:
+  npm: ["@angular/core", "@angular/cli"]
+alternatives: [react, vue, svelte]

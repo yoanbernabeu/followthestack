@@ -1,0 +1,11 @@
+name: "Elastic Observability (ELK, Elastic APM)"
+vendor: elastic
+category: monitoring
+links: [pay, data, depend]
+description: "Logs, metrics and APM built on Elasticsearch and Kibana, self-hosted or on Elastic Cloud."
+website: https://www.elastic.co/observability
+detect:
+  npm: ["elastic-apm-node"]
+  gems: ["elastic-apm"]
+  pypi: ["elastic-apm"]
+alternatives: [grafana, signoz, splunk]

@@ -1,0 +1,11 @@
+name: "OpenAI API"
+vendor: openai
+category: ai
+links: [pay, data, depend]
+description: "Paid API giving access to OpenAI's GPT, image, audio and embedding models."
+website: https://platform.openai.com
+detect:
+  npm: ["openai", "@openai/agents", "@ai-sdk/openai"]
+  composer: ["openai-php/client"]
+  pypi: ["openai", "openai-agents"]
+alternatives: [claude-api, mistral-api, gemini, cohere, ollama]

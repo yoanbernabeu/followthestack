@@ -1,0 +1,7 @@
+name: "Canva"
+vendor: canva
+category: design
+links: [pay, data]
+description: "Online graphic design platform by the Australian company Canva."
+website: https://www.canva.com
+alternatives: [penpot, inkscape]

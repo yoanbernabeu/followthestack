@@ -1,0 +1,6 @@
+name: "Bill Gates"
+type: person
+publicFigure: true
+description: "Co-founder of Microsoft and co-chair of the Gates Foundation."
+country: US
+wikidata: Q5284

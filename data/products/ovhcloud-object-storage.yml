@@ -1,0 +1,7 @@
+name: "OVHcloud Object Storage"
+vendor: ovhcloud
+category: storage
+links: [pay, data]
+description: "S3-compatible object storage hosted by OVHcloud."
+website: https://www.ovhcloud.com/en/public-cloud/object-storage/
+alternatives: ["amazon-s3", "cloudflare-r2", "backblaze-b2", "wasabi", "azure-blob-storage", "google-cloud-storage", "minio", "scaleway-object-storage"]

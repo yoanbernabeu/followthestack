@@ -1,0 +1,8 @@
+name: "Fedora Linux"
+vendor: red-hat
+category: os-hardware
+links: [depend]
+description: "Community Linux distribution sponsored by Red Hat (IBM)."
+website: https://fedoraproject.org
+detect:
+  docker: ["fedora"]

@@ -1,0 +1,12 @@
+name: "MySQL"
+vendor: oracle
+category: databases
+links: [depend]
+description: "Open source (GPL) relational database owned by Oracle since its acquisition of Sun Microsystems."
+website: https://www.mysql.com
+detect:
+  npm: ["mysql", "mysql2"]
+  gems: ["mysql2"]
+  pypi: ["mysqlclient", "mysql-connector-python"]
+  docker: ["mysql"]
+alternatives: ["oracle-database", "postgresql", "mariadb"]

@@ -1,0 +1,17 @@
+name: "Canva"
+type: company
+description: "Australian company developing the Canva online design platform and the Affinity creative apps."
+country: AU
+website: https://www.canva.com
+wikidata: Q23498528
+relations:
+  - target: melanie-perkins
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Canva
+        outlet: Wikipedia
+  - target: melanie-perkins
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Canva
+        outlet: Wikipedia

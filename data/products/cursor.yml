@@ -1,0 +1,7 @@
+name: "Cursor"
+vendor: anysphere
+category: dev-tools
+links: [pay, data]
+description: "AI code editor forked from VS Code, sold by subscription by Anysphere."
+website: https://cursor.com
+alternatives: [vs-code, zed, windsurf, jetbrains-ides, vscodium]

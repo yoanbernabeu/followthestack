@@ -1,0 +1,7 @@
+name: "WhatsApp Business"
+vendor: meta
+category: communication
+links: [pay, data]
+description: "Business messaging app and API by Meta; companies pay Meta per conversation through the WhatsApp Business Platform."
+website: https://business.whatsapp.com
+alternatives: [signal, olvid]

@@ -1,0 +1,12 @@
+name: "SendGrid"
+vendor: twilio
+category: email
+links: [pay, data]
+description: "Transactional and marketing email delivery API by Twilio."
+website: https://sendgrid.com
+detect:
+  npm: ["@sendgrid/mail", "@sendgrid/client"]
+  composer: ["sendgrid/sendgrid"]
+  pypi: ["sendgrid"]
+  gems: ["sendgrid-ruby"]
+alternatives: [postmark, resend, brevo, mailjet]

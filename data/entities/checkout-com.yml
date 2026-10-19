@@ -1,0 +1,17 @@
+name: "Checkout.com"
+type: company
+description: "UK payment processing company."
+country: GB
+website: https://www.checkout.com
+wikidata: Q110815500
+relations:
+  - target: guillaume-pousaz
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Checkout.com
+        outlet: "Wikipedia"
+  - target: guillaume-pousaz
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Checkout.com
+        outlet: "Wikipedia"

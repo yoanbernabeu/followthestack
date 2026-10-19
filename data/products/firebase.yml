@@ -1,0 +1,11 @@
+name: "Firebase"
+vendor: google
+category: databases
+links: [pay, data, depend]
+description: "Google's backend-as-a-service (Firestore, Realtime Database, Auth, Hosting)."
+website: https://firebase.google.com
+detect:
+  npm: ["firebase", "firebase-admin"]
+  composer: ["kreait/firebase-php"]
+  pypi: ["firebase-admin"]
+alternatives: ["mongodb", "couchbase", "postgresql", "azure-cosmos-db", "amazon-dynamodb", "supabase", "neon", "planetscale"]

@@ -1,0 +1,29 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import FactCard from '@/components/site/FactCard.astro';
+import { loadDataset } from '@/lib/dataset';
+import { GRIEVANCE_LABELS } from '@/lib/labels';
+import { GRIEVANCE_DESCRIPTIONS } from '@/lib/labels';
+import { url } from '@/lib/urls';
+export function getStaticPaths() {
+  return Object.keys(GRIEVANCE_LABELS).map((id) => ({ params: { id } }));
+}
+const { id } = Astro.params;
+const data = await loadDataset();
+const facts = data.facts.filter((f) => f.grievances.includes(id!));
+const subjects = [...new Set(facts.map((f) => f.subject))].map((s) => data.entities[s]).filter(Boolean).sort((a, b) => a.name.localeCompare(b.name));
+---
+<Layout title={GRIEVANCE_LABELS[id!]} description={GRIEVANCE_DESCRIPTIONS[id!]} image={`og/grievance/${id}.png`}>
+  <p class="mb-2 text-sm text-muted-foreground"><a class="hover:underline" href={url.home()}>Follow the Stack</a> · Grievance</p>
+  <h1 class="mb-3 text-3xl font-semibold">{GRIEVANCE_LABELS[id!]}</h1>
+  <p class="mb-6 max-w-2xl text-muted-foreground">{GRIEVANCE_DESCRIPTIONS[id!]}</p>
+  {subjects.length > 0 && (
+    <div class="mb-8 flex flex-wrap gap-2">
+      {subjects.map((e) => <a href={url.entity(e.id)} class="rounded-full border px-3 py-1 text-sm hover:bg-muted">{e.name}</a>)}
+    </div>
+  )}
+  <h2 class="mb-4 text-xl font-semibold">{facts.length} documented fact{facts.length === 1 ? '' : 's'}</h2>
+  <ul class="grid gap-4">
+    {facts.map((f) => <FactCard fact={f} subjectName={data.entities[f.subject]?.name} />)}
+  </ul>
+</Layout>

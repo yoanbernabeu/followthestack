@@ -1,0 +1,6 @@
+name: "GIMP"
+vendor: gimp
+category: design
+links: [depend]
+description: "Free and open source raster image editor."
+website: https://www.gimp.org

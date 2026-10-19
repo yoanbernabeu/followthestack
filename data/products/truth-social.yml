@@ -1,0 +1,7 @@
+name: "Truth Social"
+vendor: trump-media
+category: social-media
+links: [pay, data]
+description: "Social network operated by Trump Media & Technology Group, majority-owned by a trust of Donald Trump."
+website: https://truthsocial.com
+alternatives: [mastodon, bluesky]

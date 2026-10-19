@@ -1,0 +1,7 @@
+name: "Dashlane"
+vendor: dashlane
+category: auth-identity
+links: [pay, data]
+description: "Password manager by Dashlane."
+website: https://www.dashlane.com
+alternatives: [bitwarden, proton-pass, 1password]

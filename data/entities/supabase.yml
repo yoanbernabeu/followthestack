@@ -1,0 +1,15 @@
+name: "Supabase"
+type: company
+description: "Remote-first company developing Supabase, an open source Postgres development platform."
+website: https://supabase.com
+relations:
+  - target: accel
+    role: invested-by
+    sources:
+      - url: https://supabase.com/company
+        outlet: "Supabase (official site)"
+  - target: y-combinator
+    role: invested-by
+    sources:
+      - url: https://supabase.com/company
+        outlet: "Supabase (official site)"

@@ -1,0 +1,22 @@
+name: "United Internet"
+type: company
+description: "German internet services group (1&1, IONOS, GMX, WEB.DE)."
+country: DE
+website: https://www.united-internet.de
+wikidata: Q322579
+relations:
+  - target: ralph-dommermuth
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/United_Internet
+        outlet: "Wikipedia"
+  - target: ralph-dommermuth
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/United_Internet
+        outlet: "Wikipedia"
+  - target: ralph-dommermuth
+    role: owned-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/United_Internet
+        outlet: "Wikipedia"

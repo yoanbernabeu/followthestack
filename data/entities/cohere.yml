@@ -1,0 +1,17 @@
+name: "Cohere"
+type: company
+description: "Canadian artificial intelligence company providing large language models to enterprises. Agreed to acquire Aleph Alpha in April 2026."
+country: CA
+website: https://cohere.com
+wikidata: Q110363143
+relations:
+  - target: aidan-gomez
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Cohere
+        outlet: "Wikipedia"
+  - target: aidan-gomez
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Cohere
+        outlet: "Wikipedia"

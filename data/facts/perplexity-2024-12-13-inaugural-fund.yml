@@ -1,0 +1,9 @@
+subject: perplexity
+grievances: [authoritarian-alignment]
+date: "2024-12-13"
+summary: "Donated $1,000,000 to the Trump Vance Inaugural Committee, which organised Donald Trump's January 2025 inauguration; the committee's report to the Federal Election Commission lists a donation from Perplexity AI, Inc. received on December 13, 2024."
+status: established
+sources:
+  - url: https://docquery.fec.gov/dcdev/posted/1910509.fec
+    outlet: "Federal Election Commission (Trump Vance Inaugural Committee, Form 13 report, amended)"
+    date: "2025-08-07"

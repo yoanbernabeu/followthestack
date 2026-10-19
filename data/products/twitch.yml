@@ -1,0 +1,7 @@
+name: "Twitch"
+vendor: twitch
+category: social-media
+links: [pay, data]
+description: "Live-streaming platform owned by Amazon."
+website: https://www.twitch.tv
+alternatives: [peertube]

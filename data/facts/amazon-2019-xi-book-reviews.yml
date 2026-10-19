@@ -1,0 +1,14 @@
+subject: amazon
+grievances: [authoritarian-alignment]
+date: "2019-01-01"
+datePrecision: year
+summary: "Disabled ratings, comments and reviews for Xi Jinping's book \"The Governance of China\" on its Chinese site, Amazon.cn, around 2019 in response to an edict from Beijing triggered by reviews below five stars, according to a December 2021 Reuters investigation."
+status: established
+response: "Amazon said it \"complies with all applicable laws and regulations, wherever we operate, and China is no exception\"."
+sources:
+  - url: https://www.aljazeera.com/economy/2021/12/20/amazon-silenced-criticism-of-xi-to-do-business-in-china-report
+    outlet: "Al Jazeera"
+    date: "2021-12-20"
+  - url: https://www.foxbusiness.com/politics/amazon-china-books-xi-jinping-reviews
+    outlet: "Fox Business"
+    date: "2021-12-22"

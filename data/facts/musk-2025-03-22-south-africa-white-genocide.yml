@@ -1,0 +1,16 @@
+subject: elon-musk
+grievances: [racism]
+date: "2025-03-01"
+datePrecision: month
+summary: "Posted on X over the weekend of 22–23 March 2025 that a major South African political party is \"actively promoting white genocide\", linking to a video of an Economic Freedom Fighters rally where the song \"Kill the Boer\" was sung. Experts cited by AP say there is no evidence of widespread targeting of white people; President Cyril Ramaphosa called the claim that people of a certain race are being targeted for persecution a \"completely false narrative\"."
+quote:
+  text: "Very few people know that there is a major political party in South Africa that is actively promoting white genocide"
+  lang: en
+status: established
+sources:
+  - url: https://www.ksat.com/news/world/2025/03/24/south-africa-president-says-persecution-of-whites-a-false-narrative-as-musk-repeats-genocide-claim/
+    outlet: "AP via KSAT"
+    date: "2025-03-24"
+  - url: https://www.pbs.org/newshour/world/persecution-of-south-africas-whites-a-false-narrative-president-says-as-musk-repeats-genocide-claim
+    outlet: "AP via PBS NewsHour"
+    date: "2025-03-24"

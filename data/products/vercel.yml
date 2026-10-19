@@ -1,0 +1,9 @@
+name: "Vercel"
+vendor: vercel
+category: cloud-hosting
+links: [pay, data, depend]
+description: "Hosting and serverless deployment platform for front-end frameworks, especially Next.js."
+website: https://vercel.com
+detect:
+  npm: ["vercel", "@vercel/node", "@vercel/functions"]
+alternatives: ["netlify", "cloudflare-pages", "render", "clever-cloud", "fly-io", "railway", "heroku", "aws-lambda"]

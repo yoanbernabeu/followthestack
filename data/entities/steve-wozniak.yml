@@ -1,0 +1,6 @@
+name: "Steve Wozniak"
+type: person
+publicFigure: true
+description: "Co-founder of Apple."
+country: US
+wikidata: Q483382

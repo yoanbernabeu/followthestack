@@ -1,0 +1,16 @@
+subject: antonio-gracias
+grievances: [anti-immigration]
+date: "2025-04-02"
+summary: "As a DOGE member at the Social Security Administration, said on Fox & Friends on April 2, 2025 that DOGE had found \"thousands\" of noncitizens who received Social Security numbers on the voter rolls of \"a handful of cooperative states\" and that \"many of them had voted\", and later said on a podcast that this was \"a move to import voters\". Social Security and voting experts told NPR the claims mischaracterized the program and doubted their accuracy, and NPR reported they appeared to rely on data that court records suggest DOGE was not supposed to access."
+quote:
+  text: "I think this was a move to import voters."
+  lang: en
+status: contested
+response: "Neither Gracias nor a DOGE spokesperson responded to NPR's questions about how the Social Security data was accessed. Government lawyers said in court filings that Gracias never had access to SSA data or personally identifiable information."
+sources:
+  - url: https://www.npr.org/2025/04/11/nx-s1-5352470/doge-musk-social-security-voting
+    outlet: "NPR"
+    date: "2025-04-11"
+  - url: https://www.factcheck.org/2025/04/musks-unsupported-claim-to-have-unveiled-massive-illegal-voting-by-noncitizens/
+    outlet: "FactCheck.org"
+    date: "2025-04-17"

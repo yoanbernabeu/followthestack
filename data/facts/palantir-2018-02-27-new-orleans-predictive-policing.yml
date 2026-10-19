@@ -1,0 +1,12 @@
+subject: palantir
+grievances: [surveillance-deportation]
+date: "2018-02-27"
+summary: "The Verge revealed that since 2012 Palantir had provided software to a New Orleans police program, set up as a philanthropic partnership outside public procurement, that traced people's ties to gang members, outlined criminal histories, analysed social media and predicted the likelihood that individuals would commit violence or become victims. Key city council members were unaware of it. In March 2018 the mayor's office said it would not renew the pro bono contract."
+status: established
+sources:
+  - url: https://www.theverge.com/2018/2/27/17054740/palantir-predictive-policing-tool-new-orleans-nopd
+    outlet: "The Verge"
+    date: "2018-02-27"
+  - url: https://www.cnbc.com/2018/03/15/new-orleans-ends-its-palantir-predictive-policing-program.html
+    outlet: "The Verge via CNBC"
+    date: "2018-03-15"

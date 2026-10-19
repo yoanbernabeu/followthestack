@@ -1,0 +1,6 @@
+name: "LineageOS"
+vendor: lineageos
+category: os-hardware
+links: [depend]
+description: "Open source Android-based operating system."
+website: https://lineageos.org

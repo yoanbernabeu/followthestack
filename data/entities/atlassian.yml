@@ -1,0 +1,22 @@
+name: "Atlassian"
+type: company
+description: "Australian software company behind Jira, Confluence, Bitbucket and Trello."
+country: AU
+website: https://www.atlassian.com
+wikidata: Q757307
+relations:
+  - target: mike-cannon-brookes
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Atlassian
+        outlet: "Wikipedia"
+  - target: mike-cannon-brookes
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Atlassian
+        outlet: "Wikipedia"
+  - target: scott-farquhar
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Atlassian
+        outlet: "Wikipedia"

@@ -1,0 +1,12 @@
+name: "Qwant"
+type: company
+description: "French search engine company, controlled since 2023 by Synfonium (Octave Klaba and the Caisse des dépôts)."
+country: FR
+website: https://www.qwant.com
+wikidata: Q14657870
+relations:
+  - target: octave-klaba
+    role: owned-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Qwant
+        outlet: Wikipedia

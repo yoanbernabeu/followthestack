@@ -1,0 +1,9 @@
+name: "Piwik PRO"
+vendor: piwik-pro
+category: analytics
+links: [pay, data]
+description: "Analytics and tag management suite by Piwik PRO."
+website: https://piwik.pro
+detect:
+  npm: ["@piwikpro/react-piwik-pro", "@piwikpro/next-piwik-pro"]
+alternatives: [matomo, plausible]

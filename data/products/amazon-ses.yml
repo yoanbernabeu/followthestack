@@ -1,0 +1,11 @@
+name: "Amazon SES"
+vendor: amazon
+category: email
+links: [pay, data]
+description: "Amazon Simple Email Service, the email sending service of Amazon Web Services."
+website: https://aws.amazon.com/ses/
+detect:
+  npm: ["@aws-sdk/client-ses", "@aws-sdk/client-sesv2"]
+  composer: ["symfony/amazon-mailer"]
+  gems: ["aws-sdk-ses"]
+alternatives: [postmark, brevo, mailjet]

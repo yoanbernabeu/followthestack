@@ -1,0 +1,7 @@
+name: "Infomaniak Cloud"
+vendor: infomaniak
+category: cloud-hosting
+links: [pay, data]
+description: "Swiss web hosting and public cloud services operated in Switzerland."
+website: https://www.infomaniak.com
+alternatives: ["amazon-web-services", "microsoft-azure", "google-cloud", "oracle-cloud-infrastructure", "alibaba-cloud", "ovhcloud", "scaleway", "ionos"]

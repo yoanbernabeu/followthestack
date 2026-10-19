@@ -1,0 +1,13 @@
+subject: palantir
+grievances: [surveillance-deportation]
+date: "2025-07-23"
+summary: "The Gesellschaft für Freiheitsrechte (GFF), backed by the Chaos Computer Club, filed a constitutional complaint against the Bavarian police's use of Palantir's Gotham software under the name VeRA, arguing that it lacks an adequate legal basis and effective oversight, also targets people who are not suspects, and that such algorithms often have discriminatory effects. VeRA draws on data already collected by Bavarian police; the case-processing system IGVP alone held records on about 38.7 million people at the end of August 2022, 60% of them witnesses, victims or informants."
+status: contested
+response: "Bavaria's interior ministry considers the use lawful and necessary for effective hazard prevention and says no competitive European alternative exists; the Bavarian parliament voted a legal basis for VeRA in July 2024. The complaint is pending before the Federal Constitutional Court."
+sources:
+  - url: https://taz.de/Verfassungsbeschwerde-gegen-Palantir-/!6102522/
+    outlet: "taz"
+    date: "2025-07-23"
+  - url: https://www.heise.de/news/Bayerische-Landtag-stimmt-ueber-Einsatz-der-Polizeisoftware-VeRA-von-Palantir-ab-9803176.html
+    outlet: "heise online"
+    date: "2024-07-17"

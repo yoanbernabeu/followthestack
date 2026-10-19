@@ -1,0 +1,8 @@
+name: "PHP"
+vendor: php-foundation
+category: frameworks-libraries
+links: [depend]
+description: "Programming language developed by its community; core development is largely funded by The PHP Foundation."
+website: https://www.php.net
+detect:
+  docker: ["php"]

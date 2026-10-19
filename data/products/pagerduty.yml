@@ -1,0 +1,10 @@
+name: "PagerDuty"
+vendor: pagerduty
+category: monitoring
+links: [pay, data]
+description: "Incident management and on-call alerting SaaS."
+website: https://www.pagerduty.com
+detect:
+  npm: ["@pagerduty/pdjs"]
+  pypi: ["pdpyras"]
+alternatives: [better-stack, grafana]

@@ -1,0 +1,10 @@
+name: "Bun"
+vendor: anthropic
+category: frameworks-libraries
+links: [depend]
+description: "JavaScript runtime and toolkit created by Oven; acquired by Anthropic in December 2025, remains MIT-licensed."
+website: https://bun.com
+detect:
+  npm: ["bun", "@types/bun"]
+  docker: ["oven/bun"]
+alternatives: [nodejs, deno]

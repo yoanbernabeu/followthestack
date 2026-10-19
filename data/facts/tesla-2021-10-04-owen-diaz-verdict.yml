@@ -1,0 +1,13 @@
+subject: tesla
+grievances: [racism]
+date: "2021-10-04"
+summary: "A federal jury in San Francisco found that Owen Diaz, a Black contract worker at its Fremont factory in 2015-2016 whom the jury found to be a joint employee of Tesla and the staffing contractor, had been subjected to a racially hostile workplace, including racial slurs such as the n-word and racist graffiti, and awarded him $136.9 million ($6.9 million compensatory, $130 million punitive). The judge later cut the award to $15 million; Diaz chose a retrial, which ended in a $3.2 million verdict in April 2023, and the parties settled in March 2024."
+status: established
+response: "Tesla's vice president of people, Valerie Capers Workman, wrote that \"these facts don't justify the verdict\" while acknowledging \"in 2015 and 2016 we were not perfect. We're still not perfect\"."
+sources:
+  - url: https://kvia.com/news/2021/10/05/former-tesla-contractor-awarded-137-million-in-racial-harassment-suit/
+    outlet: "CNN via KVIA"
+    date: "2021-10-05"
+  - url: https://ktvu.com/news/former-tesla-worker-settles-discrimination-case-ending-appeals-over-lowered-3-2-million-verdict
+    outlet: "AP via KTVU"
+    date: "2024-03-16"

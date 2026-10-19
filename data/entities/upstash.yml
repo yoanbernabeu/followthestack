@@ -1,0 +1,5 @@
+name: "Upstash"
+type: company
+description: "US serverless data platform company (Redis-compatible, Kafka, vector)."
+country: US
+website: https://upstash.com

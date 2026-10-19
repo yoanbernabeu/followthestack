@@ -1,0 +1,9 @@
+name: Hotwire (Turbo, Stimulus)
+vendor: 37signals
+category: frameworks-libraries
+links: [depend]
+description: Front-end libraries maintained by 37signals.
+website: https://hotwired.dev
+detect:
+  npm: ["@hotwired/turbo", "@hotwired/stimulus", "@hotwired/turbo-rails"]
+  gems: [turbo-rails, stimulus-rails]

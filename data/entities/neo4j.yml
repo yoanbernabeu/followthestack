@@ -1,0 +1,5 @@
+name: "Neo4j"
+type: company
+description: "Graph database company headquartered in the US, founded in Sweden."
+country: US
+website: https://neo4j.com

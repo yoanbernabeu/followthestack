@@ -1,0 +1,8 @@
+name: "Packer"
+vendor: hashicorp
+category: dev-tools
+links: [depend]
+description: "Machine image builder by HashiCorp (IBM)."
+website: https://developer.hashicorp.com/packer
+detect:
+  docker: ["hashicorp/packer"]

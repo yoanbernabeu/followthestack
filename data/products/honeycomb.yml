@@ -1,0 +1,9 @@
+name: "Honeycomb"
+vendor: honeycomb
+category: monitoring
+links: [pay, data]
+description: "SaaS observability platform built around high-cardinality events and OpenTelemetry."
+website: https://www.honeycomb.io
+detect:
+  npm: ["@honeycombio/opentelemetry-node", "@honeycombio/opentelemetry-web"]
+alternatives: [signoz, grafana, datadog]

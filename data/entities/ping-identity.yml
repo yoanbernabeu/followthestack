@@ -1,0 +1,12 @@
+name: "Ping Identity"
+type: company
+description: "Enterprise identity and access management company, owned by Thoma Bravo."
+country: US
+website: https://www.pingidentity.com
+wikidata: Q85793376
+relations:
+  - target: thoma-bravo
+    role: owned-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Ping_Identity
+        outlet: "Wikipedia"

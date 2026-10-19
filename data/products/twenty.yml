@@ -1,0 +1,9 @@
+name: "Twenty"
+vendor: twenty
+category: crm-marketing
+links: [data]
+description: "Open source CRM, self-hosted or cloud."
+website: https://twenty.com
+detect:
+  docker: ["twentycrm/twenty"]
+alternatives: [salesforce, hubspot, pipedrive]

@@ -1,0 +1,17 @@
+name: "Zoom Communications"
+type: company
+description: "US videoconferencing company behind Zoom Workplace."
+country: US
+website: https://www.zoom.com
+wikidata: Q17460900
+relations:
+  - target: eric-yuan
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Zoom_Communications
+        outlet: Wikipedia
+  - target: eric-yuan
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Zoom_Communications
+        outlet: Wikipedia

@@ -1,0 +1,10 @@
+name: "Scaleway"
+vendor: scaleway
+category: cloud-hosting
+links: [pay, data]
+description: "French cloud provider (instances, serverless, managed databases, object storage)."
+website: https://www.scaleway.com
+detect:
+  npm: ["@scaleway/sdk"]
+  pypi: ["scaleway"]
+alternatives: ["amazon-web-services", "microsoft-azure", "google-cloud", "oracle-cloud-infrastructure", "alibaba-cloud", "ovhcloud", "ionos", "hetzner-cloud"]

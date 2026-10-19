@@ -1,0 +1,8 @@
+name: "Rocket.Chat"
+vendor: rocket-chat
+category: communication
+links: [pay, depend]
+description: "Open source, self-hostable team messaging platform."
+website: https://www.rocket.chat
+detect:
+  docker: ["rocket.chat", "rocketchat/rocket.chat"]

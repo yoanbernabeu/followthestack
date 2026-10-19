@@ -1,0 +1,7 @@
+name: "Claude"
+vendor: anthropic
+category: ai
+links: [pay, data]
+description: "AI assistant by Anthropic, available on web, desktop and mobile with free and paid plans."
+website: https://claude.ai
+alternatives: [chatgpt, le-chat, gemini, perplexity]

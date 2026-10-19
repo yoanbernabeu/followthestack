@@ -1,0 +1,9 @@
+name: "Express"
+vendor: openjs-foundation
+category: frameworks-libraries
+links: [depend]
+description: "Node.js web framework hosted by the OpenJS Foundation."
+website: https://expressjs.com
+detect:
+  npm: ["express"]
+alternatives: [nestjs]

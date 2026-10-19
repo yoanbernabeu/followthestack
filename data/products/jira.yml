@@ -1,0 +1,10 @@
+name: "Jira"
+vendor: atlassian
+category: collaboration
+links: [pay, data]
+description: "Issue and project tracking software by Atlassian."
+website: https://www.atlassian.com/software/jira
+detect:
+  npm: ["jira.js"]
+  pypi: ["jira"]
+alternatives: [openproject]

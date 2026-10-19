@@ -1,0 +1,12 @@
+name: "Mozilla Corporation"
+type: company
+description: "Taxable subsidiary of the Mozilla Foundation that develops Firefox."
+country: US
+website: https://www.mozilla.org
+wikidata: Q169925
+relations:
+  - target: mozilla-foundation
+    role: subsidiary-of
+    sources:
+      - url: https://en.wikipedia.org/wiki/Mozilla_Corporation
+        outlet: Wikipedia

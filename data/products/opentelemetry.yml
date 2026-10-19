@@ -1,0 +1,12 @@
+name: "OpenTelemetry"
+vendor: cncf
+category: monitoring
+links: [depend]
+description: "Vendor-neutral open source standard and SDKs for traces, metrics and logs, hosted by the CNCF."
+website: https://opentelemetry.io
+detect:
+  npm: ["@opentelemetry/api", "@opentelemetry/sdk-node"]
+  composer: ["open-telemetry/sdk", "open-telemetry/api"]
+  gems: ["opentelemetry-sdk"]
+  pypi: ["opentelemetry-api", "opentelemetry-sdk"]
+  docker: ["otel/opentelemetry-collector", "otel/opentelemetry-collector-contrib"]

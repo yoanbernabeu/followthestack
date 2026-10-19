@@ -1,0 +1,8 @@
+name: "OpenProject"
+vendor: openproject-gmbh
+category: collaboration
+links: [pay, depend]
+description: "Open source project management software developed by the German company OpenProject GmbH."
+website: https://www.openproject.org
+detect:
+  docker: ["openproject/openproject"]

@@ -1,0 +1,24 @@
+---
+import type { Fact } from '@/lib/types';
+import { GRIEVANCE_LABELS, formatDate } from '@/lib/labels';
+import { url } from '@/lib/urls';
+interface Props { fact: Fact; subjectName?: string; showSubject?: boolean; note?: string }
+const { fact: f, subjectName, showSubject = true, note } = Astro.props;
+---
+<li class="grid gap-2 rounded-lg border p-4">
+  <div class="flex flex-wrap items-center gap-2 text-sm">
+    {showSubject && <a class="font-medium hover:underline" href={url.entity(f.subject)}>{subjectName ?? f.subject}</a>}
+    {note && <span class="text-muted-foreground">{note}</span>}
+    <span class="text-muted-foreground">{showSubject ? '· ' : ''}{formatDate(f.date, f.datePrecision)}</span>
+    {f.grievances.map((g) => (
+      <a href={url.grievance(g)} class="rounded-full bg-destructive/10 px-2 py-0.5 text-xs font-medium text-destructive hover:bg-destructive/20">{GRIEVANCE_LABELS[g]}</a>
+    ))}
+    {f.status === 'contested' && <span class="rounded-full border px-2 py-0.5 text-xs" title="Disputed: see the response and sources">Contested</span>}
+  </div>
+  <p class="text-sm">{f.summary}</p>
+  {f.quote && <blockquote class="border-l-2 pl-3 text-sm italic text-muted-foreground" lang={f.quote.lang}>“{f.quote.text}”</blockquote>}
+  {f.response && <p class="text-sm text-muted-foreground"><strong>Response:</strong> {f.response}</p>}
+  <ul class="flex flex-wrap gap-x-4 text-xs">
+    {f.sources.map((s) => <li><a class="hover:underline" href={s.url} target="_blank" rel="noopener noreferrer">{s.outlet} ↗</a></li>)}
+  </ul>
+</li>

@@ -1,0 +1,9 @@
+name: "Reddit"
+vendor: reddit-inc
+category: social-media
+links: [pay, data]
+description: "Forum and link aggregation platform operated by Reddit, Inc."
+website: https://www.reddit.com
+detect:
+  pypi: ["praw"]
+alternatives: [lemmy]

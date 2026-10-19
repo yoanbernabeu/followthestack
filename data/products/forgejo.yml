@@ -1,0 +1,9 @@
+name: "Forgejo"
+vendor: forgejo
+category: code-hosting
+links: [depend]
+description: "Self-hostable open source Git forge with Forgejo Actions CI."
+website: https://forgejo.org
+detect:
+  docker: ["codeberg.org/forgejo/forgejo"]
+alternatives: [gitlab, gitea, github]

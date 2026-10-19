@@ -1,0 +1,9 @@
+name: "Drizzle ORM"
+vendor: drizzle-team
+category: frameworks-libraries
+links: [depend]
+description: "TypeScript ORM; its core team has been employed by PlanetScale since March 2026, the project remaining independent."
+website: https://orm.drizzle.team
+detect:
+  npm: ["drizzle-orm", "drizzle-kit"]
+alternatives: [prisma]

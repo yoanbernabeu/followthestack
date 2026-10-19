@@ -1,0 +1,11 @@
+name: "Google Ads"
+vendor: google
+category: advertising
+links: [pay, data]
+description: "Google's advertising platform for search, YouTube and display ads."
+website: https://ads.google.com
+detect:
+  composer: ["googleads/google-ads-php"]
+  pypi: ["google-ads"]
+  gems: ["google-ads-googleads"]
+alternatives: [microsoft-advertising, criteo]

@@ -1,0 +1,17 @@
+name: "Zendesk"
+type: company
+description: "Customer service software company, taken private in 2022 by Hellman & Friedman and Permira."
+country: US
+website: https://www.zendesk.com
+wikidata: Q15401349
+relations:
+  - target: hellman-friedman
+    role: owned-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Zendesk
+        outlet: "Wikipedia"
+  - target: permira
+    role: owned-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Zendesk
+        outlet: "Wikipedia"

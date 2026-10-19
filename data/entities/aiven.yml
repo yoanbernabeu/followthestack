@@ -1,0 +1,5 @@
+name: "Aiven"
+type: company
+description: "Finnish company providing managed open source data infrastructure (PostgreSQL, Kafka, OpenSearch...)."
+country: FI
+website: https://aiven.io

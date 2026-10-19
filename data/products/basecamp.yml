@@ -1,0 +1,7 @@
+name: Basecamp
+vendor: 37signals
+category: collaboration
+links: [pay, data]
+description: Project management SaaS by 37signals.
+website: https://basecamp.com
+alternatives: [openproject]

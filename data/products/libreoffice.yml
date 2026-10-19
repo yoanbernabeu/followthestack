@@ -1,0 +1,6 @@
+name: "LibreOffice"
+vendor: the-document-foundation
+category: collaboration
+links: [depend]
+description: "Free and open source desktop office suite overseen by The Document Foundation."
+website: https://www.libreoffice.org

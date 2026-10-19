@@ -1,0 +1,12 @@
+name: "Opera"
+type: company
+description: "Norwegian web browser company, controlled by China's Kunlun Tech since 2016."
+country: NO
+website: https://www.opera.com
+wikidata: Q215639
+relations:
+  - target: kunlun-tech
+    role: owned-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Opera_(company)
+        outlet: Wikipedia

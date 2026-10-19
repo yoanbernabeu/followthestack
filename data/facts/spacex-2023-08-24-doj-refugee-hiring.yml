@@ -1,0 +1,16 @@
+subject: spacex
+grievances: [anti-immigration]
+date: "2023-08-24"
+summary: "The US Justice Department sued SpaceX, alleging that from September 2018 to May 2022 it discouraged asylees and refugees from applying and refused to hire or consider them because of their citizenship status, wrongly citing export control laws. Of nearly 10,000 hires in that period, one was an asylee, according to the department. Under the Trump administration, the department moved in February 2025 to dismiss the case with prejudice."
+status: contested
+response: "SpaceX denied wrongdoing, saying in a November 2023 filing that export laws impose \"strict limitations on who it can employ\". Musk wrote that \"SpaceX was told repeatedly that hiring anyone who was not a permanent resident\" would break the law and called the case \"weaponization of the DOJ for political purposes\"."
+sources:
+  - url: https://fortune.com/2023/08/24/justice-department-sues-spacex-claiming-it-discouraged-refugees-and-asylum-seekers-from-applying
+    outlet: "AP via Fortune"
+    date: "2023-08-24"
+  - url: https://texasstandard.org/stories/justice-department-sues-spacex-hiring-discrimination-asylum-seekers-refugees/
+    outlet: "Texas Public Radio via Texas Standard"
+    date: "2023-08-31"
+  - url: https://www.fox26houston.com/news/dept-justice-lawsuit-elon-musk-spacex
+    outlet: "Fox 26 Houston"
+    date: "2025-02-21"

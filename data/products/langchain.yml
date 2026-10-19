@@ -1,0 +1,10 @@
+name: "LangChain / LangGraph"
+vendor: langchain-inc
+category: frameworks-libraries
+links: [depend]
+description: "LLM application frameworks developed by LangChain, Inc."
+website: https://www.langchain.com
+detect:
+  npm: ["langchain", "@langchain/core", "@langchain/langgraph"]
+  pypi: ["langchain", "langchain-core", "langgraph"]
+alternatives: [llamaindex, vercel-ai-sdk]

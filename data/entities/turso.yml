@@ -1,0 +1,4 @@
+name: "Turso"
+type: company
+description: "Company developing Turso and libSQL, a SQLite-compatible edge database."
+website: https://turso.tech

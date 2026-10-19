@@ -1,0 +1,6 @@
+name: "Linux Mint"
+vendor: linux-mint
+category: os-hardware
+links: [depend]
+description: "Community Linux desktop distribution based on Ubuntu and Debian."
+website: https://linuxmint.com

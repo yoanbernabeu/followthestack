@@ -1,0 +1,7 @@
+name: "Replit"
+vendor: replit
+category: dev-tools
+links: [pay, data]
+description: "Browser-based development environment with an AI agent and hosting for the apps it builds."
+website: https://replit.com
+alternatives: [lovable, bolt-new, v0]

@@ -1,0 +1,17 @@
+subject: brendan-eich
+grievances: [lgbtphobia]
+date: "2008-01-01"
+datePrecision: year
+summary: "Donated $1,000 in support of California Proposition 8, the 2008 ballot measure banning same-sex marriage. The donation became public in 2012 and led to his resignation as Mozilla CEO in April 2014, less than two weeks after his appointment was announced."
+status: established
+response: "In 2012 Eich confirmed the donation, said Mozilla had nothing to do with it and declined to discuss Proposition 8. He stepped down as Mozilla CEO and from the Mozilla Foundation board on April 3, 2014."
+sources:
+  - url: https://www.bbc.com/news/technology-26868536
+    outlet: "BBC News"
+    date: "2014-04-03"
+  - url: https://brendaneich.com/2012/04/community-and-diversity/
+    outlet: "Brendan Eich's blog"
+    date: "2012-04-05"
+  - url: https://blog.mozilla.org/en/mozilla/brendan-eich-steps-down-as-mozilla-ceo/
+    outlet: "Mozilla blog"
+    date: "2014-04-03"

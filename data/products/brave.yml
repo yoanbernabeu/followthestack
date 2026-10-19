@@ -1,0 +1,7 @@
+name: "Brave"
+vendor: brave-software
+category: browser-search
+links: [data]
+description: "Chromium-based web browser with built-in ad blocking and its own ad and crypto rewards system."
+website: https://brave.com
+alternatives: [firefox, vivaldi]

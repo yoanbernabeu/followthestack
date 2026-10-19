@@ -1,0 +1,12 @@
+name: "PayPal"
+vendor: paypal
+category: payments
+links: [pay, data, depend]
+description: "Online payments and digital wallet service by PayPal."
+website: https://www.paypal.com
+detect:
+  npm: ["@paypal/react-paypal-js", "@paypal/paypal-js", "@paypal/checkout-server-sdk", "@paypal/paypal-server-sdk"]
+  composer: ["paypal/rest-api-sdk-php", "paypal/paypal-checkout-sdk", "paypal/paypal-server-sdk"]
+  pypi: ["paypalrestsdk", "paypal-server-sdk"]
+  gems: ["paypal-sdk-rest", "paypal-server-sdk"]
+alternatives: [mollie, adyen, stripe]

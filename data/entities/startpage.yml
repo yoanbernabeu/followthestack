@@ -1,0 +1,12 @@
+name: "Startpage"
+type: company
+description: "Dutch privacy search engine (formerly Ixquick), owned by US ad-tech company System1."
+country: NL
+website: https://www.startpage.com
+wikidata: Q2333295
+relations:
+  - target: system1
+    role: owned-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Startpage
+        outlet: Wikipedia

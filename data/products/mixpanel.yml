@@ -1,0 +1,12 @@
+name: "Mixpanel"
+vendor: mixpanel
+category: analytics
+links: [pay, data]
+description: "Product analytics SaaS by Mixpanel."
+website: https://mixpanel.com
+detect:
+  npm: ["mixpanel-browser", "mixpanel"]
+  composer: ["mixpanel/mixpanel-php"]
+  pypi: ["mixpanel"]
+  gems: ["mixpanel-ruby"]
+alternatives: [posthog, matomo, plausible]

@@ -1,0 +1,9 @@
+name: "Turso"
+vendor: turso
+category: databases
+links: [pay, data]
+description: "Hosted SQLite-compatible database built on libSQL."
+website: https://turso.tech
+detect:
+  npm: ["@libsql/client"]
+alternatives: ["neon", "supabase", "planetscale", "amazon-rds", "google-cloud-sql", "aiven", "postgresql"]

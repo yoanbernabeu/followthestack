@@ -1,0 +1,8 @@
+name: "Jinja"
+vendor: pallets
+category: frameworks-libraries
+links: [depend]
+description: "Python template engine maintained by Pallets."
+website: https://jinja.palletsprojects.com
+detect:
+  pypi: ["jinja2"]

@@ -1,0 +1,12 @@
+name: "Freshworks"
+type: company
+description: "SaaS company founded in Chennai providing CRM and IT service management tools."
+country: US
+website: https://www.freshworks.com
+wikidata: Q117782453
+relations:
+  - target: dennis-woodside
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Freshworks
+        outlet: "Wikipedia"

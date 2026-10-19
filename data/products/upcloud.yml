@@ -1,0 +1,7 @@
+name: "UpCloud"
+vendor: upcloud
+category: cloud-hosting
+links: [pay, data]
+description: "Finnish cloud server provider."
+website: https://upcloud.com
+alternatives: ["amazon-web-services", "microsoft-azure", "google-cloud", "oracle-cloud-infrastructure", "alibaba-cloud", "ovhcloud", "scaleway", "ionos"]

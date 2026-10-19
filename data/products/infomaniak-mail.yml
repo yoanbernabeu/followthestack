@@ -1,0 +1,7 @@
+name: "Infomaniak Mail"
+vendor: infomaniak
+category: email
+links: [pay, data]
+description: "Email hosting service by Swiss company Infomaniak."
+website: https://www.infomaniak.com/en/hosting/service-mail
+alternatives: [proton-mail, fastmail, tuta]

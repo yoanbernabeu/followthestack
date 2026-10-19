@@ -1,0 +1,8 @@
+name: ".NET / ASP.NET Core"
+vendor: microsoft
+category: frameworks-libraries
+links: [depend]
+description: "Development platform and web framework; formally under the .NET Foundation but developed and controlled by Microsoft."
+website: https://dotnet.microsoft.com
+detect:
+  docker: ["mcr.microsoft.com/dotnet/sdk", "mcr.microsoft.com/dotnet/aspnet", "mcr.microsoft.com/dotnet/runtime"]

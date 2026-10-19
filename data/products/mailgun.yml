@@ -1,0 +1,11 @@
+name: "Mailgun"
+vendor: sinch
+category: email
+links: [pay, data]
+description: "Email delivery API owned by Sinch."
+website: https://www.mailgun.com
+detect:
+  npm: ["mailgun.js", "mailgun-js"]
+  composer: ["mailgun/mailgun-php"]
+  gems: ["mailgun-ruby"]
+alternatives: [postmark, resend, brevo, amazon-ses]

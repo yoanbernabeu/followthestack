@@ -1,0 +1,4 @@
+name: "VSCodium"
+type: project
+description: "Community project distributing telemetry-free, freely licensed binaries of Microsoft's VS Code source."
+website: https://vscodium.com

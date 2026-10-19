@@ -1,0 +1,7 @@
+name: "Heroku"
+vendor: heroku
+category: cloud-hosting
+links: [pay, data]
+description: "Platform-as-a-service owned by Salesforce."
+website: https://www.heroku.com
+alternatives: ["vercel", "netlify", "cloudflare-pages", "render", "clever-cloud", "fly-io", "railway", "digitalocean"]

@@ -1,0 +1,8 @@
+name: "Hydrogen"
+vendor: shopify
+category: frameworks-libraries
+links: [depend]
+description: "Shopify's React framework for headless storefronts."
+website: https://hydrogen.shopify.dev
+detect:
+  npm: ["@shopify/hydrogen"]

@@ -1,0 +1,10 @@
+name: "Telegram"
+vendor: telegram
+category: communication
+links: [pay, data]
+description: "Cloud messaging app and channel platform founded by Pavel and Nikolai Durov."
+website: https://telegram.org
+detect:
+  npm: ["telegraf", "node-telegram-bot-api"]
+  pypi: ["python-telegram-bot", "aiogram"]
+alternatives: [signal, olvid, threema, element]

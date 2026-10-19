@@ -1,0 +1,7 @@
+name: "Klarna"
+vendor: klarna
+category: payments
+links: [pay, data, depend]
+description: "Buy-now-pay-later and checkout payment service by Swedish company Klarna."
+website: https://www.klarna.com
+alternatives: [mollie, adyen]

@@ -1,0 +1,11 @@
+name: "Google Analytics"
+vendor: google
+category: analytics
+links: [data]
+description: "Web and app analytics service by Google; usage sends visitor data to Google."
+website: https://marketingplatform.google.com/about/analytics/
+detect:
+  npm: ["react-ga4", "react-ga", "vue-gtag", "@analytics/google-analytics"]
+  composer: ["google/analytics-data"]
+  pypi: ["google-analytics-data"]
+alternatives: [matomo, plausible, umami, pirsch, fathom-analytics, piwik-pro, posthog]

@@ -1,0 +1,19 @@
+subject: donald-trump
+grievances: [anti-democracy]
+date: "2022-12-03"
+summary: "Posted on Truth Social, repeating the false claim that the 2020 election was stolen, that such a fraud allows for the termination of rules and articles \"even those found in the Constitution\". The White House called attacking the Constitution \"anathema to the soul of our nation\"."
+quote:
+  text: "A Massive Fraud of this type and magnitude allows for the termination of all rules, regulations, and articles, even those found in the Constitution."
+  lang: en
+status: established
+response: "On December 5, 2022, Trump posted that the \"Fake News\" was trying to convince Americans he wanted to \"terminate\" the Constitution, calling this \"DISINFORMATION & LIES\"."
+sources:
+  - url: https://www.cnn.com/2022/12/03/politics/trump-constitution-truth-social
+    outlet: "CNN"
+    date: "2022-12-03"
+  - url: https://fortune.com/2022/12/05/top-republicans-slam-trumps-call-terminate-constitution-over-lie-2020-election-stolen/
+    outlet: "Fortune"
+    date: "2022-12-05"
+  - url: https://www.snopes.com/fact-check/trump-termination-us-constitution/
+    outlet: "Snopes"
+    date: "2022-12-05"

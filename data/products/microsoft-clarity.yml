@@ -1,0 +1,9 @@
+name: "Microsoft Clarity"
+vendor: microsoft
+category: analytics
+links: [data]
+description: "Free heatmap and session recording tool by Microsoft; usage sends visitor data to Microsoft."
+website: https://clarity.microsoft.com
+detect:
+  npm: ["@microsoft/clarity"]
+alternatives: [posthog, matomo]

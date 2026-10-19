@@ -1,0 +1,7 @@
+name: "iOS"
+vendor: apple
+category: os-hardware
+links: [pay, data]
+description: "Apple's operating system for the iPhone; apps are distributed through Apple's App Store."
+website: https://www.apple.com/ios/
+alternatives: [grapheneos, e-os, lineageos, fairphone]

@@ -1,0 +1,9 @@
+name: "Neon"
+vendor: neon
+category: databases
+links: [pay, data]
+description: "Serverless PostgreSQL service, owned by Databricks."
+website: https://neon.com
+detect:
+  npm: ["@neondatabase/serverless"]
+alternatives: ["supabase", "firebase", "planetscale", "postgresql", "amazon-rds", "google-cloud-sql", "aiven", "turso"]

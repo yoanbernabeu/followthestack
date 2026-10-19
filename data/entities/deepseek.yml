@@ -1,0 +1,22 @@
+name: "DeepSeek"
+type: company
+description: "Chinese artificial intelligence company developing open-weight large language models, owned by the hedge fund High-Flyer."
+country: CN
+website: https://www.deepseek.com
+wikidata: Q131577453
+relations:
+  - target: high-flyer
+    role: owned-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/DeepSeek
+        outlet: "Wikipedia"
+  - target: liang-wenfeng
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/DeepSeek
+        outlet: "Wikipedia"
+  - target: liang-wenfeng
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/DeepSeek
+        outlet: "Wikipedia"

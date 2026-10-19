@@ -1,0 +1,7 @@
+name: "Google Search"
+vendor: google
+category: browser-search
+links: [data]
+description: "Web search engine by Google, funded by search advertising."
+website: https://www.google.com
+alternatives: [qwant, ecosia, startpage, duckduckgo, kagi]

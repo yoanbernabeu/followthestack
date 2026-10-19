@@ -1,0 +1,22 @@
+subject: telegram
+grievances: [authoritarian-alignment]
+date: "2021-09-18"
+summary: "During Russia's State Duma election, restricted bots associated with election campaigning, citing Russia's \"election silence\" rule, which disabled the Smart Voting bot of jailed opposition leader Alexei Navalny's team. Apple and Google had removed the Smart Voting app from their Russian stores the day before; Russian authorities had labelled Navalny's network extremist."
+quote:
+  text: "Мы считаем эту практику легитимной и призываем пользователей Telegram уважать ее."
+  lang: ru
+status: established
+response: "Pavel Durov said Telegram was following the precedent set by Apple and Google, which \"dictate the rules of the game to developers like us\", and warned their removal set a dangerous precedent for free speech."
+sources:
+  - url: https://meduza.io/en/news/2021/09/18/citing-russia-s-broadcast-moratorium-in-a-blow-to-navalny-s-smart-vote-initiative-telegram-suddenly-suspends-all-bots-associated-with-campaigning
+    outlet: "Meduza"
+    date: "2021-09-18"
+  - url: https://www.rferl.org/a/telegram-navalny-smart-voting/31466263.html
+    outlet: "RFE/RL"
+    date: "2021-09-18"
+  - url: https://themoscowtimes.com/2024/06/30/telegram-messenger-blocks-navalny-bot-during-russian-election
+    outlet: "AFP via The Moscow Times"
+    date: "2021-09-18"
+  - url: https://meduza.io/news/2021/09/18/telegram-zablokiroval-bot-umnogo-golosovaniya-pavel-durov-ob-yasnil-eto-dnyami-tishiny
+    outlet: "Meduza (Russian edition)"
+    date: "2021-09-18"

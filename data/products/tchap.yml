@@ -1,0 +1,6 @@
+name: "Tchap"
+vendor: dinum
+category: communication
+links: [depend]
+description: "Matrix-based instant messenger of the French State for public servants, operated by DINUM."
+website: https://tchap.gouv.fr

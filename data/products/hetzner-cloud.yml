@@ -1,0 +1,9 @@
+name: "Hetzner"
+vendor: hetzner
+category: cloud-hosting
+links: [pay, data]
+description: "German provider of dedicated servers and cloud servers (Hetzner Cloud)."
+website: https://www.hetzner.com
+detect:
+  pypi: ["hcloud"]
+alternatives: ["amazon-web-services", "microsoft-azure", "google-cloud", "oracle-cloud-infrastructure", "alibaba-cloud", "ovhcloud", "scaleway", "ionos"]

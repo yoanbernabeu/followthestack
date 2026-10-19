@@ -1,0 +1,6 @@
+name: "Pixelfed"
+vendor: pixelfed
+category: social-media
+links: [depend]
+description: "Free, federated image sharing platform based on ActivityPub."
+website: https://pixelfed.org

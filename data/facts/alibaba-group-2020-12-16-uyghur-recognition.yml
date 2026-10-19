@@ -1,0 +1,15 @@
+subject: alibaba-group
+grievances: [surveillance-deportation]
+date: "2020-12-16"
+summary: "IPVM, in a report produced in collaboration with The New York Times, found that Alibaba Cloud's content-security API documentation listed detection of whether a face is Uyghur (\"是否是维族\") and whether a person is an ethnic minority among its facial-recognition attributes. Alibaba Cloud removed these mentions from its website after being contacted."
+quote:
+  text: "是否是少数民族（维族）。"
+  lang: zh
+status: established
+response: "Alibaba said: \"We are dismayed to learn that Alibaba Cloud developed a facial recognition technology in a testing environment that included ethnicity as an algorithm attribute for tagging video imagery. We never intended our technology to be used for and will not permit it to be used for targeting specific ethnic groups, and we have eliminated any ethnic tag in our product offering. This trial technology was not deployed by any customer.\""
+sources:
+  - url: https://ipvm.com/reports/alibaba-uyghur
+    outlet: "IPVM"
+    date: "2020-12-16"
+  - url: http://web.archive.org/web/20201207075714/https://help.aliyun.com/document_detail/70429.html
+    outlet: "Alibaba Cloud documentation (archived)"

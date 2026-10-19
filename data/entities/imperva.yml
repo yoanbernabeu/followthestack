@@ -1,0 +1,20 @@
+name: "Imperva"
+type: company
+description: "US cybersecurity company (WAF, DDoS protection, data security), part of Thales since December 2023."
+country: US
+website: https://www.imperva.com
+wikidata: Q6007092
+relations:
+  - target: thales
+    role: subsidiary-of
+    since: "2023-12-04"
+    sources:
+      - url: https://en.wikipedia.org/wiki/Imperva
+        outlet: "Wikipedia"
+  - target: thoma-bravo
+    role: owned-by
+    since: "2019"
+    until: "2023-12-04"
+    sources:
+      - url: https://en.wikipedia.org/wiki/Imperva
+        outlet: "Wikipedia"

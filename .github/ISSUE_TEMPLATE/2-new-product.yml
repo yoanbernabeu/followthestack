@@ -1,0 +1,37 @@
+name: Add a product, platform or technology
+description: Add something people use in their stack, and who is behind it.
+title: "[Product] <name>"
+labels: ["product", "needs-review"]
+body:
+  - type: input
+    id: name
+    attributes: { label: Product name }
+    validations: { required: true }
+  - type: input
+    id: vendor
+    attributes:
+      label: Company, foundation or project behind it
+    validations: { required: true }
+  - type: dropdown
+    id: links
+    attributes:
+      label: How does a stack relate to it?
+      multiple: true
+      options:
+        - pay (you pay for it)
+        - data (you entrust it with data)
+        - depend (you depend on it, e.g. open source)
+    validations: { required: true }
+  - type: textarea
+    id: ownership
+    attributes:
+      label: Ownership, founders, main investors (with sources)
+    validations: { required: true }
+  - type: textarea
+    id: detect
+    attributes:
+      label: Package names / Docker images that identify it (npm, composer, gems, pypi, docker)
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives

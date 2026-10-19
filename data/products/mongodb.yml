@@ -1,0 +1,13 @@
+name: "MongoDB / MongoDB Atlas"
+vendor: mongodb
+category: databases
+links: [pay, data, depend]
+description: "Document database (SSPL licence) and its managed cloud service Atlas."
+website: https://www.mongodb.com
+detect:
+  npm: ["mongodb", "mongoose"]
+  composer: ["mongodb/mongodb"]
+  gems: ["mongo", "mongoid"]
+  pypi: ["pymongo", "motor"]
+  docker: ["mongo", "mongodb/mongodb-community-server"]
+alternatives: ["couchbase", "postgresql", "azure-cosmos-db", "amazon-dynamodb", "firebase"]

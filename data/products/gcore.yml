@@ -1,0 +1,7 @@
+name: "Gcore CDN"
+vendor: gcore
+category: cdn-dns-security
+links: [pay, data]
+description: "CDN, DNS and DDoS protection services."
+website: https://gcore.com
+alternatives: ["cloudflare-cdn", "fastly", "akamai-cdn", "bunny-net", "amazon-cloudfront", "imperva", "amazon-route-53", "ovhcloud"]

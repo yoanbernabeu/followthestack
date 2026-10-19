@@ -1,0 +1,9 @@
+name: "React"
+vendor: react-foundation
+category: frameworks-libraries
+links: [depend]
+description: "JavaScript UI library created at Facebook. Owned and governed by the React Foundation (Linux Foundation) since February 2026; Meta remains a major member and contributor."
+website: https://react.dev
+detect:
+  npm: ["react", "react-dom"]
+alternatives: [vue, svelte, angular]

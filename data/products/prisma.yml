@@ -1,0 +1,9 @@
+name: "Prisma ORM"
+vendor: prisma-data
+category: frameworks-libraries
+links: [depend]
+description: "TypeScript ORM developed by the company Prisma, which also sells Prisma Postgres."
+website: https://www.prisma.io
+detect:
+  npm: ["prisma", "@prisma/client"]
+alternatives: [drizzle]

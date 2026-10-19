@@ -1,0 +1,13 @@
+subject: curtis-yarvin
+grievances: [anti-democracy]
+date: "2025-05-01"
+datePrecision: month
+summary: "In a conversation with CNN in Lafayette Square, outside the White House, in mid-May 2025 (published May 30), argued for replacing American democracy with a monarchy whose ruler would operate like a startup CEO, accountable to a corporate-style board rather than to citizens. Asked how to prevent such a leader from becoming the next Hitler or Stalin, he said power should be concentrated in a single individual."
+quote:
+  text: "You need to concentrate that power in a single individual and then just hope somehow that this is the right individual, or close to the right individual"
+  lang: en
+status: established
+sources:
+  - url: https://www.cnn.com/2025/05/30/politics/curtis-yarvin-wants-to-replace-american-democracy-with-a-form-of-monarchy-led-by-a-ceo
+    outlet: "CNN"
+    date: "2025-05-30"

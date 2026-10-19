@@ -1,0 +1,9 @@
+name: "Laravel"
+vendor: laravel-llc
+category: frameworks-libraries
+links: [depend]
+description: "PHP framework created by Taylor Otwell, maintained by Laravel (company, Accel-backed since 2024)."
+website: https://laravel.com
+detect:
+  composer: ["laravel/framework", "laravel/sanctum", "laravel/horizon", "laravel/octane", "laravel/sail", "laravel/pint"]
+alternatives: [symfony]

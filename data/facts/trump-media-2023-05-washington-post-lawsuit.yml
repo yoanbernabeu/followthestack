@@ -1,0 +1,17 @@
+subject: trump-media
+grievances: [press-justice-attacks]
+date: "2023-05-01"
+datePrecision: month
+summary: "Filed a $3.8 billion defamation lawsuit against The Washington Post over a May 2023 article on the company's financing ahead of its merger to go public, calling it an \"egregious hit piece\" and accusing the paper of a \"years-long crusade\". In July 2026 a federal judge granted summary judgment to the Post, ruling that Trump Media had \"failed to present evidence that would allow a jury to find by clear and convincing evidence\" that the Post acted with actual malice."
+status: established
+response: "The Post later corrected the article, stating that discovery had established Trump Media did not pay a $240,000 loan referral fee as originally reported. A Trump Media spokesperson said: \"After three years, The Washington Post finally admitted its harmful story was false. We believe a jury should decide whether these falsehoods were actionable and will evaluate whether to appeal last week's ruling in due course.\""
+sources:
+  - url: https://www.thewrap.com/industry-news/public-policy-legal/judge-tosses-trump-media-suit-against-washington-post/
+    outlet: "TheWrap"
+    date: "2026-07-07"
+  - url: https://krdo.com/news/2026/07/08/judge-tosses-trump-medias-3-8-billion-defamation-suit-against-the-washington-post/
+    outlet: "CNN via KRDO"
+    date: "2026-07-08"
+  - url: https://www.mediainstitute.org/2026/07/07/judge-rules-for-washington-post-in-3-8b-suit-by-trump-media/
+    outlet: "The Media Institute (republishing The Washington Post)"
+    date: "2026-07-07"

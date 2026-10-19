@@ -1,0 +1,10 @@
+name: "Databricks"
+vendor: databricks
+category: databases
+links: [pay, data]
+description: "Data lakehouse and AI platform built on Apache Spark and Delta Lake."
+website: https://www.databricks.com
+detect:
+  npm: ["@databricks/sql"]
+  pypi: ["databricks-sdk", "databricks-sql-connector"]
+alternatives: ["snowflake", "google-bigquery", "clickhouse"]

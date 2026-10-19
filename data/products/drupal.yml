@@ -1,0 +1,10 @@
+name: "Drupal"
+vendor: drupal-association
+category: frameworks-libraries
+links: [depend]
+description: "Open source CMS supported by the non-profit Drupal Association."
+website: https://www.drupal.org
+detect:
+  composer: ["drupal/core", "drupal/core-recommended"]
+  docker: ["drupal"]
+alternatives: [wordpress]

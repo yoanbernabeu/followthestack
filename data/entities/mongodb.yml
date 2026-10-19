@@ -1,0 +1,39 @@
+name: "MongoDB Inc."
+type: company
+description: "US database company behind MongoDB and the MongoDB Atlas cloud service."
+country: US
+website: https://www.mongodb.com
+wikidata: Q4546965
+relations:
+  - target: dwight-merriman
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/MongoDB_Inc.
+        outlet: "Wikipedia"
+  - target: eliot-horowitz
+    role: founded-by
+    until: "2020-07-10"
+    sources:
+      - url: https://en.wikipedia.org/wiki/MongoDB_Inc.
+        outlet: "Wikipedia"
+      - url: https://en.wikipedia.org/wiki/Eliot_Horowitz
+        outlet: "Wikipedia"
+      - url: https://www.theregister.com/2020/06/30/mongodb_new_cto/
+        outlet: "The Register"
+        date: "2020-06-30"
+  - target: kevin-p-ryan
+    role: founded-by
+    until: "2019-07-10"
+    sources:
+      - url: https://en.wikipedia.org/wiki/MongoDB_Inc.
+        outlet: "Wikipedia"
+      - url: https://www.sec.gov/Archives/edgar/data/1441816/000144181619000100/mdb2019proxystatement.htm
+        outlet: "MongoDB proxy statement (SEC DEF 14A)"
+        date: "2019-05-30"
+  - target: chirantan-desai
+    role: led-by
+    since: "2025-11-10"
+    sources:
+      - url: https://www.mongodb.com/press/mongodb-announces-leadership-transition
+        outlet: "MongoDB (press release)"
+        date: 2025-11-03

@@ -1,0 +1,15 @@
+subject: elon-musk
+grievances: [surveillance-deportation]
+date: "2025-04-08"
+summary: "The Washington Post reported that the Social Security Administration purposely and falsely labeled about 6,100 living immigrants as dead by adding them to its Death Master File, under a strategy pushed by Musk's U.S. DOGE Service and the Department of Homeland Security to cut them off from legally earning wages and push them to leave the country. A senior executive who objected to the plan, and had clashed with the chief information officer installed by Musk, was escorted out of the building and placed on leave."
+status: established
+response: "White House press secretary Karoline Leavitt said that \"the Trump Administration is protecting lawful American citizens and their hard-earned Social Security benefits, and ensuring illegal immigrants will no longer receive such economic entitlements.\""
+sources:
+  - url: https://www.washingtonpost.com/politics/2025/04/12/trump-immigrants-dead-social-security/
+    outlet: "The Washington Post"
+    date: "2025-04-12"
+    archive: https://web.archive.org/web/20250413003148/https://www.washingtonpost.com/politics/2025/04/12/trump-immigrants-dead-social-security/
+  - url: https://www.washingtonpost.com/politics/2025/04/23/dead-social-security-doge-musk/
+    outlet: "The Washington Post"
+    date: "2025-04-23"
+    archive: https://web.archive.org/web/20250724142332/https://www.washingtonpost.com/politics/2025/04/23/dead-social-security-doge-musk/

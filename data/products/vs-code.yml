@@ -1,0 +1,7 @@
+name: "Visual Studio Code"
+vendor: microsoft
+category: dev-tools
+links: [data, depend]
+description: "Free code editor by Microsoft built from open source code; official builds ship under a Microsoft license with telemetry."
+website: https://code.visualstudio.com
+alternatives: [vscodium, zed, jetbrains-ides]

@@ -1,0 +1,11 @@
+subject: nvidia
+grievances: [authoritarian-alignment]
+date: "2026-10-01"
+datePrecision: month
+summary: "Confirmed to CNBC a donation to President Donald Trump's White House ballroom project; The Washington Post reported that Nvidia pledged $25 million, among the largest donations on a list totalling more than $330 million."
+status: established
+response: "An Nvidia spokesperson said: \"As an American company, our support for the United States is paramount, and independent of any business interests. We were proud to be able to make a donation to a nonpartisan trust that serves all Americans and have said so publicly since the donation was made.\""
+sources:
+  - url: https://www.cnbc.com/2026/10/15/trump-ballroom-nvidia-cisco-donations.html
+    outlet: "CNBC"
+    date: "2026-10-15"

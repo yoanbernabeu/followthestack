@@ -1,0 +1,7 @@
+name: "CircleCI"
+vendor: circleci
+category: code-hosting
+links: [pay, data]
+description: "Hosted CI/CD service."
+website: https://circleci.com
+alternatives: [github-actions, gitlab, jenkins, forgejo]

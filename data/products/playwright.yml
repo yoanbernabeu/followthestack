@@ -1,0 +1,11 @@
+name: "Playwright"
+vendor: microsoft
+category: dev-tools
+links: [depend]
+description: "Browser testing and automation framework developed by Microsoft."
+website: https://playwright.dev
+detect:
+  npm: ["playwright", "@playwright/test"]
+  pypi: ["playwright"]
+  docker: ["mcr.microsoft.com/playwright"]
+alternatives: [puppeteer]

@@ -1,0 +1,10 @@
+name: "Akamai Cloud (Linode)"
+vendor: akamai
+category: cloud-hosting
+links: [pay, data]
+description: "Cloud computing platform formerly known as Linode, acquired by Akamai in 2022."
+website: https://www.linode.com
+detect:
+  npm: ["@linode/api-v4"]
+  pypi: ["linode_api4"]
+alternatives: ["amazon-ec2", "digitalocean", "hetzner-cloud", "ovhcloud", "scaleway", "vultr", "upcloud", "exoscale"]

@@ -1,0 +1,12 @@
+name: "Automattic"
+type: company
+description: "Company behind WordPress.com, WooCommerce and Tumblr, founded by WordPress co-creator Matt Mullenweg."
+country: "US"
+website: "https://automattic.com"
+wikidata: Q2872634
+relations:
+  - target: matt-mullenweg
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Automattic
+        outlet: "Wikipedia"

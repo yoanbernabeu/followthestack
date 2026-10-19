@@ -1,0 +1,11 @@
+name: "Slack"
+vendor: salesforce
+category: communication
+links: [pay, data]
+description: "Team messaging platform owned by Salesforce since 2021."
+website: https://slack.com
+detect:
+  npm: ["@slack/web-api", "@slack/bolt"]
+  pypi: ["slack-sdk", "slack-bolt"]
+  gems: ["slack-ruby-client"]
+alternatives: [element, mattermost, rocket-chat, tchap, wire]

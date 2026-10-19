@@ -1,0 +1,15 @@
+subject: elon-musk
+grievances: [far-right-support]
+date: "2024-12-20"
+summary: "Posted \"Only the AfD can save Germany\" on X, reposting a video by German right-wing influencer Naomi Seibt, two months before the February 2025 federal election. The AfD is classified by German domestic intelligence as a suspected right-wing extremist party; SPD secretary-general Matthias Miersch called the post election interference."
+quote:
+  text: "Only the AfD can save Germany"
+  lang: en
+status: established
+sources:
+  - url: https://www.upi.com/Top_News/World-News/2024/12/20/germany-Elon-Musk-only-far-right-AfD-party-can-save-Germany/3071734718352/
+    outlet: "UPI"
+    date: "2024-12-20"
+  - url: https://www.nbcnews.com/news/world/elon-musk-europe-surging-far-right-rcna185145
+    outlet: "NBC News"
+    date: "2024-12-22"

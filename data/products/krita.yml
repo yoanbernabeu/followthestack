@@ -1,0 +1,6 @@
+name: "Krita"
+vendor: krita-foundation
+category: design
+links: [depend]
+description: "Free and open source digital painting application."
+website: https://krita.org

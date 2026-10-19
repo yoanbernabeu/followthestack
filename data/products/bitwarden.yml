@@ -1,0 +1,9 @@
+name: "Bitwarden"
+vendor: bitwarden
+category: auth-identity
+links: [pay, data]
+description: "Open source password manager, cloud or self-hosted."
+website: https://bitwarden.com
+detect:
+  docker: ["bitwarden/self-host"]
+alternatives: [1password, proton-pass]

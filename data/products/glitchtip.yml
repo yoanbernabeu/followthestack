@@ -1,0 +1,9 @@
+name: "GlitchTip"
+vendor: glitchtip
+category: monitoring
+links: [depend]
+description: "Open source, self-hostable error tracking compatible with Sentry SDKs, with an optional hosted plan."
+website: https://glitchtip.com
+detect:
+  docker: ["glitchtip/glitchtip"]
+alternatives: [sentry, bugsnag]

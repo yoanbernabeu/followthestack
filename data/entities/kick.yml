@@ -1,0 +1,17 @@
+name: "Kick Streaming"
+type: company
+description: "Australian live-streaming platform launched in 2022, backed by the founders of the Stake online casino."
+country: AU
+website: https://kick.com
+wikidata: Q117084855
+relations:
+  - target: ed-craven
+    role: owned-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Kick_(service)
+        outlet: Wikipedia
+  - target: bijan-tehrani
+    role: owned-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Kick_(service)
+        outlet: Wikipedia

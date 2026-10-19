@@ -1,0 +1,8 @@
+name: "Baserow"
+vendor: baserow
+category: collaboration
+links: [pay, depend]
+description: "Open source no-code database platform, self-hostable or hosted."
+website: https://baserow.io
+detect:
+  docker: ["baserow/baserow"]

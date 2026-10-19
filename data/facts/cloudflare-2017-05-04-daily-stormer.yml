@@ -1,0 +1,13 @@
+subject: cloudflare
+grievances: [far-right-support]
+date: "2017-05-04"
+summary: "ProPublica reported that Cloudflare provided its services to neo-Nazi sites such as The Daily Stormer and, under its abuse-reporting process, forwarded the names and email addresses of people who complained about their content to the sites' operators, which led to harassment campaigns against complainants. CEO Matthew Prince had written that service providers have no \"affirmative obligation\" to monitor content on their network."
+status: established
+response: "In response to ProPublica, Cloudflare said it would change its abuse reporting system so people could complain more safely. On August 16, 2017, it announced it had terminated The Daily Stormer's service."
+sources:
+  - url: https://www.propublica.org/article/how-cloudflare-helps-serve-up-hate-on-the-web
+    outlet: "ProPublica"
+    date: "2017-05-04"
+  - url: https://blog.cloudflare.com/why-we-terminated-daily-stormer/
+    outlet: "Cloudflare blog"
+    date: "2017-08-16"

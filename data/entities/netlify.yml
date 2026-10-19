@@ -1,0 +1,22 @@
+name: "Netlify"
+type: company
+description: "US web hosting and deployment platform company."
+country: US
+website: https://www.netlify.com
+wikidata: Q56102498
+relations:
+  - target: mathias-biilmann
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Netlify
+        outlet: "Wikipedia"
+  - target: mathias-biilmann
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Netlify
+        outlet: "Wikipedia"
+  - target: andreessen-horowitz
+    role: invested-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Netlify
+        outlet: "Wikipedia"

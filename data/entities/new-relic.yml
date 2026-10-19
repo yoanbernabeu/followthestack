@@ -1,0 +1,19 @@
+name: "New Relic"
+type: company
+description: "Observability and application performance monitoring company, taken private by Francisco Partners and TPG in 2023."
+country: US
+website: https://newrelic.com
+wikidata: Q7011152
+relations:
+  - target: francisco-partners
+    role: owned-by
+    since: 2023-11-01
+    sources:
+      - url: https://en.wikipedia.org/wiki/New_Relic
+        outlet: "Wikipedia"
+  - target: tpg
+    role: owned-by
+    since: 2023-11-01
+    sources:
+      - url: https://en.wikipedia.org/wiki/New_Relic
+        outlet: "Wikipedia"

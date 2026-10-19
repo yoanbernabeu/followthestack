@@ -1,0 +1,8 @@
+name: "Oxc (Oxlint)"
+vendor: voidzero
+category: dev-tools
+links: [depend]
+description: "Rust JavaScript toolchain (parser, linter, transformer) developed by VoidZero (Cloudflare)."
+website: https://oxc.rs
+detect:
+  npm: ["oxlint", "oxc-parser"]

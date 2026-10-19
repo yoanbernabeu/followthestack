@@ -1,0 +1,13 @@
+subject: apple
+grievances: [authoritarian-alignment]
+date: "2019-10-10"
+summary: "Removed HKmap.live, a crowdsourced map of police positions used during the Hong Kong anti-government protests, from the App Store, a day after the Chinese Communist Party newspaper People's Daily attacked Apple over the app."
+status: established
+response: "Apple said the app \"has been used to target and ambush police\" and \"threaten public safety\". Tim Cook told employees Apple had received \"credible information\" that it was being \"used maliciously\". The app's developers said there was \"0 evidence\" to support the accusation that the app had been used to target and ambush police."
+sources:
+  - url: https://www.cbsnews.com/news/apple-hkmap-live-app-hong-kong-china-police-protesters-used-target-ambush-police-2019-10-10/
+    outlet: "CBS News"
+    date: "2019-10-10"
+  - url: https://www.cnn.com/2019/10/11/tech/apple-tim-cook-letter-hkmap-live/index.html
+    outlet: "CNN"
+    date: "2019-10-11"

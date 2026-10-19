@@ -1,0 +1,11 @@
+name: "Stytch"
+vendor: stytch
+category: auth-identity
+links: [pay, data, depend]
+description: "Authentication and fraud prevention APIs, owned by Twilio."
+website: https://stytch.com
+detect:
+  npm: ["stytch", "@stytch/react", "@stytch/vanilla-js", "@stytch/nextjs"]
+  pypi: ["stytch"]
+  gems: ["stytch"]
+alternatives: [ory, zitadel, keycloak]

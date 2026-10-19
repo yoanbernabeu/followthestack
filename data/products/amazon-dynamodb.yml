@@ -1,0 +1,11 @@
+name: "Amazon DynamoDB"
+vendor: amazon
+category: databases
+links: [pay, data, depend]
+description: "Proprietary managed NoSQL key-value database on AWS."
+website: https://aws.amazon.com/dynamodb/
+detect:
+  npm: ["@aws-sdk/client-dynamodb", "@aws-sdk/lib-dynamodb"]
+  gems: ["aws-sdk-dynamodb"]
+  docker: ["amazon/dynamodb-local"]
+alternatives: ["mongodb", "couchbase", "postgresql", "azure-cosmos-db", "firebase"]

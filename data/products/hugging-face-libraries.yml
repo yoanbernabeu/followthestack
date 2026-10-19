@@ -1,0 +1,9 @@
+name: "Hugging Face open source libraries (Diffusers, Datasets…)"
+vendor: hugging-face
+category: frameworks-libraries
+links: [depend]
+description: "Machine learning libraries (Diffusers, Datasets, Tokenizers, Accelerate…) maintained by Hugging Face, which NVIDIA agreed to acquire in September 2026. The Transformers package itself is detected under the Hugging Face Hub entry."
+website: https://huggingface.co/docs/transformers
+detect:
+  npm: ["@huggingface/transformers"]
+  pypi: ["diffusers", "datasets", "tokenizers", "accelerate"]

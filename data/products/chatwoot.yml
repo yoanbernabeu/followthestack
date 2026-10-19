@@ -1,0 +1,9 @@
+name: "Chatwoot"
+vendor: chatwoot
+category: crm-marketing
+links: [data]
+description: "Open source customer support and live chat platform, self-hosted or cloud."
+website: https://www.chatwoot.com
+detect:
+  docker: ["chatwoot/chatwoot"]
+alternatives: [crisp, intercom, zendesk]

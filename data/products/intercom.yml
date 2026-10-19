@@ -1,0 +1,12 @@
+name: "Intercom"
+vendor: intercom
+category: crm-marketing
+links: [pay, data]
+description: "Customer messaging and AI customer service platform by Fin (formerly Intercom)."
+website: https://www.intercom.com
+detect:
+  npm: ["intercom-client", "@intercom/messenger-js-sdk", "react-use-intercom"]
+  composer: ["intercom/intercom-php"]
+  pypi: ["python-intercom"]
+  gems: ["intercom"]
+alternatives: [crisp, chatwoot, zendesk]

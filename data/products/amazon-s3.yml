@@ -1,0 +1,11 @@
+name: "Amazon S3"
+vendor: amazon
+category: storage
+links: [pay, data]
+description: "Object storage service of Amazon Web Services."
+website: https://aws.amazon.com/s3/
+detect:
+  npm: ["@aws-sdk/client-s3"]
+  composer: ["league/flysystem-aws-s3-v3"]
+  gems: ["aws-sdk-s3"]
+alternatives: ["cloudflare-r2", "backblaze-b2", "wasabi", "azure-blob-storage", "google-cloud-storage", "minio", "scaleway-object-storage", "ovhcloud-object-storage"]

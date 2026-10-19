@@ -1,0 +1,12 @@
+name: "Mailchimp"
+vendor: intuit
+category: crm-marketing
+links: [pay, data]
+description: "Email marketing platform owned by Intuit."
+website: https://mailchimp.com
+detect:
+  npm: ["@mailchimp/mailchimp_marketing", "@mailchimp/mailchimp_transactional"]
+  composer: ["mailchimp/marketing", "drewm/mailchimp-api"]
+  pypi: ["mailchimp-marketing", "mailchimp3"]
+  gems: ["MailchimpMarketing", "gibbon"]
+alternatives: [brevo, klaviyo, customer-io]

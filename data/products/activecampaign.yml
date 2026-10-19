@@ -1,0 +1,7 @@
+name: "ActiveCampaign"
+vendor: activecampaign
+category: crm-marketing
+links: [pay, data]
+description: "Marketing automation and CRM platform by ActiveCampaign."
+website: https://www.activecampaign.com
+alternatives: [brevo, mailchimp, hubspot]

@@ -1,0 +1,12 @@
+subject: elon-musk
+grievances: [far-right-support]
+date: "2024-05-02"
+summary: "Announced that the X account of Nick Fuentes, a Holocaust denier and antisemite banned from Twitter in July 2021, would be reinstated \"provided he does not violate the law\"."
+quote:
+  text: "It is better to have anti whatever out in the open to be rebutted than grow simmering in the darkness."
+  lang: en
+status: established
+sources:
+  - url: https://www.timesofisrael.com/elon-musk-says-he-will-reinstate-x-account-of-antisemite-nick-fuentes/
+    outlet: "JTA via The Times of Israel"
+    date: "2024-05-03"

@@ -1,0 +1,13 @@
+name: "Flagsmith"
+vendor: flagsmith
+category: dev-tools
+links: [pay, data, depend]
+description: "Open source feature flag and remote config platform, self-hosted or as a paid cloud."
+website: https://www.flagsmith.com
+detect:
+  npm: ["flagsmith", "flagsmith-nodejs"]
+  composer: ["flagsmith/flagsmith-php-client"]
+  gems: ["flagsmith"]
+  pypi: ["flagsmith"]
+  docker: ["flagsmith/flagsmith"]
+alternatives: [launchdarkly, unleash]

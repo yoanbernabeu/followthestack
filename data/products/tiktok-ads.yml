@@ -1,0 +1,7 @@
+name: "TikTok Ads"
+vendor: bytedance
+category: advertising
+links: [pay, data]
+description: "Advertising platform of TikTok, developed by ByteDance, including the TikTok Pixel."
+website: https://ads.tiktok.com
+alternatives: [meta-ads, google-ads]

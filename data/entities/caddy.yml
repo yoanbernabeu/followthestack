@@ -1,0 +1,27 @@
+name: "Caddy project"
+type: project
+description: "Open source web server project started by Matt Holt in 2014; a project of ZeroSSL, whose registered trademark is held by Stack Holdings GmbH."
+website: https://caddyserver.com
+wikidata: Q24008327
+relations:
+  - target: zerossl
+    role: owned-by
+    sources:
+      - url: https://github.com/caddyserver/caddy/blob/master/README.md
+        outlet: "Caddy README (GitHub)"
+      - url: https://caddyserver.com
+        outlet: "caddyserver.com"
+  - target: matt-holt
+    role: founded-by
+    since: "2014-01-01"
+    sources:
+      - url: https://github.com/caddyserver/caddy/blob/master/README.md
+        outlet: "Caddy README (GitHub)"
+  - target: matt-holt
+    role: led-by
+    sources:
+      - url: https://caddyserver.com/sponsor
+        outlet: "caddyserver.com"
+      - url: https://www.ardanlabs.com/news/2020/08/caddy-server-is-acquired/
+        outlet: "Ardan Labs"
+        date: "2020-08-27"

@@ -1,0 +1,10 @@
+name: "Splunk"
+vendor: splunk
+category: monitoring
+links: [pay, data]
+description: "Log analytics, observability and SIEM platform owned by Cisco."
+website: https://www.splunk.com
+detect:
+  npm: ["@splunk/otel"]
+  pypi: ["splunk-sdk", "splunk-opentelemetry"]
+alternatives: [grafana, elastic-observability, signoz]

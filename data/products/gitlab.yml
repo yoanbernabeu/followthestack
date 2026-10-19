@@ -1,0 +1,9 @@
+name: "GitLab"
+vendor: gitlab
+category: code-hosting
+links: [pay, data, depend]
+description: "Open-core DevSecOps platform with Git hosting and CI/CD, available as SaaS or self-hosted."
+website: https://about.gitlab.com
+detect:
+  docker: ["gitlab/gitlab-ce", "gitlab/gitlab-ee"]
+alternatives: [github, codeberg, forgejo, gitea, bitbucket]

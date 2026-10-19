@@ -1,0 +1,7 @@
+name: "Medium"
+vendor: medium-corp
+category: social-media
+links: [pay, data]
+description: "Online publishing platform with a paid membership program."
+website: https://medium.com
+alternatives: [ghost]

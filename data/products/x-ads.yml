@@ -1,0 +1,10 @@
+name: "X Ads"
+vendor: x-corp
+category: advertising
+links: [pay, data]
+description: "Advertising platform of the X social network (formerly Twitter Ads); spending funds X Corp."
+website: https://ads.x.com
+detect:
+  pypi: ["twitter-ads"]
+  gems: ["twitter-ads"]
+alternatives: [linkedin-ads, meta-ads]

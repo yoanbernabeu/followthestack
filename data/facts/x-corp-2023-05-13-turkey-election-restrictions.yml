@@ -1,0 +1,13 @@
+subject: x-corp
+grievances: [authoritarian-alignment]
+date: "2023-05-13"
+summary: "The day before Turkey's presidential election, restricted access in Turkey to four accounts and 409 tweets identified by Turkish court order, including those of a Kurdish businessman critical of President Erdoğan and an investigative journalist."
+quote:
+  text: "In response to legal process and to ensure Twitter remains available to the people of Turkey, we have taken action to restrict access to some content in Turkey today."
+  lang: en
+status: established
+response: "Musk said: \"The choice is have Twitter throttled in its entirety or limit access to some tweets. Which one do you want?\""
+sources:
+  - url: https://www.cbsnews.com/news/twitter-censoring-content-recep-tayyip-erdogan-turkish-presidential-election
+    outlet: "CBS News"
+    date: "2023-05-16"

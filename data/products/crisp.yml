@@ -1,0 +1,12 @@
+name: "Crisp"
+vendor: crisp
+category: crm-marketing
+links: [pay, data]
+description: "French customer messaging, live chat and helpdesk platform."
+website: https://crisp.chat
+detect:
+  npm: ["crisp-sdk-web", "crisp-api"]
+  composer: ["crisp-im/php-crisp-api"]
+  pypi: ["crisp-api"]
+  gems: ["crisp-api"]
+alternatives: [intercom, chatwoot, zendesk]

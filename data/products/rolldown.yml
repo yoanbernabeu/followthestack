@@ -1,0 +1,8 @@
+name: "Rolldown"
+vendor: voidzero
+category: dev-tools
+links: [depend]
+description: "Rust-based JavaScript bundler developed by VoidZero (Cloudflare)."
+website: https://rolldown.rs
+detect:
+  npm: ["rolldown"]

@@ -1,0 +1,7 @@
+name: "Windsurf (Devin Desktop)"
+vendor: cognition
+category: dev-tools
+links: [pay, data]
+description: "Agentic AI IDE formerly made by Codeium, acquired by Cognition in 2025 and rebranded Devin Desktop in 2026."
+website: https://windsurf.com
+alternatives: [cursor, vs-code, zed, jetbrains-ides]

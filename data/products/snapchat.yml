@@ -1,0 +1,7 @@
+name: "Snapchat"
+vendor: snap
+category: social-media
+links: [pay, data]
+description: "Multimedia messaging and social app by Snap Inc."
+website: https://www.snapchat.com
+alternatives: [signal, pixelfed]

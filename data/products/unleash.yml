@@ -1,0 +1,13 @@
+name: "Unleash"
+vendor: unleash
+category: dev-tools
+links: [pay, data, depend]
+description: "Open source feature flag platform from Norway, self-hosted or as a paid cloud."
+website: https://www.getunleash.io
+detect:
+  npm: ["unleash-client", "unleash-proxy-client", "@unleash/proxy-client-react"]
+  composer: ["unleash/client"]
+  gems: ["unleash"]
+  pypi: ["UnleashClient"]
+  docker: ["unleashorg/unleash-server"]
+alternatives: [launchdarkly, flagsmith]

@@ -1,0 +1,9 @@
+name: "Fathom Analytics"
+vendor: fathom-analytics
+category: analytics
+links: [pay, data]
+description: "Privacy-focused web analytics SaaS by Fathom Analytics."
+website: https://usefathom.com
+detect:
+  npm: ["fathom-client"]
+alternatives: [plausible, pirsch, umami, matomo]

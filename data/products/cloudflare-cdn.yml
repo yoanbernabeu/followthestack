@@ -1,0 +1,11 @@
+name: "Cloudflare (CDN, DNS, security)"
+vendor: cloudflare
+category: cdn-dns-security
+links: [pay, data]
+description: "Reverse proxy, CDN, DNS, DDoS protection and web application firewall."
+website: https://www.cloudflare.com
+detect:
+  npm: ["cloudflare"]
+  composer: ["cloudflare/sdk"]
+  pypi: ["cloudflare"]
+alternatives: ["fastly", "akamai-cdn", "bunny-net", "gcore", "amazon-cloudfront", "imperva", "amazon-route-53", "ovhcloud"]

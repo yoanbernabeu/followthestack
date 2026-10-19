@@ -1,0 +1,11 @@
+subject: salesforce
+grievances: [authoritarian-alignment]
+date: "2026-10-01"
+datePrecision: month
+summary: "Listed among the major donors to President Donald Trump's White House ballroom project in documents reported by The Washington Post."
+status: established
+response: "Salesforce did not immediately respond to CNBC's request for comment."
+sources:
+  - url: https://www.cnbc.com/2026/10/15/trump-ballroom-nvidia-cisco-donations.html
+    outlet: "CNBC"
+    date: "2026-10-15"

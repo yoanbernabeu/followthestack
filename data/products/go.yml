@@ -1,0 +1,8 @@
+name: "Go"
+vendor: google
+category: frameworks-libraries
+links: [depend]
+description: "Programming language created and controlled by Google."
+website: https://go.dev
+detect:
+  docker: ["golang"]

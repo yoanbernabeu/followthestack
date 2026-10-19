@@ -1,0 +1,10 @@
+name: "Airtable"
+vendor: airtable
+category: collaboration
+links: [pay, data]
+description: "Cloud spreadsheet-database platform, owned by Bending Spoons."
+website: https://www.airtable.com
+detect:
+  npm: ["airtable"]
+  pypi: ["pyairtable"]
+alternatives: [baserow]

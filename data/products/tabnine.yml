@@ -1,0 +1,7 @@
+name: "Tabnine"
+vendor: tabnine
+category: ai
+links: [pay, data]
+description: "AI code completion and chat assistant, offering private and self-hosted deployments."
+website: https://www.tabnine.com
+alternatives: [github-copilot, cursor]

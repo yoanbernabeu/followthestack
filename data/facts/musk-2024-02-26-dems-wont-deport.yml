@@ -1,0 +1,12 @@
+subject: elon-musk
+grievances: [anti-immigration]
+date: "2024-02-26"
+summary: "Posted that Democrats do not deport undocumented immigrants because each is a likely future vote, one of repeated posts about Democrats \"importing voters\". PolitiFact rated the claim False, noting more than 3.6 million removals, returns and expulsions from February 2021 to September 2023 and that immigrants cannot vote in federal elections until they become citizens."
+quote:
+  text: "Dems won't deport, because every illegal is a highly likely vote at some point."
+  lang: en
+status: established
+sources:
+  - url: https://politifact.com/factchecks/2024/mar/06/elon-musk/fact-check-elon-musks-claim-that-democrats-are-avo/
+    outlet: "PolitiFact"
+    date: "2024-03-06"

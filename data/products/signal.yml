@@ -1,0 +1,6 @@
+name: "Signal"
+vendor: signal-foundation
+category: communication
+links: [depend]
+description: "End-to-end encrypted messenger developed by the non-profit Signal Foundation and funded by donations."
+website: https://signal.org

@@ -1,0 +1,5 @@
+name: "Weaviate"
+type: company
+description: "Amsterdam-based company developing the open source Weaviate vector database."
+country: NL
+website: https://weaviate.io

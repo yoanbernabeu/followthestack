@@ -1,0 +1,10 @@
+name: "RudderStack"
+vendor: rudderstack
+category: analytics
+links: [pay, data]
+description: "Customer data platform with an open source event pipeline."
+website: https://www.rudderstack.com
+detect:
+  npm: ["@rudderstack/analytics-js", "@rudderstack/rudder-sdk-node"]
+  pypi: ["rudder-sdk-python"]
+alternatives: [segment]

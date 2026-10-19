@@ -1,0 +1,16 @@
+name: "HashiCorp"
+type: company
+description: "Infrastructure software company (Terraform, Vault, Consul), a subsidiary of IBM since February 2025."
+country: "US"
+website: "https://www.hashicorp.com"
+wikidata: Q21463167
+relations:
+  - target: ibm
+    role: subsidiary-of
+    since: 2025-02-27
+    sources:
+      - url: https://newsroom.ibm.com/2025-02-27-ibm-completes-acquisition-of-hashicorp,-creates-comprehensive,-end-to-end-hybrid-cloud-platform
+        outlet: "IBM Newsroom"
+        date: 2025-02-27
+      - url: https://en.wikipedia.org/wiki/HashiCorp
+        outlet: "Wikipedia"

@@ -1,0 +1,12 @@
+name: "Thoma Bravo"
+type: investment-fund
+description: "US private equity firm focused on software companies."
+country: US
+website: https://www.thomabravo.com
+wikidata: Q7786759
+relations:
+  - target: orlando-bravo
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Thoma_Bravo
+        outlet: "Wikipedia"

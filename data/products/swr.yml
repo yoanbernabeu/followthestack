@@ -1,0 +1,8 @@
+name: "SWR"
+vendor: vercel
+category: frameworks-libraries
+links: [depend]
+description: "React data-fetching hooks library maintained by Vercel."
+website: https://swr.vercel.app
+detect:
+  npm: ["swr"]

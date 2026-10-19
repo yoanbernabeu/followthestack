@@ -1,0 +1,13 @@
+subject: google
+grievances: [authoritarian-alignment]
+date: "2018-08-01"
+summary: "The Intercept revealed, from leaked documents, that Google was developing \"Dragonfly\", a censored search engine for China that would blacklist websites and search terms about human rights, democracy, religion and peaceful protest. Work on the project was reported to have effectively ended in December 2018 after internal opposition."
+status: established
+response: "CEO Sundar Pichai told Congress in December 2018 that \"right now\" there were no plans to launch the search engine."
+sources:
+  - url: https://theintercept.com/2018/08/01/google-china-search-engine-censorship/
+    outlet: "The Intercept"
+    date: "2018-08-01"
+  - url: https://theintercept.com/2018/12/17/google-china-censored-search-engine-2/
+    outlet: "The Intercept"
+    date: "2018-12-17"

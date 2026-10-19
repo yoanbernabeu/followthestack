@@ -1,0 +1,13 @@
+name: "Redis / Redis Cloud"
+vendor: redis
+category: databases
+links: [pay, data, depend]
+description: "In-memory data store (source-available, AGPL option since Redis 8) and its managed service Redis Cloud."
+website: https://redis.io
+detect:
+  npm: ["redis", "ioredis"]
+  composer: ["predis/predis"]
+  gems: ["redis"]
+  pypi: ["redis"]
+  docker: ["redis", "redis/redis-stack"]
+alternatives: ["valkey", "upstash"]

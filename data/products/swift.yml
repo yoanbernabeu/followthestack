@@ -1,0 +1,8 @@
+name: "Swift"
+vendor: apple
+category: frameworks-libraries
+links: [depend]
+description: "Programming language created and controlled by Apple."
+website: https://www.swift.org
+detect:
+  docker: ["swift"]

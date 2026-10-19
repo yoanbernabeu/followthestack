@@ -1,0 +1,13 @@
+name: "Hotjar"
+type: company
+description: "Behaviour analytics company (heatmaps, session recordings), acquired by Contentsquare in 2021."
+country: MT
+website: https://www.hotjar.com
+relations:
+  - target: contentsquare
+    role: subsidiary-of
+    since: 2021-09-01
+    sources:
+      - url: https://contentsquare.com/press/contentsquare-acquires-hotjar/
+        outlet: "Contentsquare"
+        date: 2021-09-01

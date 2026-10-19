@@ -1,0 +1,13 @@
+subject: tim-cook
+grievances: [authoritarian-alignment]
+date: 2025-01-01
+datePrecision: month
+summary: "Personally donated $1 million to Donald Trump's 2025 inaugural fund."
+status: established
+sources:
+  - url: https://www.nbcnews.com/politics/trump-administration/major-corporate-interests-megadonors-gave-239-million-fund-trumps-inau-rcna202074
+    outlet: "NBC News"
+    date: 2025-04-21
+  - url: https://gulfnews.com/world/americas/microsoft-google-adobe-give-1-million-each-to-donald-trump-inaugural-fund-1.500013613
+    outlet: "Bloomberg via Gulf News"
+    date: 2025-01-10

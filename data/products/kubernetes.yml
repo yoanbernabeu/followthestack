@@ -1,0 +1,9 @@
+name: "Kubernetes"
+vendor: cncf
+category: cloud-hosting
+links: [depend]
+description: "Container orchestrator created at Google, donated to the CNCF (Linux Foundation) in 2015."
+website: https://kubernetes.io
+detect:
+  npm: ["@kubernetes/client-node"]
+  pypi: ["kubernetes"]

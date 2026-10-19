@@ -1,0 +1,9 @@
+name: "Red Hat Enterprise Linux"
+vendor: red-hat
+category: os-hardware
+links: [pay, depend]
+description: "Commercial Linux distribution sold by Red Hat, an IBM subsidiary."
+website: https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux
+detect:
+  docker: ["redhat/ubi9", "redhat/ubi8"]
+alternatives: [debian, ubuntu]

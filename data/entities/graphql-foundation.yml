@@ -1,0 +1,11 @@
+name: "GraphQL Foundation"
+type: foundation
+description: "Linux Foundation-hosted foundation holding the GraphQL specification and trademark, originally created at Facebook."
+country: "US"
+website: "https://graphql.org/foundation/"
+relations:
+  - target: linux-foundation
+    role: subsidiary-of
+    sources:
+      - url: https://graphql.org/foundation/
+        outlet: "GraphQL"

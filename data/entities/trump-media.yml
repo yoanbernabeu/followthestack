@@ -1,0 +1,15 @@
+name: "Trump Media & Technology Group"
+type: company
+description: "US media company operating Truth Social, majority-owned by a trust of Donald Trump."
+country: US
+website: https://tmtgcorp.com
+wikidata: Q109030760
+relations:
+  - target: donald-trump
+    role: owned-by
+    sources:
+      - url: https://www.ans.org/news/2025-12-19/article-7632/trump-media-to-merge-with-fusion-startup-tae-technologies-in-6b-deal/
+        outlet: "American Nuclear Society Nuclear Newswire"
+        date: "2025-12-19"
+      - url: https://en.wikipedia.org/wiki/Trump_Media_%26_Technology_Group
+        outlet: Wikipedia

@@ -1,0 +1,95 @@
+---
+import '@/styles/global.css';
+interface Props {
+  title?: string;
+  description?: string;
+  // Open Graph image, relative to the site base (generated under og/).
+  image?: string;
+  type?: 'website' | 'article' | 'profile';
+  jsonLd?: Record<string, unknown>;
+}
+const { title = 'Follow the Stack', description = 'See which companies, owners and backers are behind your tech stack, and what they have documentedly said and done.', image = 'og/default.png', type = 'website', jsonLd } = Astro.props;
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+const fullTitle = title === 'Follow the Stack' ? title : `${title} · Follow the Stack`;
+const metaDescription = description.length > 160 ? `${description.slice(0, 157).trimEnd()}…` : description;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const siteRoot = new URL(base, Astro.site);
+const ogImage = new URL(`${base}${image}`, Astro.site);
+const ld = [
+  { '@context': 'https://schema.org', '@type': 'WebSite', name: 'Follow the Stack', url: siteRoot.href, description: 'An open database of who is behind the tools developers use, and what they have documentedly said and done, with sources.', inLanguage: 'en' },
+  ...(jsonLd ? [{ '@context': 'https://schema.org', ...jsonLd }] : []),
+];
+const nav = [
+  { href: base, label: 'Analyze' },
+  { href: `${base}facts/`, label: 'Facts' },
+  { href: `${base}contribute/`, label: 'Contribute' },
+  { href: `${base}about/`, label: 'About' },
+];
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={metaDescription} />
+    <link rel="canonical" href={canonical.href} />
+    <link rel="icon" href={`${base}favicon.svg`} />
+    <link rel="sitemap" href={`${base}sitemap-index.xml`} />
+    <link rel="alternate" type="text/plain" title="llms.txt" href={`${base}llms.txt`} />
+    <link rel="alternate" type="application/json" title="Dataset" href={`${base}data.json`} />
+    <meta name="theme-color" content="#16151f" />
+    <meta property="og:site_name" content="Follow the Stack" />
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:url" content={canonical.href} />
+    <meta property="og:image" content={ogImage.href} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={`${title}: Follow the Stack`} />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={metaDescription} />
+    <meta name="twitter:image" content={ogImage.href} />
+    <script type="application/ld+json" set:html={JSON.stringify(ld.length === 1 ? ld[0] : ld)} />
+    <script is:inline>
+      (() => {
+        try {
+          const t = localStorage.getItem('theme');
+          const dark = t ? t === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+          document.documentElement.classList.toggle('dark', dark);
+        } catch {}
+      })();
+    </script>
+  </head>
+  <body class="min-h-screen bg-background text-foreground antialiased">
+    <header class="border-b">
+      <div class="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3">
+        <a href={base} class="font-semibold tracking-tight">Follow the Stack</a>
+        <div class="ml-auto flex items-center gap-3 sm:order-last">
+          <a class="hidden text-sm text-muted-foreground hover:text-foreground sm:inline" href="https://github.com/yoanbernabeu/followthestack">GitHub</a>
+          <button id="theme-toggle" type="button" class="flex size-9 items-center justify-center rounded-md border text-sm" aria-label="Toggle dark mode">◐</button>
+        </div>
+        <nav class="-mx-1 flex w-full gap-1 overflow-x-auto text-sm text-muted-foreground sm:mx-0 sm:w-auto sm:gap-4">
+          {nav.map((n) => <a class="shrink-0 rounded-md px-1 py-1 hover:text-foreground" href={n.href}>{n.label}</a>)}
+        </nav>
+      </div>
+    </header>
+    <main class="relative isolate mx-auto max-w-6xl px-4 py-10">
+      <slot />
+    </main>
+    <footer class="border-t">
+      <div class="mx-auto max-w-6xl px-4 py-6 text-sm text-muted-foreground">
+        Facts only, with sources, about organisations and public figures. Never about private individuals. Code MIT · Data CC BY-SA 4.0 · No tracker, no backend.
+      </div>
+    </footer>
+    <script is:inline>
+      document.getElementById('theme-toggle')?.addEventListener('click', () => {
+        const dark = document.documentElement.classList.toggle('dark');
+        try { localStorage.setItem('theme', dark ? 'dark' : 'light'); } catch {}
+      });
+    </script>
+  </body>
+</html>

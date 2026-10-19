@@ -1,0 +1,7 @@
+name: "Substack"
+vendor: substack
+category: social-media
+links: [pay, data]
+description: "Newsletter and subscription publishing platform; it takes a share of paid subscriptions."
+website: https://substack.com
+alternatives: [ghost]

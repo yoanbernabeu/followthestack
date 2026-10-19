@@ -1,0 +1,11 @@
+name: "Paddle"
+vendor: paddle
+category: payments
+links: [pay, data, depend]
+description: "Merchant-of-record payments and billing platform for software companies."
+website: https://www.paddle.com
+detect:
+  npm: ["@paddle/paddle-js", "@paddle/paddle-node-sdk"]
+  composer: ["paddlehq/paddle-php-sdk"]
+  pypi: ["paddle-python-sdk"]
+alternatives: [lemon-squeezy, stripe, mollie]

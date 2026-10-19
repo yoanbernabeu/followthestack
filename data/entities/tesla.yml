@@ -1,0 +1,12 @@
+name: "Tesla"
+type: company
+description: "US electric vehicle and energy company led by Elon Musk."
+country: US
+website: https://www.tesla.com
+wikidata: Q478214
+relations:
+  - target: elon-musk
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Tesla,_Inc.
+        outlet: Wikipedia

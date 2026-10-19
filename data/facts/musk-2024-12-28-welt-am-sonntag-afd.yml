@@ -1,0 +1,15 @@
+subject: elon-musk
+grievances: [far-right-support]
+date: 2024-12-28
+summary: "Published a guest op-ed in the German newspaper Welt am Sonntag presenting the far-right AfD as \"the last spark of hope\" for Germany ahead of the February 2025 federal election. The head of the paper's opinion section, Eva Marie Kogel, resigned over its publication."
+quote:
+  text: "Die Alternative für Deutschland (AfD) ist der letzte Funke Hoffnung für dieses Land."
+  lang: de
+status: established
+sources:
+  - url: https://orf.at/stories/3380195/
+    outlet: "ORF"
+    date: 2024-12-28
+  - url: https://www.zdfheute.de/politik/deutschland/elon-musk-gastbeitrag-welt-100.html
+    outlet: "ZDFheute"
+    date: 2024-12-28

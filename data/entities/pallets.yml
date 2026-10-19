@@ -1,0 +1,4 @@
+name: "Pallets"
+type: project
+description: "Community organization maintaining Flask, Jinja, Werkzeug and Click."
+website: "https://palletsprojects.com"

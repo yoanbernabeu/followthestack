@@ -1,0 +1,14 @@
+subject: bytedance
+grievances: [lgbtphobia]
+date: "2020-09-01"
+datePrecision: month
+summary: "A report by the Australian Strategic Policy Institute found that TikTok restricted (\"shadow-banned\") LGBTQ-related hashtags in several languages, including \"gay\" in Arabic, Russian, Estonian and Bosnian, \"I am gay\" and \"I am lesbian\" in Russian, and \"transgender\" in Arabic. TikTok acknowledged restricting some LGBT hashtags in some countries as part of its \"localised\" moderation."
+status: established
+response: "TikTok said some terms were partially restricted due to local laws, others because they were mainly used to search for pornographic content, and that some English phrases and some compound phrases in Arabic had been moderated by mistake; it denied practising censorship."
+sources:
+  - url: https://www.bbc.com/news/technology-54102575
+    outlet: "BBC News"
+    date: "2020-09-10"
+  - url: https://www.advocate.com/media/2020/9/10/tiktok-shadow-banned-lgbtq-hashtags-several-languages
+    outlet: "The Advocate"
+    date: "2020-09-10"

@@ -1,0 +1,17 @@
+name: "Iliad"
+type: company
+description: "French telecommunications group (Free, Free Mobile, Iliad Italia, Play) owned by Xavier Niel, parent of Scaleway."
+country: FR
+website: https://www.iliad.fr
+wikidata: Q1239347
+relations:
+  - target: xavier-niel
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Iliad_SA
+        outlet: "Wikipedia"
+  - target: xavier-niel
+    role: owned-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Iliad_SA
+        outlet: "Wikipedia"

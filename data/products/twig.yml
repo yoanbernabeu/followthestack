@@ -1,0 +1,8 @@
+name: "Twig"
+vendor: sensiolabs
+category: frameworks-libraries
+links: [depend]
+description: "PHP template engine maintained by the Symfony project."
+website: https://twig.symfony.com
+detect:
+  composer: ["twig/twig"]

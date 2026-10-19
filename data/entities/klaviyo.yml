@@ -1,0 +1,17 @@
+name: "Klaviyo"
+type: company
+description: "Marketing automation and email/SMS platform for B2C brands."
+country: US
+website: https://www.klaviyo.com
+wikidata: Q106631196
+relations:
+  - target: andrew-bialecki
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Klaviyo
+        outlet: "Wikipedia"
+  - target: andrew-bialecki
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Klaviyo
+        outlet: "Wikipedia"

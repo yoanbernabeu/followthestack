@@ -1,0 +1,16 @@
+name: "Tailwind Labs"
+type: company
+description: "Company behind Tailwind CSS, Headless UI and Heroicons. Joined Shopify in September 2026; the open source projects stay MIT-licensed."
+country: "US"
+website: "https://tailwindcss.com"
+relations:
+  - target: shopify
+    role: subsidiary-of
+    since: "2026-09-09"
+    sources:
+      - url: https://tailwindcss.com/blog/tailwind-is-joining-shopify
+        outlet: "Tailwind CSS blog"
+        date: "2026-09-09"
+      - url: https://www.cmswire.com/digital-experience/shopify-acquires-tailwind-labs-to-secure-css-framework/
+        outlet: "CMSWire"
+        date: "2026-09-10"

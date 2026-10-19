@@ -1,0 +1,7 @@
+name: "ChatGPT"
+vendor: openai
+category: ai
+links: [pay, data]
+description: "AI chatbot and assistant by OpenAI, with free and paid subscription tiers."
+website: https://chatgpt.com
+alternatives: [claude, le-chat, gemini, perplexity, deepseek]

@@ -1,0 +1,9 @@
+name: "webpack"
+vendor: openjs-foundation
+category: dev-tools
+links: [depend]
+description: "JavaScript bundler hosted by the OpenJS Foundation."
+website: https://webpack.js.org
+detect:
+  npm: ["webpack", "webpack-cli"]
+alternatives: [vite, rolldown]

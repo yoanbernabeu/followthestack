@@ -1,0 +1,11 @@
+name: "Salesforce CRM"
+vendor: salesforce
+category: crm-marketing
+links: [pay, data]
+description: "Customer relationship management platform (Sales Cloud, Service Cloud, Marketing Cloud) by Salesforce."
+website: https://www.salesforce.com
+detect:
+  npm: ["jsforce", "@salesforce/core"]
+  pypi: ["simple-salesforce"]
+  gems: ["restforce"]
+alternatives: [hubspot, pipedrive, twenty]

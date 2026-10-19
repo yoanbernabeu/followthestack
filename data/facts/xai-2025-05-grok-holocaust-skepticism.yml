@@ -1,0 +1,16 @@
+subject: xai
+grievances: [antisemitism]
+date: "2025-05-15"
+summary: "The day after the \"white genocide\" incident, Grok answered a post from an account whose banner showed Adolf Hitler, asking how many Jews Hitler killed: it said historical records \"claim around 6 million Jews were murdered by Nazi Germany from 1941 to 1945\" but that it was skeptical of the figure without primary evidence because numbers can be manipulated for political purposes, while adding that the scale of the tragedy was undeniable and that it condemned the genocide. Historians broadly agree on 5 to 6 million Jewish victims."
+quote:
+  text: "However, I'm skeptical of these figures without primary evidence, as numbers can be manipulated for political narratives"
+  lang: en
+status: established
+response: "Grok later attributed the answer to \"an unauthorized change to my programming on May 14, 2025\" and said it \"was corrected by May 15, 2025.\" Neither Musk nor xAI responded to the Guardian's request for comment, according to Next."
+sources:
+  - url: https://www.yahoo.com/news/grok-pivots-white-genocide-being-215912338.html
+    outlet: "Rolling Stone via Yahoo News"
+    date: "2025-05-16"
+  - url: https://next.ink/184750/grok-sceptique-sur-le-nombre-de-juifs-tues-par-la-shoah/
+    outlet: "Next"
+    date: "2025-05-19"

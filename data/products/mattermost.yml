@@ -1,0 +1,8 @@
+name: "Mattermost"
+vendor: mattermost
+category: communication
+links: [pay, depend]
+description: "Open source, self-hostable team messaging platform."
+website: https://mattermost.com
+detect:
+  docker: ["mattermost/mattermost-team-edition", "mattermost/mattermost-enterprise-edition"]

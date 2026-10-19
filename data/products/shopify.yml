@@ -1,0 +1,11 @@
+name: "Shopify"
+vendor: shopify
+category: payments
+links: [pay, data]
+description: "Hosted e-commerce platform; merchants pay subscriptions and transaction fees to Shopify."
+website: https://www.shopify.com
+detect:
+  npm: ["@shopify/shopify-api"]
+  composer: ["shopify/shopify-api"]
+  gems: ["shopify_api"]
+alternatives: [wordpress]

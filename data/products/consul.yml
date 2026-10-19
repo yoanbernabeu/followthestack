@@ -1,0 +1,8 @@
+name: "Consul"
+vendor: hashicorp
+category: dev-tools
+links: [depend]
+description: "Service networking tool by HashiCorp (IBM)."
+website: https://developer.hashicorp.com/consul
+detect:
+  docker: ["hashicorp/consul"]

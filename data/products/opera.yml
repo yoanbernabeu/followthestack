@@ -1,0 +1,7 @@
+name: "Opera"
+vendor: opera
+category: browser-search
+links: [data]
+description: "Chromium-based web browser by Opera, controlled by China's Kunlun Tech."
+website: https://www.opera.com
+alternatives: [firefox, vivaldi]

@@ -1,0 +1,10 @@
+name: "Discord"
+vendor: discord
+category: communication
+links: [pay, data]
+description: "Voice, video and text chat platform built around community servers."
+website: https://discord.com
+detect:
+  npm: ["discord.js"]
+  pypi: ["discord.py"]
+alternatives: [element, mattermost, rocket-chat]

@@ -1,0 +1,12 @@
+name: "Broadcom"
+type: company
+description: "Semiconductor and infrastructure software company; acquired VMware in 2023 and with it the Spring framework."
+country: "US"
+website: "https://www.broadcom.com"
+wikidata: Q790060
+relations:
+  - target: hock-tan
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Broadcom
+        outlet: "Wikipedia"

@@ -1,0 +1,8 @@
+name: "Pydantic"
+vendor: pydantic-services
+category: frameworks-libraries
+links: [depend]
+description: "Python data validation library maintained by the company Pydantic."
+website: https://pydantic.dev
+detect:
+  pypi: ["pydantic", "pydantic-core", "pydantic-settings", "pydantic-ai"]

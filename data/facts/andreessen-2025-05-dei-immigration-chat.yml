@@ -1,0 +1,17 @@
+subject: marc-andreessen
+grievances: [anti-immigration]
+date: "2025-05-01"
+datePrecision: month
+summary: "In a WhatsApp group with Trump administration officials, whose screenshots were reported by the Washington Post in July 2025, described DEI and immigration as forms of discrimination that cut the children of Trump voters out of higher education and corporate jobs."
+quote:
+  text: "The combination of DEI and immigration is politically lethal"
+  lang: en
+status: established
+response: "Andreessen Horowitz did not respond to Fortune's request for comment."
+sources:
+  - url: https://www.fortune.com/2025/07/16/marc-andreessen-leaked-messages-dei-stanford-university-mit
+    outlet: "Fortune"
+    date: "2025-07-16"
+  - url: https://techcrunch.com/2025/07/12/marc-andreessen-reportedly-told-group-chat-that-universities-will-pay-the-price-for-dei/
+    outlet: "TechCrunch"
+    date: "2025-07-12"

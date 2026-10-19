@@ -1,0 +1,16 @@
+subject: donald-trump
+grievances: [violent-rhetoric, anti-democracy]
+date: "2025-11-20"
+summary: "Reacting on Truth Social to a video in which six Democratic lawmakers with military or intelligence backgrounds urged service members to refuse illegal orders, wrote that their \"SEDITIOUS BEHAVIOR\" was \"punishable by DEATH!\", reposted an article about them adding \"LOCK THEM UP???\" and reshared a user's post reading \"HANG THEM GEORGE WASHINGTON WOULD !!\"."
+quote:
+  text: "punishable by DEATH!"
+  lang: en
+status: established
+response: "White House press secretary Karoline Leavitt said the president was not threatening the lawmakers with violence."
+sources:
+  - url: https://nymag.com/intelligencer/article/trump-truth-social-posts-hang-death-democrats.html
+    outlet: "New York Magazine"
+    date: "2025-11-20"
+  - url: https://abc6onyourside.com/news/nation-world/hang-them-president-donald-trump-reacts-democratic-lawmakers-video-appeal-military-intelligence-truth-social-media-seditious
+    outlet: "WSYX ABC 6"
+    date: "2025-11-20"

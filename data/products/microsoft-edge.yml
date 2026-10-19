@@ -1,0 +1,7 @@
+name: "Microsoft Edge"
+vendor: microsoft
+category: browser-search
+links: [data]
+description: "Chromium-based web browser by Microsoft."
+website: https://www.microsoft.com/edge
+alternatives: [firefox, vivaldi]

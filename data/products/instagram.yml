@@ -1,0 +1,7 @@
+name: "Instagram"
+vendor: meta
+category: social-media
+links: [pay, data]
+description: "Photo and video sharing social network owned by Meta since 2012."
+website: https://www.instagram.com
+alternatives: [pixelfed]

@@ -1,0 +1,7 @@
+name: "VSCodium"
+vendor: vscodium
+category: dev-tools
+links: [depend]
+description: "Community-built, telemetry-free binaries of the open source VS Code codebase."
+website: https://vscodium.com
+alternatives: [vs-code, zed]

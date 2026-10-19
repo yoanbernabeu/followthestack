@@ -1,0 +1,9 @@
+name: "React Router"
+vendor: shopify
+category: frameworks-libraries
+links: [depend]
+description: "Routing library and framework for React, maintained by the Remix team at Shopify."
+website: https://reactrouter.com
+detect:
+  npm: ["react-router", "react-router-dom", "@react-router/dev"]
+alternatives: [nextjs]

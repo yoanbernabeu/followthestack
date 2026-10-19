@@ -1,0 +1,15 @@
+subject: david-heinemeier-hansson
+grievances: [anti-immigration, far-right-support]
+date: "2025-09-15"
+summary: "Blog post about the London march organized by far-right activist Tommy Robinson on 13 September 2025, saying he would no longer dream of moving to London because it is \"no longer full of native Brits\", calling the march \"powerful\" and its flags \"heartwarming\", and rejecting the \"far right\" label for the marchers."
+quote:
+  text: "Unwilling to resign the rest of the country to the kind of demographic replacement that befell London over the last two decades."
+  lang: en
+status: established
+sources:
+  - url: https://world.hey.com/dhh/as-i-remember-london-e7d38e64
+    outlet: "DHH's blog (primary source)"
+    date: "2025-09-15"
+  - url: https://www.cbsnews.com/news/london-unite-the-kingdom-rally-organized-by-far-right-activist-tommy-robinson/
+    outlet: "CBS News / AP"
+    date: "2025-09-13"

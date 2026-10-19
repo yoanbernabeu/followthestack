@@ -1,0 +1,13 @@
+subject: google
+grievances: [surveillance-deportation]
+date: "2025-10-03"
+summary: "Removed Red Dot and similar apps used to report sightings of ICE officials from the Play Store, 404 Media reported, after Apple removed ICEBlock following direct pressure from Justice Department officials."
+status: established
+response: "Google said the apps shared the location of what it described as a vulnerable group that had recently faced a violent act connected to such apps, which 404 Media described as a veiled reference to ICE officials."
+sources:
+  - url: https://www.404media.co/google-calls-ice-agents-a-vulnerable-group-removes-ice-spotting-app-red-dot/
+    outlet: "404 Media"
+    date: "2025-10-03"
+  - url: https://www.cbsnews.com/chicago/news/meta-facebook-page-ice-agents-chicago-justice-department-request/
+    outlet: "CBS News / AP"
+    date: "2025-10-15"

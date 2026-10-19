@@ -1,0 +1,7 @@
+name: "Safari"
+vendor: apple
+category: browser-search
+links: [data]
+description: "Web browser by Apple, default on macOS and iOS."
+website: https://www.apple.com/safari/
+alternatives: [firefox, vivaldi]

@@ -1,0 +1,19 @@
+name: "Scaleway"
+type: company
+description: "French cloud provider, majority-owned subsidiary of the Iliad group."
+country: FR
+website: https://www.scaleway.com
+wikidata: Q3352745
+relations:
+  - target: iliad
+    role: subsidiary-of
+    sources:
+      - url: https://en.wikipedia.org/wiki/Scaleway
+        outlet: "Wikipedia"
+      - url: https://en.wikipedia.org/wiki/Iliad_SA
+        outlet: "Wikipedia"
+  - target: xavier-niel
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Scaleway
+        outlet: "Wikipedia"

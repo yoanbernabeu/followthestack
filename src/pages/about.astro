@@ -1,0 +1,33 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { GRIEVANCE_DESCRIPTIONS, GRIEVANCE_LABELS, LINK_LABELS } from '@/lib/labels';
+---
+<Layout title="About" description="How Follow the Stack works, its rules and how to contribute.">
+  <article class="prose-sm grid max-w-2xl gap-6">
+    <h1 class="text-3xl font-semibold">About</h1>
+    <p>Our tools are not neutral. Behind every cloud provider, SaaS, framework or AI model there are companies, owners, leaders and investors, and some of them use their money and platforms to push racism, antisemitism, LGBTphobia, hatred of immigrants and support for the far right. Follow the Stack shows who is behind your stack, and what they have documentedly said and done.</p>
+
+    <h2 class="text-xl font-semibold">Three kinds of links</h2>
+    <ul class="grid gap-2">
+      {Object.entries(LINK_LABELS).map(([k, l]) => <li id={`link-${k}`}><strong>{l.label}.</strong> {l.hint}</li>)}
+    </ul>
+
+    <h2 class="text-xl font-semibold">Rules</h2>
+    <ul class="grid list-disc gap-2 pl-5">
+      <li>Facts only. Every fact carries the exact quote when there is one, the date, and at least one reliable source.</li>
+      <li>A grievance qualifies a documented fact, never a person. We show what was said or done; you draw your conclusions.</li>
+      <li>Organisations and public figures only. We never document private individuals, including open source maintainers.</li>
+      <li>Disputed facts are marked as contested, and denials or responses are published next to the fact.</li>
+      <li>Your stack never leaves your browser. No backend, no tracker, no cookie.</li>
+    </ul>
+
+    <h2 class="text-xl font-semibold">Grievances</h2>
+    <ul class="grid gap-2">{Object.entries(GRIEVANCE_LABELS).map(([k, l]) => <li><a class="font-medium underline" href={`${import.meta.env.BASE_URL.replace(/\/?$/, '/')}grievance/${k}/`}>{l}</a> · {GRIEVANCE_DESCRIPTIONS[k]}</li>)}</ul>
+
+    <h2 class="text-xl font-semibold">Contribute or correct</h2>
+    <p>Use the <a class="underline" href={`${import.meta.env.BASE_URL.replace(/\/?$/, "/")}contribute/`}>contribution form</a> to report a fact, add a product or request a correction: it opens a pre-filled issue on GitHub that you review and submit yourself. Sources are mandatory and every contribution is reviewed by a human. If you are the subject of a fact, you can use the same form to dispute it or add your response.</p>
+
+    <h2 class="text-xl font-semibold">Why GitHub?</h2>
+    <p>GitHub is owned by Microsoft, which appears in this database. We host here because this is where developers are. We know.</p>
+  </article>
+</Layout>

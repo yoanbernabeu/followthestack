@@ -1,0 +1,6 @@
+name: "PyPI"
+vendor: python-software-foundation
+category: code-hosting
+links: [depend]
+description: "Python Package Index, the default Python package registry, run by the Python Software Foundation."
+website: https://pypi.org

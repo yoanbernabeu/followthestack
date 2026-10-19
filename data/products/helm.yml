@@ -1,0 +1,6 @@
+name: "Helm"
+vendor: cncf
+category: dev-tools
+links: [depend]
+description: "Kubernetes package manager, a CNCF graduated project."
+website: https://helm.sh

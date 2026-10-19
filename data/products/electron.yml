@@ -1,0 +1,8 @@
+name: "Electron"
+vendor: openjs-foundation
+category: frameworks-libraries
+links: [depend]
+description: "Desktop app framework created at GitHub, now hosted by the OpenJS Foundation."
+website: https://www.electronjs.org
+detect:
+  npm: ["electron"]

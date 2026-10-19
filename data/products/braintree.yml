@@ -1,0 +1,12 @@
+name: "Braintree"
+vendor: paypal
+category: payments
+links: [pay, data, depend]
+description: "Payment gateway owned by PayPal."
+website: https://www.braintreepayments.com
+detect:
+  npm: ["braintree", "braintree-web", "braintree-web-drop-in"]
+  composer: ["braintree/braintree_php"]
+  pypi: ["braintree"]
+  gems: ["braintree"]
+alternatives: [adyen, mollie, stripe]

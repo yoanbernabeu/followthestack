@@ -1,0 +1,12 @@
+name: "Mailjet"
+vendor: sinch
+category: email
+links: [pay, data]
+description: "French-founded email marketing and delivery platform owned by Sinch."
+website: https://www.mailjet.com
+detect:
+  npm: ["node-mailjet"]
+  composer: ["mailjet/mailjet-apiv3-php"]
+  pypi: ["mailjet-rest"]
+  gems: ["mailjet"]
+alternatives: [brevo, postmark, resend]

@@ -1,0 +1,8 @@
+name: "Ubuntu"
+vendor: canonical
+category: os-hardware
+links: [depend]
+description: "Linux distribution published by Canonical, with paid enterprise support (Ubuntu Pro)."
+website: https://ubuntu.com
+detect:
+  docker: ["ubuntu"]

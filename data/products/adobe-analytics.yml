@@ -1,0 +1,9 @@
+name: "Adobe Analytics"
+vendor: adobe
+category: analytics
+links: [pay, data]
+description: "Enterprise web analytics, part of Adobe Experience Cloud."
+website: https://business.adobe.com/products/analytics/adobe-analytics.html
+detect:
+  npm: ["@adobe/alloy"]
+alternatives: [matomo, piwik-pro, posthog]

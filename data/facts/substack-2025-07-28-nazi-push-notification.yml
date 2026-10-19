@@ -1,0 +1,13 @@
+subject: substack
+grievances: [far-right-support, antisemitism]
+date: "2025-07-28"
+summary: "Substack's app sent a push notification encouraging users to subscribe to NatSocToday, a newsletter describing itself as serving the \"National Socialist and White Nationalist Community\" with a swastika logo; its profile then recommended other white nationalist publications on the platform."
+status: established
+response: "Substack said an error caused some people to receive push notifications \"they should never have received\", called it a serious error, apologised and said it had taken the relevant system offline."
+sources:
+  - url: https://www.platformer.news/substack-nazi-push-notification/
+    outlet: "Platformer"
+    date: "2025-07-31"
+  - url: https://www.niemanlab.org/reading/substack-sent-a-push-alert-promoting-a-nazi-blog/
+    outlet: "Nieman Lab"
+    date: "2025-07-29"

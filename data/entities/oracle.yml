@@ -1,0 +1,17 @@
+name: "Oracle"
+type: company
+description: "US enterprise software and cloud company, maker of Oracle Database and owner of MySQL and Java."
+country: US
+website: https://www.oracle.com
+wikidata: Q19900
+relations:
+  - target: larry-ellison
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Oracle_Corporation
+        outlet: "Wikipedia"
+  - target: larry-ellison
+    role: owned-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Oracle_Corporation
+        outlet: "Wikipedia"

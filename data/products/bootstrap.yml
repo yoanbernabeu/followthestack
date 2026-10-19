@@ -1,0 +1,11 @@
+name: "Bootstrap"
+vendor: bootstrap-project
+category: frameworks-libraries
+links: [depend]
+description: "CSS framework maintained by an independent core team, originally created at Twitter."
+website: https://getbootstrap.com
+detect:
+  npm: ["bootstrap"]
+  composer: ["twbs/bootstrap"]
+  gems: ["bootstrap"]
+alternatives: [tailwindcss]

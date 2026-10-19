@@ -1,0 +1,10 @@
+name: "Mistral AI API"
+vendor: mistral-ai
+category: ai
+links: [pay, data, depend]
+description: "API (La Plateforme) giving access to Mistral AI's open-weight and commercial models."
+website: https://mistral.ai
+detect:
+  npm: ["@mistralai/mistralai", "@ai-sdk/mistral"]
+  pypi: ["mistralai"]
+alternatives: [openai-api, claude-api, cohere, ollama]

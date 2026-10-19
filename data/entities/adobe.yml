@@ -1,0 +1,12 @@
+name: "Adobe"
+type: company
+description: "Software company behind Creative Cloud and the Adobe Experience Cloud marketing suite."
+country: US
+website: https://www.adobe.com
+wikidata: Q11463
+relations:
+  - target: shantanu-narayen
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Adobe_Inc.
+        outlet: "Wikipedia"

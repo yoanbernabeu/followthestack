@@ -1,0 +1,6 @@
+name: "Vivaldi"
+vendor: vivaldi-technologies
+category: browser-search
+links: [depend]
+description: "Chromium-based web browser by the Norwegian company Vivaldi Technologies."
+website: https://vivaldi.com

@@ -1,0 +1,10 @@
+subject: google
+grievances: [surveillance-deportation]
+date: "2022-07-24"
+summary: "Training documents obtained by The Intercept showed that Google was offering the Israeli government, through the $1.2 billion Project Nimbus cloud contract shared with Amazon, AI capabilities including facial detection, automated image categorization, object tracking and sentiment analysis."
+status: contested
+response: "Google did not respond to The Intercept's request for comment. The documents appeared to be standard training materials distributed to Google Cloud customers."
+sources:
+  - url: https://theintercept.com/2022/07/24/google-israel-artificial-intelligence-project-nimbus/
+    outlet: "The Intercept"
+    date: "2022-07-24"

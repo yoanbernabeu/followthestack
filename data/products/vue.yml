@@ -1,0 +1,9 @@
+name: "Vue.js"
+vendor: vuejs
+category: frameworks-libraries
+links: [depend]
+description: "Progressive JavaScript framework created by Evan You; independent project funded by sponsors."
+website: https://vuejs.org
+detect:
+  npm: ["vue", "vue-router", "pinia", "vuex"]
+alternatives: [react, svelte, angular]

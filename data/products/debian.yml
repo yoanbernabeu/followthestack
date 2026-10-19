@@ -1,0 +1,8 @@
+name: "Debian"
+vendor: debian
+category: os-hardware
+links: [depend]
+description: "Community-developed free Linux distribution."
+website: https://www.debian.org
+detect:
+  docker: ["debian"]

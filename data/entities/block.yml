@@ -1,0 +1,17 @@
+name: "Block, Inc."
+type: company
+description: "Financial services company behind Square and Cash App, formerly Square, Inc."
+country: US
+website: https://block.xyz
+wikidata: Q110778747
+relations:
+  - target: jack-dorsey
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Block,_Inc.
+        outlet: "Wikipedia"
+  - target: jack-dorsey
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Block,_Inc.
+        outlet: "Wikipedia"

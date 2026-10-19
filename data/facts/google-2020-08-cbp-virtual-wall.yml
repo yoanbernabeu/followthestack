@@ -1,0 +1,11 @@
+subject: google
+grievances: [surveillance-deportation]
+date: "2020-08-01"
+datePrecision: month
+summary: "US Customs and Border Protection accepted in August 2020 a proposal to use Google Cloud to support the AI work of its innovation team, which was developing a \"virtual\" border wall of surveillance towers and drones with Anduril, according to contract documents reported by The Intercept."
+status: established
+response: "Google declined to comment on the contract."
+sources:
+  - url: https://theintercept.com/2020/10/21/google-cbp-border-contract-anduril/
+    outlet: "The Intercept"
+    date: "2020-10-21"

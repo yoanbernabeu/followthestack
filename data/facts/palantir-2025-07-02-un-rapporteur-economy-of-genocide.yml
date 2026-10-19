@@ -1,0 +1,16 @@
+subject: palantir
+grievances: [war-crimes-support]
+date: "2025-07-02"
+summary: "The report \"From economy of occupation to economy of genocide\" (A/HRC/59/23) by Francesca Albanese, UN Special Rapporteur on the occupied Palestinian territories, which describes Israel's campaign in Gaza as genocide, states that Palantir expanded its support to the Israeli military after October 2023 and that there are reasonable grounds to believe it provided predictive policing technology, defence software infrastructure and its Artificial Intelligence Platform for real-time battlefield data integration and automated decision-making. The report cites Palantir's January 2024 strategic partnership with Israel and board meeting in Tel Aviv \"in solidarity\", and Alex Karp's April 2025 remark \"mostly terrorists, that's true\" in reply to accusations that Palantir had killed Palestinians in Gaza, as indicative of executive-level knowledge."
+quote:
+  text: "There are reasonable grounds to believe Palantir has provided automatic predictive policing technology, core defence infrastructure for rapid and scaled-up construction and deployment of military software, and its Artificial Intelligence Platform, which allows real-time battlefield data integration for automated decision-making."
+  lang: en
+status: contested
+response: "Palantir sent the Special Rapporteur a letter dated 22 May 2025, cited in the report but not published. Israel called the report politically motivated and legally baseless, and the United States accused the Special Rapporteur of \"economic warfare\" against US companies."
+sources:
+  - url: https://documents.un.org/doc/undoc/gen/g25/094/40/pdf/g2509440.pdf
+    outlet: "UN Human Rights Council, A/HRC/59/23"
+    date: "2025-07-02"
+  - url: https://www.newarab.com/news/which-companies-are-fuelling-israels-war-gaza
+    outlet: "The New Arab"
+    date: "2025-07-02"

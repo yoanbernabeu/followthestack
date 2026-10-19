@@ -1,0 +1,12 @@
+name: "Cloud Native Computing Foundation"
+type: foundation
+description: "Linux Foundation project hosting Kubernetes, Prometheus, OpenTelemetry and other cloud-native projects."
+country: US
+website: https://www.cncf.io
+wikidata: Q50866964
+relations:
+  - target: linux-foundation
+    role: subsidiary-of
+    sources:
+      - url: https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation
+        outlet: "Wikipedia"

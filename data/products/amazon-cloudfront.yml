@@ -1,0 +1,9 @@
+name: "Amazon CloudFront"
+vendor: amazon
+category: cdn-dns-security
+links: [pay, data]
+description: "Content delivery network of Amazon Web Services."
+website: https://aws.amazon.com/cloudfront/
+detect:
+  npm: ["@aws-sdk/client-cloudfront"]
+alternatives: ["cloudflare-cdn", "fastly", "akamai-cdn", "bunny-net", "gcore", "imperva"]

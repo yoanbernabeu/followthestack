@@ -1,0 +1,9 @@
+name: "Checkly"
+vendor: checkly
+category: monitoring
+links: [pay, data]
+description: "Synthetic monitoring and API checks as code, built on Playwright."
+website: https://www.checklyhq.com
+detect:
+  npm: ["checkly"]
+alternatives: [better-stack, uptime-kuma]

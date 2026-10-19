@@ -1,0 +1,8 @@
+name: "TypeScript"
+vendor: microsoft
+category: frameworks-libraries
+links: [depend]
+description: "Typed superset of JavaScript developed and controlled by Microsoft."
+website: https://www.typescriptlang.org
+detect:
+  npm: ["typescript"]

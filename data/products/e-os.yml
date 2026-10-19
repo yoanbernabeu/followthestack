@@ -1,0 +1,6 @@
+name: "/e/OS"
+vendor: e-foundation
+category: os-hardware
+links: [depend]
+description: "De-Googled open source Android-based operating system, also sold preinstalled on Murena phones."
+website: https://e.foundation

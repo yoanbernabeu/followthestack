@@ -1,0 +1,11 @@
+name: "Keycloak"
+vendor: red-hat
+category: auth-identity
+links: [depend]
+description: "Open source identity and access management server, sponsored by Red Hat and hosted by the CNCF."
+website: https://www.keycloak.org
+detect:
+  npm: ["keycloak-js"]
+  pypi: ["python-keycloak"]
+  docker: ["quay.io/keycloak/keycloak", "keycloak/keycloak"]
+alternatives: [zitadel, authentik, ory]

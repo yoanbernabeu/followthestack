@@ -1,0 +1,11 @@
+name: "Checkout.com"
+vendor: checkout-com
+category: payments
+links: [pay, data, depend]
+description: "Payment processing platform by UK company Checkout.com."
+website: https://www.checkout.com
+detect:
+  npm: ["checkout-sdk-node"]
+  composer: ["checkout/checkout-sdk-php"]
+  pypi: ["checkout-sdk"]
+alternatives: [adyen, mollie, stripe]

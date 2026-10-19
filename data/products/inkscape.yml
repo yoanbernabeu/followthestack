@@ -1,0 +1,6 @@
+name: "Inkscape"
+vendor: inkscape
+category: design
+links: [depend]
+description: "Free and open source vector graphics editor."
+website: https://inkscape.org

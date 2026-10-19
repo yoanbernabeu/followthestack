@@ -1,0 +1,12 @@
+name: "Founders Fund"
+type: investment-fund
+description: "US venture capital firm co-founded by Peter Thiel, early investor in Anduril, Palantir and other defense and surveillance technology companies."
+country: US
+website: https://foundersfund.com
+wikidata: Q1439864
+relations:
+  - target: peter-thiel
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Founders_Fund
+        outlet: "Wikipedia"

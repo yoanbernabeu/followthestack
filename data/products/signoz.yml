@@ -1,0 +1,7 @@
+name: "SigNoz"
+vendor: signoz
+category: monitoring
+links: [pay, data, depend]
+description: "Open source, OpenTelemetry-native observability platform, self-hosted or as SigNoz Cloud."
+website: https://signoz.io
+alternatives: [datadog, new-relic, grafana]

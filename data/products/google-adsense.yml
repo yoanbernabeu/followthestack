@@ -1,0 +1,7 @@
+name: "Google AdSense"
+vendor: google
+category: advertising
+links: [depend, data]
+description: "Google programme that places ads on publishers' websites in exchange for a revenue share."
+website: https://adsense.google.com
+alternatives: [criteo]

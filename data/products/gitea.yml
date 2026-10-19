@@ -1,0 +1,9 @@
+name: "Gitea"
+vendor: gitea
+category: code-hosting
+links: [depend]
+description: "Self-hostable open source Git forge with Gitea Actions CI."
+website: https://about.gitea.com
+detect:
+  docker: ["gitea/gitea"]
+alternatives: [forgejo, gitlab, github]

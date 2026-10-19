@@ -1,0 +1,11 @@
+subject: palantir
+grievances: [surveillance-deportation]
+date: "2017-05-01"
+datePrecision: month
+summary: "Homeland Security documents obtained through FOIA litigation showed that Palantir software was central to a 2017 ICE operation targeting the parents and relatives who sponsored unaccompanied migrant children. ICE told The Intercept the operation led to 443 arrests, including 35 criminal arrests."
+status: established
+response: "Palantir had previously stated: \"We do not work for E.R.O.\" (ICE's Enforcement and Removal Operations). Palantir did not immediately comment on the documents."
+sources:
+  - url: https://theintercept.com/2019/05/02/peter-thiels-palantir-was-used-to-bust-hundreds-of-relatives-of-migrant-children-new-documents-show/
+    outlet: "The Intercept"
+    date: "2019-05-02"

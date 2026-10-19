@@ -1,0 +1,8 @@
+name: "XWiki"
+vendor: xwiki-sas
+category: collaboration
+links: [pay, depend]
+description: "Open source enterprise wiki platform developed by XWiki SAS."
+website: https://www.xwiki.org
+detect:
+  docker: ["xwiki"]

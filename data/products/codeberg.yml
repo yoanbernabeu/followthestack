@@ -1,0 +1,7 @@
+name: "Codeberg"
+vendor: codeberg
+category: code-hosting
+links: [data, depend]
+description: "Non-profit, donation-funded Git hosting platform run by a German association on Forgejo."
+website: https://codeberg.org
+alternatives: [github, gitlab, bitbucket]

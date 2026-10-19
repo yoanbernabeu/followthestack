@@ -1,0 +1,6 @@
+name: "Lemmy"
+vendor: lemmy
+category: social-media
+links: [depend]
+description: "Free, federated link aggregator and forum software."
+website: https://join-lemmy.org

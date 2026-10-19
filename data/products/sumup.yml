@@ -1,0 +1,10 @@
+name: "SumUp"
+vendor: sumup
+category: payments
+links: [pay, data, depend]
+description: "Card payment terminals and online payments by SumUp."
+website: https://www.sumup.com
+detect:
+  npm: ["@sumup/sdk"]
+  composer: ["sumup/sumup-ecom-php-sdk"]
+alternatives: [square, mollie]

@@ -1,0 +1,12 @@
+name: "WorkOS"
+vendor: workos
+category: auth-identity
+links: [pay, data, depend]
+description: "Enterprise SSO, directory sync and authentication APIs."
+website: https://workos.com
+detect:
+  npm: ["@workos-inc/node", "@workos-inc/authkit-nextjs", "@workos-inc/authkit-react"]
+  composer: ["workos/workos-php"]
+  pypi: ["workos"]
+  gems: ["workos"]
+alternatives: [keycloak, zitadel, ory]

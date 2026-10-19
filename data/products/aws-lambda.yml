@@ -1,0 +1,12 @@
+name: "AWS Lambda"
+vendor: amazon
+category: cloud-hosting
+links: [pay, data, depend]
+description: "Serverless functions service on Amazon Web Services."
+website: https://aws.amazon.com/lambda/
+detect:
+  npm: ["@aws-sdk/client-lambda", "@types/aws-lambda"]
+  composer: ["bref/bref"]
+  gems: ["aws-sdk-lambda"]
+  pypi: ["aws-lambda-powertools"]
+alternatives: ["cloudflare-workers", "vercel", "netlify", "scaleway", "google-cloud", "microsoft-azure"]

@@ -1,0 +1,12 @@
+subject: adobe
+grievances: [authoritarian-alignment]
+date: "2025-01-06"
+summary: "Donated $1,000,000 to the Trump Vance Inaugural Committee, which organised Donald Trump's January 2025 inauguration. The committee's report to the Federal Election Commission lists the donation as received on January 6, 2025, and Bloomberg reported that spokespeople for the companies it named, including Adobe, confirmed the donations."
+status: established
+sources:
+  - url: https://gulfnews.com/world/americas/microsoft-google-adobe-give-1-million-each-to-donald-trump-inaugural-fund-1.500013613
+    outlet: "Bloomberg via Gulf News"
+    date: "2025-01-10"
+  - url: https://docquery.fec.gov/dcdev/posted/1910509.fec
+    outlet: "Federal Election Commission (Trump Vance Inaugural Committee, Form 13 report, amended)"
+    date: "2025-08-07"

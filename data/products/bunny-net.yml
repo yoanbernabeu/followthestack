@@ -1,0 +1,7 @@
+name: "bunny.net"
+vendor: bunny-net
+category: cdn-dns-security
+links: [pay, data]
+description: "European CDN, DNS, video delivery and edge storage service."
+website: https://bunny.net
+alternatives: ["cloudflare-cdn", "fastly", "akamai-cdn", "gcore", "amazon-cloudfront", "imperva", "amazon-route-53", "ovhcloud"]

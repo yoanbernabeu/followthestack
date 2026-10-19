@@ -1,0 +1,25 @@
+subject: microsoft
+grievances: [war-crimes-support]
+date: "2025-07-02"
+summary: "The report \"From economy of occupation to economy of genocide\" (A/HRC/59/23) by Francesca Albanese, UN Special Rapporteur on the occupied Palestinian territories, which describes Israel's campaign in Gaza as genocide, names Microsoft among the companies giving Israel near government-wide access to cloud and AI technologies. It states that when the Israeli military's internal cloud overloaded in October 2023, Microsoft, with its Azure platform, and the Project Nimbus consortium stepped in with critical cloud and AI infrastructure, and that Microsoft has integrated its systems across the Israeli military since 2003."
+quote:
+  text: "Microsoft, Alphabet and Amazon grant Israel virtually government-wide access to their cloud and artificial intelligence technologies, enhancing data processing, decision-making and surveillance and analysis capacities."
+  lang: en
+status: contested
+response: "On 15 May 2025 Microsoft said: \"we have found no evidence to date that Microsoft’s Azure and AI technologies have been used to target or harm people\" in the Gaza conflict. On 25 September 2025, after reporting by The Guardian, it said it had \"ceased and disabled a set of services to a unit within the Israel Ministry of Defense (IMOD)\". Israel called the report politically motivated and legally baseless."
+sources:
+  - url: https://documents.un.org/doc/undoc/gen/g25/094/40/pdf/g2509440.pdf
+    outlet: "UN Human Rights Council, A/HRC/59/23"
+    date: "2025-07-02"
+  - url: https://www.newarab.com/news/which-companies-are-fuelling-israels-war-gaza
+    outlet: "The New Arab"
+    date: "2025-07-02"
+  - url: https://www.972mag.com/cloud-israeli-army-gaza-amazon-google-microsoft/
+    outlet: "+972 Magazine"
+    date: "2024-08-04"
+  - url: https://blogs.microsoft.com/on-the-issues/2025/05/15/statement-technology-israel-gaza/
+    outlet: "Microsoft On the Issues"
+    date: "2025-05-15"
+  - url: https://blogs.microsoft.com/on-the-issues/2025/09/25/update-on-ongoing-microsoft-review/
+    outlet: "Microsoft On the Issues"
+    date: "2025-09-25"

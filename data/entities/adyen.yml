@@ -1,0 +1,17 @@
+name: "Adyen"
+type: company
+description: "Dutch payment processing company."
+country: NL
+website: https://www.adyen.com
+wikidata: Q4686934
+relations:
+  - target: pieter-van-der-does
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Adyen
+        outlet: "Wikipedia"
+  - target: pieter-van-der-does
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Adyen
+        outlet: "Wikipedia"

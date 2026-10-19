@@ -1,0 +1,61 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { loadDataset } from '@/lib/dataset';
+import { ROLE_LABELS, formatDate } from '@/lib/labels';
+import FactCard from '@/components/site/FactCard.astro';
+import { url } from '@/lib/urls';
+
+export async function getStaticPaths() {
+  const entities = await getCollection('entities');
+  return entities.map((e) => ({ params: { id: e.id } }));
+}
+const { id } = Astro.params;
+const data = await loadDataset();
+const e = data.entities[id!];
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+const facts = data.facts.filter((f) => f.subject === id);
+const products = data.products.filter((p) => p.vendor === id);
+const inbound = Object.values(data.entities).flatMap((o) => o.relations.filter((r) => r.target === id).map((r) => ({ from: o, r })));
+---
+<Layout title={e.name} description={e.description} image={`og/entity/${e.id}.png`} type={e.type === 'person' ? 'profile' : 'website'}>
+  <p class="mb-2 text-sm text-muted-foreground">{e.type}{e.country ? ` · ${e.country}` : ''}</p>
+  <h1 class="mb-3 text-3xl font-semibold">{e.name}</h1>
+  <p class="mb-4 flex gap-4 text-sm"><a class="underline" href={`${base}contribute/?type=fact&subject=${encodeURIComponent(e.name)}`}>Report a fact</a><a class="underline" href={`${base}contribute/?type=correction&target=${encodeURIComponent(e.name)}`}>Correct or respond</a></p>
+  <p class="mb-8 max-w-2xl text-muted-foreground">{e.description} {e.website && <a class="underline" href={e.website} target="_blank" rel="noopener noreferrer">Website ↗</a>}</p>
+
+  <section class="mb-10">
+    <h2 class="mb-4 text-xl font-semibold">Documented facts ({facts.length})</h2>
+    {facts.length === 0 ? <p class="text-muted-foreground">No documented fact in the database.</p> : (
+      <ul class="grid gap-4">
+        {facts.map((f) => <FactCard fact={f} showSubject={false} />)}
+      </ul>
+    )}
+  </section>
+
+  {(e.relations.length > 0 || inbound.length > 0) && (
+    <section class="mb-10">
+      <h2 class="mb-4 text-xl font-semibold">Relations</h2>
+      <ul class="grid gap-2 text-sm">
+        {e.relations.map((r) => (
+          <li>{e.name} is <strong>{ROLE_LABELS[r.role]}</strong> <a class="underline" href={`${base}entity/${r.target}/`}>{data.entities[r.target]?.name ?? r.target}</a>
+            {r.until && <span class="text-muted-foreground"> (until {formatDate(r.until, 'year')})</span>}
+            <span class="text-muted-foreground"> · {r.sources.map((s) => <a class="mr-2 hover:underline" href={s.url} target="_blank" rel="noopener noreferrer">{s.outlet}</a>)}</span>
+          </li>
+        ))}
+        {inbound.map(({ from, r }) => (
+          <li><a class="underline" href={`${base}entity/${from.id}/`}>{from.name}</a> is <strong>{ROLE_LABELS[r.role]}</strong> {e.name}</li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {products.length > 0 && (
+    <section>
+      <h2 class="mb-4 text-xl font-semibold">Products ({products.length})</h2>
+      <ul class="flex flex-wrap gap-2">
+        {products.map((p) => <li><a href={url.product(p.id)} class="rounded-full bg-secondary px-3 py-1 text-sm hover:bg-secondary/70">{p.name}</a></li>)}
+      </ul>
+    </section>
+  )}
+</Layout>

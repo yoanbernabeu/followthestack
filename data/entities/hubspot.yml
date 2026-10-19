@@ -1,0 +1,12 @@
+name: "HubSpot"
+type: company
+description: "Marketing, sales and customer service software company."
+country: US
+website: https://www.hubspot.com
+wikidata: Q5926631
+relations:
+  - target: yamini-rangan
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/HubSpot
+        outlet: "Wikipedia"

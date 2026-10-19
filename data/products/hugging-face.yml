@@ -1,0 +1,10 @@
+name: "Hugging Face Hub"
+vendor: hugging-face
+category: ai
+links: [pay, data, depend]
+description: "Platform hosting open machine learning models, datasets and Spaces, with paid inference and compute."
+website: https://huggingface.co
+detect:
+  npm: ["@huggingface/inference", "@huggingface/hub"]
+  pypi: ["huggingface-hub", "transformers"]
+alternatives: [ollama]

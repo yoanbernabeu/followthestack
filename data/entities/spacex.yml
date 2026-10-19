@@ -1,0 +1,22 @@
+name: "SpaceX"
+type: company
+description: "US aerospace company founded and led by Elon Musk, operator of the Starlink satellite internet service."
+country: US
+website: https://www.spacex.com
+wikidata: Q193701
+relations:
+  - target: elon-musk
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/SpaceX
+        outlet: Wikipedia
+  - target: elon-musk
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/SpaceX
+        outlet: Wikipedia
+  - target: alphabet
+    role: invested-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/SpaceX
+        outlet: Wikipedia

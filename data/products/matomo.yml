@@ -1,0 +1,10 @@
+name: "Matomo"
+vendor: innocraft
+category: analytics
+links: [data]
+description: "Open source web analytics platform, self-hosted or as Matomo Cloud."
+website: https://matomo.org
+detect:
+  npm: ["vue-matomo", "@datapunt/matomo-tracker-react", "ngx-matomo-client"]
+  docker: ["matomo"]
+alternatives: [plausible, umami, pirsch, piwik-pro]

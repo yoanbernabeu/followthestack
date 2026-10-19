@@ -1,0 +1,11 @@
+name: "Supabase"
+vendor: supabase
+category: databases
+links: [pay, data]
+description: "Open source backend platform built on PostgreSQL (database, auth, storage, realtime), available as a hosted service."
+website: https://supabase.com
+detect:
+  npm: ["@supabase/supabase-js", "@supabase/ssr"]
+  pypi: ["supabase"]
+  docker: ["supabase/postgres"]
+alternatives: ["firebase", "neon", "planetscale", "postgresql", "amazon-rds", "google-cloud-sql", "aiven", "turso"]

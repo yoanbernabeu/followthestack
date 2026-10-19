@@ -1,0 +1,12 @@
+name: "Twilio"
+type: company
+description: "Cloud communications company, owner of SendGrid, Segment and Stytch."
+country: US
+website: https://www.twilio.com
+wikidata: Q7858039
+relations:
+  - target: khozema-shipchandler
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Twilio
+        outlet: "Wikipedia"

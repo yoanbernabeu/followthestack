@@ -1,0 +1,8 @@
+name: "Jitsi Meet"
+vendor: 8x8
+category: communication
+links: [depend]
+description: "Open source videoconferencing software maintained by 8x8, self-hostable."
+website: https://jitsi.org
+detect:
+  docker: ["jitsi/web", "jitsi/jvb"]

@@ -1,0 +1,12 @@
+name: "Craft Ventures"
+type: investment-fund
+description: "US venture capital firm co-founded by David Sacks."
+country: US
+website: https://www.craftventures.com
+wikidata: Q55074985
+relations:
+  - target: david-sacks
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Craft_Ventures
+        outlet: "Wikipedia"

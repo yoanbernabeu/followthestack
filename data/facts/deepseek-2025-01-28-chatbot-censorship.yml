@@ -1,0 +1,15 @@
+subject: deepseek
+grievances: [authoritarian-alignment]
+date: "2025-01-28"
+summary: "The Guardian reported that DeepSeek's AI assistant declined to answer questions about the June 4, 1989 Tiananmen Square events, what happened to Hu Jintao in 2022 and the Umbrella Revolution, noting that Chinese generative AI must not contain content that violates the country's \"core socialist values\" under a national standards document. A September 2025 evaluation by the US National Institute of Standards and Technology found that DeepSeek models \"echoed four times as many inaccurate and misleading CCP narratives\" as US reference models."
+quote:
+  text: "Sorry, that’s beyond my current scope. Let’s talk about something else."
+  lang: en
+status: established
+sources:
+  - url: https://www.theguardian.com/technology/2025/jan/28/we-tried-out-deepseek-it-works-well-until-we-asked-it-about-tiananmen-square-and-taiwan
+    outlet: "The Guardian"
+    date: "2025-01-28"
+  - url: https://www.nist.gov/news-events/news/2025/09/caisi-evaluation-deepseek-ai-models-finds-shortcomings-and-risks
+    outlet: "NIST"
+    date: "2025-09-30"

@@ -1,0 +1,15 @@
+subject: alex-karp
+grievances: [violent-rhetoric]
+date: "2025-02-03"
+summary: "On Palantir's fourth-quarter 2024 earnings call, said the company was there to make its partner institutions the best in the world and, when necessary, to scare enemies and on occasion kill them. Discussing disruption of the US government, which Gizmodo linked to the Department of Government Efficiency (DOGE), he also said \"there's a revolution\" in which \"some people get their heads cut off\", a remark that may be read as a metaphor."
+quote:
+  text: "when it's necessary, to scare enemies and on occasion kill them"
+  lang: en
+status: established
+sources:
+  - url: https://www.fool.com/earnings/call-transcripts/2025/02/04/palantir-technologies-pltr-q4-2024-earnings-call-t/
+    outlet: "The Motley Fool (call transcript)"
+    date: "2025-02-04"
+  - url: https://gizmodo.com/palantirs-billionaire-ceo-just-cant-stop-talking-about-killing-people-2000560597
+    outlet: "Gizmodo"
+    date: "2025-02-07"

@@ -1,0 +1,10 @@
+name: "Lemon Squeezy"
+vendor: lemon-squeezy
+category: payments
+links: [pay, data, depend]
+description: "Merchant-of-record platform for digital products, owned by Stripe."
+website: https://www.lemonsqueezy.com
+detect:
+  npm: ["@lemonsqueezy/lemonsqueezy.js"]
+  composer: ["lmsqueezy/laravel"]
+alternatives: [paddle, mollie]

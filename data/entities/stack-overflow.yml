@@ -1,0 +1,12 @@
+name: "Stack Overflow"
+type: company
+description: "Programming Q&A website and developer knowledge platform, owned by Prosus since 2021."
+country: US
+website: https://stackoverflow.com
+relations:
+  - target: prosus
+    role: owned-by
+    since: 2021-06-02
+    sources:
+      - url: https://en.wikipedia.org/wiki/Stack_Overflow
+        outlet: "Wikipedia"

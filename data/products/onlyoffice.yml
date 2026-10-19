@@ -1,0 +1,8 @@
+name: "ONLYOFFICE"
+vendor: ascensio-system
+category: collaboration
+links: [pay, depend]
+description: "Open source office suite and document server, available self-hosted or as a cloud service."
+website: https://www.onlyoffice.com
+detect:
+  docker: ["onlyoffice/documentserver"]

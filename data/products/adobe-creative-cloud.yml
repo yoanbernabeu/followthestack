@@ -1,0 +1,7 @@
+name: "Adobe Creative Cloud"
+vendor: adobe
+category: design
+links: [pay, data]
+description: "Adobe's subscription suite of creative apps (Photoshop, Illustrator, Premiere Pro, InDesign, Express)."
+website: https://www.adobe.com/creativecloud.html
+alternatives: [penpot, gimp, inkscape, krita]

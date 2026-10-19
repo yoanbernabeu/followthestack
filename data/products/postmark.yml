@@ -1,0 +1,12 @@
+name: "Postmark"
+vendor: activecampaign
+category: email
+links: [pay, data]
+description: "Transactional email delivery service owned by ActiveCampaign."
+website: https://postmarkapp.com
+detect:
+  npm: ["postmark"]
+  composer: ["wildbit/postmark-php", "symfony/postmark-mailer"]
+  pypi: ["postmarker"]
+  gems: ["postmark", "postmark-rails"]
+alternatives: [resend, brevo, mailjet, amazon-ses]

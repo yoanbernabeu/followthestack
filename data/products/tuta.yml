@@ -1,0 +1,7 @@
+name: "Tuta Mail"
+vendor: tuta
+category: email
+links: [pay, data]
+description: "End-to-end encrypted email service by German company Tutao GmbH, formerly Tutanota."
+website: https://tuta.com
+alternatives: [proton-mail, infomaniak-mail, fastmail]

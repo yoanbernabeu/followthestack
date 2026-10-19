@@ -1,0 +1,14 @@
+subject: salesforce
+grievances: [surveillance-deportation]
+date: "2025-08-26"
+summary: "Sent Immigration and Customs Enforcement (ICE) a five-page memo, in response to an ICE request for information, explaining how Salesforce could help the agency with \"talent acquisition\" to achieve its goal \"to nearly triple its work force by hiring 10,000 new officers and agents expeditiously\", according to internal documents obtained by The New York Times. Other documents included a spreadsheet of ICE contract \"opportunities\" and an internal brainstorming slide deck on how AI agents might help ICE evaluate tip-line information and improve investigations. Salesforce did not dispute the documents' authenticity."
+quote:
+  text: "identify, engage and acquire the talent profile proven to drive ICE mission success, and in turn, administration priorities"
+  lang: en
+status: established
+response: "A Salesforce spokeswoman said the company does not discuss contracts. The company said it has served the US government under many administrations and that all of its customers are bound by company policies to use its products responsibly."
+sources:
+  - url: https://www.nytimes.com/2025/10/16/us/salesforce-benioff-ice.html
+    outlet: "The New York Times"
+    date: "2025-10-16"
+    archive: https://web.archive.org/web/20251017041657/https://www.nytimes.com/2025/10/16/us/salesforce-benioff-ice.html

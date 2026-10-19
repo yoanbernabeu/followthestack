@@ -1,0 +1,15 @@
+subject: microsoft
+grievances: [authoritarian-alignment]
+date: 2025-01-09
+summary: "Announced a $1 million donation to Donald Trump's 2025 inaugural fund, up from $500,000 to each of the 2017 and 2021 inaugurations. The inaugural committee reported to the Federal Election Commission receiving $750,000 from Microsoft, while Microsoft told Congress it gave $1 million in two installments."
+status: established
+sources:
+  - url: https://gulfnews.com/world/americas/microsoft-google-adobe-give-1-million-each-to-donald-trump-inaugural-fund-1.500013613
+    outlet: "Bloomberg via Gulf News"
+    date: 2025-01-10
+  - url: https://www.nbcnews.com/politics/trump-administration/major-corporate-interests-megadonors-gave-239-million-fund-trumps-inau-rcna202074
+    outlet: "NBC News"
+    date: 2025-04-21
+  - url: https://www.notus.org/donald-trump/inauguration-committee-donation-discrepencies
+    outlet: "NOTUS"
+    date: 2025-07-31

@@ -1,0 +1,17 @@
+name: "Replit"
+type: company
+description: "Cloud development environment and AI app-building platform."
+country: US
+website: https://replit.com
+wikidata: Q60768699
+relations:
+  - target: amjad-masad
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Amjad_Masad
+        outlet: "Wikipedia"
+  - target: amjad-masad
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Replit
+        outlet: "Wikipedia"

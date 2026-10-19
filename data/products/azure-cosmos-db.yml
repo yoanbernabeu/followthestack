@@ -1,0 +1,10 @@
+name: "Azure Cosmos DB"
+vendor: microsoft
+category: databases
+links: [pay, data, depend]
+description: "Proprietary multi-model managed database on Microsoft Azure."
+website: https://azure.microsoft.com/products/cosmos-db
+detect:
+  npm: ["@azure/cosmos"]
+  pypi: ["azure-cosmos"]
+alternatives: ["mongodb", "couchbase", "postgresql", "amazon-dynamodb", "firebase"]

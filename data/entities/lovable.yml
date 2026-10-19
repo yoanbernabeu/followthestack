@@ -1,0 +1,17 @@
+name: "Lovable"
+type: company
+description: "Swedish company behind the Lovable AI app-building (vibe coding) platform."
+country: SE
+website: https://lovable.dev
+wikidata: Q135998012
+relations:
+  - target: anton-osika
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Lovable_(company)
+        outlet: "Wikipedia"
+  - target: anton-osika
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Lovable_(company)
+        outlet: "Wikipedia"

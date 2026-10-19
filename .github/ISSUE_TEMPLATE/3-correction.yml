@@ -1,0 +1,17 @@
+name: Correction or dispute
+description: Something is wrong, outdated or unsourced. Subjects of a fact can use this form too.
+title: "[Correction] <file or fact>"
+labels: ["correction", "needs-review"]
+body:
+  - type: input
+    id: target
+    attributes: { label: Which entry? (URL on the site or file path) }
+    validations: { required: true }
+  - type: textarea
+    id: problem
+    attributes: { label: What is wrong? }
+    validations: { required: true }
+  - type: textarea
+    id: sources
+    attributes: { label: Sources supporting the correction }
+    validations: { required: true }

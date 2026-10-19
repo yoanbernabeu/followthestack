@@ -1,0 +1,13 @@
+subject: apple
+grievances: [authoritarian-alignment]
+date: "2024-04-19"
+summary: "Removed WhatsApp and Threads from its App Store in China on the order of the Cyberspace Administration of China, which cited national security concerns."
+status: established
+response: "Apple said: \"We are obligated to follow the laws in the countries where we operate, even when we disagree.\""
+sources:
+  - url: https://www.cnn.com/2024/04/19/tech/china-apple-whatspp-threads-removal-hnk-intl/index.html
+    outlet: "CNN"
+    date: "2024-04-19"
+  - url: https://www.nbcnews.com/tech/tech-news/apple-pulls-whatsapp-threads-china-app-store-beijing-order-rcna148529
+    outlet: "NBC News"
+    date: "2024-04-19"

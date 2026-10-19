@@ -1,0 +1,50 @@
+name: "Apple Inc."
+type: company
+description: "Consumer electronics, software and online services company (iPhone, Mac, App Store, iCloud)."
+country: US
+website: https://www.apple.com
+wikidata: Q312
+relations:
+  - target: john-ternus
+    role: led-by
+    since: "2026-09-01"
+    sources:
+      - url: https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/
+        outlet: "Apple Newsroom"
+        date: "2026-04-20"
+      - url: https://macrumors.com/2026/09/01/john-ternus-first-memo/
+        outlet: "MacRumors"
+        date: "2026-09-01"
+  - target: tim-cook
+    role: led-by
+    since: "2011-08-24"
+    until: "2026-09-01"
+    sources:
+      - url: https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/
+        outlet: "Apple Newsroom"
+        date: "2026-04-20"
+      - url: https://en.wikipedia.org/wiki/Tim_Cook
+        outlet: Wikipedia
+  - target: tim-cook
+    role: board-member
+    since: "2026-09-01"
+    sources:
+      - url: https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/
+        outlet: "Apple Newsroom"
+        date: "2026-04-20"
+  - target: steve-jobs
+    role: founded-by
+    until: "2011-10-05"
+    sources:
+      - url: https://en.wikipedia.org/wiki/Apple_Inc.
+        outlet: Wikipedia
+      - url: https://en.wikipedia.org/wiki/Steve_Jobs
+        outlet: "Wikipedia"
+  - target: steve-wozniak
+    role: founded-by
+    until: "1985-01-01"
+    sources:
+      - url: https://en.wikipedia.org/wiki/Apple_Inc.
+        outlet: Wikipedia
+      - url: https://en.wikipedia.org/wiki/Steve_Wozniak
+        outlet: "Wikipedia"

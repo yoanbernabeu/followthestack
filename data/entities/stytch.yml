@@ -1,0 +1,13 @@
+name: "Stytch"
+type: company
+description: "Authentication and fraud prevention API company, acquired by Twilio in November 2025."
+country: US
+website: https://stytch.com
+relations:
+  - target: twilio
+    role: subsidiary-of
+    since: 2025-11-14
+    sources:
+      - url: https://stytch.com/docs/resources/changelog
+        outlet: "Stytch changelog"
+        date: 2025-11-14

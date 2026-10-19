@@ -1,0 +1,7 @@
+name: "Devin"
+vendor: cognition
+category: ai
+links: [pay, data]
+description: "Autonomous AI software engineering agent sold by Cognition."
+website: https://devin.ai
+alternatives: [claude-code, github-copilot]

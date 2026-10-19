@@ -1,0 +1,9 @@
+subject: palantir
+grievances: [surveillance-deportation]
+date: "2026-01-15"
+summary: "404 Media reported, based on internal ICE material, public procurement records and sworn testimony from an ICE official, that Palantir is working on ELITE, an ICE tool that populates a map with potential deportation targets, brings up a dossier on each person with a \"confidence score\" on their current address, and receives addresses from the Department of Health and Human Services among other sources. ICE uses it to find locations where many people it might detain could be based."
+status: established
+sources:
+  - url: https://www.404media.co/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/
+    outlet: "404 Media"
+    date: "2026-01-15"

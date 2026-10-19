@@ -1,0 +1,13 @@
+name: "Elasticsearch / Elastic Cloud"
+vendor: elastic
+category: databases
+links: [pay, data, depend]
+description: "Search and analytics engine and its managed service Elastic Cloud."
+website: https://www.elastic.co
+detect:
+  npm: ["@elastic/elasticsearch"]
+  composer: ["elasticsearch/elasticsearch"]
+  gems: ["elasticsearch"]
+  pypi: ["elasticsearch"]
+  docker: ["elasticsearch", "docker.elastic.co/elasticsearch/elasticsearch"]
+alternatives: ["opensearch"]

@@ -1,0 +1,8 @@
+name: "Better Auth"
+vendor: vercel
+category: auth-identity
+links: [depend]
+description: "TypeScript authentication library; its company was acquired by Vercel in July 2026."
+website: https://www.better-auth.com
+detect:
+  npm: ["better-auth"]

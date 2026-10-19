@@ -1,0 +1,9 @@
+name: "PlanetScale"
+vendor: planetscale
+category: databases
+links: [pay, data]
+description: "Managed MySQL (Vitess) and PostgreSQL database service."
+website: https://planetscale.com
+detect:
+  npm: ["@planetscale/database"]
+alternatives: ["supabase", "firebase", "neon", "postgresql", "amazon-rds", "google-cloud-sql", "aiven", "turso"]

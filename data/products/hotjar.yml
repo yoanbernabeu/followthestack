@@ -1,0 +1,9 @@
+name: "Hotjar"
+vendor: hotjar
+category: analytics
+links: [pay, data]
+description: "Heatmaps, session recordings and surveys SaaS by Hotjar, a Contentsquare company."
+website: https://www.hotjar.com
+detect:
+  npm: ["@hotjar/browser", "react-hotjar"]
+alternatives: [posthog, matomo, microsoft-clarity]

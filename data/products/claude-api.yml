@@ -1,0 +1,11 @@
+name: "Claude API"
+vendor: anthropic
+category: ai
+links: [pay, data, depend]
+description: "Paid API giving access to Anthropic's Claude models."
+website: https://www.anthropic.com
+detect:
+  npm: ["@anthropic-ai/sdk", "@ai-sdk/anthropic"]
+  gems: ["anthropic"]
+  pypi: ["anthropic"]
+alternatives: [openai-api, mistral-api, gemini, cohere, ollama]

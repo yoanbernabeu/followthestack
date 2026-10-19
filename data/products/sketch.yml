@@ -1,0 +1,7 @@
+name: "Sketch"
+vendor: sketch-bv
+category: design
+links: [pay]
+description: "Interface design app for macOS by the Dutch company Sketch B.V."
+website: https://www.sketch.com
+alternatives: [penpot]

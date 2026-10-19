@@ -1,0 +1,7 @@
+name: "Cloudflare R2"
+vendor: cloudflare
+category: storage
+links: [pay, data]
+description: "S3-compatible object storage without egress fees, run by Cloudflare."
+website: https://www.cloudflare.com/developer-platform/products/r2/
+alternatives: ["amazon-s3", "backblaze-b2", "wasabi", "azure-blob-storage", "google-cloud-storage", "minio", "scaleway-object-storage", "ovhcloud-object-storage"]

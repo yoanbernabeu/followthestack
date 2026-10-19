@@ -1,0 +1,17 @@
+name: "Anduril Industries"
+type: company
+description: "US defense technology company making autonomous systems, drones and the AI-powered sentry towers used by US Customs and Border Protection along the US border."
+country: US
+website: https://www.anduril.com
+wikidata: Q61918830
+relations:
+  - target: palmer-luckey
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Anduril_Industries
+        outlet: "Wikipedia"
+  - target: founders-fund
+    role: invested-by
+    sources:
+      - url: https://foundersfund.com/company/anduril/
+        outlet: "Founders Fund (portfolio page)"

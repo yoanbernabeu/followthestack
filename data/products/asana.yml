@@ -1,0 +1,10 @@
+name: "Asana"
+vendor: asana-inc
+category: collaboration
+links: [pay, data]
+description: "Work and project management SaaS by Asana, Inc."
+website: https://asana.com
+detect:
+  npm: ["asana"]
+  pypi: ["asana"]
+alternatives: [openproject]

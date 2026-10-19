@@ -1,0 +1,10 @@
+name: "Umami"
+vendor: umami-software
+category: analytics
+links: [data]
+description: "Open source web analytics, self-hosted or as Umami Cloud."
+website: https://umami.is
+detect:
+  npm: ["@umami/node"]
+  docker: ["ghcr.io/umami-software/umami"]
+alternatives: [plausible, matomo, pirsch]

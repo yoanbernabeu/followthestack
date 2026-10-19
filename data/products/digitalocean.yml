@@ -1,0 +1,9 @@
+name: "DigitalOcean"
+vendor: digitalocean
+category: cloud-hosting
+links: [pay, data]
+description: "Cloud provider offering virtual servers (Droplets), App Platform and managed databases."
+website: https://www.digitalocean.com
+detect:
+  pypi: ["python-digitalocean", "pydo"]
+alternatives: ["amazon-ec2", "akamai-cloud", "hetzner-cloud", "ovhcloud", "scaleway", "vultr", "upcloud", "exoscale"]

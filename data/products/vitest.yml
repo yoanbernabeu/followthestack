@@ -1,0 +1,9 @@
+name: "Vitest"
+vendor: voidzero
+category: dev-tools
+links: [depend]
+description: "Vite-native test framework maintained by the VoidZero team (Cloudflare) and community."
+website: https://vitest.dev
+detect:
+  npm: ["vitest"]
+alternatives: [jest]

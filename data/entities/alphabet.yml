@@ -1,0 +1,32 @@
+name: "Alphabet Inc."
+type: company
+description: "Holding company of Google, created in 2015."
+country: US
+website: https://abc.xyz
+wikidata: Q20800404
+relations:
+  - target: sundar-pichai
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Alphabet_Inc.
+        outlet: "Wikipedia"
+  - target: larry-page
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Alphabet_Inc.
+        outlet: "Wikipedia"
+  - target: sergey-brin
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Alphabet_Inc.
+        outlet: "Wikipedia"
+  - target: larry-page
+    role: owned-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Alphabet_Inc.
+        outlet: "Wikipedia"
+  - target: sergey-brin
+    role: owned-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Alphabet_Inc.
+        outlet: "Wikipedia"

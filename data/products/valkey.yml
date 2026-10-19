@@ -1,0 +1,10 @@
+name: "Valkey"
+vendor: linux-foundation
+category: databases
+links: [depend]
+description: "Open source (BSD) fork of Redis hosted by the Linux Foundation."
+website: https://valkey.io
+detect:
+  pypi: ["valkey"]
+  docker: ["valkey/valkey"]
+alternatives: ["redis", "upstash"]

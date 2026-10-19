@@ -1,0 +1,8 @@
+name: "Turborepo"
+vendor: vercel
+category: dev-tools
+links: [depend]
+description: "Monorepo build system acquired and maintained by Vercel."
+website: https://turborepo.com
+detect:
+  npm: ["turbo"]

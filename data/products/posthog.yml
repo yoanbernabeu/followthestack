@@ -1,0 +1,12 @@
+name: "PostHog"
+vendor: posthog
+category: analytics
+links: [pay, data]
+description: "Open source product analytics, session replay and feature flag platform, available as SaaS or self-hosted."
+website: https://posthog.com
+detect:
+  npm: ["posthog-js", "posthog-node"]
+  composer: ["posthog/posthog-php"]
+  pypi: ["posthog"]
+  gems: ["posthog-ruby"]
+alternatives: [matomo, plausible, umami]

@@ -1,0 +1,88 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import FactCard from '@/components/site/FactCard.astro';
+import { getCollection } from 'astro:content';
+import { loadDataset } from '@/lib/dataset';
+import { buildReport } from '@/lib/report';
+import { CATEGORY_LABELS, LINK_LABELS, ROLE_LABELS } from '@/lib/labels';
+import { url } from '@/lib/urls';
+export async function getStaticPaths() {
+  return (await getCollection('products')).map((p) => ({ params: { id: p.id } }));
+}
+const { id } = Astro.params;
+const data = await loadDataset();
+const p = data.products.find((x) => x.id === id)!;
+const [direct] = buildReport(data, [p.id], false);
+const [all] = buildReport(data, [p.id], true);
+const indirectFacts = all.facts.filter((f) => f.kind === 'indirect');
+const indirectChain = all.chain.filter((c) => c.kind === 'indirect');
+const alternatives = p.alternatives.map((a) => data.products.find((x) => x.id === a)).filter(Boolean);
+const detect = Object.entries(p.detect).filter(([, v]) => v.length);
+const viaLabel = (via: { role: string; from: string }[]) => via.length ? `via ${via.map((v) => `${v.from} (${ROLE_LABELS[v.role]})`).join(' → ')}` : undefined;
+---
+<Layout title={p.name} description={p.description} image={`og/product/${p.id}.png`}>
+  <p class="mb-2 text-sm text-muted-foreground"><a class="hover:underline" href={url.home()}>Follow the Stack</a> · <a class="hover:underline" href={url.category(p.category)}>{CATEGORY_LABELS[p.category]}</a></p>
+  <h1 class="mb-3 text-3xl font-semibold">{p.name}</h1>
+  <p class="mb-4 max-w-2xl text-muted-foreground">{p.description} {p.website && <a class="underline" href={p.website} target="_blank" rel="noopener noreferrer">Website ↗</a>}</p>
+  <div class="mb-8 flex flex-wrap items-center gap-2 text-sm">
+    <span class="text-muted-foreground">By</span>
+    <a class="font-medium underline" href={url.entity(p.vendor)}>{data.entities[p.vendor]?.name}</a>
+    {p.links.map((l) => <a href={url.linkType(l)} title={LINK_LABELS[l].hint} class="rounded-full border px-2 py-0.5 text-xs hover:bg-muted">{LINK_LABELS[l].label}</a>)}
+  </div>
+
+  <section class="mb-10 grid gap-2">
+    <h2 class="text-xl font-semibold">Who runs it</h2>
+    <ul class="flex flex-wrap gap-2 text-sm">
+      {direct.chain.map((c) => (
+        <li><a href={url.entity(c.entity.id)} class="inline-flex gap-1 rounded-full border px-3 py-1 hover:bg-muted">{c.entity.name}{c.via.length > 0 && <span class="text-muted-foreground">({ROLE_LABELS[c.via[c.via.length - 1].role]})</span>}</a></li>
+      ))}
+    </ul>
+    {indirectChain.length > 0 && (
+      <>
+        <h3 class="mt-4 text-sm font-medium text-muted-foreground">Who backs it (minority investors, indirect)</h3>
+        <ul class="flex flex-wrap gap-2 text-sm">
+          {indirectChain.map((c) => <li><a href={url.entity(c.entity.id)} class="rounded-full border border-dashed px-3 py-1 hover:bg-muted">{c.entity.name}</a></li>)}
+        </ul>
+      </>
+    )}
+  </section>
+
+  <section class="mb-10">
+    <h2 class="mb-4 text-xl font-semibold">Documented facts ({direct.facts.length})</h2>
+    {direct.facts.length === 0 ? (
+      <p class="text-muted-foreground">No documented fact for {p.name} and the people and companies running it. <a class="underline" href={url.contribute({ type: 'fact', subject: data.entities[p.vendor]?.name ?? '' })}>Report one with sources</a>.</p>
+    ) : (
+      <ul class="grid gap-4">
+        {direct.facts.map((f) => <FactCard fact={f.fact} subjectName={f.entity.name} note={viaLabel(f.via)} />)}
+      </ul>
+    )}
+  </section>
+
+  {indirectFacts.length > 0 && (
+    <section class="mb-10">
+      <details>
+        <summary class="cursor-pointer text-xl font-semibold">Indirect facts, through investors ({indirectFacts.length})</summary>
+        <p class="my-3 text-sm text-muted-foreground">A minority stake is funding, not control. Shown for information.</p>
+        <ul class="grid gap-4">
+          {indirectFacts.map((f) => <FactCard fact={f.fact} subjectName={f.entity.name} note={viaLabel(f.via)} />)}
+        </ul>
+      </details>
+    </section>
+  )}
+
+  {alternatives.length > 0 && (
+    <section class="mb-10">
+      <h2 class="mb-4 text-xl font-semibold">Alternatives</h2>
+      <ul class="flex flex-wrap gap-2">
+        {alternatives.map((a) => <li><a href={url.product(a!.id)} class="rounded-full bg-secondary px-3 py-1 text-sm hover:bg-secondary/70">{a!.name}</a></li>)}
+      </ul>
+    </section>
+  )}
+
+  {detect.length > 0 && (
+    <section class="mb-10">
+      <h2 class="mb-2 text-xl font-semibold">Detected from</h2>
+      <p class="text-sm text-muted-foreground">{detect.map(([eco, keys]) => `${eco}: ${keys.join(', ')}`).join(' · ')}</p>
+    </section>
+  )}
+</Layout>

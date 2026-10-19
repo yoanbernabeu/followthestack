@@ -1,0 +1,15 @@
+name: "Laravel"
+type: company
+description: "Company founded by Taylor Otwell that maintains the Laravel framework and sells Laravel Cloud, Forge and Nightwatch."
+country: "US"
+website: "https://laravel.com"
+relations:
+  - target: accel
+    role: invested-by
+    since: 2024-09-05
+    sources:
+      - url: https://laravel-news.com/laravel-raises-57-million-series-a
+        outlet: "Laravel News"
+        date: 2024-09-05
+      - url: https://en.wikipedia.org/wiki/Laravel
+        outlet: "Wikipedia"

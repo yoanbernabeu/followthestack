@@ -1,0 +1,7 @@
+name: "Gmail / Google Workspace"
+vendor: google
+category: email
+links: [pay, data]
+description: "Google's email service, sold to businesses as part of Google Workspace."
+website: https://workspace.google.com/gmail/
+alternatives: [proton-mail, infomaniak-mail, fastmail, tuta]

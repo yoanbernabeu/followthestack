@@ -1,0 +1,25 @@
+name: "Akamai Technologies"
+type: company
+description: "US content delivery, cybersecurity and cloud computing company, owner of Linode."
+country: US
+website: https://www.akamai.com
+wikidata: Q415598
+relations:
+  - target: f-thomson-leighton
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Akamai_Technologies
+        outlet: "Wikipedia"
+  - target: daniel-lewin
+    role: founded-by
+    until: "2001-09-11"
+    sources:
+      - url: https://en.wikipedia.org/wiki/Akamai_Technologies
+        outlet: "Wikipedia"
+      - url: https://en.wikipedia.org/wiki/Daniel_Lewin
+        outlet: "Wikipedia"
+  - target: f-thomson-leighton
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Akamai_Technologies
+        outlet: "Wikipedia"

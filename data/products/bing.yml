@@ -1,0 +1,7 @@
+name: "Microsoft Bing"
+vendor: microsoft
+category: browser-search
+links: [data]
+description: "Web search engine by Microsoft, whose index also powers several other search engines."
+website: https://www.bing.com
+alternatives: [qwant, ecosia, startpage, duckduckgo, kagi]

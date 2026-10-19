@@ -1,0 +1,10 @@
+name: "Microsoft Azure"
+vendor: microsoft
+category: cloud-hosting
+links: [pay, data, depend]
+description: "Microsoft's public cloud computing platform."
+website: https://azure.microsoft.com
+detect:
+  npm: ["@azure/identity", "@azure/functions"]
+  pypi: ["azure-identity", "azure-functions"]
+alternatives: ["amazon-web-services", "google-cloud", "oracle-cloud-infrastructure", "alibaba-cloud", "ovhcloud", "scaleway", "ionos", "hetzner-cloud"]

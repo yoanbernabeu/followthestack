@@ -1,0 +1,10 @@
+name: "PyTorch"
+vendor: pytorch-foundation
+category: frameworks-libraries
+links: [depend]
+description: "Machine learning framework created at Meta, governed by the PyTorch Foundation (Linux Foundation) since 2022."
+website: https://pytorch.org
+detect:
+  pypi: ["torch", "torchvision", "torchaudio"]
+  docker: ["pytorch/pytorch"]
+alternatives: [tensorflow, jax]

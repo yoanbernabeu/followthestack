@@ -1,0 +1,13 @@
+name: "Neon"
+type: company
+description: "Serverless Postgres company, acquired by Databricks in 2025."
+country: US
+website: https://neon.com
+relations:
+  - target: databricks
+    role: subsidiary-of
+    since: "2025"
+    sources:
+      - url: https://www.databricks.com/company/newsroom/press-releases/databricks-agrees-acquire-neon-help-developers-deliver-ai-systems
+        outlet: "Databricks (press release)"
+        date: 2025-05-14

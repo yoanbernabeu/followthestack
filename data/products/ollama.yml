@@ -1,0 +1,11 @@
+name: "Ollama"
+vendor: ollama
+category: ai
+links: [depend]
+description: "Open source tool to run open-weight language models locally, with an optional paid cloud."
+website: https://ollama.com
+detect:
+  npm: ["ollama"]
+  pypi: ["ollama"]
+  docker: ["ollama/ollama"]
+alternatives: [openai-api, claude-api, mistral-api]

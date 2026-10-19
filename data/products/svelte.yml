@@ -1,0 +1,9 @@
+name: "Svelte"
+vendor: svelte
+category: frameworks-libraries
+links: [depend]
+description: "Compiler-based UI framework; open source project whose creator and several core maintainers are employed by Vercel."
+website: https://svelte.dev
+detect:
+  npm: ["svelte"]
+alternatives: [react, vue]

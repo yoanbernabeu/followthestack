@@ -1,0 +1,12 @@
+name: "Clearview AI"
+type: company
+description: "US facial recognition company that built its database by scraping billions of photos from the internet; contractor for ICE and other federal agencies."
+country: US
+website: https://www.clearview.ai
+wikidata: Q82969314
+relations:
+  - target: peter-thiel
+    role: invested-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Clearview_AI
+        outlet: "Wikipedia"

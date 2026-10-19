@@ -1,0 +1,11 @@
+name: "A Medium Corporation"
+type: company
+description: "US company operating the Medium online publishing platform, created by Twitter co-founder Evan Williams."
+country: US
+website: https://medium.com
+relations:
+  - target: evan-williams
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Medium_(website)
+        outlet: Wikipedia

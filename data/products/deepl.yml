@@ -1,0 +1,11 @@
+name: "DeepL"
+vendor: deepl
+category: ai
+links: [pay, data]
+description: "AI translation service and API by German company DeepL."
+website: https://www.deepl.com
+detect:
+  npm: ["deepl-node"]
+  composer: ["deeplcom/deepl-php"]
+  gems: ["deepl-rb"]
+  pypi: ["deepl"]

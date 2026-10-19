@@ -1,0 +1,34 @@
+name: "Mistral AI"
+type: company
+description: "French artificial intelligence company developing open-weight and commercial large language models and the Le Chat assistant."
+country: FR
+website: https://mistral.ai
+wikidata: Q119718658
+relations:
+  - target: arthur-mensch
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Mistral_AI
+        outlet: "Wikipedia"
+  - target: arthur-mensch
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Mistral_AI
+        outlet: "Wikipedia"
+  - target: asml
+    role: invested-by
+    since: 2025-09-01
+    sources:
+      - url: https://en.wikipedia.org/wiki/Mistral_AI
+        outlet: "Wikipedia"
+  - target: andreessen-horowitz
+    role: invested-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Mistral_AI
+        outlet: "Wikipedia"
+  - target: microsoft
+    role: invested-by
+    since: 2024-02-26
+    sources:
+      - url: https://en.wikipedia.org/wiki/Mistral_AI
+        outlet: "Wikipedia"

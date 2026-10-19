@@ -1,0 +1,10 @@
+name: "Pinecone"
+vendor: pinecone
+category: databases
+links: [pay, data]
+description: "Proprietary managed vector database."
+website: https://www.pinecone.io
+detect:
+  npm: ["@pinecone-database/pinecone"]
+  pypi: ["pinecone", "pinecone-client"]
+alternatives: ["qdrant", "weaviate"]

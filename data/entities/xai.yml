@@ -1,0 +1,21 @@
+name: xAI
+type: company
+description: "Artificial intelligence company founded by Elon Musk, developer of the Grok chatbot. Owner of X Corp. since March 2025; wholly owned subsidiary of SpaceX since February 2026, rebranded SpaceXAI in 2026."
+country: US
+website: https://x.ai
+relations:
+  - target: spacex
+    role: subsidiary-of
+    since: "2026-02-02"
+    sources:
+      - url: https://finance.yahoo.com/news/musks-spacex-merge-xai-combined-212210116.html
+        outlet: "Reuters (via Yahoo Finance)"
+        date: "2026-02-02"
+      - url: https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/
+        outlet: "TechCrunch"
+        date: "2026-06-16"
+  - target: elon-musk
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/XAI_(company)
+        outlet: Wikipedia

@@ -1,0 +1,10 @@
+name: "Cohere API"
+vendor: cohere
+category: ai
+links: [pay, data, depend]
+description: "Enterprise API for Cohere's Command, Embed and Rerank models."
+website: https://cohere.com
+detect:
+  npm: ["cohere-ai", "@ai-sdk/cohere"]
+  pypi: ["cohere"]
+alternatives: [openai-api, mistral-api, claude-api]

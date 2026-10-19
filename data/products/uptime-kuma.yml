@@ -1,0 +1,9 @@
+name: "Uptime Kuma"
+vendor: uptime-kuma
+category: monitoring
+links: [depend]
+description: "Open source self-hosted uptime monitoring tool."
+website: https://uptime.kuma.pet
+detect:
+  docker: ["louislam/uptime-kuma"]
+alternatives: [better-stack, checkly]

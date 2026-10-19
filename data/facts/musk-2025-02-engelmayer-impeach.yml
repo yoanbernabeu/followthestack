@@ -1,0 +1,10 @@
+subject: elon-musk
+grievances: [press-justice-attacks]
+date: "2025-02-01"
+datePrecision: month
+summary: "After US District Judge Paul Engelmayer issued a temporary order on 8 February 2025 blocking DOGE from Treasury Department payment systems and sensitive data, called him \"A corrupt judge protecting corruption\" and said he \"needs to be impeached NOW!\""
+status: established
+sources:
+  - url: https://www.nbcbayarea.com/news/politics/musk-calls-to-impeach-judge-whose-order-blocks-doge-from-treasury-systems-access/3788007/
+    outlet: "CNBC via NBC Bay Area"
+    date: "2025-02-09"

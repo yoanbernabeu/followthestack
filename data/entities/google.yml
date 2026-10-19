@@ -1,0 +1,27 @@
+name: "Google"
+type: company
+description: "Search, advertising and cloud company, subsidiary of Alphabet."
+country: US
+website: https://about.google
+wikidata: Q95
+relations:
+  - target: alphabet
+    role: subsidiary-of
+    sources:
+      - url: https://en.wikipedia.org/wiki/Google
+        outlet: "Wikipedia"
+  - target: sundar-pichai
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Google
+        outlet: "Wikipedia"
+  - target: larry-page
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Google
+        outlet: "Wikipedia"
+  - target: sergey-brin
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Google
+        outlet: "Wikipedia"

@@ -1,0 +1,6 @@
+name: "Docker Desktop"
+vendor: docker
+category: dev-tools
+links: [pay, data]
+description: "Desktop app to run containers; paid subscription required for larger companies."
+website: https://www.docker.com/products/docker-desktop/

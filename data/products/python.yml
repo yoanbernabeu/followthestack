@@ -1,0 +1,8 @@
+name: "Python"
+vendor: python-software-foundation
+category: frameworks-libraries
+links: [depend]
+description: "Programming language whose intellectual property is held by the Python Software Foundation."
+website: https://www.python.org
+detect:
+  docker: ["python"]

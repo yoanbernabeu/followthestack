@@ -1,0 +1,14 @@
+subject: elon-musk
+grievances: [press-justice-attacks]
+date: "2024-08-01"
+datePrecision: month
+summary: "During X's standoff with Brazil's Supreme Court, which had ordered the suspension of accounts linked to supporters of former president Jair Bolsonaro, and after Moraes gave X 24 hours on 28 August 2024 to name a new legal representative in Brazil, called Justice Alexandre de Moraes an \"evil dictator cosplaying as a judge\" and accused him of \"trying to destroy democracy in Brazil\". After X failed to name a legal representative, Moraes ordered X suspended nationwide on 30 August 2024."
+status: established
+response: "X said it expected to be shut down \"simply because we would not comply with his illegal orders to censor his political opponents\"."
+sources:
+  - url: https://jamaicaobserver.com/2024/08/30/brazil-judge-orders-shutdown-x-social-network
+    outlet: "AFP via Jamaica Observer"
+    date: "2024-08-30"
+  - url: https://www.agencialupa.org/jornalismo/2024/08/31/legal-battle-shuts-down-x-in-brazil-key-points-behind-the-controversy/
+    outlet: "Agência Lupa"
+    date: "2024-08-31"

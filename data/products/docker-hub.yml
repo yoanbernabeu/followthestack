@@ -1,0 +1,7 @@
+name: "Docker Hub"
+vendor: docker
+category: code-hosting
+links: [pay, data, depend]
+description: "Container image registry run by Docker, Inc., with pull rate limits for free users."
+website: https://hub.docker.com
+alternatives: [github]

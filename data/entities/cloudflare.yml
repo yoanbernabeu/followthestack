@@ -1,0 +1,22 @@
+name: "Cloudflare"
+type: company
+description: "US company providing CDN, DNS, DDoS protection, Zero Trust security and edge computing services."
+country: US
+website: https://www.cloudflare.com
+wikidata: Q4778915
+relations:
+  - target: matthew-prince
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Cloudflare
+        outlet: "Wikipedia"
+  - target: michelle-zatlyn
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Cloudflare
+        outlet: "Wikipedia"
+  - target: matthew-prince
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Cloudflare
+        outlet: "Wikipedia"

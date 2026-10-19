@@ -1,0 +1,13 @@
+subject: microsoft
+grievances: [surveillance-deportation]
+date: "2025-08-06"
+summary: "A joint investigation by The Guardian, +972 Magazine and Local Call reported that Israel's military intelligence Unit 8200 stored recordings of millions of intercepted phone calls of Palestinians in Gaza and the West Bank on Microsoft's Azure cloud, with Microsoft engineers working with the unit on the infrastructure. In September 2025 Microsoft said its review had found \"evidence that supports elements\" of the reporting and disabled the services concerned."
+status: established
+response: "Microsoft initially said it had \"no information\" about the data stored and was not aware of surveillance of civilians. Brad Smith later wrote: \"We do not provide technology to facilitate mass surveillance of civilians.\""
+sources:
+  - url: https://www.theguardian.com/world/2025/aug/06/microsoft-israeli-military-palestinian-phone-calls-cloud
+    outlet: "The Guardian"
+    date: "2025-08-06"
+  - url: https://www.theguardian.com/world/2025/sep/25/microsoft-blocks-israels-use-of-its-technology-in-mass-surveillance-of-palestinians
+    outlet: "The Guardian"
+    date: "2025-09-25"

@@ -1,0 +1,13 @@
+subject: donald-trump
+grievances: [anti-immigration, racism]
+date: "2023-09-01"
+datePrecision: month
+summary: "In a video interview with the right-leaning site The National Pulse, said undocumented immigrants were \"poisoning the blood of our country\", language CNN notes is often used by white supremacists and nativists. CNN reported on 6 October 2023 that the interview had been published the previous week."
+quote:
+  text: "It's poisoning the blood of our country. It's so bad, and people are coming in with disease."
+  lang: en
+status: established
+sources:
+  - url: https://www.cnn.com/2023/10/06/politics/trump-anti-immigrant-comments/index.html
+    outlet: "CNN"
+    date: "2023-10-06"

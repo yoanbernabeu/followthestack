@@ -1,0 +1,12 @@
+name: "Zendesk"
+vendor: zendesk
+category: crm-marketing
+links: [pay, data]
+description: "Customer service and ticketing platform by Zendesk."
+website: https://www.zendesk.com
+detect:
+  npm: ["node-zendesk"]
+  composer: ["zendesk/zendesk_api_client_php"]
+  pypi: ["zenpy"]
+  gems: ["zendesk_api"]
+alternatives: [freshdesk, crisp, chatwoot]

@@ -1,0 +1,6 @@
+name: "Qwant"
+vendor: qwant
+category: browser-search
+links: [data]
+description: "French search engine, partly powered by its own European index."
+website: https://www.qwant.com

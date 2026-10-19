@@ -1,0 +1,9 @@
+name: "CockroachDB"
+vendor: cockroach-labs
+category: databases
+links: [pay, data]
+description: "Distributed SQL database, self-hosted or managed as CockroachDB Cloud."
+website: https://www.cockroachlabs.com
+detect:
+  docker: ["cockroachdb/cockroach"]
+alternatives: ["postgresql", "planetscale"]

@@ -1,0 +1,42 @@
+name: "Stripe"
+type: company
+description: "Payment processing and financial infrastructure company."
+country: US
+website: https://stripe.com
+wikidata: Q7624104
+relations:
+  - target: patrick-collison
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Stripe,_Inc.
+        outlet: "Wikipedia"
+  - target: patrick-collison
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Stripe,_Inc.
+        outlet: "Wikipedia"
+  - target: john-collison
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Stripe,_Inc.
+        outlet: "Wikipedia"
+  - target: sequoia-capital
+    role: invested-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Stripe,_Inc.
+        outlet: "Wikipedia"
+  - target: andreessen-horowitz
+    role: invested-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Stripe,_Inc.
+        outlet: "Wikipedia"
+  - target: peter-thiel
+    role: invested-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Stripe,_Inc.
+        outlet: "Wikipedia"
+  - target: elon-musk
+    role: invested-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Stripe,_Inc.
+        outlet: "Wikipedia"

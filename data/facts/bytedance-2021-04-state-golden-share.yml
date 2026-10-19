@@ -1,0 +1,11 @@
+subject: bytedance
+grievances: [authoritarian-alignment]
+date: "2021-04-01"
+datePrecision: month
+summary: "ByteDance's main Chinese subsidiary, Beijing ByteDance Technology, which runs Douyin and Toutiao, sold a 1% stake to a unit of the state-backed China Internet Investment Fund and gave the government investor a board seat, a transaction reported in August 2021."
+status: established
+sources:
+  - url: https://www.scmp.com/tech/big-tech/article/3145362/chinese-government-takes-minority-stake-board-seat-tiktok-owner
+    outlet: "South China Morning Post"
+    date: "2021-08-17"
+    archive: https://web.archive.org/web/20210817132235/https://www.scmp.com/tech/big-tech/article/3145362/chinese-government-takes-minority-stake-board-seat-tiktok-owner

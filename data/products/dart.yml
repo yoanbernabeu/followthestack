@@ -1,0 +1,8 @@
+name: "Dart"
+vendor: google
+category: frameworks-libraries
+links: [depend]
+description: "Programming language developed by Google, used by Flutter."
+website: https://dart.dev
+detect:
+  docker: ["dart"]

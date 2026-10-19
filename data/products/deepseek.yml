@@ -1,0 +1,9 @@
+name: "DeepSeek"
+vendor: deepseek
+category: ai
+links: [pay, data, depend]
+description: "Chatbot and API for DeepSeek's large language models; model weights are also published openly."
+website: https://www.deepseek.com
+detect:
+  npm: ["@ai-sdk/deepseek"]
+alternatives: [mistral-api, llama, ollama, chatgpt]

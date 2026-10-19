@@ -1,0 +1,8 @@
+name: "Keras"
+vendor: google
+category: frameworks-libraries
+links: [depend]
+description: "Deep learning API maintained by a Google team, running on JAX, TensorFlow or PyTorch."
+website: https://keras.io
+detect:
+  pypi: ["keras"]

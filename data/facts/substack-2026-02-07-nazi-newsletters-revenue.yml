@@ -1,0 +1,10 @@
+subject: substack
+grievances: [far-right-support, antisemitism]
+date: "2026-02-07"
+summary: "A Guardian investigation found Substack earning revenue from paid newsletters promoting Nazi ideology, white supremacy and antisemitism, taking about 10% of their income. One, NatSocToday, charged $80 a year to 2,800 subscribers, and Substack's algorithm directed the Guardian's test account to 21 similar profiles within two hours."
+status: established
+response: "Substack did not respond to the Guardian's request for comment."
+sources:
+  - url: https://www.theguardian.com/media/2026/feb/07/revealed-how-substack-makes-money-from-hosting-nazi-newsletters
+    outlet: "The Guardian"
+    date: "2026-02-07"

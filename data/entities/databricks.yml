@@ -1,0 +1,32 @@
+name: "Databricks"
+type: company
+description: "US data and AI platform company, creator of Apache Spark, Delta Lake and MLflow."
+country: US
+website: https://www.databricks.com
+wikidata: Q18350420
+relations:
+  - target: ali-ghodsi
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Databricks
+        outlet: "Wikipedia"
+  - target: matei-zaharia
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Databricks
+        outlet: "Wikipedia"
+  - target: ion-stoica
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Databricks
+        outlet: "Wikipedia"
+  - target: ali-ghodsi
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Ali_Ghodsi
+        outlet: "Wikipedia"
+  - target: andreessen-horowitz
+    role: invested-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Databricks
+        outlet: "Wikipedia"

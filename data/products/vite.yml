@@ -1,0 +1,9 @@
+name: "Vite"
+vendor: voidzero
+category: dev-tools
+links: [depend]
+description: "Frontend build tool created by Evan You, developed by VoidZero, a Cloudflare subsidiary since June 2026; remains MIT-licensed."
+website: https://vite.dev
+detect:
+  npm: ["vite"]
+alternatives: [webpack]

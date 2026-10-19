@@ -1,0 +1,7 @@
+name: "Bolt.new"
+vendor: stackblitz
+category: ai
+links: [pay, data]
+description: "AI app builder running full-stack projects in the browser on StackBlitz WebContainers."
+website: https://bolt.new
+alternatives: [lovable, v0, replit]

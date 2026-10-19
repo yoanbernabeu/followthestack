@@ -1,0 +1,6 @@
+name: "Postman"
+vendor: postman
+category: dev-tools
+links: [pay, data]
+description: "API development and testing platform; workspaces and collections sync to Postman's cloud."
+website: https://www.postman.com

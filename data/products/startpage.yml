@@ -1,0 +1,7 @@
+name: "Startpage"
+vendor: startpage
+category: browser-search
+links: [data]
+description: "Dutch privacy search engine showing Google results, owned by System1."
+website: https://www.startpage.com
+alternatives: [qwant, ecosia]

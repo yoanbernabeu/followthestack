@@ -1,0 +1,7 @@
+name: "Zoom"
+vendor: zoom
+category: communication
+links: [pay, data]
+description: "Video conferencing and collaboration platform by Zoom Communications."
+website: https://www.zoom.com
+alternatives: [jitsi-meet, visio, whereby]

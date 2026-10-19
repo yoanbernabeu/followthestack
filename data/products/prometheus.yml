@@ -1,0 +1,10 @@
+name: "Prometheus"
+vendor: cncf
+category: monitoring
+links: [depend]
+description: "Open source metrics monitoring and alerting system hosted by the CNCF."
+website: https://prometheus.io
+detect:
+  pypi: ["prometheus-client"]
+  docker: ["prom/prometheus"]
+alternatives: [datadog, grafana]

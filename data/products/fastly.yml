@@ -1,0 +1,11 @@
+name: "Fastly"
+vendor: fastly
+category: cdn-dns-security
+links: [pay, data]
+description: "Edge cloud platform providing CDN, edge compute and web security."
+website: https://www.fastly.com
+detect:
+  npm: ["fastly", "@fastly/js-compute"]
+  gems: ["fastly"]
+  pypi: ["fastly"]
+alternatives: ["cloudflare-cdn", "akamai-cdn", "bunny-net", "gcore", "amazon-cloudfront", "imperva"]

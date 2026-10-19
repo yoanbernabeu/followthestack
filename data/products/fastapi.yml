@@ -1,0 +1,9 @@
+name: "FastAPI"
+vendor: fastapi-labs
+category: frameworks-libraries
+links: [depend]
+description: "Python API framework created by Sebastián Ramírez, whose company FastAPI Labs sells FastAPI Cloud."
+website: https://fastapi.tiangolo.com
+detect:
+  pypi: ["fastapi", "fastapi-cli"]
+alternatives: [django, flask]

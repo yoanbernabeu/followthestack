@@ -1,0 +1,10 @@
+subject: palantir
+grievances: [surveillance-deportation]
+date: "2025-04-11"
+summary: "Palantir representatives took part with DOGE in a project to build a \"mega API\" over all IRS databases, which hold taxpayer names, addresses, Social Security numbers and tax returns, with DOGE aiming for Palantir's Foundry to become the \"read center of all IRS systems\", according to IRS sources cited by WIRED."
+status: established
+response: "A Treasury spokesperson said \"there is no contract signed yet and many vendors are being considered, Palantir being one of them.\" Palantir did not immediately respond to WIRED."
+sources:
+  - url: https://www.wired.com/story/palantir-doge-irs-mega-api-data/
+    outlet: "WIRED"
+    date: "2025-04-11"

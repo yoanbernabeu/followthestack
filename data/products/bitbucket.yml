@@ -1,0 +1,7 @@
+name: "Bitbucket"
+vendor: atlassian
+category: code-hosting
+links: [pay, data, depend]
+description: "Git hosting and CI/CD (Pipelines) service by Atlassian."
+website: https://bitbucket.org
+alternatives: [github, gitlab, codeberg, forgejo]

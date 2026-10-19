@@ -1,0 +1,9 @@
+name: "Netlify"
+vendor: netlify
+category: cloud-hosting
+links: [pay, data]
+description: "Hosting and deployment platform for static sites and serverless functions."
+website: https://www.netlify.com
+detect:
+  npm: ["netlify-cli", "@netlify/functions"]
+alternatives: ["vercel", "cloudflare-pages", "render", "clever-cloud", "fly-io", "railway", "heroku", "aws-lambda"]

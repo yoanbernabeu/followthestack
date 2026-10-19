@@ -1,0 +1,12 @@
+name: "Mollie"
+vendor: mollie
+category: payments
+links: [pay, data, depend]
+description: "Payment service provider by Dutch company Mollie."
+website: https://www.mollie.com
+detect:
+  npm: ["@mollie/api-client"]
+  composer: ["mollie/mollie-api-php", "mollie/laravel-mollie"]
+  pypi: ["mollie-api-python"]
+  gems: ["mollie-api-ruby"]
+alternatives: [adyen, stripe, gocardless]

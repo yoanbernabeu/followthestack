@@ -1,0 +1,12 @@
+subject: anduril
+grievances: [surveillance-deportation]
+date: "2020-07-01"
+datePrecision: month
+summary: "Won a US Customs and Border Protection indefinite-delivery contract for AI-powered autonomous surveillance towers along the US border, receiving $25 million in July and $36 million in September 2020, with CBP planning 200 towers by 2022. The system autonomously identifies people crossing the border and sends push alerts to border agents."
+status: established
+sources:
+  - url: https://techcrunch.com/2020/09/10/anduril-cbp-ghost-2020
+    outlet: "TechCrunch"
+    date: "2020-09-10"
+  - url: https://www.highergov.com/idv/70B02C20D00000019/
+    outlet: "HigherGov (federal contract record 70B02C20D00000019)"

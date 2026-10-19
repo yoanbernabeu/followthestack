@@ -1,0 +1,12 @@
+name: "Thales Group"
+type: company
+description: "French defence, aerospace and cybersecurity group, partly owned by the French state."
+country: FR
+website: https://www.thalesgroup.com
+wikidata: Q1161666
+relations:
+  - target: patrice-caine
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Thales_Group
+        outlet: "Wikipedia"

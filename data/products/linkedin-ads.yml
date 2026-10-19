@@ -1,0 +1,7 @@
+name: "LinkedIn Ads"
+vendor: linkedin
+category: advertising
+links: [pay, data]
+description: "Advertising platform of LinkedIn, a Microsoft subsidiary."
+website: https://business.linkedin.com/marketing-solutions/ads
+alternatives: [meta-ads, x-ads]

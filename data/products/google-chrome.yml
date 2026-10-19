@@ -1,0 +1,7 @@
+name: "Google Chrome"
+vendor: google
+category: browser-search
+links: [data]
+description: "Web browser by Google, based on Chromium."
+website: https://www.google.com/chrome/
+alternatives: [firefox, vivaldi]

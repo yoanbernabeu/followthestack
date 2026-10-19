@@ -1,0 +1,12 @@
+name: "Klaviyo"
+vendor: klaviyo
+category: crm-marketing
+links: [pay, data]
+description: "Email, SMS and marketing automation platform for e-commerce brands."
+website: https://www.klaviyo.com
+detect:
+  npm: ["klaviyo-api"]
+  composer: ["klaviyo/api"]
+  pypi: ["klaviyo-api"]
+  gems: ["klaviyo-api-sdk"]
+alternatives: [brevo, mailchimp, customer-io]

@@ -1,0 +1,7 @@
+name: "Vultr"
+vendor: vultr
+category: cloud-hosting
+links: [pay, data]
+description: "Cloud provider offering virtual servers, bare metal and GPU instances."
+website: https://www.vultr.com
+alternatives: ["amazon-ec2", "digitalocean", "akamai-cloud", "hetzner-cloud", "ovhcloud", "scaleway", "upcloud", "exoscale"]

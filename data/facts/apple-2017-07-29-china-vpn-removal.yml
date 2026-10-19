@@ -1,0 +1,13 @@
+subject: apple
+grievances: [authoritarian-alignment]
+date: "2017-07-29"
+summary: "Removed VPN apps used to bypass China's internet censorship, including ExpressVPN, from its App Store in China after the government required VPN providers to hold a state licence."
+status: established
+response: "Apple said: \"We have been required to remove some VPN apps in China that do not meet the new regulations. These apps remain available in all other markets where they do business.\""
+sources:
+  - url: https://www.cnbc.com/2017/07/31/apple-removes-vpn-apps-in-china-app-store.html
+    outlet: "CNBC"
+    date: "2017-08-01"
+  - url: https://techcrunch.com/2017/07/30/apple-issues-statement-regarding-removal-of-unlicensed-vpn-apps-in-china/
+    outlet: "TechCrunch"
+    date: "2017-07-30"

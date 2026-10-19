@@ -1,0 +1,10 @@
+subject: x-corp
+grievances: [press-justice-attacks]
+date: "2023-04-05"
+summary: "Labelled NPR's account \"state-affiliated media\", which its guidelines defined as outlets \"where the state exercises control over editorial content\", after removing NPR from a line of the policy that had exempted it as a state-financed organisation with editorial independence. NPR said government funding accounts for less than 1% of its annual operating budget. Musk replied \"Seems accurate.\""
+status: established
+response: "NPR's CEO John Lansing called it \"unacceptable for Twitter to label us this way\"."
+sources:
+  - url: https://www.ksat.com/news/politics/2023/04/05/npr-protests-as-twitter-calls-it-state-affiliated-media/
+    outlet: "AP via KSAT"
+    date: "2023-04-05"

@@ -1,0 +1,9 @@
+name: "Remix"
+vendor: shopify
+category: frameworks-libraries
+links: [depend]
+description: "Web framework by the React Router team, owned by Shopify since 2022."
+website: https://remix.run
+detect:
+  npm: ["@remix-run/react", "@remix-run/node", "@remix-run/dev", "remix"]
+alternatives: [nextjs, react-router]

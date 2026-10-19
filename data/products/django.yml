@@ -1,0 +1,9 @@
+name: "Django"
+vendor: django-software-foundation
+category: frameworks-libraries
+links: [depend]
+description: "Python web framework owned by the non-profit Django Software Foundation."
+website: https://www.djangoproject.com
+detect:
+  pypi: ["django"]
+alternatives: [flask, fastapi]

@@ -1,0 +1,17 @@
+subject: palantir
+grievances: [authoritarian-alignment]
+date: "2025-10-01"
+datePrecision: month
+summary: "Appears on the list, released by the White House in October 2025, of donors funding President Trump's new White House ballroom, built after the demolition of the East Wing. The amounts were not disclosed at the time; in October 2026 The Washington Post reported, as cited by CNBC, that Palantir's contribution was in the millions."
+status: established
+response: "Palantir did not immediately respond to CNBC's request for comment."
+sources:
+  - url: https://www.fox10tv.com/2025/11/13/these-are-37-donors-helping-pay-trumps-300-million-white-house-ballroom/
+    outlet: "Associated Press via FOX10"
+    date: "2025-11-12"
+  - url: https://fortune.com/article/who-has-donated-trump-white-house-ballroom/
+    outlet: "Fortune"
+    date: "2025-10-26"
+  - url: https://www.cnbc.com/2026/10/15/trump-ballroom-nvidia-cisco-donations.html
+    outlet: "CNBC"
+    date: "2026-10-15"

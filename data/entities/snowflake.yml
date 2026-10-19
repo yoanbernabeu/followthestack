@@ -1,0 +1,12 @@
+name: "Snowflake Inc."
+type: company
+description: "US cloud data warehouse and data platform company."
+country: US
+website: https://www.snowflake.com
+wikidata: Q22078063
+relations:
+  - target: sridhar-ramaswamy
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Snowflake_Inc.
+        outlet: "Wikipedia"

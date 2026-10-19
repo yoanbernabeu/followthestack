@@ -1,0 +1,16 @@
+subject: substack
+grievances: [far-right-support, antisemitism]
+date: "2023-12-21"
+summary: "After The Atlantic reported on Substack newsletters with overt Nazi symbols and more than 200 writers asked the company why it was \"platforming and monetizing Nazis\", co-founder Hamish McKenzie said Substack would not remove or demonetize such publications absent incitement to violence, as the company keeps a cut of their subscription revenue."
+quote:
+  text: "we don't think that censorship (including through demonetizing publications) makes the problem go away—in fact, it makes it worse."
+  lang: en
+status: established
+response: "In January 2024 Substack removed five publications that Platformer had flagged, saying they broke its existing rule against incitement to violence, while stating it was not changing its content guidelines."
+sources:
+  - url: https://www.theverge.com/2023/12/21/24011232/substack-nazi-moderation-demonetization-hamish-mckenzie
+    outlet: "The Verge"
+    date: "2023-12-21"
+  - url: https://www.nbcnews.com/news/amp/rcna132963
+    outlet: "NBC News"
+    date: "2024-01-08"

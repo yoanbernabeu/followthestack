@@ -1,0 +1,10 @@
+name: "Notion"
+vendor: notion-labs
+category: collaboration
+links: [pay, data]
+description: "Note-taking, wiki and project tracking workspace by Notion Labs."
+website: https://www.notion.com
+detect:
+  npm: ["@notionhq/client"]
+  pypi: ["notion-client"]
+alternatives: [la-suite-docs, xwiki, cryptpad]

@@ -1,0 +1,7 @@
+name: "Ping Identity"
+vendor: ping-identity
+category: auth-identity
+links: [pay, data, depend]
+description: "Enterprise identity and access management platform owned by Thoma Bravo."
+website: https://www.pingidentity.com
+alternatives: [keycloak, zitadel, okta]

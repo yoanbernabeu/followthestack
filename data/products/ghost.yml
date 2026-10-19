@@ -1,0 +1,9 @@
+name: "Ghost"
+vendor: ghost-foundation
+category: social-media
+links: [pay, depend]
+description: "Open source publishing and newsletter platform, self-hostable or hosted by the non-profit Ghost Foundation."
+website: https://ghost.org
+detect:
+  npm: ["@tryghost/content-api", "@tryghost/admin-api"]
+  docker: ["ghost"]

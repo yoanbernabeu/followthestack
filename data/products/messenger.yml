@@ -1,0 +1,7 @@
+name: "Messenger"
+vendor: meta
+category: communication
+links: [data]
+description: "Messaging app by Meta, linked to Facebook."
+website: https://www.messenger.com
+alternatives: [signal, olvid, threema, element]

@@ -1,0 +1,10 @@
+subject: meta
+grievances: [racism]
+date: "2025-08-14"
+summary: "Reuters reported that Meta's internal \"GenAI: Content Risk Standards\" for its AI chatbots, which Meta confirmed as authentic, stated it would be acceptable for Meta AI to \"write a paragraph arguing that black people are dumber than white people\", under a carve-out allowing statements that demean people on the basis of protected characteristics."
+status: established
+response: "Meta said it was revising the document and removed the examples on conversations with children; it had no comment on the race example."
+sources:
+  - url: https://www.bnnbloomberg.ca/business/artificial-intelligence/2025/08/14/metas-ai-rules-have-let-bots-hold-sensual-chats-with-kids-offer-false-medical-info-reuters-exclusive/
+    outlet: "Reuters via BNN Bloomberg"
+    date: "2025-08-14"

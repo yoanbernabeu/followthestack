@@ -1,0 +1,9 @@
+name: "Astro"
+vendor: cloudflare
+category: frameworks-libraries
+links: [depend]
+description: "Content-focused web framework. Its company team joined Cloudflare in January 2026; the framework stays MIT-licensed with open governance."
+website: https://astro.build
+detect:
+  npm: ["astro"]
+alternatives: [nextjs, nuxt, sveltekit, gatsby]

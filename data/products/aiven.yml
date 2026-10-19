@@ -1,0 +1,9 @@
+name: "Aiven"
+vendor: aiven
+category: databases
+links: [pay, data]
+description: "Managed open source data services (PostgreSQL, MySQL, Kafka, OpenSearch, Valkey) on several clouds."
+website: https://aiven.io
+detect:
+  pypi: ["aiven-client"]
+alternatives: ["neon", "supabase", "planetscale", "amazon-rds", "google-cloud-sql", "postgresql", "turso"]

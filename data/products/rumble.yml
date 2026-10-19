@@ -1,0 +1,7 @@
+name: "Rumble"
+vendor: rumble
+category: social-media
+links: [pay, data]
+description: "Video sharing and streaming platform operated by Rumble Inc."
+website: https://rumble.com
+alternatives: [peertube]

@@ -1,0 +1,7 @@
+name: "Android"
+vendor: google
+category: os-hardware
+links: [pay, data]
+description: "Mobile operating system developed by Google; most devices ship with Google Play services."
+website: https://www.android.com
+alternatives: [grapheneos, e-os, lineageos]

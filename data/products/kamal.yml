@@ -1,0 +1,8 @@
+name: "Kamal"
+vendor: 37signals
+category: dev-tools
+links: [depend]
+description: "Container deployment tool created and maintained by 37signals."
+website: https://kamal-deploy.org
+detect:
+  gems: ["kamal"]

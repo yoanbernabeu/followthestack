@@ -1,0 +1,17 @@
+name: "Asana"
+type: company
+description: "US work management software company co-founded by Facebook co-founder Dustin Moskovitz."
+country: US
+website: https://asana.com
+wikidata: Q111411592
+relations:
+  - target: dustin-moskovitz
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Asana,_Inc.
+        outlet: Wikipedia
+  - target: dustin-moskovitz
+    role: owned-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Asana,_Inc.
+        outlet: Wikipedia

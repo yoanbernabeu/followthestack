@@ -1,0 +1,7 @@
+name: "WhatsApp"
+vendor: meta
+category: communication
+links: [data]
+description: "Messaging app owned by Meta since 2014."
+website: https://www.whatsapp.com
+alternatives: [signal, olvid, threema, element]

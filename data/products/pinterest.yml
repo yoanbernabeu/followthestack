@@ -1,0 +1,7 @@
+name: "Pinterest"
+vendor: pinterest
+category: social-media
+links: [pay, data]
+description: "Visual discovery and bookmarking social network."
+website: https://www.pinterest.com
+alternatives: [pixelfed]

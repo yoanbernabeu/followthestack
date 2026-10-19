@@ -1,0 +1,7 @@
+name: "GitHub Copilot"
+vendor: github
+category: ai
+links: [pay, data]
+description: "AI coding assistant integrated into editors and GitHub, paid by subscription."
+website: https://github.com/features/copilot
+alternatives: [cursor, claude-code, tabnine, windsurf, zed]

@@ -1,0 +1,9 @@
+name: "Tailwind CSS"
+vendor: tailwind-labs
+category: frameworks-libraries
+links: [depend]
+description: "Utility-first CSS framework developed by Tailwind Labs, which joined Shopify in September 2026; stays MIT-licensed."
+website: https://tailwindcss.com
+detect:
+  npm: ["tailwindcss", "@tailwindcss/vite", "@tailwindcss/postcss"]
+alternatives: [bootstrap]

@@ -1,0 +1,8 @@
+name: "Caddy"
+vendor: caddy
+category: dev-tools
+links: [depend]
+description: "Open source web server and reverse proxy with automatic HTTPS, a project of ZeroSSL (HID Global, ASSA ABLOY)."
+website: https://caddyserver.com
+detect:
+  docker: ["caddy", "library/caddy"]

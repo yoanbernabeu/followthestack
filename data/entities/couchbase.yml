@@ -1,0 +1,14 @@
+name: "Couchbase"
+type: company
+description: "US NoSQL database company, taken private by Haveli Investments in 2025."
+country: US
+website: https://www.couchbase.com
+wikidata: Q5175946
+relations:
+  - target: haveli-investments
+    role: owned-by
+    since: "2025-09-24"
+    sources:
+      - url: https://www.sec.gov/Archives/edgar/data/1845022/000114036125035929/ef20055964_ex99-1.htm
+        outlet: "Couchbase press release (SEC Form 8-K exhibit)"
+        date: "2025-09-24"

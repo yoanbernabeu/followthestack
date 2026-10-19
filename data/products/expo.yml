@@ -1,0 +1,9 @@
+name: "Expo"
+vendor: expo
+category: frameworks-libraries
+links: [depend]
+description: "React Native framework and build services by Expo (650 Industries)."
+website: https://expo.dev
+detect:
+  npm: ["expo"]
+alternatives: [flutter]

@@ -1,0 +1,13 @@
+name: "Y Combinator"
+type: investment-fund
+description: "US startup accelerator and seed investor."
+country: US
+website: https://www.ycombinator.com
+wikidata: Q2616400
+relations:
+  - target: garry-tan
+    role: led-by
+    since: 2023-01-01
+    sources:
+      - url: https://en.wikipedia.org/wiki/Garry_Tan
+        outlet: Wikipedia

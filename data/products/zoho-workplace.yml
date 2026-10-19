@@ -1,0 +1,7 @@
+name: "Zoho Workplace"
+vendor: zoho
+category: collaboration
+links: [pay, data]
+description: "Office suite (mail, documents, chat, meetings) by the Indian company Zoho."
+website: https://www.zoho.com/workplace/
+alternatives: [nextcloud, onlyoffice, collabora-online, libreoffice, la-suite-docs, infomaniak-ksuite, proton-drive, cryptpad]

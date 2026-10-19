@@ -1,0 +1,7 @@
+name: "Render"
+vendor: render
+category: cloud-hosting
+links: [pay, data]
+description: "Cloud platform to host web services, static sites and managed databases."
+website: https://render.com
+alternatives: ["vercel", "netlify", "cloudflare-pages", "clever-cloud", "fly-io", "railway", "heroku", "digitalocean"]

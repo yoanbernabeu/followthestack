@@ -1,0 +1,7 @@
+name: "Threads"
+vendor: meta
+category: social-media
+links: [pay, data]
+description: "Microblogging social network by Meta, linked to Instagram accounts."
+website: https://www.threads.com
+alternatives: [mastodon, bluesky]

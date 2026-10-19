@@ -1,0 +1,7 @@
+name: "Fastmail"
+vendor: fastmail
+category: email
+links: [pay, data]
+description: "Paid email hosting service by Australian company Fastmail."
+website: https://www.fastmail.com
+alternatives: [proton-mail, infomaniak-mail, tuta]

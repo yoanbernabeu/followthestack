@@ -1,0 +1,6 @@
+name: "RubyGems.org"
+vendor: ruby-central
+category: code-hosting
+links: [depend]
+description: "Default Ruby gem registry, operated by Ruby Central."
+website: https://rubygems.org

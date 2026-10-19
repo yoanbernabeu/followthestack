@@ -1,0 +1,13 @@
+subject: google
+grievances: [authoritarian-alignment]
+date: "2021-09-17"
+summary: "Removed the tactical voting app of jailed opposition leader Alexei Navalny's allies from the Google Play Store in Russia as parliamentary elections began, after Russia demanded the removal and said a refusal would be treated as meddling in the election."
+status: established
+response: "Google issued no formal statement. A person familiar with the decision told CNN that Google blocked the app because of legal demands from Russia's internet regulator and after Russian authorities threatened its local staff with criminal prosecution."
+sources:
+  - url: https://www.cnbc.com/2021/09/17/google-apple-remove-navalny-app-as-russian-elections-begin.html
+    outlet: "CNBC (Reuters)"
+    date: "2021-09-17"
+  - url: https://www.cnn.com/2021/09/17/tech/navalny-app-google-facebook/index.html
+    outlet: "CNN"
+    date: "2021-09-17"

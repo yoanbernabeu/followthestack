@@ -1,0 +1,11 @@
+name: "TensorFlow"
+vendor: google
+category: frameworks-libraries
+links: [depend]
+description: "Machine learning framework developed by Google."
+website: https://www.tensorflow.org
+detect:
+  npm: ["@tensorflow/tfjs"]
+  pypi: ["tensorflow"]
+  docker: ["tensorflow/tensorflow"]
+alternatives: [pytorch, jax]

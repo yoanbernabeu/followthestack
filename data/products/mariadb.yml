@@ -1,0 +1,11 @@
+name: "MariaDB"
+vendor: mariadb
+category: databases
+links: [depend]
+description: "Open source (GPL) fork of MySQL; MariaDB plc sells enterprise and cloud offerings."
+website: https://mariadb.org
+detect:
+  npm: ["mariadb"]
+  pypi: ["mariadb"]
+  docker: ["mariadb"]
+alternatives: ["oracle-database", "postgresql", "mysql"]

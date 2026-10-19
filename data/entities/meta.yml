@@ -1,0 +1,22 @@
+name: "Meta Platforms"
+type: company
+description: "Company operating Facebook, Instagram, WhatsApp and the Meta advertising network."
+country: US
+website: https://about.meta.com
+wikidata: Q380
+relations:
+  - target: mark-zuckerberg
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Meta_Platforms
+        outlet: "Wikipedia"
+  - target: mark-zuckerberg
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Meta_Platforms
+        outlet: "Wikipedia"
+  - target: mark-zuckerberg
+    role: owned-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Meta_Platforms
+        outlet: "Wikipedia"

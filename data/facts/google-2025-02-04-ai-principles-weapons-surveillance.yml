@@ -1,0 +1,13 @@
+subject: google
+grievances: [surveillance-deportation]
+date: "2025-02-04"
+summary: "Removed from its AI Principles the earlier commitment not to pursue weapons or \"technologies that gather or use information for surveillance violating internationally accepted norms\"."
+status: established
+response: "In a blog post co-written by Google DeepMind CEO Demis Hassabis, Google cited a global competition for AI leadership and said democracies should lead AI development and work together on AI that \"supports national security\"."
+sources:
+  - url: https://www.nbcwashington.com/news/business/money-report/google-removes-pledge-to-not-use-ai-for-weapons-surveillance/3836271/
+    outlet: "CNBC via NBC Washington"
+    date: "2025-02-04"
+  - url: https://blog.google/technology/ai/responsible-ai-2024-report-ongoing-work/
+    outlet: "Google blog (primary source)"
+    date: "2025-02-04"

@@ -1,0 +1,8 @@
+name: "Vault"
+vendor: hashicorp
+category: auth-identity
+links: [depend]
+description: "Secrets management tool by HashiCorp (IBM)."
+website: https://developer.hashicorp.com/vault
+detect:
+  docker: ["hashicorp/vault"]

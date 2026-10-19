@@ -1,0 +1,13 @@
+subject: apple
+grievances: [surveillance-deportation, authoritarian-alignment]
+date: "2025-10-02"
+summary: "Removed ICEBlock, an app for reporting the presence of Immigration and Customs Enforcement (ICE) agents, and similar apps from the App Store after the US Attorney General Pam Bondi said the Justice Department had demanded it."
+status: established
+response: "Apple said it removed the app \"based on information we've received from law enforcement about the safety risks associated with ICEBlock\". The app's creator, Joshua Aaron, said he was \"incredibly disappointed by Apple's actions\"."
+sources:
+  - url: https://www.cbsnews.com/miami/news/apple-removes-iceblock-ice-tracker-from-app-store/
+    outlet: "CBS News"
+    date: "2025-10-03"
+  - url: https://www.aljazeera.com/news/2025/10/3/apple-pulls-iceblock-from-app-store-following-us-government-pressure
+    outlet: "Al Jazeera"
+    date: "2025-10-03"

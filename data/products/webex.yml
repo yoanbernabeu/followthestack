@@ -1,0 +1,7 @@
+name: "Webex"
+vendor: cisco
+category: communication
+links: [pay, data]
+description: "Video conferencing and calling platform by Cisco."
+website: https://www.webex.com
+alternatives: [jitsi-meet, visio, whereby]

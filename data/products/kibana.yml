@@ -1,0 +1,8 @@
+name: "Kibana"
+vendor: elastic
+category: analytics
+links: [depend]
+description: "Data visualization UI for Elasticsearch, developed by Elastic N.V."
+website: https://www.elastic.co/kibana
+detect:
+  docker: ["kibana", "docker.elastic.co/kibana/kibana"]

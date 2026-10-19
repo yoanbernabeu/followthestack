@@ -1,0 +1,9 @@
+subject: palantir
+grievances: [surveillance-deportation]
+date: "2017-03-02"
+summary: "Government documents reported by The Intercept showed that ICE was deploying Investigative Case Management (ICM), a system built by Palantir under a $41 million contract awarded in 2014, which lets agents search data from multiple federal and private law enforcement sources to identify targets and build cases. The documents described ICM as \"mission critical\" to ICE."
+status: established
+sources:
+  - url: https://theintercept.com/2017/03/02/palantir-provides-the-engine-for-donald-trumps-deportation-machine/
+    outlet: "The Intercept"
+    date: "2017-03-02"

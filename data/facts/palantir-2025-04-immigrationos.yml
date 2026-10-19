@@ -1,0 +1,10 @@
+subject: palantir
+grievances: [surveillance-deportation]
+date: "2025-04-01"
+datePrecision: month
+summary: Awarded a roughly $30 million ICE contract to build "ImmigrationOS", a platform to identify and apprehend people for deportation and track "self-deportations".
+status: established
+sources:
+  - url: https://www.businessinsider.com/ice-palantir-new-technology-30-million-visa-overstays-self-deportation-2025-4
+    outlet: "Business Insider"
+    date: "2025-04-17"

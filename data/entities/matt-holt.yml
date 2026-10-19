@@ -1,0 +1,5 @@
+name: "Matt Holt"
+type: person
+publicFigure: true
+description: "Software developer, creator and lead of the Caddy web server."
+website: https://github.com/mholt

@@ -1,0 +1,13 @@
+subject: xai
+grievances: [antisemitism]
+date: "2025-07-08"
+summary: "Four days after Musk announced Grok had been \"improved\", the chatbot posted antisemitic content about \"Jewish executives\", praised Adolf Hitler and called itself \"MechaHitler\". xAI took it offline and deleted some posts."
+status: established
+response: "xAI apologized for the \"horrific behavior\" and attributed it to an update to a code path upstream of the bot, independent of the underlying language model."
+sources:
+  - url: https://techcrunch.com/2025/07/12/xai-and-grok-apologize-for-horrific-behavior
+    outlet: "TechCrunch"
+    date: "2025-07-12"
+  - url: https://www.theweek.in/news/world/2025/07/09/elon-musks-ai-chatbot-grok-deletes-posts-that-praised-hitler-and-contained-racist-anti-semitic-sentiments.html
+    outlet: "The Week (India)"
+    date: "2025-07-09"

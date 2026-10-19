@@ -1,0 +1,10 @@
+subject: cisco
+grievances: [authoritarian-alignment]
+date: "2026-10-01"
+datePrecision: month
+summary: "Confirmed to CNBC a $5 million donation to President Donald Trump's White House ballroom project, after The Washington Post reported a list of major donors to the project; the Post reported that the donations were sent through a nonprofit trust."
+status: established
+sources:
+  - url: https://www.cnbc.com/2026/10/15/trump-ballroom-nvidia-cisco-donations.html
+    outlet: "CNBC"
+    date: "2026-10-15"

@@ -1,0 +1,9 @@
+name: "Jenkins"
+vendor: jenkins
+category: code-hosting
+links: [depend]
+description: "Open source self-hosted automation and CI/CD server."
+website: https://www.jenkins.io
+detect:
+  docker: ["jenkins/jenkins"]
+alternatives: [github-actions, gitlab, forgejo]

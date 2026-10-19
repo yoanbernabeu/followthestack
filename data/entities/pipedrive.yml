@@ -1,0 +1,11 @@
+name: "Pipedrive"
+type: company
+description: "Sales CRM company founded in Estonia, majority-owned by Vista Equity Partners."
+website: https://www.pipedrive.com
+wikidata: Q24054211
+relations:
+  - target: vista-equity-partners
+    role: owned-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Pipedrive
+        outlet: "Wikipedia"

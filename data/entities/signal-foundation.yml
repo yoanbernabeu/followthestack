@@ -1,0 +1,27 @@
+name: "Signal Foundation"
+type: foundation
+description: "US non-profit foundation that develops the Signal encrypted messenger."
+country: US
+website: https://signalfoundation.org
+wikidata: Q55074807
+relations:
+  - target: meredith-whittaker
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Signal_Foundation
+        outlet: Wikipedia
+  - target: moxie-marlinspike
+    role: founded-by
+    until: "2022-01-10"
+    sources:
+      - url: https://en.wikipedia.org/wiki/Signal_Foundation
+        outlet: Wikipedia
+      - url: https://en.wikipedia.org/wiki/Moxie_Marlinspike
+        outlet: "Wikipedia"
+      - url: https://signalfoundation.org/
+        outlet: "Signal Foundation (official site)"
+  - target: brian-acton
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Signal_Foundation
+        outlet: Wikipedia

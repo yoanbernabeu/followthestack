@@ -1,0 +1,9 @@
+name: "React Native"
+vendor: react-foundation
+category: frameworks-libraries
+links: [depend]
+description: "Framework for native mobile apps with React, created at Meta and owned by the React Foundation since February 2026."
+website: https://reactnative.dev
+detect:
+  npm: ["react-native"]
+alternatives: [flutter]

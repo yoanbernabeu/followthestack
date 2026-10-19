@@ -1,0 +1,17 @@
+name: "ByteDance"
+type: company
+description: "Chinese internet company that developed TikTok and Douyin."
+country: CN
+website: https://www.bytedance.com
+wikidata: Q55606242
+relations:
+  - target: zhang-yiming
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/ByteDance
+        outlet: "Wikipedia"
+  - target: sequoia-capital
+    role: invested-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/ByteDance
+        outlet: "Wikipedia"

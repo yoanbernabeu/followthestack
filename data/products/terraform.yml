@@ -1,0 +1,9 @@
+name: "Terraform"
+vendor: hashicorp
+category: dev-tools
+links: [depend]
+description: "Infrastructure-as-code tool by HashiCorp (IBM), relicensed under the Business Source License in 2023."
+website: https://developer.hashicorp.com/terraform
+detect:
+  docker: ["hashicorp/terraform"]
+alternatives: [opentofu]

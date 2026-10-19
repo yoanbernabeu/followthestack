@@ -1,0 +1,12 @@
+name: "Resend"
+vendor: resend
+category: email
+links: [pay, data]
+description: "Email sending API for developers."
+website: https://resend.com
+detect:
+  npm: ["resend"]
+  composer: ["resend/resend-php", "resend/resend-laravel"]
+  pypi: ["resend"]
+  gems: ["resend"]
+alternatives: [postmark, brevo, mailjet]

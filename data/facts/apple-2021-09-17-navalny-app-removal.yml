@@ -1,0 +1,12 @@
+subject: apple
+grievances: [authoritarian-alignment]
+date: "2021-09-17"
+summary: "Removed the Smart Voting app of jailed opposition leader Alexei Navalny's allies from its Russian App Store as parliamentary elections began, after Russia demanded the removal and said a refusal would be treated as meddling in the election."
+status: established
+sources:
+  - url: https://www.cnbc.com/2021/09/17/google-apple-remove-navalny-app-as-russian-elections-begin.html
+    outlet: "CNBC (Reuters)"
+    date: "2021-09-17"
+  - url: https://www.cnn.com/2021/09/17/tech/navalny-app-google-facebook/index.html
+    outlet: "CNN"
+    date: "2021-09-17"

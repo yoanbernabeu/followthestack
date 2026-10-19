@@ -1,0 +1,17 @@
+name: "Shopify"
+type: company
+description: "Canadian e-commerce platform company. Steward of Remix and React Router since 2022; Tailwind Labs joined it in September 2026."
+country: "CA"
+website: "https://www.shopify.com"
+wikidata: Q7501150
+relations:
+  - target: tobi-lutke
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Shopify
+        outlet: "Wikipedia"
+  - target: tobi-lutke
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Shopify
+        outlet: "Wikipedia"

@@ -1,0 +1,7 @@
+name: "JetBrains IDEs"
+vendor: jetbrains
+category: dev-tools
+links: [pay, data]
+description: "Paid IDEs including IntelliJ IDEA, PyCharm, PhpStorm, WebStorm, Rider and GoLand, with the JetBrains AI assistant."
+website: https://www.jetbrains.com
+alternatives: [vs-code, vscodium, zed, cursor]

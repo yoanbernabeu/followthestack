@@ -1,0 +1,11 @@
+name: "Valor Equity Partners"
+type: investment-fund
+description: "US private equity firm founded by Antonio Gracias, investor in Tesla, SpaceX and xAI."
+country: US
+website: https://www.valorep.com
+relations:
+  - target: antonio-gracias
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Antonio_Gracias
+        outlet: "Wikipedia"

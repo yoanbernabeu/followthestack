@@ -1,0 +1,16 @@
+subject: larry-ellison
+grievances: [surveillance-deportation]
+date: 2024-09-01
+datePrecision: month
+summary: "At Oracle's 2024 financial analyst meeting, described a future AI-powered surveillance system constantly recording and reporting what citizens do."
+quote:
+  text: "Citizens will be on their best behavior, because we're constantly recording and reporting everything that's going on"
+  lang: en
+status: established
+sources:
+  - url: https://www.businessinsider.com/larry-ellison-ai-surveillance-keep-citizens-on-their-best-behavior-2024-9
+    outlet: "Business Insider"
+    date: 2024-09-15
+  - url: https://san.com/cc/oracles-larry-ellison-sees-ai-supervision-keeping-citizens-on-best-behavior/
+    outlet: "Straight Arrow News"
+    date: 2024-09-16

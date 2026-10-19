@@ -1,0 +1,12 @@
+name: "HubSpot"
+vendor: hubspot
+category: crm-marketing
+links: [pay, data]
+description: "CRM and marketing, sales and service platform by HubSpot."
+website: https://www.hubspot.com
+detect:
+  npm: ["@hubspot/api-client"]
+  composer: ["hubspot/api-client"]
+  pypi: ["hubspot-api-client"]
+  gems: ["hubspot-api-client"]
+alternatives: [brevo, pipedrive, twenty]

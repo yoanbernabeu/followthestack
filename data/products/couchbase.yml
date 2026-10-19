@@ -1,0 +1,11 @@
+name: "Couchbase"
+vendor: couchbase
+category: databases
+links: [pay, data]
+description: "Distributed NoSQL document database and its managed service Capella."
+website: https://www.couchbase.com
+detect:
+  npm: ["couchbase"]
+  pypi: ["couchbase"]
+  docker: ["couchbase"]
+alternatives: ["mongodb", "postgresql", "azure-cosmos-db", "amazon-dynamodb", "firebase"]

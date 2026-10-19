@@ -1,0 +1,7 @@
+name: "Imperva"
+vendor: imperva
+category: cdn-dns-security
+links: [pay, data]
+description: "Web application firewall, DDoS protection and CDN services, owned by Thales."
+website: https://www.imperva.com
+alternatives: ["cloudflare-cdn", "fastly", "akamai-cdn", "bunny-net", "gcore", "amazon-cloudfront"]

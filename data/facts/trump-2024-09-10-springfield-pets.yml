@@ -1,0 +1,15 @@
+subject: donald-trump
+grievances: [racism, anti-immigration]
+date: "2024-09-10"
+summary: "During the presidential debate with Kamala Harris, repeated the baseless claim that Haitian immigrants in Springfield, Ohio, were eating residents' pets. Springfield officials had said there were \"no credible reports or specific claims\" of pets being harmed by members of the immigrant community."
+quote:
+  text: "In Springfield, they're eating the dogs. The people that came in. They're eating the cats. They're eating -- they're eating the pets of the people that live there."
+  lang: en
+status: established
+sources:
+  - url: https://abcnews.go.com/Politics/harris-trump-presidential-debate-transcript/story?id=113560542
+    outlet: "ABC News (debate transcript)"
+    date: "2024-09-11"
+  - url: https://www.cbsnews.com/news/baseless-claim-haiti-immigrants-cats-springfield-ohio/
+    outlet: "CBS News"
+    date: "2024-09-09"

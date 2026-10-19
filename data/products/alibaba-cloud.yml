@@ -1,0 +1,7 @@
+name: "Alibaba Cloud"
+vendor: alibaba-group
+category: cloud-hosting
+links: [pay, data]
+description: "Cloud computing platform of Alibaba Group, the largest provider in China."
+website: https://www.alibabacloud.com
+alternatives: ["amazon-web-services", "microsoft-azure", "google-cloud", "oracle-cloud-infrastructure", "ovhcloud", "scaleway", "ionos", "hetzner-cloud"]

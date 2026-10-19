@@ -1,0 +1,4 @@
+name: "Prisma"
+type: company
+description: "Company behind the Prisma ORM and the Prisma Postgres database service."
+website: "https://www.prisma.io"

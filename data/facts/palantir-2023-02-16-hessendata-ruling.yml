@@ -1,0 +1,12 @@
+subject: palantir
+grievances: [surveillance-deportation]
+date: "2023-02-16"
+summary: "Germany's Federal Constitutional Court ruled unconstitutional the Hesse and Hamburg police laws authorising automated data analysis. In Hesse the analysis platform was Palantir's Gotham software, used by police under the name \"HessenDATA\"."
+status: established
+sources:
+  - url: https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/EN/2023/bvg23-018.html
+    outlet: "Federal Constitutional Court of Germany (press release)"
+    date: "2023-02-16"
+  - url: https://netzpolitik.org/2023/urteil-des-bundesverfassungsgerichts-automatisierte-datenanalyse-fuer-die-vorbeugende-bekaempfung-von-straftaten-ist-verfassungswidrig/
+    outlet: "netzpolitik.org"
+    date: "2023-02-16"

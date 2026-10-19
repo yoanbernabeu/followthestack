@@ -1,0 +1,13 @@
+name: "Redis Ltd."
+type: company
+description: "US database company behind Redis and Redis Cloud."
+country: US
+website: https://redis.io
+wikidata: Q17086822
+relations:
+  - target: rowan-trollope
+    role: led-by
+    since: "2022-11-28"
+    sources:
+      - url: https://en.wikipedia.org/wiki/Redis_(company)
+        outlet: "Wikipedia"

@@ -1,0 +1,9 @@
+name: "SvelteKit"
+vendor: svelte
+category: frameworks-libraries
+links: [depend]
+description: "Application framework for Svelte, developed by the Svelte team (several members employed by Vercel)."
+website: https://svelte.dev/docs/kit
+detect:
+  npm: ["@sveltejs/kit"]
+alternatives: [nextjs, nuxt, astro]

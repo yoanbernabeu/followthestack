@@ -1,0 +1,10 @@
+name: "Claude Code"
+vendor: anthropic
+category: ai
+links: [pay, data, depend]
+description: "Agentic coding tool by Anthropic running in the terminal, IDEs and the browser."
+website: https://www.claude.com/product/claude-code
+detect:
+  npm: ["@anthropic-ai/claude-code", "@anthropic-ai/claude-agent-sdk"]
+  pypi: ["claude-agent-sdk"]
+alternatives: [github-copilot, cursor, devin, zed]

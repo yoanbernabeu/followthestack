@@ -1,0 +1,9 @@
+name: "Nuxt"
+vendor: nuxtlabs
+category: frameworks-libraries
+links: [depend]
+description: "Vue meta-framework developed by NuxtLabs, a Vercel subsidiary since July 2025; remains MIT-licensed."
+website: https://nuxt.com
+detect:
+  npm: ["nuxt", "nitropack", "@nuxt/kit"]
+alternatives: [nextjs, sveltekit, astro]

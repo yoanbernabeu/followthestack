@@ -1,0 +1,6 @@
+name: "Visio (La Suite numérique)"
+vendor: dinum
+category: communication
+links: [depend]
+description: "Open source videoconferencing service for French public servants, developed by DINUM as part of La Suite numérique."
+website: https://visio.numerique.gouv.fr

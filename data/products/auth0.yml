@@ -1,0 +1,12 @@
+name: "Auth0"
+vendor: okta
+category: auth-identity
+links: [pay, data, depend]
+description: "Customer identity and authentication platform owned by Okta."
+website: https://auth0.com
+detect:
+  npm: ["@auth0/auth0-react", "@auth0/nextjs-auth0", "@auth0/auth0-spa-js", "auth0"]
+  composer: ["auth0/auth0-php", "auth0/login"]
+  pypi: ["auth0-python"]
+  gems: ["omniauth-auth0"]
+alternatives: [keycloak, ory, zitadel, clerk]

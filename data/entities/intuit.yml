@@ -1,0 +1,12 @@
+name: "Intuit"
+type: company
+description: "Financial software company (TurboTax, QuickBooks), owner of Mailchimp."
+country: US
+website: https://www.intuit.com
+wikidata: Q1318848
+relations:
+  - target: sasan-goodarzi
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Intuit
+        outlet: "Wikipedia"

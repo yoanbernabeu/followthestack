@@ -1,0 +1,7 @@
+name: "Lovable"
+vendor: lovable
+category: ai
+links: [pay, data]
+description: "AI app builder that generates and hosts web applications from prompts."
+website: https://lovable.dev
+alternatives: [bolt-new, v0, replit]

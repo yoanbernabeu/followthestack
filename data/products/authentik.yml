@@ -1,0 +1,9 @@
+name: "authentik"
+vendor: authentik-security
+category: auth-identity
+links: [depend]
+description: "Open source identity provider supporting SSO, OAuth2/OIDC, SAML and LDAP."
+website: https://goauthentik.io
+detect:
+  docker: ["ghcr.io/goauthentik/server"]
+alternatives: [keycloak, zitadel, ory]

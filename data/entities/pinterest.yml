@@ -1,0 +1,12 @@
+name: "Pinterest"
+type: company
+description: "US company operating the Pinterest visual discovery social network."
+country: US
+website: https://www.pinterest.com
+wikidata: Q255381
+relations:
+  - target: ben-silbermann
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Pinterest
+        outlet: Wikipedia

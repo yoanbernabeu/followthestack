@@ -1,0 +1,16 @@
+name: "Telegram Messenger Inc."
+type: company
+description: "Company operating the Telegram messaging service, founded by Pavel and Nikolai Durov and run from Dubai."
+country: AE
+website: https://telegram.org
+relations:
+  - target: pavel-durov
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Telegram_(software)
+        outlet: Wikipedia
+  - target: pavel-durov
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Telegram_(software)
+        outlet: Wikipedia

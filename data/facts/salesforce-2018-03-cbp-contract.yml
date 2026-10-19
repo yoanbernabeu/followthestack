@@ -1,0 +1,11 @@
+subject: salesforce
+grievances: [surveillance-deportation]
+date: "2018-03-01"
+datePrecision: month
+summary: "Added US Customs and Border Protection (CBP) as a customer in March 2018, under a contract providing recruiting and communications tools. In June 2018, after more than 650 employees signed a letter asking the company to reconsider the contract because of family separations at the border, CEO Marc Benioff declined to end it in a memo to staff, saying the company's software was not involved in the agency's border policy."
+status: established
+response: "Benioff wrote in the memo: \"I'm opposed to separating children from their families at the border. It is immoral.\" Salesforce pledged $1 million to organisations helping affected families."
+sources:
+  - url: https://fortune.com/2018/06/28/salesforce-marc-benioff-rejects-calls-cancel-border-authorities-contracts
+    outlet: "Fortune (Bloomberg)"
+    date: "2018-06-28"

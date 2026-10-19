@@ -1,0 +1,13 @@
+name: "NuxtLabs"
+type: company
+description: "Company founded by the creators of Nuxt, developing Nuxt and Nitro; acquired by Vercel in July 2025."
+country: "FR"
+website: "https://nuxtlabs.com"
+relations:
+  - target: vercel
+    role: subsidiary-of
+    since: 2025-07-08
+    sources:
+      - url: https://vercel.com/blog/nuxtlabs-joins-vercel
+        outlet: "Vercel blog"
+        date: 2025-07-08

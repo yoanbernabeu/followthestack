@@ -1,0 +1,15 @@
+subject: david-heinemeier-hansson
+grievances: [far-right-support]
+date: 2026-06-17
+summary: "Blog post promoting \"The Rape Gang Inquiry\", a report released by Rupert Lowe, leader of the Restore Britain party, which Al Jazeera describes as far-right and which pledges mass deportations. The post describes the abuse as committed \"by predominantly Pakistani Muslims against mostly White British girls\"."
+quote:
+  text: "It details the industrial-scale sexual atrocities committed by predominantly Pakistani Muslims against mostly White British girls in the United Kingdom over decades."
+  lang: en
+status: established
+sources:
+  - url: https://world.hey.com/dhh/the-rape-of-britain-610412f8
+    outlet: "DHH's blog (primary source)"
+    date: 2026-06-17
+  - url: https://www.aljazeera.com/amp/news/2026/6/3/does-uks-new-far-right-party-restore-pose-a-threat-to-farages-reform
+    outlet: "Al Jazeera"
+    date: 2026-06-03

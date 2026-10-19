@@ -1,0 +1,9 @@
+name: "Railway"
+vendor: railway
+category: cloud-hosting
+links: [pay, data]
+description: "Platform to deploy applications and databases from a repository."
+website: https://railway.com
+detect:
+  npm: ["@railway/cli"]
+alternatives: ["vercel", "netlify", "cloudflare-pages", "render", "clever-cloud", "fly-io", "heroku", "digitalocean"]

@@ -1,0 +1,10 @@
+name: "Plausible Analytics"
+vendor: plausible-analytics
+category: analytics
+links: [pay, data]
+description: "Open source, cookie-free web analytics, hosted in the EU or self-hosted."
+website: https://plausible.io
+detect:
+  npm: ["plausible-tracker", "@plausible-analytics/tracker", "next-plausible"]
+  docker: ["plausible/analytics", "ghcr.io/plausible/community-edition"]
+alternatives: [matomo, umami, pirsch, fathom-analytics]

@@ -1,0 +1,12 @@
+name: "GoCardless"
+vendor: gocardless
+category: payments
+links: [pay, data, depend]
+description: "Bank payment and direct debit platform by UK company GoCardless."
+website: https://gocardless.com
+detect:
+  npm: ["gocardless-nodejs"]
+  composer: ["gocardless/gocardless-pro"]
+  pypi: ["gocardless-pro"]
+  gems: ["gocardless_pro"]
+alternatives: [mollie, stripe]

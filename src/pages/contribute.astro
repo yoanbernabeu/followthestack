@@ -1,0 +1,13 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import ContributeForm from '@/components/ContributeForm';
+---
+<Layout title="Contribute" description="Report a documented fact, add a tool, or request a correction.">
+  <div class="mx-auto grid max-w-2xl gap-6">
+    <div class="grid gap-2">
+      <h1 class="text-3xl font-semibold">Contribute</h1>
+      <p class="text-muted-foreground">Facts only, with sources. Organisations and public figures only. Disputed facts are marked as such, and subjects can always respond.</p>
+    </div>
+    <ContributeForm client:load />
+  </div>
+</Layout>

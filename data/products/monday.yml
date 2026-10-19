@@ -1,0 +1,7 @@
+name: "monday.com"
+vendor: monday-com
+category: collaboration
+links: [pay, data]
+description: "Work management SaaS by the Israeli company monday.com."
+website: https://monday.com
+alternatives: [openproject]

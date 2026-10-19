@@ -1,0 +1,28 @@
+name: "Anthropic"
+type: company
+description: "Artificial intelligence company developing the Claude models, Claude apps and Claude Code. Public benefit corporation."
+country: US
+website: https://www.anthropic.com
+wikidata: Q116758847
+relations:
+  - target: dario-amodei
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Anthropic
+        outlet: "Wikipedia"
+  - target: dario-amodei
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Anthropic
+        outlet: "Wikipedia"
+  - target: amazon
+    role: invested-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Anthropic
+        outlet: "Wikipedia"
+  - target: google
+    role: invested-by
+    since: 2023-10-01
+    sources:
+      - url: https://en.wikipedia.org/wiki/Anthropic
+        outlet: "Wikipedia"

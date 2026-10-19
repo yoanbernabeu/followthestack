@@ -1,0 +1,11 @@
+name: 37signals
+type: company
+description: Software company behind Basecamp and HEY, steward of Ruby on Rails, Hotwire and Kamal.
+country: US
+website: https://37signals.com
+relations:
+  - target: david-heinemeier-hansson
+    role: led-by
+    sources:
+      - url: https://world.hey.com/dhh
+        outlet: DHH's blog (author bio)

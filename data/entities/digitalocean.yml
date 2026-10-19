@@ -1,0 +1,21 @@
+name: "DigitalOcean"
+type: company
+description: "US cloud infrastructure provider aimed at developers and small businesses."
+country: US
+website: https://www.digitalocean.com
+wikidata: Q17052116
+relations:
+  - target: ben-uretsky
+    role: founded-by
+    until: "2021-02-01"
+    sources:
+      - url: https://en.wikipedia.org/wiki/DigitalOcean
+        outlet: "Wikipedia"
+      - url: https://www.sec.gov/Archives/edgar/data/1582961/000114036122015110/ny20002725x1_def14a.htm
+        outlet: "DigitalOcean proxy statement (SEC DEF 14A)"
+        date: "2022-04-20"
+  - target: paddy-srinivasan
+    role: led-by
+    sources:
+      - url: https://www.digitalocean.com/leadership/executive-management
+        outlet: "DigitalOcean (official site)"

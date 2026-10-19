@@ -1,0 +1,8 @@
+name: "Rust"
+vendor: rust-foundation
+category: frameworks-libraries
+links: [depend]
+description: "Programming language governed by the Rust project, supported by the Rust Foundation."
+website: https://www.rust-lang.org
+detect:
+  docker: ["rust"]

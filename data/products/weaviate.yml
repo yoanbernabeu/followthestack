@@ -1,0 +1,11 @@
+name: "Weaviate"
+vendor: weaviate
+category: databases
+links: [pay, data]
+description: "Open source vector database, self-hosted or managed as Weaviate Cloud."
+website: https://weaviate.io
+detect:
+  npm: ["weaviate-client"]
+  pypi: ["weaviate-client"]
+  docker: ["semitechnologies/weaviate"]
+alternatives: ["pinecone", "qdrant"]

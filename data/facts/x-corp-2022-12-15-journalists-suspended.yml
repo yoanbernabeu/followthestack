@@ -1,0 +1,13 @@
+subject: x-corp
+grievances: [press-justice-attacks]
+date: "2022-12-15"
+summary: "Suspended the accounts of several journalists who cover Musk and the company, including Ryan Mac (New York Times), Donie O'Sullivan (CNN), Drew Harwell (Washington Post) and Micah Lee (The Intercept), after a sudden policy change against sharing real-time location information; the @ElonJet private-jet tracking account had been suspended the day before. On December 17, after a Twitter poll in which about 59% of voters chose immediate restoration, Musk reinstated several of the accounts."
+status: established
+response: "Musk wrote: \"Criticizing me all day long is totally fine, but doxxing my real-time location and endangering my family is not\"."
+sources:
+  - url: https://www.vermontpublic.org/npr-news/2022-12-15/twitter-suspends-several-journalists-who-shared-information-about-musks-jet
+    outlet: "NPR via Vermont Public"
+    date: "2022-12-16"
+  - url: https://www.khaleejtimes.com/business/tech/musk-restores-some-suspended-twitter-accounts-of-journalists
+    outlet: "AFP via Khaleej Times"
+    date: "2022-12-17"

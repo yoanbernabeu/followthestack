@@ -1,0 +1,12 @@
+name: "PostgreSQL"
+vendor: postgresql-global-development-group
+category: databases
+links: [depend]
+description: "Community-developed open source relational database."
+website: https://www.postgresql.org
+detect:
+  npm: ["pg", "postgres"]
+  gems: ["pg"]
+  pypi: ["psycopg2", "psycopg2-binary", "psycopg", "asyncpg"]
+  docker: ["postgres"]
+alternatives: ["mongodb", "couchbase", "azure-cosmos-db", "amazon-dynamodb", "firebase", "supabase", "neon", "planetscale"]

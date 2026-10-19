@@ -1,0 +1,14 @@
+subject: microsoft
+grievances: [surveillance-deportation]
+date: "2018-01-01"
+datePrecision: month
+summary: "Promoted in a January 2018 blog post its Azure Government cloud work for Immigration and Customs Enforcement (ICE), saying it met the standards to handle ICE's \"most sensitive unclassified data\" and let employees \"utilize deep learning capabilities to accelerate facial recognition and identification\". The section was briefly deleted and then restored in June 2018, as the family separation policy at the border drew criticism."
+status: established
+response: "Microsoft said an employee had briefly deleted the section by mistake after seeing social media commentary. It said it was \"dismayed by the forcible separation of children from their families at the border\" and that it did not believe ICE was using its services for anything to do with separating families."
+sources:
+  - url: https://www.buzzfeednews.com/article/daveyalba/microsoft-removed-and-then-replaced-a-reference-to-working
+    outlet: "BuzzFeed News"
+    date: "2018-06-18"
+  - url: https://www.theregister.com/2018/06/18/microsoft_cloud_ice/
+    outlet: "The Register"
+    date: "2018-06-18"

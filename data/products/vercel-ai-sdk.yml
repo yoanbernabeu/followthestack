@@ -1,0 +1,9 @@
+name: "AI SDK"
+vendor: vercel
+category: frameworks-libraries
+links: [depend]
+description: "TypeScript toolkit for building AI applications, maintained by Vercel."
+website: https://ai-sdk.dev
+detect:
+  npm: ["ai", "@ai-sdk/react"]
+alternatives: [langchain]

@@ -1,0 +1,21 @@
+name: "Deno Land Inc."
+type: company
+description: "Company behind the Deno runtime, Deno Deploy, Fresh and JSR. Its team joined Cloudflare in October 2026; Deno runtime development is to end after one more year of maintenance releases."
+country: "US"
+website: "https://deno.com"
+relations:
+  - target: ryan-dahl
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Deno_(software)
+        outlet: "Wikipedia"
+  - target: cloudflare
+    role: subsidiary-of
+    since: "2026-10-09"
+    sources:
+      - url: https://thenewstack.io/cloudflare-acquires-deno-ryan-dahl/
+        outlet: "The New Stack"
+        date: "2026-10-09"
+      - url: https://blog.cloudflare.com/deno-joins-cloudflare/
+        outlet: "Cloudflare blog"
+        date: "2026-10-09"

@@ -1,0 +1,11 @@
+name: "Ory"
+vendor: ory
+category: auth-identity
+links: [depend]
+description: "Open source identity and OAuth2 stack (Kratos, Hydra, Keto), self-hosted or as Ory Network."
+website: https://www.ory.sh
+detect:
+  npm: ["@ory/client", "@ory/elements", "@ory/client-fetch"]
+  pypi: ["ory-client"]
+  docker: ["oryd/kratos", "oryd/hydra", "oryd/keto"]
+alternatives: [keycloak, zitadel, authentik]

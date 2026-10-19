@@ -1,0 +1,16 @@
+name: "React Foundation"
+type: foundation
+description: "Foundation hosted by the Linux Foundation that has owned and governed React, React Native and JSX since February 2026, after Meta contributed them. Platinum members include Amazon, Callstack, Expo, Huawei, Meta, Microsoft, Software Mansion and Vercel."
+country: "US"
+website: "https://react.dev"
+relations:
+  - target: linux-foundation
+    role: subsidiary-of
+    since: 2026-02-24
+    sources:
+      - url: https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-react-foundation
+        outlet: "Linux Foundation"
+        date: 2026-02-24
+      - url: https://react.dev/blog/2026/02/24/the-react-foundation
+        outlet: "React blog"
+        date: 2026-02-24

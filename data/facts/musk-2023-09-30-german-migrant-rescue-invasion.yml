@@ -1,0 +1,12 @@
+subject: elon-musk
+grievances: [anti-immigration, far-right-support]
+date: "2023-09-30"
+summary: "Shared a post criticising German NGO sea-rescue operations in the Mediterranean that said it hoped the far-right AfD would win elections \"to stop this European suicide\", asked whether the German public was aware, and wrote that bringing migrants to Italian soil \"has invasion vibes\". The German Foreign Ministry replied that the operations were saving lives."
+quote:
+  text: "Is the German public aware of this?"
+  lang: en
+status: established
+sources:
+  - url: https://www.timesofisrael.com/musk-wades-into-german-political-debate-over-migrant-invasion/
+    outlet: "AFP via The Times of Israel"
+    date: "2023-09-30"

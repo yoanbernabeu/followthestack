@@ -1,0 +1,9 @@
+name: "OpenTofu"
+vendor: linux-foundation
+category: dev-tools
+links: [depend]
+description: "Open source fork of Terraform under the Linux Foundation's stewardship."
+website: https://opentofu.org
+detect:
+  docker: ["ghcr.io/opentofu/opentofu"]
+alternatives: [terraform]

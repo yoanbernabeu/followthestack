@@ -1,0 +1,13 @@
+subject: amazon
+grievances: [surveillance-deportation]
+date: "2018-05-22"
+summary: "Public records released by the ACLU showed Amazon marketing its Rekognition facial recognition service to police and helping deploy it: the Washington County Sheriff's Office in Oregon built an app to check images against about 300,000 booking photos, and Orlando police piloted real-time detection of \"persons of interest\" from city cameras."
+status: established
+response: "Amazon said it \"requires that customers comply with the law and be responsible when they use\" its services."
+sources:
+  - url: https://www.aclu.org/press-releases/emails-show-how-amazon-selling-facial-recognition-system-law-enforcement
+    outlet: "ACLU"
+    date: "2018-05-22"
+  - url: https://fortune.com/2018/05/23/critics-ask-amazon-to-stop-selling-facial-recognition-technology-to-police
+    outlet: "Fortune"
+    date: "2018-05-23"

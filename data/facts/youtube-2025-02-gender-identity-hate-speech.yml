@@ -1,0 +1,14 @@
+subject: youtube
+grievances: [lgbtphobia]
+date: "2025-02-01"
+datePrecision: month
+summary: "Removed \"gender identity and expression\" from the list of protected attributes in its public hate speech policy, between January 29 and February 6, 2025 according to archived versions of the page reviewed by The Advocate. The revised list grouped \"Sex, Gender, or Sexual Orientation\" without mentioning gender identity, and an example describing a protected group's status as \"just a form of mental illness that needs to be cured\" was also removed. The change was first reported by User Mag."
+status: contested
+response: "A YouTube spokesperson described the changes as \"regular copy edits to the website\" and said: \"Our hate speech policies haven't changed\"."
+sources:
+  - url: https://www.advocate.com/business/youtube-scraps-gender-identity-protection
+    outlet: "The Advocate"
+    date: "2025-04-03"
+  - url: https://www.tubefilter.com/2025/04/03/youtube-hate-speech-policy-gender-identity-transgender/
+    outlet: "Tubefilter"
+    date: "2025-04-03"

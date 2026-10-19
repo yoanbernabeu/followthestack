@@ -1,0 +1,7 @@
+name: "ChromeOS"
+vendor: google
+category: os-hardware
+links: [pay, data]
+description: "Google's Linux-based operating system for Chromebooks."
+website: https://chromeos.google
+alternatives: [ubuntu, fedora, debian, linux-mint]

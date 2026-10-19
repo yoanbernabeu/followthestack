@@ -1,0 +1,5 @@
+name: "Forgejo"
+type: project
+description: "Community-driven open source software forge, a fork of Gitea developed on Codeberg."
+website: https://forgejo.org
+wikidata: Q115962387

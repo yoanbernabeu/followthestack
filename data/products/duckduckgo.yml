@@ -1,0 +1,7 @@
+name: "DuckDuckGo"
+vendor: duckduckgo
+category: browser-search
+links: [data]
+description: "Privacy-focused search engine relying largely on Bing results, funded by ads."
+website: https://duckduckgo.com
+alternatives: [qwant, ecosia, startpage, kagi]

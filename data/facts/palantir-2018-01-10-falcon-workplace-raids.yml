@@ -1,0 +1,10 @@
+subject: palantir
+grievances: [surveillance-deportation]
+date: "2018-01-10"
+summary: "Emails obtained by WNYC under FOIA showed that ICE agents preparing the January 2018 raids on nearly a hundred 7-Eleven stores were told to use Palantir's FALCON mobile app, which searches databases including immigration histories and family relationships, and that Palantir staff supported agents ahead of operations."
+status: established
+response: "Palantir declined WNYC's requests for comment."
+sources:
+  - url: https://www.wnyc.org/story/palantir-directly-powers-ice-workplace-raids-emails-show/
+    outlet: "WNYC"
+    date: "2019-07-16"

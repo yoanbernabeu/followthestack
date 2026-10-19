@@ -1,0 +1,5 @@
+name: "Pixelfed"
+type: project
+description: "Open source federated image-sharing platform based on ActivityPub."
+website: https://pixelfed.org
+wikidata: Q60691545

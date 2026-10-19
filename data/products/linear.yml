@@ -1,0 +1,9 @@
+name: "Linear"
+vendor: linear-orbit
+category: collaboration
+links: [pay, data]
+description: "Issue tracking and product planning software."
+website: https://linear.app
+detect:
+  npm: ["@linear/sdk"]
+alternatives: [openproject]

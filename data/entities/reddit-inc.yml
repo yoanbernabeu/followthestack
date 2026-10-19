@@ -1,0 +1,36 @@
+name: "Reddit, Inc."
+type: company
+description: "US company operating the Reddit forum platform, publicly listed since 2024."
+country: US
+website: https://redditinc.com
+wikidata: Q1136
+relations:
+  - target: steve-huffman
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Reddit
+        outlet: Wikipedia
+  - target: steve-huffman
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Reddit
+        outlet: Wikipedia
+  - target: alexis-ohanian
+    role: founded-by
+    until: "2020-06-05"
+    sources:
+      - url: https://en.wikipedia.org/wiki/Reddit
+        outlet: Wikipedia
+      - url: https://globalnews.ca/news/7032613/reddit-cofounder-resigns
+        outlet: "Global News"
+        date: "2020-06-05"
+  - target: advance-publications
+    role: invested-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Reddit
+        outlet: Wikipedia
+  - target: tencent
+    role: invested-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Reddit
+        outlet: Wikipedia

@@ -1,0 +1,7 @@
+name: "Scaleway Object Storage"
+vendor: scaleway
+category: storage
+links: [pay, data]
+description: "S3-compatible object storage hosted in Europe by Scaleway."
+website: https://www.scaleway.com/en/object-storage/
+alternatives: ["amazon-s3", "cloudflare-r2", "backblaze-b2", "wasabi", "azure-blob-storage", "google-cloud-storage", "minio", "ovhcloud-object-storage"]

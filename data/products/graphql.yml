@@ -1,0 +1,8 @@
+name: "GraphQL"
+vendor: graphql-foundation
+category: frameworks-libraries
+links: [depend]
+description: "API query language created at Facebook, now governed by the GraphQL Foundation (Linux Foundation)."
+website: https://graphql.org
+detect:
+  npm: ["graphql"]

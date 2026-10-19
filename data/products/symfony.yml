@@ -1,0 +1,9 @@
+name: "Symfony"
+vendor: sensiolabs
+category: frameworks-libraries
+links: [depend]
+description: "PHP framework created by Fabien Potencier at SensioLabs; trademark held by Symfony SAS."
+website: https://symfony.com
+detect:
+  composer: ["symfony/framework-bundle", "symfony/symfony", "symfony/http-kernel"]
+alternatives: [laravel]
