@@ -3,3 +3,4 @@ type: person
 publicFigure: true
 description: "CEO of Docker, Inc. since February 2025, founder of Oracle Cloud Infrastructure (not the actor)."
 country: US
+reviewed: "2026-10-20"

@@ -1,0 +1,19 @@
+subject: opera
+grievances: [authoritarian-alignment]
+date: "2021-06-17"
+summary: "Suspended the built-in VPN of its browsers for users in Russia on 17 June 2021, the day Russia's censorship agency Roskomnadzor announced it was restricting access to Opera VPN and VyprVPN as tools for bypassing blocks on prohibited content. An Opera spokesperson told TASS the company had suspended VPN support in its browsers on Russian territory in the form previously offered. Opera has been controlled by the Chinese company Kunlun Tech since 2016."
+quote:
+  text: "We decided to suspend support for VPN services in our browsers on the Russian territory in the form it was provided earlier."
+  lang: en
+status: established
+response: "Opera described the move as a \"preventive step\" and said it continued to protect Russian users with tracking protection and DNS over HTTPS, adding that it was \"ready for an open dialog on user security in the Internet\"."
+sources:
+  - url: https://tass.com/economy/1304235
+    outlet: "TASS"
+    date: "2021-06-17"
+  - url: https://theins.ru/news/242809
+    outlet: "The Insider"
+    date: "2021-06-17"
+  - url: https://devby.io/news/opera-otkluchila-vpn-v-brauzere-dlya-rossiyan
+    outlet: "dev.by"
+    date: "2021-06-18"
