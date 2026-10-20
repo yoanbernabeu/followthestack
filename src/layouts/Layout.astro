@@ -1,6 +1,6 @@
 ---
 import '@/styles/global.css';
-import { REPO_URL, starCount } from '@/lib/repo';
+import { GITHUB_MARK, REPO_URL, starCount } from '@/lib/repo';
 interface Props {
   title?: string;
   description?: string;
@@ -73,7 +73,8 @@ const nav = [
         <a href={base} class="font-semibold tracking-tight">Follow the Stack</a>
         <div class="ml-auto flex items-center gap-3 sm:order-last">
           <a class="inline-flex h-9 items-center gap-2 rounded-md border px-3 text-sm font-medium hover:bg-muted" href={REPO_URL} aria-label={`Star Follow the Stack on GitHub${stars !== null ? ` (${stars} stars)` : ''}`}>
-            <span class="text-amber-500" aria-hidden="true">★</span>Star
+            <svg viewBox="0 0 16 16" class="size-4 fill-current" aria-hidden="true"><path d={GITHUB_MARK} /></svg>
+            <span><span class="text-amber-500" aria-hidden="true">★</span> Star</span>
             {stars !== null && <span class="border-l pl-2 tabular-nums text-muted-foreground" aria-hidden="true">{stars}</span>}
           </a>
           <button id="theme-toggle" type="button" class="flex size-9 items-center justify-center rounded-md border text-sm" aria-label="Toggle dark mode">◐</button>

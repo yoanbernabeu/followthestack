@@ -6,7 +6,7 @@ import { Checkbox } from '@/components/ui/checkbox';
 import type { Dataset } from '@/lib/types';
 import { GRIEVANCE_COLORS, GRIEVANCE_LABELS, LINK_LABELS, ROLE_LABELS, formatDate } from '@/lib/labels';
 import { url } from '@/lib/urls';
-import { REPO_URL } from '@/lib/repo';
+import { GITHUB_MARK, REPO_URL } from '@/lib/repo';
 import { buildReport, type ProductReport } from '@/lib/report';
 import FlowView from '@/components/FlowView';
 import StackBuilder, { SOURCE_LABELS, type Project } from '@/components/StackBuilder';
@@ -394,7 +394,7 @@ function StarCard() {
         Follow the Stack is free, open source and has no tracker. A star on GitHub helps other developers find it.
       </p>
       <a href={REPO_URL} className="inline-flex h-9 shrink-0 items-center gap-2 rounded-md border px-4 text-sm font-medium hover:bg-muted">
-        <span className="text-amber-500" aria-hidden="true">★</span>Star on GitHub
+        <svg viewBox="0 0 16 16" className="size-4 fill-current" aria-hidden="true"><path d={GITHUB_MARK} /></svg>Star on GitHub
       </a>
     </aside>
   );
