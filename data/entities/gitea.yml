@@ -3,3 +3,4 @@ type: project
 description: "Open source self-hosted Git forge."
 website: https://about.gitea.com
 wikidata: Q28714270
+reviewed: "2026-10-20"

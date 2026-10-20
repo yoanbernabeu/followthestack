@@ -2,3 +2,4 @@ name: "NestJS project"
 type: project
 description: "Open source Node.js framework created by Kamil Myśliwiec, funded by sponsors and by his consultancy Trilon."
 website: "https://nestjs.com"
+reviewed: "2026-10-20"

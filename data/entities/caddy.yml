@@ -3,6 +3,7 @@ type: project
 description: "Open source web server project started by Matt Holt in 2014; a project of ZeroSSL, whose registered trademark is held by Stack Holdings GmbH."
 website: https://caddyserver.com
 wikidata: Q24008327
+reviewed: "2026-10-20"
 relations:
   - target: zerossl
     role: owned-by
