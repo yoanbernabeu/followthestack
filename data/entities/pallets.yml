@@ -2,3 +2,4 @@ name: "Pallets"
 type: project
 description: "Community organization maintaining Flask, Jinja, Werkzeug and Click."
 website: "https://palletsprojects.com"
+reviewed: "2026-10-20"

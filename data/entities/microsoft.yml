@@ -28,3 +28,8 @@ relations:
         outlet: "Wikipedia"
       - url: https://en.wikipedia.org/wiki/Paul_Allen
         outlet: "Wikipedia"
+  - target: reid-hoffman
+    role: board-member
+    sources:
+      - url: https://news.microsoft.com/leadership/?section=board-members
+        outlet: "Microsoft (board of directors)"

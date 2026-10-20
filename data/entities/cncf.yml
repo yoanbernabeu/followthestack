@@ -4,6 +4,7 @@ description: "Linux Foundation project hosting Kubernetes, Prometheus, OpenTelem
 country: US
 website: https://www.cncf.io
 wikidata: Q50866964
+reviewed: "2026-10-20"
 relations:
   - target: linux-foundation
     role: subsidiary-of

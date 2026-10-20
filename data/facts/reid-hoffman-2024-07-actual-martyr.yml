@@ -1,0 +1,14 @@
+subject: reid-hoffman
+grievances: [violent-rhetoric]
+date: "2024-07-01"
+datePrecision: month
+summary: "On stage at the Allen & Company Sun Valley Conference in July 2024, after Peter Thiel sarcastically thanked him for funding lawsuits against Donald Trump because they had turned Trump into a \"martyr\", replied that he wished he had made Trump \"an actual martyr\", according to Puck News as reported by The Independent. The remark drew attention after the assassination attempt on Trump on 13 July 2024."
+quote:
+  text: "Yeah, I wish I had made him an actual martyr."
+  lang: en
+status: contested
+response: "In a post on X after the assassination attempt, Hoffman said the remark had been reported out of context, that he meant Trump being held accountable under the rule of law, that he \"meant nothing about any sort of physical harm or violence\", and that he condemned the attack."
+sources:
+  - url: https://www.independent.co.uk/news/world/americas/us-politics/linkedin-reid-hoffman-trump-martyr-b2579883.html
+    outlet: "The Independent"
+    date: "2024-07-15"

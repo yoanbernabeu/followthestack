@@ -4,6 +4,7 @@ description: "Austrian certificate authority and SSL certificate provider, owner
 country: AT
 website: https://zerossl.com
 wikidata: Q110800308
+reviewed: "2026-10-20"
 relations:
   - target: hid-global
     role: subsidiary-of

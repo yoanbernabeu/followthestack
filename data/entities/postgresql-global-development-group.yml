@@ -2,3 +2,4 @@ name: "PostgreSQL Global Development Group"
 type: project
 description: "Community of contributors and companies that develops the PostgreSQL open source database."
 website: https://www.postgresql.org
+reviewed: "2026-10-20"
