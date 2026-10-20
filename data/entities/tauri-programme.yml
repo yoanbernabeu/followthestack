@@ -1,11 +1,11 @@
 name: "Tauri Programme"
 type: project
-description: "Open source project behind the Tauri framework, established in 2021 as a Programme within The Commons Conservancy and governed by its own board. CrabNebula, a company led by Tauri co-founders, says its staff wrote more than 90% of the codebase but states that it is not Tauri."
+description: "Open source project behind the Tauri framework, established in 2021 as a Programme within The Commons Conservancy and governed by its own board. In 2023, CrabNebula, a company whose CEO is Tauri co-founder Daniel Thompson-Yvetot, said its people were responsible for more than 90% of Tauri's codebase, while stating that it is not Tauri."
 website: https://tauri.app
 relations:
   - target: the-commons-conservancy
     role: subsidiary-of
-    since: "2021-05-01"
+    since: "2021-07-01"
     sources:
       - url: https://commonsconservancy.org/dracc/0035/
         outlet: "The Commons Conservancy (DRACC 0035, Statutes of Tauri)"
