@@ -243,7 +243,7 @@ function Report({ data, report, provenance, projects, manualCount, scope, setSco
         </div>
       </header>
 
-      <StackGraph data={data} productIds={report.map((r) => r.product.id)} indirect={indirect} former={former} />
+      <StackGraph data={data} productIds={report.map((r) => r.product.id)} indirect={indirect} former={former} shared={shared} />
 
       {flagged.length > 0 && (
         <div className="text-sm">
@@ -367,11 +367,11 @@ function GrievanceBar({ report }: { report: ProductReport[] }) {
 }
 
 // Where the facts behind the stack come from, as a flow from the tools to their sources.
-function StackGraph({ data, productIds, indirect, former }: { data: Dataset; productIds: string[]; indirect: boolean; former: boolean }) {
+function StackGraph({ data, productIds, indirect, former, shared }: { data: Dataset; productIds: string[]; indirect: boolean; former: boolean; shared: boolean }) {
   return (
     <section className="grid gap-3 rounded-xl border p-4 sm:p-5" aria-labelledby="flow-title">
       <h3 id="flow-title" className="text-lg font-semibold">Where the facts come from</h3>
-      <FlowView data={data} productIds={productIds} indirect={indirect} former={former} scope="stack" />
+      <FlowView data={data} productIds={productIds} indirect={indirect} former={former} scope="stack" shared={shared} />
     </section>
   );
 }
