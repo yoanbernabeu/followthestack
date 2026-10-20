@@ -26,6 +26,8 @@
     "cn": "^0.5.0",
     "cytoscape": "^3.34.4",
     "cytoscape-fcose": "^2.2.0",
+    "cytoscape-layout-utilities": "^1.1.1",
+    "d3-sankey": "^0.12.3",
     "lucide-react": "^1.59.0",
     "radix-ui": "^1.8.1",
     "react": "^19.3.1",
@@ -38,6 +40,7 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
     "@types/cytoscape": "^3.21.9",
+    "@types/d3-sankey": "^0.12.5",
     "@types/node": "^26.6.5",
     "typescript": "^6.0.3"
   }

@@ -65,14 +65,13 @@ function stylesheet(compact: boolean, tree: boolean): StylesheetStyle[] {
           style: {
             shape: 'ellipse', width: 'data(size)', height: 'data(size)',
             'background-color': `mapData(heat, 0, 1, ${muted}, ${alert})`, 'background-opacity': 'mapData(heat, 0, 1, 0.4, 0.95)',
-            'border-width': 0, label: 'data(label)', 'font-family': font, 'font-size': 11, color: fg,
+            'border-width': 0, label: 'data(label)', 'font-family': font, 'font-size': 14, color: fg,
             'text-valign': 'bottom', 'text-margin-y': 4, 'text-outline-color': bg, 'text-outline-width': 2,
             'min-zoomed-font-size': 22,
           },
         },
         { selector: 'node[kind = "product"]', style: { shape: 'round-rectangle', 'background-opacity': 0.25 } },
         { selector: 'node[?own]', style: { 'min-zoomed-font-size': 9, 'font-weight': 500 } },
-        { selector: 'node[weight > 40]', style: { 'min-zoomed-font-size': 4, 'font-size': 13, 'font-weight': 600 } },
       ]
     : [
         {
@@ -114,6 +113,8 @@ function stylesheet(compact: boolean, tree: boolean): StylesheetStyle[] {
     { selector: 'edge[flow > 0]', style: { 'line-color': alert, 'target-arrow-color': alert, width: 'data(w)', opacity: compact ? 0.6 : 0.85, 'line-style': 'solid' } },
     { selector: '.faded', style: { opacity: 0.1, 'text-opacity': 0.15 } },
     { selector: 'node.lit', style: { 'min-zoomed-font-size': 0 } },
+    { selector: 'node.named', style: { 'min-zoomed-font-size': 0, 'font-size': 13, color: muted } },
+    { selector: 'node.top', style: { 'min-zoomed-font-size': 0, 'font-size': 19, 'font-weight': 600 } },
     {
       selector: 'edge.lit',
       style: {
@@ -235,9 +236,10 @@ export default function GraphView({ base, view, id, productIds, data: given, ind
     if (!graph || !conc || !box.current) return;
     let cancelled = false;
     (async () => {
-      const [{ default: cytoscape }, { default: fcose }] = await Promise.all([import('cytoscape'), import('cytoscape-fcose')]);
+      const [{ default: cytoscape }, { default: fcose }, { default: layoutUtilities }] = await Promise.all([import('cytoscape'), import('cytoscape-fcose'), import('cytoscape-layout-utilities')]);
       if (cancelled || !box.current) return;
       try { cytoscape.use(fcose); } catch { /* already registered */ }
+      try { cytoscape.use(layoutUtilities); } catch { /* already registered */ }
       cyRef.current?.destroy();
       const roots = graph.nodes.filter((n) => n.kind === 'product').map((n) => n.id);
       const cy = cytoscape({
@@ -251,8 +253,9 @@ export default function GraphView({ base, view, id, productIds, data: given, ind
         layout: tree
           ? { name: 'breadthfirst', directed: true, roots, spacingFactor: 1.05, padding: 24, avoidOverlap: true, nodeDimensionsIncludeLabels: true }
           : ({
-              name: 'fcose', quality: 'proof', animate: false, randomize: true, padding: 24, nodeDimensionsIncludeLabels: !compact,
-              nodeRepulsion: compact ? 4500 : 12000, idealEdgeLength: compact ? 45 : 110, gravity: compact ? 0.35 : 0.25, nodeSeparation: 60,
+              // Each family (a hub and what hangs off it) laid out on its own, then the families packed side by side.
+              name: 'fcose', quality: 'proof', animate: false, randomize: true, padding: 24, nodeDimensionsIncludeLabels: true, packComponents: true,
+              nodeRepulsion: compact ? 9000 : 12000, idealEdgeLength: compact ? 70 : 110, gravity: compact ? 0.4 : 0.25, nodeSeparation: 80,
             } as never),
       });
       cyRef.current = cy;
@@ -269,6 +272,9 @@ export default function GraphView({ base, view, id, productIds, data: given, ind
       cy.on('dbltap', 'node', (ev) => { location.href = ev.target.data('href'); });
       cy.on('mouseover', 'node', () => { box.current?.style.setProperty('cursor', 'pointer'); });
       cy.on('mouseout', 'node', () => { box.current?.style.removeProperty('cursor'); });
+      if (compact) cy.nodes().sort((a, b) => b.data('weight') - a.data('weight')).slice(0, 20).filter((n) => n.data('weight') > 0).addClass('top');
+      // Small enough to name everything (the facts-only map): no anonymous dots.
+      if (compact && graph.nodes.length <= 150) cy.nodes().not('.top').addClass('named');
       applyGrievance(cy, grievanceRef.current);
       const focus = view === 'global' ? new URLSearchParams(location.search).get('focus') : null;
       const start = focus ? cy.getElementById(focus) : null;
