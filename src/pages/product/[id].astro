@@ -6,7 +6,8 @@ import { loadDataset } from '@/lib/dataset';
 import { buildReport } from '@/lib/report';
 import { CATEGORY_LABELS, LINK_LABELS, ROLE_LABELS } from '@/lib/labels';
 import { url } from '@/lib/urls';
-import GraphView from '@/components/GraphView';
+import FlowView from '@/components/FlowView';
+import { groupOf } from '@/lib/groups';
 const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 export async function getStaticPaths() {
   return (await getCollection('products')).map((p) => ({ params: { id: p.id } }));
@@ -15,6 +16,7 @@ const { id } = Astro.params;
 const data = await loadDataset();
 const p = data.products.find((x) => x.id === id)!;
 const [direct] = buildReport(data, [p.id], false);
+const group = groupOf(data, p.vendor);
 const [all] = buildReport(data, [p.id], true);
 const indirectFacts = all.facts.filter((f) => f.kind === 'indirect');
 const indirectChain = all.chain.filter((c) => c.kind === 'indirect');
@@ -49,13 +51,15 @@ const viaLabel = (via: { role: string; from: string }[]) => via.length ? `via ${
     )}
   </section>
 
-  <section class="mb-10">
-    <details>
-      <summary class="cursor-pointer text-xl font-semibold">Graph: how facts reach {p.name}</summary>
-      <p class="my-3 text-sm text-muted-foreground">From {p.name} to its vendor, then to the owners, leaders and board members the facts come from. <a class="underline" href={url.graph(`p:${p.id}`)}>Explore in the full graph</a></p>
-      <GraphView client:visible base={base} view="product" id={p.id} />
-    </details>
-  </section>
+  {direct.facts.length > 0 && (
+    <section class="mb-10 grid gap-3">
+      <div class="flex flex-wrap items-baseline gap-x-4">
+        <h2 class="text-xl font-semibold">Where its facts come from</h2>
+        {group && <a class="text-sm underline" href={url.group(group.id)}>See the whole {group.label} group and alternatives</a>}
+      </div>
+      <FlowView client:visible base={base} productIds={[p.id]} scope="product" />
+    </section>
+  )}
 
   <section class="mb-10">
     <h2 class="mb-4 text-xl font-semibold">Documented facts ({direct.facts.length})</h2>

@@ -1,0 +1,20 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import GroupsView from '@/components/GroupsView';
+import { loadDataset } from '@/lib/dataset';
+import { buildGroups } from '@/lib/groups';
+const data = await loadDataset();
+const groups = buildGroups(data);
+const withTools = groups.filter((g) => g.products.length);
+const top = withTools.slice(0, 5);
+const share = Math.round((100 * top.reduce((n, g) => n + g.facts.length, 0)) / data.facts.length);
+---
+<Layout title="Groups" description="Which corporate groups and people concentrate the documented facts, for which grievances, which tools they make, and what to use instead.">
+  <h1 class="mb-2 text-3xl font-semibold">Who concentrates the facts</h1>
+  <p class="mb-8 max-w-2xl text-muted-foreground">
+    {groups.length} groups carry the {data.facts.length} documented facts; {withTools.length} of them make tools listed here.
+    Five of those, {top.map((g) => g.label).join(', ')}, account for {share}% of all facts.
+    Open a group to see the tools you may use from it and alternatives with no documented fact.
+  </p>
+  <GroupsView client:load groups={groups} />
+</Layout>

@@ -7,7 +7,7 @@ import type { Dataset } from '@/lib/types';
 import { GRIEVANCE_COLORS, GRIEVANCE_LABELS, LINK_LABELS, ROLE_LABELS, formatDate } from '@/lib/labels';
 import { url } from '@/lib/urls';
 import { buildReport, type ProductReport } from '@/lib/report';
-import GraphView from '@/components/GraphView';
+import FlowView from '@/components/FlowView';
 import StackBuilder, { SOURCE_LABELS, type Project } from '@/components/StackBuilder';
 
 const MANUAL = '__manual__';
@@ -316,14 +316,12 @@ function GrievanceBar({ report }: { report: ProductReport[] }) {
   );
 }
 
-// The stack as a graph, built only when the reader opens it.
+// Where the facts behind the stack come from, as a flow from the tools to their sources.
 function StackGraph({ data, productIds, indirect, former }: { data: Dataset; productIds: string[]; indirect: boolean; former: boolean }) {
-  const [shown, setShown] = useState(false);
   return (
-    <details className="rounded-lg border p-4" onToggle={(e) => setShown((e.currentTarget as HTMLDetailsElement).open)}>
-      <summary className="cursor-pointer font-medium">See your stack as a graph</summary>
-      <p className="mt-2 mb-3 text-sm text-muted-foreground">Your tools, their vendors, and the owners, leaders and board members behind them. Shared owners show where your stack concentrates.</p>
-      {shown && <GraphView base={import.meta.env.BASE_URL} view="stack" data={data} productIds={productIds} indirect={indirect} former={former} height="520px" />}
-    </details>
+    <section className="grid gap-3 rounded-xl border p-4 sm:p-5" aria-labelledby="flow-title">
+      <h3 id="flow-title" className="text-lg font-semibold">Where the facts come from</h3>
+      <FlowView data={data} productIds={productIds} indirect={indirect} former={former} scope="stack" />
+    </section>
   );
 }
