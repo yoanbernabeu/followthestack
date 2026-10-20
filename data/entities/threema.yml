@@ -3,3 +3,15 @@ type: company
 description: "Swiss company developing the Threema encrypted messenger."
 country: CH
 website: https://threema.com
+reviewed: "2026-10-20"
+relations:
+  - target: comitis-capital
+    role: owned-by
+    since: "2026-01-01"
+    sources:
+      - url: https://www.heise.de/en/news/Comitis-Capital-acquires-Threema-11138748.html
+        outlet: "heise online"
+        date: "2026-01-13"
+      - url: https://www.lto.de/recht/kanzleien-unternehmen/k/afinum-trennt-sich-von-beteiligung-an-messenger-dienst-threema
+        outlet: "Legal Tribune Online"
+        date: "2026-01-21"

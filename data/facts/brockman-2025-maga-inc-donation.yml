@@ -1,0 +1,14 @@
+subject: greg-brockman
+grievances: [far-right-funding]
+date: "2025-01-01"
+datePrecision: year
+summary: "Gave $25 million to MAGA Inc., the super PAC supporting President Donald Trump, according to the super PAC's filing with the Federal Election Commission covering 1 July to 22 December 2025, as reported by Reuters. Brockman's gift was one of the three largest sources of the roughly $102 million MAGA Inc. raised over that period. Brockman is co-founder and president of OpenAI."
+status: established
+response: "The Decoder reported on 3 January 2026 that Brockman had not commented on his support for Trump."
+sources:
+  - url: https://www.yahoo.com/news/articles/trump-aligned-maga-inc-super-031233625.html
+    outlet: "Reuters (via Yahoo News)"
+    date: "2026-01-02"
+  - url: https://the-decoder.com/openai-co-founder-greg-brockman-donates-25-million-to-trumps-maga-inc-super-pac/
+    outlet: "The Decoder (citing Bloomberg)"
+    date: "2026-01-03"

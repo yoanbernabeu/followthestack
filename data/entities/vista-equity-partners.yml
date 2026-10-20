@@ -4,3 +4,15 @@ description: "US private equity firm focused on enterprise software."
 country: US
 website: https://www.vistaequitypartners.com
 wikidata: Q7936440
+reviewed: "2026-10-20"
+relations:
+  - target: robert-f-smith
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Robert_F._Smith_(investor)
+        outlet: "Wikipedia"
+  - target: robert-f-smith
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Robert_F._Smith_(investor)
+        outlet: "Wikipedia"

@@ -3,3 +3,12 @@ type: company
 description: "US database company founded by the co-creators of the Vitess project."
 country: US
 website: https://planetscale.com
+reviewed: "2026-10-20"
+relations:
+  - target: sam-lambert
+    role: led-by
+    since: "2021-07-19"
+    sources:
+      - url: https://planetscale.com/blog/new-ceo-of-planetscale
+        outlet: "PlanetScale blog"
+        date: "2021-07-19"

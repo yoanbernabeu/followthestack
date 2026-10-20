@@ -3,3 +3,4 @@ type: company
 description: "Graph database company headquartered in the US, founded in Sweden."
 country: US
 website: https://neo4j.com
+reviewed: "2026-10-20"

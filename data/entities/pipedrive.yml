@@ -3,6 +3,7 @@ type: company
 description: "Sales CRM company founded in Estonia, majority-owned by Vista Equity Partners."
 website: https://www.pipedrive.com
 wikidata: Q24054211
+reviewed: "2026-10-20"
 relations:
   - target: vista-equity-partners
     role: owned-by

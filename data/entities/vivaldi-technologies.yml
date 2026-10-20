@@ -4,9 +4,15 @@ description: "Norwegian employee-owned company developing the Vivaldi web browse
 country: NO
 website: https://vivaldi.com
 wikidata: Q23498557
+reviewed: "2026-10-20"
 relations:
   - target: jon-von-tetzchner
     role: founded-by
     sources:
       - url: https://en.wikipedia.org/wiki/Vivaldi_(web_browser)
+        outlet: Wikipedia
+  - target: jon-von-tetzchner
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Jon_Stephenson_von_Tetzchner
         outlet: Wikipedia

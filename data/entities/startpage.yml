@@ -4,6 +4,7 @@ description: "Dutch privacy search engine (formerly Ixquick), owned by US ad-tec
 country: NL
 website: https://www.startpage.com
 wikidata: Q2333295
+reviewed: "2026-10-20"
 relations:
   - target: system1
     role: owned-by

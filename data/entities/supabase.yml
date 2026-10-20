@@ -2,6 +2,7 @@ name: "Supabase"
 type: company
 description: "Remote-first company developing Supabase, an open source Postgres development platform."
 website: https://supabase.com
+reviewed: "2026-10-20"
 relations:
   - target: accel
     role: invested-by
@@ -13,3 +14,15 @@ relations:
     sources:
       - url: https://supabase.com/company
         outlet: "Supabase (official site)"
+  - target: paul-copplestone
+    role: founded-by
+    sources:
+      - url: https://www.fortune.com/2025/10/03/exclusive-supabase-raises-100-million-at-5-billion-valuation-as-vibe-coding-soars
+        outlet: "Fortune"
+        date: "2025-10-03"
+  - target: paul-copplestone
+    role: led-by
+    sources:
+      - url: https://www.fortune.com/2025/10/03/exclusive-supabase-raises-100-million-at-5-billion-valuation-as-vibe-coding-soars
+        outlet: "Fortune"
+        date: "2025-10-03"

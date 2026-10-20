@@ -4,6 +4,7 @@ description: "US enterprise software and cloud company, maker of Oracle Database
 country: US
 website: https://www.oracle.com
 wikidata: Q19900
+reviewed: "2026-10-20"
 relations:
   - target: larry-ellison
     role: founded-by
@@ -15,3 +16,35 @@ relations:
     sources:
       - url: https://en.wikipedia.org/wiki/Oracle_Corporation
         outlet: "Wikipedia"
+  - target: safra-catz
+    role: led-by
+    since: "2014-09-01"
+    until: "2025-09-22"
+    sources:
+      - url: https://en.wikipedia.org/wiki/Safra_Catz
+        outlet: "Wikipedia"
+      - url: https://www.theregister.com/2025/09/22/oracle_leadership_changes
+        outlet: "The Register"
+        date: "2025-09-22"
+  - target: safra-catz
+    role: board-member
+    sources:
+      - url: https://en.wikipedia.org/wiki/Safra_Catz
+        outlet: "Wikipedia"
+      - url: https://www.theregister.com/2025/09/22/oracle_leadership_changes
+        outlet: "The Register"
+        date: "2025-09-22"
+  - target: clay-magouyrk
+    role: led-by
+    since: "2025-09-22"
+    sources:
+      - url: https://www.theregister.com/2025/09/22/oracle_leadership_changes
+        outlet: "The Register"
+        date: "2025-09-22"
+  - target: mike-sicilia
+    role: led-by
+    since: "2025-09-22"
+    sources:
+      - url: https://www.theregister.com/2025/09/22/oracle_leadership_changes
+        outlet: "The Register"
+        date: "2025-09-22"

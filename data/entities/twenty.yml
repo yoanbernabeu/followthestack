@@ -2,3 +2,9 @@ name: "Twenty"
 type: company
 description: "Company developing the open source Twenty CRM."
 website: https://twenty.com
+relations:
+  - target: y-combinator
+    role: invested-by
+    sources:
+      - url: https://www.ycombinator.com/companies/twenty
+        outlet: "Y Combinator"

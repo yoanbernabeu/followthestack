@@ -3,3 +3,18 @@ type: company
 description: "German company leading development of the open source Nextcloud collaboration and file-sync platform."
 country: DE
 website: https://nextcloud.com
+reviewed: "2026-10-20"
+relations:
+  - target: frank-karlitschek
+    role: founded-by
+    since: "2016-06-01"
+    sources:
+      - url: https://www.cloudmagazin.com/en/2026/09/25/nextcloud-ten-years-without-venture-capital/
+        outlet: "cloudmagazin"
+        date: "2026-09-25"
+  - target: frank-karlitschek
+    role: led-by
+    sources:
+      - url: https://www.cloudmagazin.com/en/2026/09/25/nextcloud-ten-years-without-venture-capital/
+        outlet: "cloudmagazin"
+        date: "2026-09-25"

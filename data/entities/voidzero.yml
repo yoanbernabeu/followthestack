@@ -3,6 +3,7 @@ type: company
 description: "Company founded by Evan You (creator of Vue and Vite) that develops Vite, Vitest, Rolldown and Oxc. Acquired by Cloudflare in June 2026; the projects remain MIT-licensed."
 country: "US"
 website: "https://voidzero.dev"
+reviewed: "2026-10-20"
 relations:
   - target: accel
     role: invested-by
@@ -20,3 +21,10 @@ relations:
         date: "2026-06-04"
       - url: https://www.sdxcentral.com/news/cloudflare-acquires-vite-creator-voidzero-to-accelerate-ai-coded-app-development/
         outlet: "SDxCentral"
+  - target: evan-you
+    role: founded-by
+    since: "2024-10-01"
+    sources:
+      - url: https://voidzero.dev/posts/announcing-voidzero-inc
+        outlet: "VoidZero blog"
+        date: "2024-10-01"

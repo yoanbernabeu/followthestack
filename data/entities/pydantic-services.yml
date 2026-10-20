@@ -2,3 +2,19 @@ name: "Pydantic"
 type: company
 description: "Company (Pydantic Services) maintaining the Pydantic validation library and PydanticAI, and selling the Logfire observability platform."
 website: "https://pydantic.dev"
+reviewed: "2026-10-20"
+relations:
+  - target: samuel-colvin
+    role: founded-by
+    sources:
+      - url: https://pydantic.dev/about
+        outlet: "Pydantic"
+  - target: sequoia-capital
+    role: invested-by
+    since: "2024-10-01"
+    sources:
+      - url: https://pydantic.dev/articles/logfire-announcement
+        outlet: "Pydantic blog"
+        date: "2024-10-01"
+      - url: https://pydantic.dev/about
+        outlet: "Pydantic"
