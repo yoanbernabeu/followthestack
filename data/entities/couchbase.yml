@@ -4,6 +4,7 @@ description: "US NoSQL database company, taken private by Haveli Investments in 
 country: US
 website: https://www.couchbase.com
 wikidata: Q5175946
+reviewed: "2026-10-20"
 relations:
   - target: haveli-investments
     role: owned-by

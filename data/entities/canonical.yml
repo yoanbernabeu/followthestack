@@ -4,6 +4,7 @@ description: "UK-based software company that publishes the Ubuntu Linux distribu
 country: GB
 website: https://canonical.com
 wikidata: Q39064
+reviewed: "2026-10-20"
 relations:
   - target: mark-shuttleworth
     role: led-by

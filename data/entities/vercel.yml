@@ -4,6 +4,7 @@ description: "US cloud platform company for front-end and serverless deployment,
 country: US
 website: https://vercel.com
 wikidata: Q56069184
+reviewed: "2026-10-20"
 relations:
   - target: guillermo-rauch
     role: founded-by

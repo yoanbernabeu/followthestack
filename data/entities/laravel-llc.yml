@@ -3,6 +3,7 @@ type: company
 description: "Company founded by Taylor Otwell that maintains the Laravel framework and sells Laravel Cloud, Forge and Nightwatch."
 country: "US"
 website: "https://laravel.com"
+reviewed: "2026-10-20"
 relations:
   - target: accel
     role: invested-by

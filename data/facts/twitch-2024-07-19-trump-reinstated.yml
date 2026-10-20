@@ -1,0 +1,19 @@
+subject: twitch
+grievances: [far-right-support]
+date: "2024-07-19"
+summary: "Reinstated Donald Trump's Twitch channel during the 2024 presidential campaign. Twitch had indefinitely suspended the channel in January 2021, after the attack on the US Capitol, citing \"the ongoing risk of further incitement of violence\". The V-Dem Institute describes the Republican Party under Trump as endorsing \"a far-right, nationalist, and anti-pluralist agenda\"."
+quote:
+  text: "there is value in hearing from presidential nominees directly, when possible"
+  lang: en
+status: established
+response: "Twitch told TechCrunch it reinstated the channel because there is value in hearing from presidential nominees directly, and that the channel remains subject to its community guidelines."
+sources:
+  - url: https://techcrunch.com/2024/07/19/twitch-reinstates-trumps-account-ahead-of-the-2024-presidential-election/
+    outlet: "TechCrunch"
+    date: "2024-07-19"
+  - url: https://www.fox5ny.com/news/twitch-bans-trump-indefinitely-cites-ongoing-risk-of-further-incitement-of-violence
+    outlet: "FOX 5 New York"
+    date: "2021-01-20"
+  - url: https://www.v-dem.net/documents/75/V-Dem_Institute_Democracy_Report_2026_lowres.pdf
+    outlet: "V-Dem Institute, Democracy Report 2026"
+    date: "2026-03-01"

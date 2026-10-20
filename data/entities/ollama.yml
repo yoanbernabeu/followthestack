@@ -3,3 +3,10 @@ type: company
 description: "Company behind Ollama, open source software for running large language models locally."
 country: US
 website: https://ollama.com
+reviewed: "2026-10-20"
+relations:
+  - target: y-combinator
+    role: invested-by
+    sources:
+      - url: https://www.ycombinator.com/companies/ollama
+        outlet: "Y Combinator"

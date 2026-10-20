@@ -4,6 +4,7 @@ description: "Live-streaming platform owned by Amazon since 2014."
 country: US
 website: https://www.twitch.tv
 wikidata: Q4555537
+reviewed: "2026-10-20"
 relations:
   - target: amazon
     role: subsidiary-of

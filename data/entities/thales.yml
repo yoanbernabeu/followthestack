@@ -4,6 +4,7 @@ description: "French defence, aerospace and cybersecurity group, partly owned by
 country: FR
 website: https://www.thalesgroup.com
 wikidata: Q1161666
+reviewed: "2026-10-20"
 relations:
   - target: patrice-caine
     role: led-by

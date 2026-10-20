@@ -3,3 +3,4 @@ type: company
 description: "US company running a platform to deploy applications close to users on its own hardware."
 country: US
 website: https://fly.io
+reviewed: "2026-10-20"

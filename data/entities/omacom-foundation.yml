@@ -1,0 +1,16 @@
+name: "Omacom Foundation"
+type: foundation
+description: "Nonprofit foundation overseeing the Omarchy Linux distribution, incorporated by David Heinemeier Hansson in 2026. Its founding patrons include Tobi Lütke, Patrick Collison, Michael Dell, Jack Dorsey, Matthew Prince and Jason Fried, and 1Password and 37signals became corporate patrons in August 2026."
+website: https://omarchy.org
+reviewed: "2026-10-20"
+relations:
+  - target: david-heinemeier-hansson
+    role: founded-by
+    since: "2026-08-21"
+    sources:
+      - url: https://omarchy.org/news/2026/08/omacom-foundation-launches-with-8-million
+        outlet: "Omarchy (primary source)"
+        date: "2026-08-21"
+      - url: https://www.theverge.com/tech/988536/1password-dhh-linux-controversy
+        outlet: "The Verge"
+        date: "2026-09-02"

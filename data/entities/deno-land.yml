@@ -3,6 +3,7 @@ type: company
 description: "Company behind the Deno runtime, Deno Deploy, Fresh and JSR. Its team joined Cloudflare in October 2026; Deno runtime development is to end after one more year of maintenance releases."
 country: "US"
 website: "https://deno.com"
+reviewed: "2026-10-20"
 relations:
   - target: ryan-dahl
     role: founded-by

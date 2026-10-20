@@ -1,0 +1,19 @@
+subject: linkedin
+grievances: [authoritarian-alignment]
+date: "2021-09-01"
+datePrecision: month
+summary: "In September 2021 LinkedIn notified several US journalists and writers, including Axios China reporter Bethany Allen-Ebrahimian, writer Melissa Chan and author Greg Bruno, that their profiles would no longer be viewable on its localized China platform because they contained \"prohibited content\". LinkedIn said it adheres to Chinese government regulations for that version and offered to review the profiles' accessibility in China if they were edited. Earlier, in March 2021, Chinese internet regulators had penalised LinkedIn for failing to control political content and it halted new sign-ups in China for 30 days. The Committee to Protect Journalists called for the profiles to be restored."
+quote:
+  text: "We're a global platform that respects the laws that apply to us, including adhering to Chinese government regulations"
+  lang: en
+status: established
+response: "On 14 October 2021 LinkedIn announced it would close its localized social network in China, citing \"a significantly more challenging operating environment and greater compliance requirements in China\", and replace it with a jobs-only app, InJobs."
+sources:
+  - url: https://cpj.org/2021/10/journalists-profiles-must-be-restored-on-linkedins-china-site-cpj-says/
+    outlet: "Committee to Protect Journalists"
+    date: "2021-10-06"
+  - url: https://chinadigitaltimes.net/2021/10/linkedin-censors-more-journalist-profiles-in-china-suggests-self-censorship-as-solution/
+    outlet: "China Digital Times"
+  - url: https://www.linkedin.com/blog/member/product/china-sunset-of-localized-version-of-linkedin-and-launch-of-new-injobs-app
+    outlet: "LinkedIn blog"
+    date: "2021-10-14"

@@ -3,3 +3,22 @@ type: company
 description: "Company developing the open source Zed code editor."
 country: US
 website: https://zed.dev
+reviewed: "2026-10-20"
+relations:
+  - target: nathan-sobo
+    role: founded-by
+    sources:
+      - url: https://zed.dev/team
+        outlet: "Zed"
+  - target: nathan-sobo
+    role: led-by
+    sources:
+      - url: https://zed.dev/team
+        outlet: "Zed"
+  - target: sequoia-capital
+    role: invested-by
+    since: "2025-08-20"
+    sources:
+      - url: https://zed.dev/blog/sequoia-backs-zed
+        outlet: "Zed blog"
+        date: "2025-08-20"

@@ -4,6 +4,7 @@ description: "Log management, observability and security analytics company, subs
 country: US
 website: https://www.splunk.com
 wikidata: Q1835753
+reviewed: "2026-10-20"
 relations:
   - target: cisco
     role: subsidiary-of

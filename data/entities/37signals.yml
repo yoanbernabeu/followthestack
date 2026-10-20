@@ -3,9 +3,30 @@ type: company
 description: Software company behind Basecamp and HEY, steward of Ruby on Rails, Hotwire and Kamal.
 country: US
 website: https://37signals.com
+reviewed: "2026-10-20"
 relations:
   - target: david-heinemeier-hansson
     role: led-by
     sources:
       - url: https://world.hey.com/dhh
         outlet: DHH's blog (author bio)
+  - target: jason-fried
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/37signals
+        outlet: Wikipedia
+      - url: https://basecamp.com/about
+        outlet: Basecamp (about page)
+  - target: jason-fried
+    role: led-by
+    sources:
+      - url: https://basecamp.com/about
+        outlet: Basecamp (about page)
+  - target: jeff-bezos
+    role: invested-by
+    since: "2006-01-01"
+    sources:
+      - url: https://en.wikipedia.org/wiki/37signals
+        outlet: Wikipedia
+      - url: https://www.bezosexpeditions.com/
+        outlet: Bezos Expeditions (portfolio)

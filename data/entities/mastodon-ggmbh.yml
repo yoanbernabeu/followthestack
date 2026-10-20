@@ -3,6 +3,7 @@ type: company
 description: "German non-profit company that develops the open source Mastodon decentralised social network software."
 country: DE
 website: https://joinmastodon.org
+reviewed: "2026-10-20"
 relations:
   - target: eugen-rochko
     role: founded-by

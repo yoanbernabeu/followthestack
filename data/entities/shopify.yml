@@ -16,3 +16,15 @@ relations:
     sources:
       - url: https://en.wikipedia.org/wiki/Shopify
         outlet: "Wikipedia"
+  - target: david-heinemeier-hansson
+    role: board-member
+    since: "2024-11-19"
+    sources:
+      - url: https://www.shopify.com/news/david-heinemeier-hansson-board
+        outlet: "Shopify"
+        date: "2024-11-19"
+      - url: https://world.hey.com/dhh/joining-the-shopify-board-of-directors-3c351fbb
+        outlet: "David Heinemeier Hansson (HEY World)"
+        date: "2024-11-19"
+      - url: https://www.shopify.com/investors/board-of-directors
+        outlet: "Shopify Investors"

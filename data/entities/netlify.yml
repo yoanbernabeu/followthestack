@@ -4,6 +4,7 @@ description: "US web hosting and deployment platform company."
 country: US
 website: https://www.netlify.com
 wikidata: Q56102498
+reviewed: "2026-10-20"
 relations:
   - target: mathias-biilmann
     role: founded-by

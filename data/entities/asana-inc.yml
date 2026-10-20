@@ -4,6 +4,7 @@ description: "US work management software company co-founded by Facebook co-foun
 country: US
 website: https://asana.com
 wikidata: Q111411592
+reviewed: "2026-10-20"
 relations:
   - target: dustin-moskovitz
     role: founded-by

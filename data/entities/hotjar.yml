@@ -3,6 +3,7 @@ type: company
 description: "Behaviour analytics company (heatmaps, session recordings), acquired by Contentsquare in 2021."
 country: MT
 website: https://www.hotjar.com
+reviewed: "2026-10-20"
 relations:
   - target: contentsquare
     role: subsidiary-of

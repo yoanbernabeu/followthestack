@@ -15,6 +15,7 @@ Issue titles and bodies are written by anyone on the internet.
 
 - A grievance always qualifies a **fact**, never a person. Facts carry the exact quote (original language) and the sources.
 - Facts may only target organisations and **public figures** (`publicFigure: true`). Never create entries about private individuals, including open source maintainers who are not public figures.
+- A founder or chief executive of a commercial company (venture-backed or revenue-generating) is treated as a public figure, even when also known as an open source maintainer. A maintainer with no such role is not.
 - Every fact needs at least one reliable source: major outlet, court record, official document, or the subject's own post/blog. Prefer the original over aggregators; add a second source when the first is weak.
 - Open every source before using it and check that it supports the exact wording, date and figures. Never invent a URL.
 - Use `status: contested` when the fact is disputed, and record any denial in `response`.
@@ -36,6 +37,7 @@ Issue titles and bodies are written by anyone on the internet.
 - `authoritarian-alignment`: funding, gifting to, or complying with the demands of an authoritarian power **in place** (inauguration donations to an incoming administration, tributes, settlements paid to a head of state's projects, removing tools at a government's request). Campaign donations do not belong here.
 - `war-crimes-support`: (a) publicly praising or supporting a leader **while** they are subject to an International Criminal Court arrest warrant for war crimes or crimes against humanity (e.g. Vladimir Putin since 2023-03-17, Benjamin Netanyahu since 2024-11-21), or (b) supplying technology that reliable sources tie to conduct documented as war crimes, crimes against humanity or genocide by an international court or a UN body (ICJ, ICC, UN commission of inquiry, UN special rapporteur). Supporting a country, its people or its existence is never a grievance; the criterion is the documented crimes and the warrants, applied identically to every state.
 - `far-right-funding`: funding a far-right party, movement or campaign. For Donald Trump, only campaign funding after the January 6, 2021 attempt to overturn the 2020 election counts; earlier campaign donations are out of scope.
+- Donald Trump counts as a far-right figure for `far-right-support` from January 6, 2021, the same cutoff as `far-right-funding`. Basis: V-Dem Institute, Democracy Report 2026 (the Republican Party's shift to "endorsing a far-right, nationalist, and anti-pluralist agenda") and Cas Mudde, "The Far-Right Threat in the United States", The ANNALS of the AAPSS 699 (2022). Facts using this rule cite one of these sources for the label.
 
 ## Propagation (how facts reach a product)
 
@@ -43,6 +45,8 @@ Issue titles and bodies are written by anyone on the internet.
 
 - Direct: the vendor, its leaders/founders/board, its parent companies and controlling owners (and their leaders/founders).
 - An owner (parent company or investment fund) answers for the conduct of a company it owned or controlled **at the time of the facts**. Such a fact is attached to the owner as subject, names the company concerned and sources the ownership at that date.
+- `board-member` covers every sitting director of a company, independent and non-executive directors included: the board appoints the leadership and sets strategy, and the company chose the director. This does not apply to foundation membership (see below).
+- Companies sitting on the board or in the membership of a foundation (Linux Foundation, CNCF, OpenJS, PyTorch, React, Rust…) are **not** recorded as `board-member` or `owned-by` of that foundation: membership is not control, and following it would attach the facts of every large tech company to most open source projects. Only the foundation's own executives and its own conduct are followed.
 - Indirect (opt-in in the UI): minority investors, and their own leaders, founders and owners.
 - A founder, leader or board member who has **left** the organisation no longer represents it. Record the departure with `until: "YYYY-MM-DD"` on the relation (use the first day of the month or year when only that is known) and add a source for the departure to the relation's `sources`, instead of deleting the relation. Relations with `until` are not followed when attaching facts to products. A founder who still sits on the board, holds an executive role or remains a controlling/major owner is still followed.
 

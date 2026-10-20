@@ -3,6 +3,7 @@ type: foundation
 description: "Linux Foundation-hosted foundation stewarding PyTorch since 2022 (previously run by Meta)."
 country: "US"
 website: "https://pytorch.org/foundation/"
+reviewed: "2026-10-20"
 relations:
   - target: linux-foundation
     role: subsidiary-of

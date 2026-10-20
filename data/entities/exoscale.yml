@@ -1,5 +1,16 @@
 name: "Exoscale"
 type: company
-description: "Swiss cloud infrastructure provider based in Lausanne."
+description: "Swiss cloud infrastructure provider based in Lausanne, majority-owned by A1 Digital (A1 Telekom Austria Group) since 2017."
 country: CH
 website: https://www.exoscale.com
+reviewed: "2026-10-20"
+relations:
+  - target: a1-group
+    role: subsidiary-of
+    since: 2017-08-30
+    sources:
+      - url: https://ventures.swisscom.com/a1-digital-acquires-swiss-cloud-provider-exoscale/
+        outlet: "Swisscom Ventures"
+        date: 2017-08-30
+      - url: https://www.exoscale.com/about/
+        outlet: "Exoscale"
