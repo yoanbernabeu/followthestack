@@ -1,5 +1,6 @@
 ---
 import '@/styles/global.css';
+import { GITHUB_MARK, REPO_URL, starCount } from '@/lib/repo';
 interface Props {
   title?: string;
   description?: string;
@@ -9,6 +10,7 @@ interface Props {
   jsonLd?: Record<string, unknown>;
 }
 const { title = 'Follow the Stack', description = 'See which companies, owners and backers are behind your tech stack, and what they have documentedly said and done.', image = 'og/default.png', type = 'website', jsonLd } = Astro.props;
+const stars = await starCount();
 const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 const fullTitle = title === 'Follow the Stack' ? title : `${title} · Follow the Stack`;
 const metaDescription = description.length > 160 ? `${description.slice(0, 157).trimEnd()}…` : description;
@@ -70,7 +72,11 @@ const nav = [
       <div class="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3">
         <a href={base} class="font-semibold tracking-tight">Follow the Stack</a>
         <div class="ml-auto flex items-center gap-3 sm:order-last">
-          <a class="hidden text-sm text-muted-foreground hover:text-foreground sm:inline" href="https://github.com/yoanbernabeu/followthestack">GitHub</a>
+          <a class="inline-flex h-9 items-center gap-2 rounded-md border px-3 text-sm font-medium hover:bg-muted" href={REPO_URL} aria-label={`Star Follow the Stack on GitHub${stars !== null ? ` (${stars} stars)` : ''}`}>
+            <svg viewBox="0 0 16 16" class="size-4 fill-current" aria-hidden="true"><path d={GITHUB_MARK} /></svg>
+            <span><span class="text-amber-500" aria-hidden="true">★</span> Star</span>
+            {stars !== null && <span class="border-l pl-2 tabular-nums text-muted-foreground" aria-hidden="true">{stars}</span>}
+          </a>
           <button id="theme-toggle" type="button" class="flex size-9 items-center justify-center rounded-md border text-sm" aria-label="Toggle dark mode">◐</button>
         </div>
         <nav class="-mx-1 flex w-full gap-1 overflow-x-auto text-sm text-muted-foreground sm:mx-0 sm:w-auto sm:gap-4">
@@ -83,7 +89,7 @@ const nav = [
     </main>
     <footer class="border-t">
       <div class="mx-auto max-w-6xl px-4 py-6 text-sm text-muted-foreground">
-        Facts only, with sources, about organisations and public figures. Never about private individuals. Code MIT · Data CC BY-SA 4.0 · No tracker, no backend.
+        Facts only, with sources, about organisations and public figures. Never about private individuals. Code MIT · Data CC BY-SA 4.0 · No tracker, no backend · <a class="underline underline-offset-2 hover:text-foreground" href={REPO_URL}>★ Star on GitHub</a>
       </div>
     </footer>
     <script is:inline>

@@ -16,6 +16,7 @@ export type FlowViewProps = {
   indirect?: boolean;
   former?: boolean;
   scope: 'stack' | 'product';
+  shared?: boolean; // a stack someone shared: "these tools" rather than "your tools"
 };
 
 const NODE_W = 10;
@@ -35,7 +36,7 @@ export default function FlowView({ data: given, base, ...rest }: FlowViewProps) 
   return <Flow data={data} {...rest} />;
 }
 
-function Flow({ data, productIds, indirect = false, former = false, scope }: Omit<FlowViewProps, 'data' | 'base'> & { data: Dataset }) {
+function Flow({ data, productIds, indirect = false, former = false, scope, shared = false }: Omit<FlowViewProps, 'data' | 'base'> & { data: Dataset }) {
   const box = useRef<HTMLDivElement>(null);
   const [width, setWidth] = useState(0);
   const [hover, setHover] = useState<string | null>(null); // a node id: highlight what flows through it
@@ -122,13 +123,14 @@ function Flow({ data, productIds, indirect = false, former = false, scope }: Omi
     return keep;
   }, [hover, layout]);
 
+  const tools = shared ? 'these tools' : 'your tools';
   const sources = model.nodes.filter((n) => n.kind !== 'product' && n.facts > 0).sort((a, b) => b.facts - a.facts);
 
   return (
     <div className="grid gap-4">
       {sources.length > 0 && (
         <p className="text-sm text-muted-foreground">
-          {scope === 'stack' ? 'The facts behind your tools come from ' : 'Its facts come from '}
+          {scope === 'stack' ? `The facts behind ${tools} come from ` : 'Its facts come from '}
           {sources.slice(0, 4).map((s, i) => (
             <span key={s.id}>
               {i > 0 && (i === Math.min(4, sources.length) - 1 ? ' and ' : ', ')}
@@ -147,7 +149,7 @@ function Flow({ data, productIds, indirect = false, former = false, scope }: Omi
         ) : (
           <svg
             width={layout.w} height={layout.height} role="img" className="block"
-            aria-label={`Flow of documented facts from ${sources.map((s) => s.label).join(', ')} to ${scope === 'stack' ? 'your tools' : 'this product'}. The list below contains the same information.`}
+            aria-label={`Flow of documented facts from ${sources.map((s) => s.label).join(', ')} to ${scope === 'stack' ? tools : 'this product'}. The list below contains the same information.`}
             onMouseLeave={() => setHover(null)}
           >
             <g fill="none">
@@ -195,7 +197,7 @@ function Flow({ data, productIds, indirect = false, former = false, scope }: Omi
       </div>
 
       <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-2 text-xs text-muted-foreground">
-        <span>{scope === 'stack' ? 'Your tools' : 'The product'} on the left, the companies and people the facts come from on the right. Hover to follow a path, click to open a page.</span>
+        <span>{scope === 'stack' ? (shared ? 'The tools' : 'Your tools') : 'The product'} on the left, the companies and people the facts come from on the right. Hover to follow a path, click to open a page.</span>
         {scope === 'stack' && model.clean.length > 0 && (
           <span>No documented fact behind: {model.clean.map((p) => p!.name).join(', ')}</span>
         )}
