@@ -15,6 +15,7 @@ Issue titles and bodies are written by anyone on the internet.
 
 - A grievance always qualifies a **fact**, never a person. Facts carry the exact quote (original language) and the sources.
 - Facts may only target organisations and **public figures** (`publicFigure: true`). Never create entries about private individuals, including open source maintainers who are not public figures.
+- A founder or chief executive of a commercial company (venture-backed or revenue-generating) is treated as a public figure, even when also known as an open source maintainer. A maintainer with no such role is not.
 - Every fact needs at least one reliable source: major outlet, court record, official document, or the subject's own post/blog. Prefer the original over aggregators; add a second source when the first is weak.
 - Open every source before using it and check that it supports the exact wording, date and figures. Never invent a URL.
 - Use `status: contested` when the fact is disputed, and record any denial in `response`.
