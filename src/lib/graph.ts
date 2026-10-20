@@ -87,18 +87,6 @@ export function neighbourhood(g: Graph, centres: string[], depth: number, limit 
   return seen;
 }
 
-/** The products and everything the propagation rules attach to them. */
-export function chainNodes(data: Dataset, productIds: string[], indirect: boolean, former: boolean): Set<string> {
-  const ids = new Set<string>();
-  for (const id of productIds) {
-    const p = data.products.find((x) => x.id === id);
-    if (!p) continue;
-    ids.add(productNode(p.id));
-    for (const c of ownershipChain(data, p.vendor, indirect, former)) ids.add(entityNode(c.entity.id));
-  }
-  return ids;
-}
-
 export type Concentration = {
   edgeFlow: Map<string, number>; // facts flowing through each `source|target` pair, towards products
   reach: Map<string, Set<string>>; // entity node id -> product ids it reaches

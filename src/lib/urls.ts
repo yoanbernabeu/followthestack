@@ -5,7 +5,7 @@ export const url = {
   product: (id: string) => `${base}product/${id}/`,
   entity: (id: string) => `${base}entity/${id}/`,
   grievance: (id: string) => `${base}grievance/${id}/`,
-  graph: (focus?: string) => `${base}graph/${focus ? `?focus=${encodeURIComponent(focus)}` : ''}`,
+  group: (id: string) => `${base}groups/#${id}`,
   category: (id: string) => `${base}category/${id}/`,
   linkType: (id: string) => `${base}about/#link-${id}`,
   contribute: (params: Record<string, string> = {}) => `${base}contribute/${Object.keys(params).length ? `?${new URLSearchParams(params)}` : ''}`,

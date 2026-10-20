@@ -7,6 +7,7 @@ import { buildReport } from '@/lib/report';
 import { CATEGORY_LABELS, LINK_LABELS, ROLE_LABELS } from '@/lib/labels';
 import { url } from '@/lib/urls';
 import FlowView from '@/components/FlowView';
+import { groupOf } from '@/lib/groups';
 const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 export async function getStaticPaths() {
   return (await getCollection('products')).map((p) => ({ params: { id: p.id } }));
@@ -15,6 +16,7 @@ const { id } = Astro.params;
 const data = await loadDataset();
 const p = data.products.find((x) => x.id === id)!;
 const [direct] = buildReport(data, [p.id], false);
+const group = groupOf(data, p.vendor);
 const [all] = buildReport(data, [p.id], true);
 const indirectFacts = all.facts.filter((f) => f.kind === 'indirect');
 const indirectChain = all.chain.filter((c) => c.kind === 'indirect');
@@ -53,7 +55,7 @@ const viaLabel = (via: { role: string; from: string }[]) => via.length ? `via ${
     <section class="mb-10 grid gap-3">
       <div class="flex flex-wrap items-baseline gap-x-4">
         <h2 class="text-xl font-semibold">Where its facts come from</h2>
-        <a class="text-sm underline" href={url.graph(`p:${p.id}`)}>Explore in the full graph</a>
+        {group && <a class="text-sm underline" href={url.group(group.id)}>See the whole {group.label} group and alternatives</a>}
       </div>
       <FlowView client:visible base={base} productIds={[p.id]} scope="product" />
     </section>
