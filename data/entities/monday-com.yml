@@ -4,3 +4,25 @@ description: "Israeli company developing the monday.com work management platform
 country: IL
 website: https://monday.com
 wikidata: Q65073369
+reviewed: "2026-10-20"
+relations:
+  - target: roy-mann
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Monday.com
+        outlet: "Wikipedia"
+  - target: roy-mann
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Monday.com
+        outlet: "Wikipedia"
+  - target: eran-zinman
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Monday.com
+        outlet: "Wikipedia"
+  - target: eran-zinman
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Monday.com
+        outlet: "Wikipedia"

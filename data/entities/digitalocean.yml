@@ -4,6 +4,7 @@ description: "US cloud infrastructure provider aimed at developers and small bus
 country: US
 website: https://www.digitalocean.com
 wikidata: Q17052116
+reviewed: "2026-10-20"
 relations:
   - target: ben-uretsky
     role: founded-by

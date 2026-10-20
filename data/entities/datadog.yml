@@ -4,3 +4,20 @@ description: "Publicly traded monitoring, observability and security SaaS compan
 country: US
 website: https://www.datadoghq.com
 wikidata: Q16248637
+reviewed: "2026-10-20"
+relations:
+  - target: olivier-pomel
+    role: founded-by
+    sources:
+      - url: https://www.datadoghq.com/about/leadership/
+        outlet: "Datadog (leadership page)"
+  - target: olivier-pomel
+    role: led-by
+    sources:
+      - url: https://www.datadoghq.com/about/leadership/
+        outlet: "Datadog (leadership page)"
+  - target: alexis-le-quoc
+    role: founded-by
+    sources:
+      - url: https://www.datadoghq.com/about/leadership/
+        outlet: "Datadog (leadership page)"

@@ -66,6 +66,7 @@ const entities = defineCollection({
       country: z.string().length(2).optional(),
       website: z.url().optional(),
       wikidata: z.string().regex(/^Q\d+$/).optional(),
+      reviewed: z.coerce.date().optional(),
       relations: z
         .array(
           z.object({

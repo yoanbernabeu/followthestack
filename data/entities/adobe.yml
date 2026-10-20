@@ -4,6 +4,7 @@ description: "Software company behind Creative Cloud and the Adobe Experience Cl
 country: US
 website: https://www.adobe.com
 wikidata: Q11463
+reviewed: "2026-10-19"
 relations:
   - target: shantanu-narayen
     role: led-by

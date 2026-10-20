@@ -4,9 +4,25 @@ description: "US company operating the Pinterest visual discovery social network
 country: US
 website: https://www.pinterest.com
 wikidata: Q255381
+reviewed: "2026-10-20"
 relations:
   - target: ben-silbermann
     role: founded-by
     sources:
       - url: https://en.wikipedia.org/wiki/Pinterest
         outlet: Wikipedia
+  - target: bill-ready
+    role: led-by
+    since: "2022-06-28"
+    sources:
+      - url: https://techcrunch.com/2022/06/28/pinterest-new-ceo-google-bill-ready/
+        outlet: "TechCrunch"
+        date: "2022-06-28"
+      - url: https://en.wikipedia.org/wiki/Bill_Ready
+        outlet: Wikipedia
+  - target: ben-silbermann
+    role: board-member
+    sources:
+      - url: https://techcrunch.com/2022/06/28/pinterest-new-ceo-google-bill-ready/
+        outlet: "TechCrunch"
+        date: "2022-06-28"

@@ -4,6 +4,7 @@ description: "Enterprise identity and access management company, owned by Thoma 
 country: US
 website: https://www.pingidentity.com
 wikidata: Q85793376
+reviewed: "2026-10-20"
 relations:
   - target: thoma-bravo
     role: owned-by

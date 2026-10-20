@@ -4,6 +4,7 @@ description: "Cloud development environment and AI app-building platform."
 country: US
 website: https://replit.com
 wikidata: Q60768699
+reviewed: "2026-10-20"
 relations:
   - target: amjad-masad
     role: led-by

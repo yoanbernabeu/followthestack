@@ -4,6 +4,7 @@ description: "Financial services company behind Square and Cash App, formerly Sq
 country: US
 website: https://block.xyz
 wikidata: Q110778747
+reviewed: "2026-10-20"
 relations:
   - target: jack-dorsey
     role: led-by

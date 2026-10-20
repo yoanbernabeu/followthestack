@@ -4,6 +4,7 @@ description: "US company operating the Reddit forum platform, publicly listed si
 country: US
 website: https://redditinc.com
 wikidata: Q1136
+reviewed: "2026-10-20"
 relations:
   - target: steve-huffman
     role: led-by

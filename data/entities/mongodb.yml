@@ -4,6 +4,7 @@ description: "US database company behind MongoDB and the MongoDB Atlas cloud ser
 country: US
 website: https://www.mongodb.com
 wikidata: Q4546965
+reviewed: "2026-10-20"
 relations:
   - target: dwight-merriman
     role: founded-by

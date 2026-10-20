@@ -4,6 +4,7 @@ description: "US non-profit foundation that develops the Signal encrypted messen
 country: US
 website: https://signalfoundation.org
 wikidata: Q55074807
+reviewed: "2026-10-20"
 relations:
   - target: meredith-whittaker
     role: led-by

@@ -4,6 +4,7 @@ description: "Online video platform owned by Google since 2006."
 country: US
 website: https://www.youtube.com
 wikidata: Q866
+reviewed: "2026-10-19"
 relations:
   - target: google
     role: subsidiary-of

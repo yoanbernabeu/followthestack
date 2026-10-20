@@ -4,3 +4,29 @@ description: "Indian software company developing the Zoho suite of business and 
 country: IN
 website: https://www.zoho.com
 wikidata: Q8063247
+reviewed: "2026-10-20"
+relations:
+  - target: sridhar-vembu
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Zoho_Corporation
+        outlet: "Wikipedia"
+  - target: shailesh-kumar-davey
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Zoho_Corporation
+        outlet: "Wikipedia"
+  - target: sridhar-vembu
+    role: led-by
+    until: "2025-01-01"
+    sources:
+      - url: https://entrackr.com/news/sridhar-vembu-steps-down-as-ceo-of-zoho-corp-8658226
+        outlet: "Entrackr"
+        date: "2025-01-27"
+  - target: shailesh-kumar-davey
+    role: led-by
+    since: "2025-01-01"
+    sources:
+      - url: https://entrackr.com/news/sridhar-vembu-steps-down-as-ceo-of-zoho-corp-8658226
+        outlet: "Entrackr"
+        date: "2025-01-27"

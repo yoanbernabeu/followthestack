@@ -4,6 +4,7 @@ description: "Software testing and API tooling company (Swagger, SoapUI, BugSnag
 country: US
 website: https://smartbear.com
 wikidata: Q28406315
+reviewed: "2026-10-20"
 relations:
   - target: francisco-partners
     role: owned-by

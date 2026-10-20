@@ -4,6 +4,7 @@ description: "Online payments company, owner of Braintree and Venmo."
 country: US
 website: https://www.paypal.com
 wikidata: Q483959
+reviewed: "2026-10-20"
 relations:
   - target: enrique-lores
     role: led-by

@@ -4,6 +4,7 @@ description: "UK payment processing company."
 country: GB
 website: https://www.checkout.com
 wikidata: Q110815500
+reviewed: "2026-10-20"
 relations:
   - target: guillaume-pousaz
     role: led-by

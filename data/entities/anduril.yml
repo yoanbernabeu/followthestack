@@ -4,6 +4,7 @@ description: "US defense technology company making autonomous systems, drones an
 country: US
 website: https://www.anduril.com
 wikidata: Q61918830
+reviewed: "2026-10-19"
 relations:
   - target: palmer-luckey
     role: founded-by

@@ -4,6 +4,7 @@ description: "Canadian e-commerce platform company. Steward of Remix and React R
 country: "CA"
 website: "https://www.shopify.com"
 wikidata: Q7501150
+reviewed: "2026-10-19"
 relations:
   - target: tobi-lutke
     role: founded-by

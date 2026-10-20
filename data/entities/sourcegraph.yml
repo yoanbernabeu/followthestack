@@ -4,3 +4,34 @@ description: "Company developing Sourcegraph Code Search and the Amp coding agen
 country: US
 website: https://sourcegraph.com
 wikidata: Q108106907
+reviewed: "2026-10-20"
+relations:
+  - target: quinn-slack
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Sourcegraph
+        outlet: "Wikipedia"
+  - target: beyang-liu
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Sourcegraph
+        outlet: "Wikipedia"
+  - target: beyang-liu
+    role: board-member
+    sources:
+      - url: https://sourcegraph.com/blog/why-sourcegraph-and-amp-are-becoming-independent-companies
+        outlet: "Sourcegraph blog"
+        date: "2025-12-02"
+  - target: quinn-slack
+    role: board-member
+    sources:
+      - url: https://sourcegraph.com/blog/why-sourcegraph-and-amp-are-becoming-independent-companies
+        outlet: "Sourcegraph blog"
+        date: "2025-12-02"
+  - target: dan-adler
+    role: led-by
+    since: "2025-12-02"
+    sources:
+      - url: https://sourcegraph.com/blog/why-sourcegraph-and-amp-are-becoming-independent-companies
+        outlet: "Sourcegraph blog"
+        date: "2025-12-02"

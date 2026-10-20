@@ -3,6 +3,7 @@ type: company
 description: "Company operating the X social network (formerly Twitter), acquired by Elon Musk in October 2022, folded into xAI in March 2025 (now part of SpaceX via xAI)."
 country: US
 website: https://x.com
+reviewed: "2026-10-19"
 relations:
   - target: elon-musk
     role: owned-by

@@ -4,6 +4,7 @@ description: "AI-powered answer engine company."
 country: US
 website: https://www.perplexity.ai
 wikidata: Q124333951
+reviewed: "2026-10-19"
 relations:
   - target: aravind-srinivas
     role: led-by

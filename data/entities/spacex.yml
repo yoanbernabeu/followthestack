@@ -4,6 +4,7 @@ description: "US aerospace company founded and led by Elon Musk, operator of the
 country: US
 website: https://www.spacex.com
 wikidata: Q193701
+reviewed: "2026-10-19"
 relations:
   - target: elon-musk
     role: led-by

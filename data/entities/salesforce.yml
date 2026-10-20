@@ -4,6 +4,7 @@ description: "Customer relationship management software company, owner of Slack,
 country: US
 website: https://www.salesforce.com
 wikidata: Q941127
+reviewed: "2026-10-19"
 relations:
   - target: marc-benioff
     role: led-by

@@ -1,0 +1,13 @@
+subject: hp
+grievances: [authoritarian-alignment]
+date: "2025-10-01"
+datePrecision: month
+summary: "Listed by the White House among the donors funding President Donald Trump's ballroom. Individual amounts were not disclosed at the time. In October 2026, The New Republic, citing The Washington Post, listed HP's contribution at $2.5 million."
+status: established
+sources:
+  - url: https://www.kait8.com/2025/10/23/white-house-reveals-donor-list-trumps-300m-ballroom/
+    outlet: "CNN Newsource via KAIT 8"
+    date: "2025-10-23"
+  - url: https://newrepublic.com/post/216672/list-white-house-ballroom-donors-trump-corruption
+    outlet: "The New Republic"
+    date: "2026-10-15"

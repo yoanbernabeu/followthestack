@@ -4,6 +4,7 @@ description: "US company providing CDN, DNS, DDoS protection, Zero Trust securit
 country: US
 website: https://www.cloudflare.com
 wikidata: Q4778915
+reviewed: "2026-10-19"
 relations:
   - target: matthew-prince
     role: founded-by

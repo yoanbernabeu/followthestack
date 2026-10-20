@@ -4,6 +4,7 @@ description: "German internet services group (1&1, IONOS, GMX, WEB.DE)."
 country: DE
 website: https://www.united-internet.de
 wikidata: Q322579
+reviewed: "2026-10-20"
 relations:
   - target: ralph-dommermuth
     role: founded-by

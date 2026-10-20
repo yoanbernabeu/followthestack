@@ -1,0 +1,17 @@
+subject: snap
+grievances: [authoritarian-alignment]
+date: "2017-09-01"
+datePrecision: month
+summary: "Removed Al Jazeera's Discover Publisher Channel from Snapchat in Saudi Arabia after the Saudi government said the channel violated local laws, during the Saudi-led blockade of Qatar, where Al Jazeera is based."
+quote:
+  text: "We make an effort to comply with local laws in the countries where we operate."
+  lang: en
+status: established
+response: "Al Jazeera's acting Director-General Mostefa Souag said: \"We find Snapchat's action to be alarming and worrying.\""
+sources:
+  - url: https://www.aljazeera.com/news/2017/9/18/snapchat-blocks-al-jazeera-in-saudi-arabia
+    outlet: "Al Jazeera"
+    date: "2017-09-18"
+  - url: https://www.newarab.com/news/snapchat-blocks-al-jazeera-saudi-arabia
+    outlet: "The New Arab"
+    date: "2017-09-18"

@@ -1,0 +1,16 @@
+subject: francisco-partners
+grievances: [surveillance-deportation]
+date: "2018-11-01"
+summary: "Francisco Partners owned NSO Group, the Israeli maker of the Pegasus spyware sold to governments, from its 2014 acquisition until it sold the company to its founders and Novalpina Capital in February 2019. On November 1, 2018, the University of Toronto's Citizen Lab sent Francisco Partners an open letter on the continued misuse of Pegasus, citing its findings of likely Pegasus infections in 45 countries and its high-confidence assessment that the phone of Saudi activist Omar Abdulaziz, a collaborator of the murdered journalist Jamal Khashoggi, had been infected by an operator probably linked to the Saudi government. The letter said an earlier letter of May 29, 2018 remained unanswered."
+status: established
+response: "According to Citizen Lab, Francisco Partners had written on February 20, 2018 that it was \"very much willing to engage in a constructive dialogue with Citizen Lab\"."
+sources:
+  - url: https://citizenlab.ca/open-letter-to-francisco-partners-continued-misuse-of-nso-groups-pegasus-technology/
+    outlet: "Citizen Lab (University of Toronto)"
+    date: "2018-11-01"
+  - url: https://en.globes.co.il/en/article-francisco-partners-buys-nso-for-120m-1000925480
+    outlet: "Globes"
+    date: "2014-03-19"
+  - url: https://en.globes.co.il/en/article-Novalpina-Capital-and-founders-buy-NSO-for-1b-1001273312
+    outlet: "Globes"
+    date: "2019-02-14"

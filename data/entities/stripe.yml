@@ -4,6 +4,7 @@ description: "Payment processing and financial infrastructure company."
 country: US
 website: https://stripe.com
 wikidata: Q7624104
+reviewed: "2026-10-20"
 relations:
   - target: patrick-collison
     role: led-by

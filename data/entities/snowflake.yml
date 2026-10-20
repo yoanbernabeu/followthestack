@@ -4,6 +4,7 @@ description: "US cloud data warehouse and data platform company."
 country: US
 website: https://www.snowflake.com
 wikidata: Q22078063
+reviewed: "2026-10-20"
 relations:
   - target: sridhar-ramaswamy
     role: led-by

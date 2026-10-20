@@ -4,3 +4,16 @@ description: "German AI company behind the DeepL translator and its API."
 country: DE
 website: https://www.deepl.com
 wikidata: Q131894787
+reviewed: "2026-10-20"
+relations:
+  - target: jarek-kutylowski
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/DeepL_Translator
+        outlet: "Wikipedia"
+  - target: jarek-kutylowski
+    role: led-by
+    since: "2019-07-01"
+    sources:
+      - url: https://en.wikipedia.org/wiki/DeepL_Translator
+        outlet: "Wikipedia"

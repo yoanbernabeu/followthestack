@@ -4,6 +4,7 @@ description: "US facial recognition company that built its database by scraping 
 country: US
 website: https://www.clearview.ai
 wikidata: Q82969314
+reviewed: "2026-10-19"
 relations:
   - target: peter-thiel
     role: invested-by

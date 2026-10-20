@@ -4,6 +4,7 @@ description: "US videoconferencing company behind Zoom Workplace."
 country: US
 website: https://www.zoom.com
 wikidata: Q17460900
+reviewed: "2026-10-19"
 relations:
   - target: eric-yuan
     role: led-by

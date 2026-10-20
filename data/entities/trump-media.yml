@@ -4,6 +4,7 @@ description: "US media company operating Truth Social, majority-owned by a trust
 country: US
 website: https://tmtgcorp.com
 wikidata: Q109030760
+reviewed: "2026-10-19"
 relations:
   - target: donald-trump
     role: owned-by

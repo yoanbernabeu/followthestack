@@ -4,6 +4,7 @@ description: "AI company behind the Devin coding agent; acquired the Windsurf ID
 country: US
 website: https://cognition.ai
 wikidata: Q126095776
+reviewed: "2026-10-20"
 relations:
   - target: scott-wu
     role: led-by

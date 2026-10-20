@@ -4,6 +4,7 @@ description: "Australian company developing the Canva online design platform and
 country: AU
 website: https://www.canva.com
 wikidata: Q23498528
+reviewed: "2026-10-20"
 relations:
   - target: melanie-perkins
     role: led-by

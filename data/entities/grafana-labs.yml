@@ -3,3 +3,20 @@ type: company
 description: "Company behind the open source Grafana, Loki, Tempo, Mimir and k6 projects and Grafana Cloud."
 country: US
 website: https://grafana.com
+reviewed: "2026-10-20"
+relations:
+  - target: raj-dutt
+    role: founded-by
+    sources:
+      - url: https://grafana.com/about/team/
+        outlet: "Grafana Labs (team page)"
+  - target: raj-dutt
+    role: led-by
+    sources:
+      - url: https://grafana.com/about/team/
+        outlet: "Grafana Labs (team page)"
+  - target: torkel-odegaard
+    role: founded-by
+    sources:
+      - url: https://grafana.com/about/team/
+        outlet: "Grafana Labs (team page)"

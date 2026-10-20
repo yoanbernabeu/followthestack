@@ -4,3 +4,23 @@ description: "Dutch consumer internet investment group controlled by Naspers."
 country: NL
 website: https://www.prosus.com
 wikidata: Q67389109
+reviewed: "2026-10-20"
+relations:
+  - target: naspers
+    role: owned-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Prosus
+        outlet: "Wikipedia"
+      - url: https://en.wikipedia.org/wiki/Naspers
+        outlet: "Wikipedia"
+  - target: fabricio-bloisi
+    role: led-by
+    since: "2024-07-01"
+    sources:
+      - url: https://en.wikipedia.org/wiki/Fabricio_Bloisi
+        outlet: "Wikipedia"
+  - target: koos-bekker
+    role: board-member
+    sources:
+      - url: https://en.wikipedia.org/wiki/Koos_Bekker
+        outlet: "Wikipedia"

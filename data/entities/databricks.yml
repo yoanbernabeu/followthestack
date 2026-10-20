@@ -4,6 +4,7 @@ description: "US data and AI platform company, creator of Apache Spark, Delta La
 country: US
 website: https://www.databricks.com
 wikidata: Q18350420
+reviewed: "2026-10-20"
 relations:
   - target: ali-ghodsi
     role: founded-by

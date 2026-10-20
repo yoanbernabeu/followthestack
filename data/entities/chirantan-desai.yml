@@ -3,3 +3,4 @@ type: person
 publicFigure: true
 description: "CEO of MongoDB since November 2025, former president of product and engineering at Cloudflare."
 country: US
+reviewed: "2026-10-20"

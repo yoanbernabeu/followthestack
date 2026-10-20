@@ -4,6 +4,7 @@ description: "French cloud provider, majority-owned subsidiary of the Iliad grou
 country: FR
 website: https://www.scaleway.com
 wikidata: Q3352745
+reviewed: "2026-10-20"
 relations:
   - target: iliad
     role: subsidiary-of

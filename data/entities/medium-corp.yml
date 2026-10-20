@@ -3,9 +3,25 @@ type: company
 description: "US company operating the Medium online publishing platform, created by Twitter co-founder Evan Williams."
 country: US
 website: https://medium.com
+reviewed: "2026-10-20"
 relations:
   - target: evan-williams
     role: founded-by
     sources:
       - url: https://en.wikipedia.org/wiki/Medium_(website)
         outlet: Wikipedia
+  - target: tony-stubblebine
+    role: led-by
+    since: "2022-07-20"
+    sources:
+      - url: https://techcrunch.com/2022/07/12/ev-williams-is-stepping-down-as-ceo-of-medium-after-more-than-11-years-at-the-helm
+        outlet: "TechCrunch"
+        date: "2022-07-12"
+      - url: https://en.wikipedia.org/wiki/Medium_(website)
+        outlet: Wikipedia
+  - target: evan-williams
+    role: board-member
+    sources:
+      - url: https://techcrunch.com/2022/07/12/ev-williams-is-stepping-down-as-ceo-of-medium-after-more-than-11-years-at-the-helm
+        outlet: "TechCrunch"
+        date: "2022-07-12"

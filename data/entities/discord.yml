@@ -3,3 +3,35 @@ type: company
 description: "San Francisco-based company operating the Discord voice, video and text chat platform."
 country: US
 website: https://discord.com
+reviewed: "2026-10-20"
+relations:
+  - target: jason-citron
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Discord
+        outlet: Wikipedia
+      - url: https://discord.com/press-releases/discord-appoints-new-ceo-humam-sakhnini
+        outlet: "Discord (press release)"
+        date: "2025-04-23"
+  - target: jason-citron
+    role: board-member
+    sources:
+      - url: https://discord.com/press-releases/discord-appoints-new-ceo-humam-sakhnini
+        outlet: "Discord (press release)"
+        date: "2025-04-23"
+  - target: jason-citron
+    role: led-by
+    until: "2025-04-28"
+    sources:
+      - url: https://discord.com/press-releases/discord-appoints-new-ceo-humam-sakhnini
+        outlet: "Discord (press release)"
+        date: "2025-04-23"
+  - target: humam-sakhnini
+    role: led-by
+    since: "2025-04-28"
+    sources:
+      - url: https://discord.com/press-releases/discord-appoints-new-ceo-humam-sakhnini
+        outlet: "Discord (press release)"
+        date: "2025-04-23"
+      - url: https://en.wikipedia.org/wiki/Humam_Sakhnini
+        outlet: Wikipedia

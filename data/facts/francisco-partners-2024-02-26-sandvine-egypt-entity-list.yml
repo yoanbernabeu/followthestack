@@ -1,0 +1,22 @@
+subject: francisco-partners
+grievances: [surveillance-deportation]
+date: "2024-02-26"
+summary: "Sandvine, a network equipment maker acquired by Francisco Partners in a 2017 deal, was added by the US Commerce Department's Bureau of Industry and Security to its Entity List on February 26, 2024, for selling deep packet inspection technology to the Egyptian government, which used it \"in mass web-monitoring and censorship to block news as well as target political actors and human rights activists\". In 2020 Bloomberg had reported that Sandvine equipment was used in Belarus to block websites during protests over the disputed presidential election, after which Sandvine cancelled its Belarus contract. Francisco Partners told Bloomberg in August 2024 that it no longer owned Sandvine."
+status: established
+response: "In 2020 Sandvine said that \"custom code was developed and inserted into Sandvine's products to thwart the free flow of information\" in Belarus, called this \"a human rights violation\" and said it \"abhors\" the use of technology to suppress information. In September 2024 it announced it would leave 56 non-democratic countries, including Egypt. Access Now reported that Francisco Partners did not respond to its calls to address the Belarus case."
+sources:
+  - url: https://thelogic.co/briefing/u-s-restricts-exports-to-sandvine-over-egyptian-censorship-allegations/
+    outlet: "The Logic"
+    date: "2024-02-26"
+  - url: https://techcrunch.com/2024/09/20/internet-surveillance-firm-sandvine-says-its-leaving-56-non-democratic-countries
+    outlet: "TechCrunch"
+    date: "2024-09-20"
+  - url: https://www.cyberscoop.com/sandvine-belarus-contract-censorship-human-rights/
+    outlet: "CyberScoop"
+    date: "2020-09-16"
+  - url: https://www.accessnow.org/sandvine-francisco-partners-facing-mounting-pressure-for-accountability-around-censorship-tools/
+    outlet: "Access Now"
+    date: "2020-09-23"
+  - url: https://thelogic.co/briefing/u-s-private-equity-firm-no-longer-owns-waterloo-based-sandvine/
+    outlet: "The Logic"
+    date: "2024-08-23"

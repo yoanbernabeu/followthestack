@@ -4,6 +4,7 @@ description: "Swedish buy-now-pay-later and payments company."
 country: SE
 website: https://www.klarna.com
 wikidata: Q1165072
+reviewed: "2026-10-20"
 relations:
   - target: sebastian-siemiatkowski
     role: led-by
