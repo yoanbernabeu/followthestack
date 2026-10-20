@@ -1,5 +1,5 @@
-import { Fragment, useEffect, useMemo, useState } from 'react';
-import { Link2, Download, ChevronDown, Image as ImageIcon } from 'lucide-react';
+import { useEffect, useMemo, useState, type ReactNode } from 'react';
+import { Link2, Download, ChevronDown, Check, ArrowRight, Image as ImageIcon } from 'lucide-react';
 import { renderShareImage } from '@/lib/shareImage';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Checkbox } from '@/components/ui/checkbox';
@@ -39,7 +39,8 @@ const b64 = (s: string) =>
 const unb64 = (s: string) =>
   new TextDecoder().decode(Uint8Array.from(atob(s.replace(/-/g, '+').replace(/_/g, '/')), (c) => c.charCodeAt(0)));
 
-export default function Analyzer({ base }: { base: string }) {
+/** The stack picker and its report; `shared` shows a report received by link, read-only, with an invitation to check one's own stack. */
+export default function Analyzer({ base, shared = false }: { base: string; shared?: boolean }) {
   const [data, setData] = useState<Dataset | null>(null);
   const [error, setError] = useState(false);
   const [projects, setProjects] = useState<Project[]>([]);
@@ -60,11 +61,14 @@ export default function Analyzer({ base }: { base: string }) {
     } catch { /* ignore malformed links */ }
   }, [base]);
 
+  const code = useMemo(
+    () => (manual.size || projects.length ? b64(JSON.stringify({ m: [...manual], p: projects.map((p) => ({ n: p.name, i: p.productIds })) })) : ''),
+    [manual, projects],
+  );
   useEffect(() => {
-    if (!manual.size && !projects.length) { history.replaceState(null, '', location.pathname); return; }
-    const s = b64(JSON.stringify({ m: [...manual], p: projects.map((p) => ({ n: p.name, i: p.productIds })) }));
-    history.replaceState(null, '', `#stack=${s}`);
-  }, [manual, projects]);
+    if (shared) return; // a shared report keeps the link it was opened with
+    history.replaceState(null, '', code ? `#stack=${code}` : location.pathname);
+  }, [code, shared]);
 
   const allIds = useMemo(() => {
     if (scope === MANUAL) return [...manual];
@@ -85,6 +89,35 @@ export default function Analyzer({ base }: { base: string }) {
   const totalIds = new Set([...manual, ...projects.flatMap((p) => p.productIds)]);
   const hasStack = totalIds.size > 0 || projects.length > 0;
 
+  const reportProps = { data, report, provenance: provenanceOf(manual, projects), projects, manualCount: manual.size, scope, setScope, indirect, setIndirect, former, setFormer, shareUrl: `${location.origin}${base}report/#stack=${code}`, shared };
+  const invite = (
+    <a href={`${base}#start`} className="inline-flex h-10 shrink-0 items-center gap-2 rounded-md bg-primary px-5 text-sm font-medium text-primary-foreground hover:bg-primary/90">
+      Check your own stack <ArrowRight className="size-4" />
+    </a>
+  );
+
+  if (shared) {
+    return (
+      <div className="grid gap-8">
+        <div className="flex flex-wrap items-center justify-between gap-4 rounded-xl border border-primary/30 bg-primary/10 p-5">
+          <div className="grid gap-1">
+            <p className="text-lg font-semibold">{hasStack ? 'Someone shared what’s behind their stack.' : 'This link holds no stack.'}</p>
+            <p className="text-sm text-muted-foreground">What about the tools you use? Pick them in a minute; nothing leaves your browser.</p>
+          </div>
+          {invite}
+        </div>
+        {hasStack && <Report {...reportProps} />}
+        {hasStack && (
+          <div className="grid justify-items-center gap-3 rounded-xl border p-8 text-center">
+            <p className="text-2xl font-semibold tracking-tight">What’s behind yours?</p>
+            <p className="max-w-md text-sm text-muted-foreground">Every fact is sourced. Free and open source, no account.</p>
+            {invite}
+          </div>
+        )}
+      </div>
+    );
+  }
+
   return (
     <div className="grid gap-8">
       <Card>
@@ -97,15 +130,15 @@ export default function Analyzer({ base }: { base: string }) {
         </CardContent>
       </Card>
 
-      {hasStack && <Report data={data} report={report} provenance={provenanceOf(manual, projects)} projects={projects} manualCount={manual.size} scope={scope} setScope={setScope} indirect={indirect} setIndirect={setIndirect} former={former} setFormer={setFormer} />}
+      {hasStack && <Report {...reportProps} />}
     </div>
   );
 }
 
-function Report({ data, report, provenance, projects, manualCount, scope, setScope, indirect, setIndirect, former, setFormer }: {
+function Report({ data, report, provenance, projects, manualCount, scope, setScope, indirect, setIndirect, former, setFormer, shareUrl, shared }: {
   data: Dataset; report: ProductReport[]; provenance: Map<string, Origin[]>; projects: Project[]; manualCount: number;
   scope: string; setScope: (s: string) => void; indirect: boolean; setIndirect: (v: boolean) => void;
-  former: boolean; setFormer: (v: boolean) => void;
+  former: boolean; setFormer: (v: boolean) => void; shareUrl: string; shared: boolean;
 }) {
   const [open, setOpen] = useState<Set<string>>(new Set());
   const toggle = (id: string) => setOpen((s) => { const n = new Set(s); n.has(id) ? n.delete(id) : n.add(id); return n; });
@@ -117,18 +150,24 @@ function Report({ data, report, provenance, projects, manualCount, scope, setSco
   for (const r of flagged) for (const f of r.facts) byEntity.set(f.entity.id, (byEntity.get(f.entity.id) ?? new Set()).add(f.fact.id));
   const top = [...byEntity.entries()].sort((a, b) => b[1].size - a[1].size).slice(0, 3);
 
-  const copyLink = () => navigator.clipboard?.writeText(location.href).catch(() => {});
-  const shareImage = async () => {
-    const site = `${location.origin}${import.meta.env.BASE_URL}`;
-    const blob = await renderShareImage(data, report, site);
-    const file = new File([blob], 'my-stack.png', { type: 'image/png' });
-    // On phones, use the native share sheet when it accepts files; otherwise download.
-    if (navigator.canShare?.({ files: [file] })) {
-      try { await navigator.share({ files: [file], text: 'What’s behind my stack', url: location.href }); return; } catch { /* cancelled */ }
+  // Which button just worked, to confirm it for a moment.
+  const [done, setDone] = useState<'link' | 'image' | 'md' | null>(null);
+  const [manualCopy, setManualCopy] = useState(false);
+  const flash = (what: 'link' | 'image' | 'md') => { setDone(what); setTimeout(() => setDone((d) => (d === what ? null : d)), 2000); };
+  const copyLink = async () => {
+    try {
+      await navigator.clipboard.writeText(shareUrl);
+      flash('link');
+    } catch {
+      setManualCopy(true); // no clipboard access: show the link to copy by hand
     }
+  };
+  const shareImage = async () => {
+    const blob = await renderShareImage(data, report, `${location.origin}${import.meta.env.BASE_URL}`);
     const href = URL.createObjectURL(blob);
     Object.assign(document.createElement('a'), { href, download: 'my-stack.png' }).click();
-    URL.revokeObjectURL(href);
+    setTimeout(() => URL.revokeObjectURL(href), 1000);
+    flash('image');
   };
   const exportMd = () => {
     const lines = ['# Follow the Stack report', '', `Generated on ${new Date().toISOString().slice(0, 10)}`, ''];
@@ -146,28 +185,39 @@ function Report({ data, report, provenance, projects, manualCount, scope, setSco
     lines.push('## No documented facts', '', ...clean.map((r) => `- ${r.product.name}`));
     const href = URL.createObjectURL(new Blob([lines.join('\n')], { type: 'text/markdown' }));
     Object.assign(document.createElement('a'), { href, download: 'follow-the-stack-report.md' }).click();
-    URL.revokeObjectURL(href);
+    setTimeout(() => URL.revokeObjectURL(href), 1000);
+    flash('md');
   };
+  const action = (what: 'link' | 'image' | 'md', icon: ReactNode, label: string, ok: string, onClick: () => void) => (
+    <button type="button" onClick={onClick} aria-live="polite"
+      className={`inline-flex items-center gap-1 transition-colors ${done === what ? 'font-medium text-emerald-600 dark:text-emerald-400' : 'text-muted-foreground hover:text-foreground'}`}>
+      {done === what ? <Check className="size-3.5" /> : icon}{done === what ? ok : label}
+    </button>
+  );
 
   return (
     <section className="grid gap-6 border-t pt-8" aria-labelledby="report-title">
       <GrievanceBar report={flagged} />
       <header className="grid gap-3">
         <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
-          <h2 id="report-title" className="text-2xl font-semibold tracking-tight">Behind your stack</h2>
+          <h2 id="report-title" className="text-2xl font-semibold tracking-tight">{shared ? 'Behind this stack' : 'Behind your stack'}</h2>
           <span className="text-sm text-muted-foreground">{new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
           <span className="ml-auto flex gap-4 text-sm">
-            <button type="button" className="text-muted-foreground hover:text-foreground" onClick={shareImage}><ImageIcon className="mr-1 inline size-3.5" />Image</button>
-            <button type="button" className="text-muted-foreground hover:text-foreground" onClick={copyLink}><Link2 className="mr-1 inline size-3.5" />Copy link</button>
-            <button type="button" className="text-muted-foreground hover:text-foreground" onClick={exportMd}><Download className="mr-1 inline size-3.5" />Markdown</button>
+            {action('image', <ImageIcon className="size-3.5" />, 'Image', 'Downloaded', shareImage)}
+            {action('link', <Link2 className="size-3.5" />, 'Copy link', 'Link copied', copyLink)}
+            {action('md', <Download className="size-3.5" />, 'Markdown', 'Downloaded', exportMd)}
           </span>
         </div>
+        {manualCopy && (
+          <input readOnly value={shareUrl} aria-label="Link to this report" autoFocus onFocus={(e) => e.currentTarget.select()}
+            className="h-9 w-full rounded-md border bg-background px-3 text-sm" />
+        )}
         <p className="max-w-3xl text-lg leading-relaxed">
           {flagged.length === 0 ? (
-            <>None of your {report.length} tools leads to a documented fact in our database.</>
+            <>None of {shared ? 'these' : 'your'} {report.length} tools leads to a documented fact in our database.</>
           ) : (
             <>
-              <strong>{flagged.length} of your {report.length} tools</strong> lead back to companies or people with documented facts.
+              <strong>{flagged.length} of {shared ? 'these' : 'your'} {report.length} tools</strong> lead back to companies or people with documented facts.
               {top.length > 0 && <> Most of them come from {top.map(([id, f], i) => (
                 <span key={id}>{i > 0 && (i === top.length - 1 ? ' and ' : ', ')}<a className="font-medium underline decoration-alert/50 underline-offset-4 hover:decoration-alert" href={url.entity(id)}>{data.entities[id]?.name}</a> ({f.size})</span>
               ))}.</>}
