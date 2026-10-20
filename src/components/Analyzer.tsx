@@ -6,6 +6,7 @@ import { Checkbox } from '@/components/ui/checkbox';
 import type { Dataset } from '@/lib/types';
 import { GRIEVANCE_COLORS, GRIEVANCE_LABELS, LINK_LABELS, ROLE_LABELS, formatDate } from '@/lib/labels';
 import { url } from '@/lib/urls';
+import { REPO_URL } from '@/lib/repo';
 import { buildReport, type ProductReport } from '@/lib/report';
 import FlowView from '@/components/FlowView';
 import StackBuilder, { SOURCE_LABELS, type Project } from '@/components/StackBuilder';
@@ -114,6 +115,7 @@ export default function Analyzer({ base, shared = false }: { base: string; share
             {invite}
           </div>
         )}
+        {hasStack && <StarCard />}
       </div>
     );
   }
@@ -131,6 +133,7 @@ export default function Analyzer({ base, shared = false }: { base: string; share
       </Card>
 
       {hasStack && <Report {...reportProps} />}
+      {hasStack && <StarCard />}
     </div>
   );
 }
@@ -153,7 +156,8 @@ function Report({ data, report, provenance, projects, manualCount, scope, setSco
   // Which button just worked, to confirm it for a moment.
   const [done, setDone] = useState<'link' | 'image' | 'md' | null>(null);
   const [manualCopy, setManualCopy] = useState(false);
-  const flash = (what: 'link' | 'image' | 'md') => { setDone(what); setTimeout(() => setDone((d) => (d === what ? null : d)), 2000); };
+  const [thanked, setThanked] = useState(false); // after a first share, a line asks for a star
+  const flash = (what: 'link' | 'image' | 'md') => { setDone(what); setThanked(true); setTimeout(() => setDone((d) => (d === what ? null : d)), 2000); };
   const copyLink = async () => {
     try {
       await navigator.clipboard.writeText(shareUrl);
@@ -208,6 +212,11 @@ function Report({ data, report, provenance, projects, manualCount, scope, setSco
             {action('md', <Download className="size-3.5" />, 'Markdown', 'Downloaded', exportMd)}
           </span>
         </div>
+        {thanked && (
+          <p className="justify-self-end text-sm text-muted-foreground">
+            Thanks for sharing! A <a className="font-medium text-foreground underline underline-offset-4 hover:decoration-amber-500" href={REPO_URL}>★ on GitHub</a> helps too.
+          </p>
+        )}
         {manualCopy && (
           <input readOnly value={shareUrl} aria-label="Link to this report" autoFocus onFocus={(e) => e.currentTarget.select()}
             className="h-9 w-full rounded-md border bg-background px-3 text-sm" />
@@ -373,5 +382,20 @@ function StackGraph({ data, productIds, indirect, former, shared }: { data: Data
       <h3 id="flow-title" className="text-lg font-semibold">Where the facts come from</h3>
       <FlowView data={data} productIds={productIds} indirect={indirect} former={former} scope="stack" shared={shared} />
     </section>
+  );
+}
+
+// After the report has been useful: a star helps other developers find the project.
+function StarCard() {
+  return (
+    <aside className="flex flex-wrap items-center justify-between gap-4 rounded-xl border p-5">
+      <p className="max-w-2xl text-sm text-muted-foreground">
+        <span className="font-semibold text-foreground"><span className="text-amber-500" aria-hidden="true">★</span> Useful?</span>{' '}
+        Follow the Stack is free, open source and has no tracker. A star on GitHub helps other developers find it.
+      </p>
+      <a href={REPO_URL} className="inline-flex h-9 shrink-0 items-center gap-2 rounded-md border px-4 text-sm font-medium hover:bg-muted">
+        <span className="text-amber-500" aria-hidden="true">★</span>Star on GitHub
+      </a>
+    </aside>
   );
 }

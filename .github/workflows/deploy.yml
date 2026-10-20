@@ -39,6 +39,8 @@ jobs:
         env:
           SITE_URL: https://yoanbernabeu.github.io
           BASE_PATH: /followthestack
+          # Star count shown in the header, read once at build time.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   deploy:
     needs: build
