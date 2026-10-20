@@ -1,0 +1,16 @@
+subject: eoghan-mccabe
+grievances: [far-right-funding]
+date: "2024-01-01"
+datePrecision: year
+summary: "Gave $200,000 in 2024 to committees supporting Donald Trump's re-election; according to the Irish Examiner, Federal Election Commission records show donations to the Trump 47 Committee and the Republican National Committee. In June 2024 he attended the San Francisco fundraiser for Trump hosted by David Sacks and posted a photo of himself with Trump on X."
+status: established
+sources:
+  - url: https://www.irishexaminer.com/business/companies/arid-41865816.html
+    outlet: "Irish Examiner"
+    date: "2026-06-20"
+  - url: https://sfstandard.com/2025/09/09/berkeley-based-ai-ceo-calls-rapid-public-executions-refugee-slain-train
+    outlet: "The San Francisco Standard"
+    date: "2025-09-09"
+  - url: https://irishtimes.com/business/2024/06/11/irish-tech-entrepreneur-turns-out-for-donald-trump-fundraiser
+    outlet: "The Irish Times"
+    date: "2024-06-11"

@@ -4,6 +4,7 @@ description: "Customer service and messaging software company, renamed Fin from 
 country: US
 website: https://fin.ai
 wikidata: Q48965215
+reviewed: "2026-10-20"
 relations:
   - target: eoghan-mccabe
     role: led-by

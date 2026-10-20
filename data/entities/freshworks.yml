@@ -4,6 +4,7 @@ description: "SaaS company founded in Chennai providing CRM and IT service manag
 country: US
 website: https://www.freshworks.com
 wikidata: Q117782453
+reviewed: "2026-10-20"
 relations:
   - target: dennis-woodside
     role: led-by

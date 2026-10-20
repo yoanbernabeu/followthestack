@@ -3,3 +3,4 @@ type: company
 description: "Company developing the ClickHouse open source columnar database and ClickHouse Cloud."
 country: US
 website: https://clickhouse.com
+reviewed: "2026-10-20"

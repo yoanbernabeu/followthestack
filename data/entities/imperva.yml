@@ -4,6 +4,7 @@ description: "US cybersecurity company (WAF, DDoS protection, data security), pa
 country: US
 website: https://www.imperva.com
 wikidata: Q6007092
+reviewed: "2026-10-20"
 relations:
   - target: thales
     role: subsidiary-of

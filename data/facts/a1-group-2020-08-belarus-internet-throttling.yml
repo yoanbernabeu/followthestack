@@ -1,0 +1,23 @@
+subject: a1-group
+grievances: [authoritarian-alignment]
+date: "2020-08-01"
+datePrecision: month
+summary: "During the protests that followed Belarus's August 2020 presidential election, A1 Belarus, the Belarusian subsidiary of A1 Telekom Austria Group, throttled its subscribers' mobile internet on the authorities' orders, the last ordered throttling taking place in November 2020. CEO Thomas Arnoldner wrote in an open letter that A1 had been made to reduce internet speeds on some days at specified locations, and that it complied because the authorities could otherwise cut off the internet nationwide. The Open Society Justice Initiative filed an OECD complaint against the group in March 2022. A1 Digital, part of the group, has held a majority stake in Exoscale since 2017."
+quote:
+  text: "Wir haben dies auch vor dem Hintergrund gemacht, weil die Behörden in Belarus technisch die Möglichkeit außerhalb unseres Netzes haben, bei Nichteinhaltung der Anordnungen das gesamte Internet im gesamten Land nicht nur zu drosseln, sondern zu unterbinden."
+  lang: de
+status: established
+response: "A1 says the throttling was ordered by the Belarusian state, which controls the national internet gateway and could otherwise shut down all internet access, and that the deep packet inspection software A1 Belarus used served commercial network optimisation and was not accessible to the authorities."
+sources:
+  - url: https://futurezone.at/netzpolitik/protest-vor-a1-gebaeude-wegen-internetsperren-in-belarus/401415186
+    outlet: "futurezone"
+    date: "2021-06-16"
+  - url: https://www.justiceinitiative.org/newsroom/justice-initiative-files-complaint-against-company-involved-in-2020-belarus-internet-shutdown
+    outlet: "Open Society Justice Initiative"
+    date: "2022-03-16"
+  - url: https://futurezone.at/netzpolitik/praesidentschaftswahl-in-belarus-shutdown-von-a1-mobilnetz/400995710
+    outlet: "futurezone"
+    date: "2020-08-09"
+  - url: https://ventures.swisscom.com/a1-digital-acquires-swiss-cloud-provider-exoscale/
+    outlet: "Swisscom Ventures"
+    date: "2017-08-30"

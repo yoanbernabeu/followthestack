@@ -4,6 +4,7 @@ description: "Professional social network and advertising platform, owned by Mic
 country: US
 website: https://www.linkedin.com
 wikidata: Q213660
+reviewed: "2026-10-20"
 relations:
   - target: microsoft
     role: subsidiary-of

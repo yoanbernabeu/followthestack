@@ -4,6 +4,7 @@ description: "US platform-as-a-service company, subsidiary of Salesforce since 2
 country: US
 website: https://www.heroku.com
 wikidata: Q2350702
+reviewed: "2026-10-20"
 relations:
   - target: salesforce
     role: subsidiary-of

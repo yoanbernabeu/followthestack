@@ -4,6 +4,7 @@ description: "Company behind the Cursor AI code editor, wholly owned subsidiary 
 country: US
 website: https://cursor.com
 wikidata: Q135683783
+reviewed: "2026-10-20"
 relations:
   - target: spacex
     role: subsidiary-of

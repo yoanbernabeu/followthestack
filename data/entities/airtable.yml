@@ -4,6 +4,7 @@ description: "San Francisco-based company developing the Airtable cloud spreadsh
 country: US
 website: https://www.airtable.com
 wikidata: Q23016614
+reviewed: "2026-10-20"
 relations:
   - target: bending-spoons
     role: owned-by
