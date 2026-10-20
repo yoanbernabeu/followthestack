@@ -3,3 +3,14 @@ type: company
 description: "French company that created Symfony and Twig. The Symfony trademark and website are run by Symfony SAS."
 country: "FR"
 website: "https://sensiolabs.com"
+reviewed: "2026-10-20"
+relations:
+  - target: smile
+    role: subsidiary-of
+    since: "2019-01-01"
+    sources:
+      - url: https://www.frenchweb.fr/open-source-sensiolabs-va-poursuivre-son-histoire-dans-le-giron-de-smile/343368
+        outlet: "FrenchWeb"
+        date: "2019-01-08"
+      - url: https://smile.eu/en/sensiolabs
+        outlet: "Smile"

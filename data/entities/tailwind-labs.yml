@@ -3,6 +3,7 @@ type: company
 description: "Company behind Tailwind CSS, Headless UI and Heroicons. Joined Shopify in September 2026; the open source projects stay MIT-licensed."
 country: "US"
 website: "https://tailwindcss.com"
+reviewed: "2026-10-20"
 relations:
   - target: shopify
     role: subsidiary-of
@@ -14,3 +15,15 @@ relations:
       - url: https://www.cmswire.com/digital-experience/shopify-acquires-tailwind-labs-to-secure-css-framework/
         outlet: "CMSWire"
         date: "2026-09-10"
+  - target: adam-wathan
+    role: founded-by
+    sources:
+      - url: https://betakit.com/tailwind-finds-stable-long-term-home-with-shopify-acquisition/
+        outlet: "BetaKit"
+        date: "2026-09-09"
+  - target: adam-wathan
+    role: led-by
+    sources:
+      - url: https://betakit.com/tailwind-finds-stable-long-term-home-with-shopify-acquisition/
+        outlet: "BetaKit"
+        date: "2026-09-09"

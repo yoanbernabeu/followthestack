@@ -4,6 +4,7 @@ description: "Open source software company, subsidiary of IBM since 2019, sponso
 country: US
 website: https://www.redhat.com
 wikidata: Q485593
+reviewed: "2026-10-20"
 relations:
   - target: ibm
     role: subsidiary-of

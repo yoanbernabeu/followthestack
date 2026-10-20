@@ -3,9 +3,14 @@ type: company
 description: "US startup that developed the Arc web browser, owned by Atlassian since 2025."
 country: US
 website: https://thebrowser.company
+reviewed: "2026-10-20"
 relations:
   - target: atlassian
     role: subsidiary-of
+    since: "2025-10-21"
     sources:
       - url: https://en.wikipedia.org/wiki/Arc_(web_browser)
         outlet: Wikipedia
+      - url: https://investors.atlassian.com/news/news-details/2025/Atlassian-Completes-Acquisition-of-The-Browser-Company-of-New-York/default.aspx
+        outlet: "Atlassian"
+        date: "2025-10-21"

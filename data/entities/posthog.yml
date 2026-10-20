@@ -3,3 +3,15 @@ type: company
 description: "Open source product analytics company."
 country: US
 website: https://posthog.com
+reviewed: "2026-10-20"
+relations:
+  - target: james-hawkins
+    role: founded-by
+    sources:
+      - url: https://www.ycombinator.com/companies/posthog
+        outlet: "Y Combinator"
+  - target: y-combinator
+    role: invested-by
+    sources:
+      - url: https://www.ycombinator.com/companies/posthog
+        outlet: "Y Combinator"

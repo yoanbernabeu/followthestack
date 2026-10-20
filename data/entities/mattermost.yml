@@ -4,3 +4,10 @@ description: "US company developing the open source Mattermost team messaging pl
 country: US
 website: https://mattermost.com
 wikidata: Q55478510
+reviewed: "2026-10-20"
+relations:
+  - target: y-combinator
+    role: invested-by
+    sources:
+      - url: https://www.ycombinator.com/companies/mattermost
+        outlet: "Y Combinator"

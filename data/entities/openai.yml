@@ -4,6 +4,7 @@ description: "Artificial intelligence company developing the GPT models, ChatGPT
 country: US
 website: https://openai.com
 wikidata: Q21708200
+reviewed: "2026-10-20"
 relations:
   - target: sam-altman
     role: led-by
@@ -51,3 +52,16 @@ relations:
     sources:
       - url: https://en.wikipedia.org/wiki/OpenAI
         outlet: "Wikipedia"
+  - target: greg-brockman
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Greg_Brockman
+        outlet: "Wikipedia"
+  - target: greg-brockman
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Greg_Brockman
+        outlet: "Wikipedia"
+      - url: https://the-decoder.com/openai-co-founder-greg-brockman-donates-25-million-to-trumps-maga-inc-super-pac/
+        outlet: "The Decoder"
+        date: "2026-01-03"
