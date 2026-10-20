@@ -1,0 +1,6 @@
+name: "Omarchy"
+vendor: omacom-foundation
+category: os-hardware
+links: [depend]
+description: "Opinionated Linux desktop distribution based on Arch Linux, created by David Heinemeier Hansson."
+website: https://omarchy.org
