@@ -6,6 +6,8 @@ import { loadDataset } from '@/lib/dataset';
 import { buildReport } from '@/lib/report';
 import { CATEGORY_LABELS, LINK_LABELS, ROLE_LABELS } from '@/lib/labels';
 import { url } from '@/lib/urls';
+import GraphView from '@/components/GraphView';
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 export async function getStaticPaths() {
   return (await getCollection('products')).map((p) => ({ params: { id: p.id } }));
 }
@@ -45,6 +47,14 @@ const viaLabel = (via: { role: string; from: string }[]) => via.length ? `via ${
         </ul>
       </>
     )}
+  </section>
+
+  <section class="mb-10">
+    <details>
+      <summary class="cursor-pointer text-xl font-semibold">Graph: how facts reach {p.name}</summary>
+      <p class="my-3 text-sm text-muted-foreground">From {p.name} to its vendor, then to the owners, leaders and board members the facts come from. <a class="underline" href={url.graph(`p:${p.id}`)}>Explore in the full graph</a></p>
+      <GraphView client:visible base={base} view="product" id={p.id} />
+    </details>
   </section>
 
   <section class="mb-10">
