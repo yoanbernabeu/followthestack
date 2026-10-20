@@ -45,4 +45,10 @@ Create a branch `issue-<number>`, commit the data files (message: `Add <what> (#
 - anything refused and why,
 - a draft reply to post on the issue.
 
-**Do not push, merge, comment or close** until the maintainer approves in chat. After approval: push or merge as instructed, comment with `gh issue comment`, and close with `gh issue close` if done.
+**Do not push, merge, comment or close** until the maintainer approves in chat. After approval, in this order:
+
+1. Merge the branch into `main` (`git checkout main && git pull && git merge --ff-only issue-<number>`), run `npm run check`, and push `main`. Then delete the branch locally and on the remote.
+2. Comment with `gh issue comment`.
+3. Close with `gh issue close`.
+
+Never close an issue whose data is not on `main`: closing tells the contributor the entry is live.
