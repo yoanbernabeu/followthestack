@@ -3,3 +3,11 @@ type: investment-fund
 description: "US private equity firm focused on software, data and infrastructure companies."
 country: US
 website: https://www.haveli.com
+reviewed: "2026-10-20"
+relations:
+  - target: brian-sheth
+    role: founded-by
+    sources:
+      - url: https://www.privateequitywire.co.uk/vista-co-founder-targeting-3bn-second-haveli-fund/
+        outlet: "Private Equity Wire"
+        date: "2022-10-10"

@@ -2,6 +2,7 @@ name: "MariaDB plc"
 type: company
 description: "Company developing and selling MariaDB, taken private by K1 Investment Management in 2024."
 website: https://mariadb.com
+reviewed: "2026-10-20"
 relations:
   - target: michael-widenius
     role: founded-by

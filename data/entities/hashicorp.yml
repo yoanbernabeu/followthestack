@@ -4,6 +4,7 @@ description: "Infrastructure software company (Terraform, Vault, Consul), a subs
 country: "US"
 website: "https://www.hashicorp.com"
 wikidata: Q21463167
+reviewed: "2026-10-20"
 relations:
   - target: ibm
     role: subsidiary-of

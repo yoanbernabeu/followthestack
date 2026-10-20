@@ -1,0 +1,13 @@
+subject: eoghan-mccabe
+grievances: [anti-immigration]
+date: "2025-01-01"
+datePrecision: year
+summary: "In a 2025 post reported by the Irish Examiner, predicted a \"year of violence on the streets of Ireland\" with \"a lot of blood\" spilt \"from innocent men, women and children\", and blamed those who had \"gleefully imported people who do not share our values\". In a July 2025 post on X he wrote that he had watched \"my beautiful home country of Ireland be destroyed by it's own unfettered immigration policy\"."
+quote:
+  text: "This blood will be on the hands of those who've gleefully imported people who do not share our values"
+  lang: en
+status: established
+sources:
+  - url: https://www.irishexaminer.com/business/companies/arid-41865816.html
+    outlet: "Irish Examiner"
+    date: "2026-06-20"

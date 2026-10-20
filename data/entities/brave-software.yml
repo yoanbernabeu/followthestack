@@ -3,6 +3,7 @@ type: company
 description: "US company developing the Brave web browser and Brave Search, co-founded by Brendan Eich."
 country: US
 website: https://brave.com
+reviewed: "2026-10-20"
 relations:
   - target: brendan-eich
     role: founded-by

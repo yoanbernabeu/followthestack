@@ -3,6 +3,7 @@ type: company
 description: "US company developing the CockroachDB distributed SQL database."
 country: US
 website: https://www.cockroachlabs.com
+reviewed: "2026-10-20"
 relations:
   - target: spencer-kimball
     role: founded-by
