@@ -7,6 +7,7 @@ import type { Dataset } from '@/lib/types';
 import { GRIEVANCE_COLORS, GRIEVANCE_LABELS, LINK_LABELS, ROLE_LABELS, formatDate } from '@/lib/labels';
 import { url } from '@/lib/urls';
 import { buildReport, type ProductReport } from '@/lib/report';
+import GraphView from '@/components/GraphView';
 import StackBuilder, { SOURCE_LABELS, type Project } from '@/components/StackBuilder';
 
 const MANUAL = '__manual__';
@@ -192,6 +193,8 @@ function Report({ data, report, provenance, projects, manualCount, scope, setSco
         </div>
       </header>
 
+      <StackGraph data={data} productIds={report.map((r) => r.product.id)} indirect={indirect} former={former} />
+
       {flagged.length > 0 && (
         <div className="text-sm">
           <div className="hidden grid-cols-[minmax(0,1.2fr)_minmax(0,1.5fr)_minmax(0,1.6fr)_auto] gap-4 border-b pb-2 text-xs uppercase tracking-wide text-muted-foreground md:grid">
@@ -310,5 +313,17 @@ function GrievanceBar({ report }: { report: ProductReport[] }) {
         ))}
       </ul>
     </div>
+  );
+}
+
+// The stack as a graph, built only when the reader opens it.
+function StackGraph({ data, productIds, indirect, former }: { data: Dataset; productIds: string[]; indirect: boolean; former: boolean }) {
+  const [shown, setShown] = useState(false);
+  return (
+    <details className="rounded-lg border p-4" onToggle={(e) => setShown((e.currentTarget as HTMLDetailsElement).open)}>
+      <summary className="cursor-pointer font-medium">See your stack as a graph</summary>
+      <p className="mt-2 mb-3 text-sm text-muted-foreground">Your tools, their vendors, and the owners, leaders and board members behind them. Shared owners show where your stack concentrates.</p>
+      {shown && <GraphView base={import.meta.env.BASE_URL} view="stack" data={data} productIds={productIds} indirect={indirect} former={former} height="520px" />}
+    </details>
   );
 }

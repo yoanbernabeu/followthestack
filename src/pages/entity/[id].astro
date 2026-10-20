@@ -5,6 +5,7 @@ import { loadDataset } from '@/lib/dataset';
 import { ROLE_LABELS, formatDate } from '@/lib/labels';
 import FactCard from '@/components/site/FactCard.astro';
 import { url } from '@/lib/urls';
+import GraphView from '@/components/GraphView';
 
 export async function getStaticPaths() {
   const entities = await getCollection('entities');
@@ -47,6 +48,16 @@ const inbound = Object.values(data.entities).flatMap((o) => o.relations.filter((
           <li><a class="underline" href={`${base}entity/${from.id}/`}>{from.name}</a> is <strong>{ROLE_LABELS[r.role]}</strong> {e.name}</li>
         ))}
       </ul>
+    </section>
+  )}
+
+  {(e.relations.length > 0 || inbound.length > 0 || products.length > 0) && (
+    <section class="mb-10">
+      <div class="mb-4 flex flex-wrap items-baseline gap-x-4">
+        <h2 class="text-xl font-semibold">Graph</h2>
+        <a class="text-sm underline" href={url.graph(`e:${e.id}`)}>Explore in the full graph</a>
+      </div>
+      <GraphView client:visible base={base} view="entity" id={e.id} />
     </section>
   )}
 
