@@ -1,0 +1,9 @@
+name: "Tauri"
+vendor: tauri-programme
+category: frameworks-libraries
+links: [depend]
+description: "Framework for building desktop and mobile apps with a web frontend and a Rust backend."
+website: https://tauri.app
+detect:
+  npm: ["@tauri-apps/cli", "@tauri-apps/api"]
+alternatives: [electron]
