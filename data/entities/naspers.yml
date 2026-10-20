@@ -1,0 +1,19 @@
+name: "Naspers"
+type: company
+description: "South African consumer internet and media group founded in 1915 as Die Nasionale Pers, majority shareholder of Prosus."
+country: ZA
+website: https://www.naspers.com
+wikidata: Q1965898
+reviewed: "2026-10-20"
+relations:
+  - target: fabricio-bloisi
+    role: led-by
+    since: "2024-07-01"
+    sources:
+      - url: https://en.wikipedia.org/wiki/Fabricio_Bloisi
+        outlet: "Wikipedia"
+  - target: koos-bekker
+    role: board-member
+    sources:
+      - url: https://en.wikipedia.org/wiki/Koos_Bekker
+        outlet: "Wikipedia"

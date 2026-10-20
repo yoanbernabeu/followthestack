@@ -4,3 +4,15 @@ description: "US company operating the DuckDuckGo privacy-focused search engine 
 country: US
 website: https://duckduckgo.com
 wikidata: Q12805
+reviewed: "2026-10-20"
+relations:
+  - target: gabriel-weinberg
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/DuckDuckGo
+        outlet: Wikipedia
+  - target: gabriel-weinberg
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/DuckDuckGo
+        outlet: Wikipedia

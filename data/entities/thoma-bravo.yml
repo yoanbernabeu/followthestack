@@ -4,6 +4,7 @@ description: "US private equity firm focused on software companies."
 country: US
 website: https://www.thomabravo.com
 wikidata: Q7786759
+reviewed: "2026-10-20"
 relations:
   - target: orlando-bravo
     role: founded-by

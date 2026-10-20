@@ -1,0 +1,13 @@
+subject: francisco-partners
+grievances: [surveillance-deportation]
+date: "2018-03-09"
+summary: "The University of Toronto's Citizen Lab reported that deep packet inspection middleboxes on Türk Telekom's network, which it matched to PacketLogic devices made by Sandvine (formerly Procera Networks), were used to redirect users in Turkey and Syria who tried to download legitimate Windows programs to spyware, first FinFisher and then spyware similar to StrongPity, and that similar devices at a Telecom Egypt demarcation point redirected users to affiliate ads and cryptocurrency mining scripts. At the time Sandvine was owned by Francisco Partners, which had combined it with Procera in 2017. The Associated Press reported that some targets may have been affiliated with the Kurdish YPG."
+status: contested
+response: "Sandvine called the allegations \"technically inaccurate and intentionally misleading\", said in a letter to Citizen Lab that PacketLogic \"is not capable of any form of payload injection, malicious or not\", and said it could not finish its own inquiry without Citizen Lab's full findings. Türk Telekom said it complies with Turkish law and does not redirect users to malicious downloads."
+sources:
+  - url: https://citizenlab.ca/2018/03/bad-traffic-sandvines-packetlogic-devices-deploy-government-spyware-turkey-syria/
+    outlet: "Citizen Lab (University of Toronto)"
+    date: "2018-03-09"
+  - url: https://www.voanews.com/amp/watchdog-western-tech-hacking-turkey-syria-egypt/4287399.html
+    outlet: "Associated Press via VOA News"
+    date: "2018-03-09"

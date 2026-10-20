@@ -3,3 +3,15 @@ type: company
 description: "Company developing the Miro online collaborative whiteboard, headquartered in Amsterdam and San Francisco."
 website: https://miro.com
 wikidata: Q94126521
+reviewed: "2026-10-20"
+relations:
+  - target: andrey-khusid
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Miro_(collaboration_platform)
+        outlet: "Wikipedia"
+  - target: andrey-khusid
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Miro_(collaboration_platform)
+        outlet: "Wikipedia"

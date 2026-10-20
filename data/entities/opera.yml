@@ -4,6 +4,7 @@ description: "Norwegian web browser company, controlled by China's Kunlun Tech s
 country: NO
 website: https://www.opera.com
 wikidata: Q215639
+reviewed: "2026-10-20"
 relations:
   - target: kunlun-tech
     role: owned-by

@@ -4,6 +4,7 @@ description: "US database company behind MongoDB and the MongoDB Atlas cloud ser
 country: US
 website: https://www.mongodb.com
 wikidata: Q4546965
+reviewed: "2026-10-20"
 relations:
   - target: dwight-merriman
     role: founded-by
@@ -33,7 +34,11 @@ relations:
   - target: chirantan-desai
     role: led-by
     since: "2025-11-10"
+    until: "2026-09-28"
     sources:
       - url: https://www.mongodb.com/press/mongodb-announces-leadership-transition
         outlet: "MongoDB (press release)"
         date: 2025-11-03
+      - url: https://www.prnewswire.com/news-releases/mongodb-announces-ceo-transition-302891360.html
+        outlet: "MongoDB (press release, PR Newswire)"
+        date: "2026-09-28"

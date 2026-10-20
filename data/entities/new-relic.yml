@@ -4,6 +4,7 @@ description: "Observability and application performance monitoring company, take
 country: US
 website: https://newrelic.com
 wikidata: Q7011152
+reviewed: "2026-10-20"
 relations:
   - target: francisco-partners
     role: owned-by

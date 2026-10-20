@@ -4,6 +4,7 @@ description: "Dutch payment processing company."
 country: NL
 website: https://www.adyen.com
 wikidata: Q4686934
+reviewed: "2026-10-20"
 relations:
   - target: pieter-van-der-does
     role: led-by
@@ -15,3 +16,8 @@ relations:
     sources:
       - url: https://en.wikipedia.org/wiki/Adyen
         outlet: "Wikipedia"
+  - target: ingo-uytdehaage
+    role: led-by
+    sources:
+      - url: https://nl.wikipedia.org/wiki/Adyen
+        outlet: "Wikipedia (nl)"

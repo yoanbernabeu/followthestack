@@ -3,6 +3,7 @@ type: company
 description: "Artificial intelligence company founded by Elon Musk, developer of the Grok chatbot. Owner of X Corp. since March 2025; wholly owned subsidiary of SpaceX since February 2026, rebranded SpaceXAI in 2026."
 country: US
 website: https://x.ai
+reviewed: "2026-10-19"
 relations:
   - target: spacex
     role: subsidiary-of

@@ -15,6 +15,7 @@ export type Entity = {
   description: string;
   country?: string;
   website?: string;
+  reviewed?: string;
   relations: Relation[];
 };
 

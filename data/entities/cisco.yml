@@ -4,6 +4,7 @@ description: "US networking, security and software conglomerate, owner of Splunk
 country: US
 website: https://www.cisco.com
 wikidata: Q173395
+reviewed: "2026-10-19"
 relations:
   - target: chuck-robbins
     role: led-by

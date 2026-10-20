@@ -4,6 +4,7 @@ description: "Chinese artificial intelligence company developing open-weight lar
 country: CN
 website: https://www.deepseek.com
 wikidata: Q131577453
+reviewed: "2026-10-19"
 relations:
   - target: high-flyer
     role: owned-by

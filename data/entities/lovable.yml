@@ -4,6 +4,7 @@ description: "Swedish company behind the Lovable AI app-building (vibe coding) p
 country: SE
 website: https://lovable.dev
 wikidata: Q135998012
+reviewed: "2026-10-20"
 relations:
   - target: anton-osika
     role: led-by

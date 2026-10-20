@@ -4,6 +4,7 @@ description: "Search, advertising and cloud company, subsidiary of Alphabet."
 country: US
 website: https://about.google
 wikidata: Q95
+reviewed: "2026-10-19"
 relations:
   - target: alphabet
     role: subsidiary-of

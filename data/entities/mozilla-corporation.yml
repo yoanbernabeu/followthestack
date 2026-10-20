@@ -4,9 +4,17 @@ description: "Taxable subsidiary of the Mozilla Foundation that develops Firefox
 country: US
 website: https://www.mozilla.org
 wikidata: Q169925
+reviewed: "2026-10-20"
 relations:
   - target: mozilla-foundation
     role: subsidiary-of
     sources:
       - url: https://en.wikipedia.org/wiki/Mozilla_Corporation
         outlet: Wikipedia
+  - target: anthony-enzor-demeo
+    role: led-by
+    since: "2025-12-16"
+    sources:
+      - url: https://blog.mozilla.org/en/mozilla/leadership/mozillas-next-chapter-anthony-enzor-demeo-new-ceo/
+        outlet: "Mozilla (official blog)"
+        date: "2025-12-16"

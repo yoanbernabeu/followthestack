@@ -4,6 +4,7 @@ description: "Financial software company (TurboTax, QuickBooks), owner of Mailch
 country: US
 website: https://www.intuit.com
 wikidata: Q1318848
+reviewed: "2026-10-19"
 relations:
   - target: sasan-goodarzi
     role: led-by

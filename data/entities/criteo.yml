@@ -4,3 +4,15 @@ description: "Advertising technology company specialising in retargeting and ret
 country: FR
 website: https://www.criteo.com
 wikidata: Q2814507
+reviewed: "2026-10-20"
+relations:
+  - target: michael-komasinski
+    role: led-by
+    since: "2025-02-15"
+    sources:
+      - url: https://www.criteo.com/news/press-releases/2025/01/criteo-appoints-michael-komasinski-as-chief-executive-officer/
+        outlet: "Criteo press release"
+        date: "2025-01-14"
+      - url: https://www.research-live.com/article/news/new-ceo-at-criteo/id/5134793
+        outlet: "Research Live"
+        date: "2025-01-15"

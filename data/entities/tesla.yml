@@ -4,6 +4,7 @@ description: "US electric vehicle and energy company led by Elon Musk."
 country: US
 website: https://www.tesla.com
 wikidata: Q478214
+reviewed: "2026-10-19"
 relations:
   - target: elon-musk
     role: led-by

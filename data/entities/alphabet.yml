@@ -4,6 +4,7 @@ description: "Holding company of Google, created in 2015."
 country: US
 website: https://abc.xyz
 wikidata: Q20800404
+reviewed: "2026-10-19"
 relations:
   - target: sundar-pichai
     role: led-by

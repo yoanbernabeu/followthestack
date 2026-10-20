@@ -1,0 +1,12 @@
+subject: paypal
+grievances: [authoritarian-alignment]
+date: "2024-12-27"
+summary: "Donated $250,000 to the Trump Vance Inaugural Committee, which organised Donald Trump's January 2025 inauguration. The committee's report to the Federal Election Commission lists the contribution from PayPal, Inc. as received on December 27, 2024, and Rolling Stone reported the same amount."
+status: established
+sources:
+  - url: https://docquery.fec.gov/dcdev/posted/1910509.fec
+    outlet: "Federal Election Commission (Trump Vance Inaugural Committee, Form 13 report, amended)"
+    date: "2025-08-07"
+  - url: https://www.yahoo.com/news/rich-people-corporations-help-trump-191732845.html
+    outlet: "Rolling Stone via Yahoo News"
+    date: "2025-04-21"

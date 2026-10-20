@@ -4,3 +4,11 @@ description: "Software company making IDEs (IntelliJ IDEA, PyCharm, PhpStorm\u20
 country: NL
 website: https://www.jetbrains.com
 wikidata: Q1688472
+reviewed: "2026-10-20"
+relations:
+  - target: kirill-skrygan
+    role: led-by
+    since: "2024-02-01"
+    sources:
+      - url: https://en.wikipedia.org/wiki/JetBrains
+        outlet: "Wikipedia"

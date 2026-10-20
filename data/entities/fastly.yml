@@ -4,3 +4,15 @@ description: "US edge cloud, CDN and web security company."
 country: US
 website: https://www.fastly.com
 wikidata: Q34045622
+reviewed: "2026-10-20"
+relations:
+  - target: artur-bergman
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Fastly
+        outlet: "Wikipedia"
+  - target: kip-compton
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Fastly
+        outlet: "Wikipedia"

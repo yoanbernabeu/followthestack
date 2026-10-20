@@ -4,6 +4,7 @@ description: "US database company behind Redis and Redis Cloud."
 country: US
 website: https://redis.io
 wikidata: Q17086822
+reviewed: "2026-10-20"
 relations:
   - target: rowan-trollope
     role: led-by

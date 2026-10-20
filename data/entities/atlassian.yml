@@ -4,6 +4,7 @@ description: "Australian software company behind Jira, Confluence, Bitbucket and
 country: AU
 website: https://www.atlassian.com
 wikidata: Q757307
+reviewed: "2026-10-20"
 relations:
   - target: mike-cannon-brookes
     role: led-by

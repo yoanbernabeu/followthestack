@@ -4,3 +4,15 @@ description: "Company behind Docker Desktop and the Docker Hub container registr
 country: US
 website: https://www.docker.com
 wikidata: Q21892650
+reviewed: "2026-10-20"
+relations:
+  - target: don-johnson
+    role: led-by
+    since: "2025-02-12"
+    sources:
+      - url: https://www.docker.com/press-release/docker-announces-don-johnson-as-new-ceo-succeeding-scott-johnston/
+        outlet: "Docker (press release)"
+        date: "2025-02-12"
+      - url: https://techcrunch.com/2025/02/13/former-oracle-cloud-exec-don-johnson-takes-over-as-dockers-new-ceo/
+        outlet: "TechCrunch"
+        date: "2025-02-13"

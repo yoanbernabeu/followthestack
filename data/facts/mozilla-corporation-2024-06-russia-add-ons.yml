@@ -1,0 +1,20 @@
+subject: mozilla-corporation
+grievances: [authoritarian-alignment]
+date: "2024-06-01"
+datePrecision: month
+summary: "Made several censorship-circumvention Firefox add-ons, including Censor Tracker, Runet Censorship Bypass and two VPN or proxy extensions, unavailable in Russia on its add-on store after persistent removal demands from Russia's censorship agency Roskomnadzor. Mozilla reversed the decision and reinstated the listings on 13 June 2024, the day after The Intercept reported the restrictions."
+quote:
+  text: "After careful consideration, we've temporarily restricted their availability within Russia."
+  lang: en
+status: established
+response: "Announcing the reversal, Mozilla said: \"Our initial decision to temporarily restrict these listings was made while we considered the regulatory environment\" and the potential risk to its community and staff, and that it would reinstate them \"in alignment with our commitment to an open and accessible Internet\"."
+sources:
+  - url: https://theintercept.com/2024/06/12/mozilla-firefox-russia-censorship-blocked/
+    outlet: "The Intercept"
+    date: "2024-06-12"
+  - url: https://meduza.io/en/news/2024/06/13/mozilla-reinstates-russians-access-to-firefox-add-ons-banned-by-federal-censor
+    outlet: "Meduza"
+    date: "2024-06-13"
+  - url: https://www.osnews.com/story/139943/exclusive-mozilla-reverses-course-re-lists-extensions-it-removed-in-russia/
+    outlet: "OSnews"
+    date: "2024-06-13"

@@ -4,6 +4,7 @@ description: "French telecommunications group (Free, Free Mobile, Iliad Italia, 
 country: FR
 website: https://www.iliad.fr
 wikidata: Q1239347
+reviewed: "2026-10-20"
 relations:
   - target: xavier-niel
     role: founded-by

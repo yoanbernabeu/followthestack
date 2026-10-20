@@ -4,6 +4,7 @@ description: "US company operating Snapchat."
 country: US
 website: https://snap.com
 wikidata: Q27022329
+reviewed: "2026-10-20"
 relations:
   - target: evan-spiegel
     role: led-by

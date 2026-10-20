@@ -4,6 +4,7 @@ description: "Australian live-streaming platform launched in 2022, backed by the
 country: AU
 website: https://kick.com
 wikidata: Q117084855
+reviewed: "2026-10-20"
 relations:
   - target: ed-craven
     role: owned-by

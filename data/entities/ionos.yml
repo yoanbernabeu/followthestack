@@ -4,6 +4,7 @@ description: "German web hosting and cloud provider, subsidiary of United Intern
 country: DE
 website: https://www.ionos.com
 wikidata: Q882107
+reviewed: "2026-10-20"
 relations:
   - target: united-internet
     role: subsidiary-of

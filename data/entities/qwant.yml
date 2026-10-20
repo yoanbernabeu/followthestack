@@ -4,6 +4,7 @@ description: "French search engine company, controlled since 2023 by Synfonium (
 country: FR
 website: https://www.qwant.com
 wikidata: Q14657870
+reviewed: "2026-10-20"
 relations:
   - target: octave-klaba
     role: owned-by

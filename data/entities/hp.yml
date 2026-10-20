@@ -1,0 +1,14 @@
+name: "HP Inc."
+type: company
+description: "Maker of personal computers and printers, the PC and printing business of the former Hewlett-Packard, split off in 2015."
+country: US
+website: https://www.hp.com
+reviewed: "2026-10-20"
+relations:
+  - target: enrique-lores
+    role: led-by
+    until: "2026-02-02"
+    sources:
+      - url: https://www.sec.gov/Archives/edgar/data/47217/000114036126003514/ef20064653_8k.htm
+        outlet: "HP Inc. Form 8-K (SEC)"
+        date: "2026-02-03"

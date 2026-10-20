@@ -4,6 +4,7 @@ description: "Canadian artificial intelligence company providing large language 
 country: CA
 website: https://cohere.com
 wikidata: Q110363143
+reviewed: "2026-10-20"
 relations:
   - target: aidan-gomez
     role: led-by

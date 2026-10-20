@@ -4,6 +4,7 @@ description: "Software and cloud company behind Windows, Microsoft 365, Azure an
 country: US
 website: https://www.microsoft.com
 wikidata: Q2283
+reviewed: "2026-10-19"
 relations:
   - target: satya-nadella
     role: led-by

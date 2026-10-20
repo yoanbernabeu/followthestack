@@ -1,0 +1,21 @@
+subject: xavier-niel
+grievances: [press-justice-attacks]
+date: "2008-11-28"
+summary: "On November 28, 2008, Vittorio de Filippis, former publication director of the French daily Libération, was arrested at his home at about 6:40 a.m. on a warrant from a Paris investigating judge, searched, and brought before the judge, who placed him under formal investigation for public defamation of a private individual. The case stemmed from a defamation complaint filed by Xavier Niel, founder of Free, over content published on Libération's website in 2006 about his conviction that year: Le Monde, Le Monde Informatique and Index on Censorship identify it as a reader's comment, while Reporters Without Borders refers to articles by journalist Renaud Lecadre. Niel and Free had filed several other defamation complaints against Libération over its coverage. According to Le Monde Informatique, citing Libération, they lost the cases tried in 2008 and were ordered to pay the newspaper damages for abusive proceedings; Index on Censorship wrote that Niel had already brought and lost four lawsuits against the newspaper. In May 2009, Univers Freebox reported that the appeal court upheld the acquittals and ordered Free to pay 6,000 euros in damages for abusive complaints. Reporters Without Borders condemned the methods used against de Filippis."
+status: established
+sources:
+  - url: https://www.lemonde.fr/archives/article/2008/12/01/journaliste-et-pire-que-la-racaille_4421953_1819218.html
+    outlet: "Le Monde"
+    date: "2008-12-01"
+  - url: https://rsf.org/fr/indignation-face-aux-m%C3%A9thodes-intol%C3%A9rables-utilis%C3%A9es-%C3%A0-lencontre-dun-journaliste-de-lib%C3%A9ration-pour
+    outlet: "Reporters sans frontières"
+    date: "2008-11-29"
+  - url: https://www.lemondeinformatique.fr/actualites/lire-un-ex-dirigeant-de-libe-conduit-en-cellule-dans-l-affaire-xavier-niel-mise-a-jour-27527.html
+    outlet: "Le Monde Informatique"
+    date: "2008-12-01"
+  - url: https://indexoncensorship.org/?p=990
+    outlet: "Index on Censorship"
+    date: "2008-12-08"
+  - url: https://www.universfreebox.com/?p=8145
+    outlet: "Univers Freebox"
+    date: "2009-05-19"

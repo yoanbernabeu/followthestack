@@ -4,3 +4,15 @@ description: "Company developing the open-core GitLab DevSecOps platform."
 country: US
 website: https://about.gitlab.com
 wikidata: Q55589254
+reviewed: "2026-10-20"
+relations:
+  - target: sytse-sijbrandij
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/GitLab_Inc.
+        outlet: "Wikipedia"
+  - target: bill-staples
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/GitLab_Inc.
+        outlet: "Wikipedia"

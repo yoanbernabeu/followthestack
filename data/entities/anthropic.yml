@@ -4,6 +4,7 @@ description: "Artificial intelligence company developing the Claude models, Clau
 country: US
 website: https://www.anthropic.com
 wikidata: Q116758847
+reviewed: "2026-10-19"
 relations:
   - target: dario-amodei
     role: led-by

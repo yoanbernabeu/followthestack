@@ -4,6 +4,7 @@ description: "E-commerce, advertising and cloud computing company (Amazon Web Se
 country: US
 website: https://www.aboutamazon.com
 wikidata: Q3884
+reviewed: "2026-10-19"
 relations:
   - target: andy-jassy
     role: led-by

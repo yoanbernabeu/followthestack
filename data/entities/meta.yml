@@ -4,6 +4,7 @@ description: "Company operating Facebook, Instagram, WhatsApp and the Meta adver
 country: US
 website: https://about.meta.com
 wikidata: Q380
+reviewed: "2026-10-19"
 relations:
   - target: mark-zuckerberg
     role: led-by

@@ -4,9 +4,15 @@ description: "Dutch-American company behind Elasticsearch, Kibana and Elastic Cl
 country: NL
 website: https://www.elastic.co
 wikidata: Q22074922
+reviewed: "2026-10-20"
 relations:
   - target: shay-banon
     role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Elastic_NV
+        outlet: "Wikipedia"
+  - target: ash-kulkarni
+    role: led-by
     sources:
       - url: https://en.wikipedia.org/wiki/Elastic_NV
         outlet: "Wikipedia"

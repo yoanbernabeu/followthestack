@@ -4,6 +4,7 @@ description: "Customer service software company, taken private in 2022 by Hellma
 country: US
 website: https://www.zendesk.com
 wikidata: Q15401349
+reviewed: "2026-10-20"
 relations:
   - target: hellman-friedman
     role: owned-by
@@ -12,6 +13,12 @@ relations:
         outlet: "Wikipedia"
   - target: permira
     role: owned-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Zendesk
+        outlet: "Wikipedia"
+  - target: tom-eggemeier
+    role: led-by
+    since: "2022-11-01"
     sources:
       - url: https://en.wikipedia.org/wiki/Zendesk
         outlet: "Wikipedia"

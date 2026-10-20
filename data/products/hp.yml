@@ -1,0 +1,7 @@
+name: "HP laptops, PCs and printers"
+vendor: hp
+category: os-hardware
+links: [pay]
+description: "Personal computers, laptops and printers by HP Inc."
+website: https://www.hp.com
+alternatives: [framework-laptop]

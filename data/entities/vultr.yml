@@ -4,3 +4,10 @@ description: "US cloud infrastructure provider."
 country: US
 website: https://www.vultr.com
 wikidata: Q137343200
+reviewed: "2026-10-20"
+relations:
+  - target: jj-kardwell
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Vultr
+        outlet: "Wikipedia"

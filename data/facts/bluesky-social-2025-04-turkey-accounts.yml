@@ -1,0 +1,14 @@
+subject: bluesky-social
+grievances: [authoritarian-alignment]
+date: "2025-04-01"
+datePrecision: month
+summary: "Restricted access in Turkey to accounts targeted by Turkish authorities, hiding them from users in Turkey through a geographic moderation label applied in its official app. TechCrunch reported that Bluesky restricted 72 accounts at the request of Turkish governmental authorities. The Stockholm Center for Freedom, citing Turkey's Freedom of Expression Association (İFÖD), reported a different breakdown: 59 of those accounts were blocked at the internet service provider level under Turkish court orders, and Bluesky itself made 13 accounts and one post inaccessible in Turkey."
+status: established
+response: "Bluesky did not comment publicly on the restrictions. The accounts were not removed from the network and remained visible outside Turkey and in third-party apps that do not apply the label."
+sources:
+  - url: https://techcrunch.com/2025/04/23/government-censorship-comes-to-bluesky-but-not-its-third-party-apps-yet
+    outlet: "TechCrunch"
+    date: "2025-04-23"
+  - url: https://stockholmcf.org/bluesky-restricts-access-to-72-accounts-in-turkey-amid-government-pressure
+    outlet: "Stockholm Center for Freedom"
+    date: "2025-04-17"

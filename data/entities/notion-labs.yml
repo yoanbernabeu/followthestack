@@ -3,3 +3,15 @@ type: company
 description: "San Francisco-based company developing the Notion productivity and note-taking application."
 country: US
 website: https://www.notion.com
+reviewed: "2026-10-20"
+relations:
+  - target: ivan-zhao
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Notion_(productivity_software)
+        outlet: "Wikipedia"
+  - target: ivan-zhao
+    role: led-by
+    sources:
+      - url: https://www.forbes.com/profile/ivan-zhao/
+        outlet: "Forbes"

@@ -4,6 +4,7 @@ description: "Code hosting and developer platform, subsidiary of Microsoft since
 country: US
 website: https://github.com
 wikidata: Q364
+reviewed: "2026-10-19"
 relations:
   - target: microsoft
     role: subsidiary-of

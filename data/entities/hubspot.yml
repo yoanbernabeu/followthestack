@@ -4,9 +4,25 @@ description: "Marketing, sales and customer service software company."
 country: US
 website: https://www.hubspot.com
 wikidata: Q5926631
+reviewed: "2026-10-20"
 relations:
   - target: yamini-rangan
     role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/HubSpot
+        outlet: "Wikipedia"
+  - target: brian-halligan
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/HubSpot
+        outlet: "Wikipedia"
+  - target: dharmesh-shah
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/HubSpot
+        outlet: "Wikipedia"
+  - target: brian-halligan
+    role: board-member
     sources:
       - url: https://en.wikipedia.org/wiki/HubSpot
         outlet: "Wikipedia"

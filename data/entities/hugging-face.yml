@@ -4,6 +4,7 @@ description: "Machine learning platform hosting open models and datasets, develo
 country: US
 website: https://huggingface.co
 wikidata: Q108943604
+reviewed: "2026-10-20"
 relations:
   - target: nvidia
     role: invested-by
@@ -14,6 +15,16 @@ relations:
   - target: google
     role: invested-by
     since: 2023-08-01
+    sources:
+      - url: https://en.wikipedia.org/wiki/Hugging_Face
+        outlet: "Wikipedia"
+  - target: clement-delangue
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Hugging_Face
+        outlet: "Wikipedia"
+  - target: clement-delangue
+    role: led-by
     sources:
       - url: https://en.wikipedia.org/wiki/Hugging_Face
         outlet: "Wikipedia"

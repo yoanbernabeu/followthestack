@@ -4,6 +4,7 @@ description: "Swiss company behind Proton Mail, Proton VPN and Proton Drive, maj
 country: CH
 website: https://proton.me
 wikidata: Q30537036
+reviewed: "2026-10-20"
 relations:
   - target: andy-yen
     role: led-by

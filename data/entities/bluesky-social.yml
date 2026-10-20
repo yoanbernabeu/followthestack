@@ -3,6 +3,7 @@ type: company
 description: "US public benefit corporation developing the Bluesky social network and the AT Protocol, started inside Twitter in 2019."
 country: US
 website: https://bsky.social
+reviewed: "2026-10-20"
 relations:
   - target: jack-dorsey
     role: founded-by
@@ -13,3 +14,26 @@ relations:
       - url: https://www.businesstoday.in/technology/news/story/twitters-ex-ceo-jack-dorsey-confirms-hes-no-longer-a-part-of-bluesky-board-428383-2024-05-06
         outlet: "Business Today"
         date: "2024-05-06"
+  - target: jay-graber
+    role: led-by
+    until: "2026-03-09"
+    sources:
+      - url: https://bsky.social/about/blog/03-09-2026-a-new-chapter-for-bluesky
+        outlet: "Bluesky (official blog)"
+        date: "2026-03-09"
+  - target: jay-graber
+    role: board-member
+    sources:
+      - url: https://bsky.social/about/blog/07-10-2026-toni-schneider-ceo
+        outlet: "Bluesky (official blog)"
+        date: "2026-07-10"
+  - target: toni-schneider
+    role: led-by
+    since: "2026-03-09"
+    sources:
+      - url: https://bsky.social/about/blog/03-09-2026-a-new-chapter-for-bluesky
+        outlet: "Bluesky (official blog)"
+        date: "2026-03-09"
+      - url: https://bsky.social/about/blog/07-10-2026-toni-schneider-ceo
+        outlet: "Bluesky (official blog)"
+        date: "2026-07-10"

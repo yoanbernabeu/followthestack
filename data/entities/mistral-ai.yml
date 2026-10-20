@@ -4,6 +4,7 @@ description: "French artificial intelligence company developing open-weight and 
 country: FR
 website: https://mistral.ai
 wikidata: Q119718658
+reviewed: "2026-10-20"
 relations:
   - target: arthur-mensch
     role: led-by

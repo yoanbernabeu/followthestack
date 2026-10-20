@@ -4,6 +4,7 @@ description: "Semiconductor and infrastructure software company; acquired VMware
 country: "US"
 website: "https://www.broadcom.com"
 wikidata: Q790060
+reviewed: "2026-10-19"
 relations:
   - target: hock-tan
     role: led-by

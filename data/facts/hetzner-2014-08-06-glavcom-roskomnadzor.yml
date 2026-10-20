@@ -1,0 +1,19 @@
+subject: hetzner
+grievances: [authoritarian-alignment]
+date: "2014-08-06"
+summary: "After Russia's media regulator Roskomnadzor asked Hetzner to get the Ukrainian news site Glavcom.ua to remove an article about a planned march for the federalisation of Siberia, a Hetzner employee asked Glavcom by email to delete the information and warned that the site could be suspended if it did not comply within 24 hours, citing Hetzner's terms of service. Reporters Without Borders Germany said the article did not breach Hetzner's terms or any law. Glavcom moved its site to Ukrainian servers."
+status: contested
+response: "Hetzner's request cited its own terms and conditions, not the Russian complaint. On August 10, 2014, Hetzner apologised to Glavcom, denied that any censorship had been planned and said its technical support team had taken a wrong decision that it regretted."
+sources:
+  - url: https://www.reporter-ohne-grenzen.de/pressemitteilungen/meldung/russische-zensurversuche-im-ausland/
+    outlet: "Reporter ohne Grenzen"
+    date: "2014-08-08"
+  - url: https://netzpolitik.org/2014/kooperiert-hetzner-mit-russischer-medienaufsicht-bei-zensur/
+    outlet: "netzpolitik.org"
+    date: "2014-08-08"
+  - url: https://archive.khpg.org/en/1407702463
+    outlet: "Kharkiv Human Rights Protection Group"
+    date: "2014-08-11"
+  - url: https://imi.org.ua/en/news/german-hoster-apologized-to-glavkom-and-promised-not-to-block-its-materials-i24890
+    outlet: "Institute of Mass Information"
+    date: "2014-08-12"

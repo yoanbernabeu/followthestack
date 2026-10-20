@@ -4,3 +4,15 @@ description: "German hosting and data-centre company (dedicated servers, Hetzner
 country: DE
 website: https://www.hetzner.com
 wikidata: Q18349346
+reviewed: "2026-10-20"
+relations:
+  - target: martin-hetzner
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Hetzner
+        outlet: "Wikipedia"
+  - target: martin-hetzner
+    role: led-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Hetzner
+        outlet: "Wikipedia"

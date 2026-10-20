@@ -4,6 +4,7 @@ description: "Cloud communications company, owner of SendGrid, Segment and Stytc
 country: US
 website: https://www.twilio.com
 wikidata: Q7858039
+reviewed: "2026-10-20"
 relations:
   - target: khozema-shipchandler
     role: led-by

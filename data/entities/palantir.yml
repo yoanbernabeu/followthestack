@@ -3,6 +3,7 @@ type: company
 description: Data analytics and surveillance software company, contractor for US Immigration and Customs Enforcement (ICE) and the French DGSI.
 country: US
 website: https://www.palantir.com
+reviewed: "2026-10-19"
 relations:
   - target: peter-thiel
     role: founded-by

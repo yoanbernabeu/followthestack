@@ -4,3 +4,15 @@ description: "Luxembourg-based edge cloud, CDN and security provider."
 country: LU
 website: https://gcore.com
 wikidata: Q114616935
+reviewed: "2026-10-20"
+relations:
+  - target: andre-reitenbach
+    role: founded-by
+    sources:
+      - url: https://en.wikipedia.org/wiki/Gcore
+        outlet: "Wikipedia"
+  - target: andre-reitenbach
+    role: led-by
+    sources:
+      - url: https://gcore.com/about
+        outlet: "Gcore (official site)"

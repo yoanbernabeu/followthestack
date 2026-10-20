@@ -4,6 +4,7 @@ description: "US content delivery, cybersecurity and cloud computing company, ow
 country: US
 website: https://www.akamai.com
 wikidata: Q415598
+reviewed: "2026-10-20"
 relations:
   - target: f-thomson-leighton
     role: founded-by

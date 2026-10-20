@@ -4,6 +4,7 @@ description: "US maker of AI-powered automatic license plate reader (ALPR) camer
 country: US
 website: https://www.flocksafety.com
 wikidata: Q108485435
+reviewed: "2026-10-19"
 relations:
   - target: andreessen-horowitz
     role: invested-by
