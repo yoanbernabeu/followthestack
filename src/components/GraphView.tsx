@@ -4,7 +4,7 @@ import { Maximize2, Minus, Plus, Search } from 'lucide-react';
 import type { Dataset } from '@/lib/types';
 import { GRIEVANCE_COLORS, GRIEVANCE_LABELS, ROLE_LABELS } from '@/lib/labels';
 import { url } from '@/lib/urls';
-import { chainNodes, entityNode, fullGraph, induced, neighbourhood, productNode, type Graph, type GraphNode } from '@/lib/graph';
+import { chainNodes, concentration, entityNode, fullGraph, induced, neighbourhood, productNode, type Concentration, type Graph, type GraphNode } from '@/lib/graph';
 
 export type GraphViewProps = {
   base: string;
@@ -40,6 +40,10 @@ function toRgb(color: string): string {
   const [r, g, b] = ctx.getImageData(0, 0, 1, 1).data;
   return `rgb(${r},${g},${b})`;
 }
+const mix = (a: string, b: string, t: number) => {
+  const [x, y] = [a, b].map((c) => c.match(/\d+/g)!.map(Number));
+  return `rgb(${x.map((v, i) => Math.round(v + (y[i] - v) * t)).join(',')})`;
+};
 const cssVar = (name: string) => toRgb(getComputedStyle(document.documentElement).getPropertyValue(name).trim() || '#888');
 
 /** Dots for the overview, labelled pills for the focused views. */
@@ -59,14 +63,16 @@ function stylesheet(compact: boolean, tree: boolean): StylesheetStyle[] {
         {
           selector: 'node',
           style: {
-            shape: 'ellipse', width: 'data(size)', height: 'data(size)', 'background-color': muted, 'background-opacity': 0.45,
+            shape: 'ellipse', width: 'data(size)', height: 'data(size)',
+            'background-color': `mapData(heat, 0, 1, ${muted}, ${alert})`, 'background-opacity': 'mapData(heat, 0, 1, 0.4, 0.95)',
             'border-width': 0, label: 'data(label)', 'font-family': font, 'font-size': 11, color: fg,
             'text-valign': 'bottom', 'text-margin-y': 4, 'text-outline-color': bg, 'text-outline-width': 2,
             'min-zoomed-font-size': 22,
           },
         },
         { selector: 'node[kind = "product"]', style: { shape: 'round-rectangle', 'background-opacity': 0.25 } },
-        { selector: 'node[?own]', style: { 'background-color': alert, 'background-opacity': 0.9, 'min-zoomed-font-size': 9, 'font-weight': 500 } },
+        { selector: 'node[?own]', style: { 'min-zoomed-font-size': 9, 'font-weight': 500 } },
+        { selector: 'node[weight > 40]', style: { 'min-zoomed-font-size': 4, 'font-size': 13, 'font-weight': 600 } },
       ]
     : [
         {
@@ -80,7 +86,13 @@ function stylesheet(compact: boolean, tree: boolean): StylesheetStyle[] {
         },
         { selector: 'node[kind = "person"]', style: { 'corner-radius': 15 } },
         { selector: 'node[kind = "product"]', style: { 'background-color': subtle, 'border-style': 'dashed', color: muted } },
-        { selector: 'node[?own]', style: { 'background-color': alertSoft, 'border-color': alert, 'border-width': 1.5, color: fg } },
+        {
+          selector: 'node[?own]',
+          style: {
+            'background-color': `mapData(heat, 0, 1, ${alertSoft}, ${mix(alertSoft, alert, 0.75)})`,
+            'border-color': alert, 'border-width': 'mapData(heat, 0, 1, 1, 3)', 'font-size': 'data(fs)', height: 'data(h)', color: fg,
+          },
+        },
         { selector: 'node.centre', style: { 'border-width': 2.5, 'border-color': fg, 'font-weight': 700 } },
       ]) as unknown as StylesheetStyle[];
   return [
@@ -98,6 +110,8 @@ function stylesheet(compact: boolean, tree: boolean): StylesheetStyle[] {
     { selector: 'edge[group = "money"]', style: { 'line-style': 'dashed', 'line-dash-pattern': [4, 4] } },
     { selector: 'edge[group = "product"]', style: { 'line-style': 'dotted', 'line-color': line, 'target-arrow-color': line, opacity: compact ? 0.5 : 1 } },
     { selector: 'edge[?former]', style: { 'line-style': 'dashed', opacity: 0.25 } },
+    { selector: 'edge[flow = 0]', style: { opacity: compact ? 0.16 : 0.35 } },
+    { selector: 'edge[flow > 0]', style: { 'line-color': alert, 'target-arrow-color': alert, width: 'data(w)', opacity: compact ? 0.6 : 0.85, 'line-style': 'solid' } },
     { selector: '.faded', style: { opacity: 0.1, 'text-opacity': 0.15 } },
     { selector: 'node.lit', style: { 'min-zoomed-font-size': 0 } },
     {
@@ -119,7 +133,7 @@ function applyGrievance(cy: Core, grievance: string) {
   hits.edgesWith(hits).removeClass('faded');
 }
 
-function elementsOf(g: Graph, centre?: string): ElementDefinition[] {
+function elementsOf(g: Graph, conc: Concentration, scope: 'all' | 'stack', centre?: string): ElementDefinition[] {
   // One edge per pair of nodes, labelled with every role between them.
   const pairs = new Map<string, { source: string; target: string; roles: string[]; former: boolean }>();
   for (const e of g.edges) {
@@ -129,14 +143,27 @@ function elementsOf(g: Graph, centre?: string): ElementDefinition[] {
     p.former = p.former && e.former;
     pairs.set(key, p);
   }
+  const maxFacts = Math.max(1, ...g.nodes.filter((n) => n.kind !== 'product').map((n) => n.facts));
   return [
-    ...g.nodes.map((n) => ({
-      data: { ...n, own: n.kind !== 'product' && n.facts > 0, size: n.kind === 'product' ? 7 : Math.min(34, 8 + 5 * Math.sqrt(n.facts)) },
-      classes: n.id === centre ? 'centre' : undefined,
-    })),
+    ...g.nodes.map((n) => {
+      const own = n.kind !== 'product' && n.facts > 0;
+      const reach = conc.reach.get(n.id)?.size ?? 0;
+      // Weight: facts carried times products reached. In a stack, reaching several of the reader's tools counts most.
+      const weight = own ? n.facts * Math.max(1, scope === 'stack' ? reach * 4 : reach) : 0;
+      const heat = own ? Math.min(1, Math.log2(1 + n.facts) / Math.log2(1 + maxFacts)) : 0;
+      return {
+        data: {
+          ...n, own, reach, weight, heat,
+          size: n.kind === 'product' ? 7 : Math.min(64, 7 + 3.2 * Math.sqrt(weight)),
+          fs: Math.round(Math.min(17, 12 + 1.1 * Math.log2(1 + weight))), h: Math.round(Math.min(46, 30 + 2 * Math.log2(1 + weight))),
+        },
+        classes: n.id === centre ? 'centre' : undefined,
+      };
+    }),
     ...[...pairs.entries()].map(([key, p]) => {
       const roles = [...new Set(p.roles)].sort((a, b) => ROLE_RANK.indexOf(a) - ROLE_RANK.indexOf(b));
-      return { data: { id: key, source: p.source, target: p.target, former: p.former, group: ROLE_GROUP[roles[0]] ?? 'money', label: roles.map(roleLabel).join(' · ') } };
+      const flow = conc.edgeFlow.get(key) ?? 0;
+      return { data: { id: key, source: p.source, target: p.target, former: p.former, group: ROLE_GROUP[roles[0]] ?? 'money', label: roles.map(roleLabel).join(' · '), flow, w: flow ? Math.min(9, 1.2 + 1.3 * Math.sqrt(flow)) : 1 } };
     }),
   ];
 }
@@ -151,6 +178,7 @@ export default function GraphView({ base, view, id, productIds, data: given, ind
   const [selected, setSelected] = useState<GraphNode | null>(null);
   const [extra, setExtra] = useState<string[]>([]); // nodes expanded by the reader in focused views
   const [query, setQuery] = useState('');
+  const [onlyFacts, setOnlyFacts] = useState(view === 'global'); // overview: keep only where facts sit and flow
   const box = useRef<HTMLDivElement>(null);
   const cyRef = useRef<Core | null>(null);
   const grievanceRef = useRef('');
@@ -172,9 +200,24 @@ export default function GraphView({ base, view, id, productIds, data: given, ind
 
   const full = useMemo(() => (data ? fullGraph(data, { products: view !== 'global' || showProducts, former, indirect }) : null), [data, view, showProducts, former, indirect]);
 
+  // Facts flowing towards the products in scope: the reader's tools for a stack, every product otherwise.
+  const conc = useMemo(
+    () => (data ? concentration(data, view === 'stack' ? productIds ?? [] : data.products.map((p) => p.id), { indirect, former }) : null),
+    [data, view, productIds, indirect, former],
+  );
+
   const graph = useMemo(() => {
-    if (!data || !full) return null;
+    if (!data || !full || !conc) return null;
     if (view === 'global') {
+      if (onlyFacts) {
+        // The map of problems: entities carrying facts, and every link facts travel along.
+        const keep = new Set(full.nodes.filter((n) => n.kind !== 'product' && n.facts > 0).map((n) => n.id));
+        for (const e of full.edges) if (conc.edgeFlow.get(`${e.source}|${e.target}`)) { keep.add(e.source); keep.add(e.target); }
+        const sub = induced(full, keep);
+        // Facts that reach no other node in this view stay on their own pages.
+        const linked = new Set(sub.edges.flatMap((e) => [e.source, e.target]));
+        return induced(sub, linked);
+      }
       // Isolated nodes add noise to the overview; they stay reachable from their own pages.
       const linked = new Set(full.edges.flatMap((e) => [e.source, e.target]));
       return induced(full, linked);
@@ -185,11 +228,11 @@ export default function GraphView({ base, view, id, productIds, data: given, ind
     else ids = neighbourhood(full, centre ? [centre] : [], 2, 40);
     for (const x of extra) neighbourhood(full, [x], 1).forEach((n) => ids.add(n));
     return induced(full, ids);
-  }, [data, full, view, id, productIds, indirect, former, centre, extra]);
+  }, [data, full, conc, onlyFacts, view, id, productIds, indirect, former, centre, extra]);
 
   // Create the Cytoscape instance once the graph is known; recreate when it changes.
   useEffect(() => {
-    if (!graph || !box.current) return;
+    if (!graph || !conc || !box.current) return;
     let cancelled = false;
     (async () => {
       const [{ default: cytoscape }, { default: fcose }] = await Promise.all([import('cytoscape'), import('cytoscape-fcose')]);
@@ -199,7 +242,7 @@ export default function GraphView({ base, view, id, productIds, data: given, ind
       const roots = graph.nodes.filter((n) => n.kind === 'product').map((n) => n.id);
       const cy = cytoscape({
         container: box.current,
-        elements: elementsOf(graph, centre),
+        elements: elementsOf(graph, conc, view === 'stack' ? 'stack' : 'all', centre),
         style: stylesheet(compact, tree),
         minZoom: 0.1,
         maxZoom: 2.5,
@@ -232,7 +275,7 @@ export default function GraphView({ base, view, id, productIds, data: given, ind
       if (start?.nonempty()) start.emit('tap');
     })();
     return () => { cancelled = true; };
-  }, [graph, view, centre, compact, tree]);
+  }, [graph, conc, view, centre, compact, tree]);
 
   useEffect(() => () => { cyRef.current?.destroy(); cyRef.current = null; }, []);
 
@@ -264,6 +307,14 @@ export default function GraphView({ base, view, id, productIds, data: given, ind
   const h = height ?? '440px';
   if (!graph) return <div className="animate-pulse rounded-xl border bg-muted/40" style={{ height: h }} aria-hidden="true" />;
   const labels = graph.nodes.map((n) => n.label).sort((a, b) => a.localeCompare(b));
+  // Where facts concentrate: the heaviest entities of the current graph.
+  const tools = view === 'stack' ? (productIds ?? []).length : 0;
+  const top = conc ? graph.nodes
+    .filter((n) => n.kind !== 'product' && n.facts > 0)
+    .map((n) => ({ n, reach: conc.reach.get(n.id)?.size ?? 0 }))
+    .sort((a, b) => (view === 'stack' ? b.reach - a.reach : 0) || b.n.facts * Math.max(1, b.reach) - a.n.facts * Math.max(1, a.reach))
+    .slice(0, 5) : [];
+  const pick = (nodeId: string) => cyRef.current?.getElementById(nodeId).emit('tap');
   const grievancesHere = [...new Set(graph.nodes.flatMap((n) => n.grievances))].sort();
   const chip = (on: boolean) => `h-8 rounded-full border px-3 text-xs transition-colors ${on ? 'border-foreground bg-foreground text-background' : 'text-muted-foreground hover:text-foreground'}`;
 
@@ -281,6 +332,7 @@ export default function GraphView({ base, view, id, productIds, data: given, ind
             <datalist id="graph-nodes">{labels.map((l) => <option key={l} value={l} />)}</datalist>
           </label>
         )}
+        {view === 'global' && <button type="button" className={chip(onlyFacts)} aria-pressed={onlyFacts} onClick={() => setOnlyFacts((v) => !v)}>Only where facts flow</button>}
         {view === 'global' && <button type="button" className={chip(showProducts)} aria-pressed={showProducts} onClick={() => setShowProducts((v) => !v)}>Products</button>}
         {indirectProp === undefined && <button type="button" className={chip(indirectLocal)} aria-pressed={indirectLocal} onClick={() => setIndirect((v) => !v)}>Investors</button>}
         {formerProp === undefined && <button type="button" className={chip(formerLocal)} aria-pressed={formerLocal} onClick={() => setFormer((v) => !v)}>Former links</button>}
@@ -291,6 +343,24 @@ export default function GraphView({ base, view, id, productIds, data: given, ind
           </select>
         )}
       </div>
+
+      {top.length > 0 && (
+        <div className="flex flex-wrap items-center gap-2 text-xs">
+          <span className="text-muted-foreground">Where facts concentrate</span>
+          {top.map(({ n, reach }, i) => (
+            <button
+              key={n.id} type="button" onClick={() => pick(n.id)}
+              className="inline-flex items-center gap-1.5 rounded-full border border-alert/40 bg-alert-soft px-2.5 py-1 hover:border-alert"
+            >
+              <span className="font-semibold text-alert">{i + 1}</span>
+              <span className="font-medium">{n.label}</span>
+              <span className="text-muted-foreground">
+                {n.facts} fact{n.facts > 1 ? 's' : ''}{reach > 0 && ` · ${tools ? `${reach}/${tools} of your tools` : `${reach} product${reach > 1 ? 's' : ''}`}`}
+              </span>
+            </button>
+          ))}
+        </div>
+      )}
 
       <div className="relative overflow-hidden rounded-xl border bg-[radial-gradient(var(--border)_1px,transparent_1px)] [background-size:18px_18px]" style={{ height: h }}>
         <div ref={box} role="img" className="h-full w-full" aria-label={`Relationship graph: ${graph.nodes.length} companies, people and products. The lists on this site contain the same information.`} />
@@ -347,6 +417,8 @@ function Legend({ compact }: { compact: boolean }) {
       </li>
       <li className={item}><span className={compact ? 'size-2.5 rounded-full bg-muted-foreground/45' : 'h-3 w-5 rounded-sm border bg-card'} />Company, fund, person</li>
       <li className={item}><span className={compact ? 'size-2 rounded-[2px] bg-muted-foreground/25' : 'h-3 w-5 rounded-sm border border-dashed bg-muted'} />Product</li>
+      <li className={item}><span className="w-5 border-t-[3px] border-alert" />Facts flowing to products (thicker = more)</li>
+      <li className={item}>Bigger, redder = more facts and more products reached</li>
       <li className={item}><span className="w-5 border-t-2 border-muted-foreground/80" />Owned by, subsidiary of</li>
       <li className={item}><span className="w-5 border-t border-muted-foreground/60" />Led, founded, board</li>
       <li className={item}><span className="w-5 border-t border-dashed border-muted-foreground/60" />Investor, former link</li>

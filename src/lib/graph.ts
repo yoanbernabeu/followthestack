@@ -98,3 +98,56 @@ export function chainNodes(data: Dataset, productIds: string[], indirect: boolea
   }
   return ids;
 }
+
+export type Concentration = {
+  edgeFlow: Map<string, number>; // facts flowing through each `source|target` pair, towards products
+  reach: Map<string, Set<string>>; // entity node id -> product ids it reaches
+  productFacts: Map<string, number>; // product node id -> facts reaching it
+};
+
+const CONTROL = new Set(['subsidiary-of', 'owned-by']);
+const PEOPLE = new Set(['led-by', 'founded-by', 'board-member']);
+
+/**
+ * Where facts concentrate: for each product, walk the same chain as the report
+ * (direct links, plus investors or former links when asked) and push the facts of
+ * every entity reached down the path to the product.
+ */
+export function concentration(data: Dataset, productIds: string[], opts: Pick<GraphOptions, 'indirect' | 'former'>): Concentration {
+  const own = new Map<string, number>();
+  for (const f of data.facts) own.set(f.subject, (own.get(f.subject) ?? 0) + 1);
+  const edgeFlow = new Map<string, number>();
+  const reach = new Map<string, Set<string>>();
+  const productFacts = new Map<string, number>();
+  for (const pid of productIds) {
+    const p = data.products.find((x) => x.id === pid);
+    if (!p || !data.entities[p.vendor]) continue;
+    type Step = { id: string; kind: 'direct' | 'former' | 'indirect'; path: string[]; depth: number };
+    const queue: Step[] = [{ id: p.vendor, kind: 'direct', path: [`${productNode(pid)}|${entityNode(p.vendor)}`], depth: 0 }];
+    const seen = new Set<string>();
+    let total = 0;
+    while (queue.length) {
+      const s = queue.shift()!;
+      if (seen.has(s.id)) continue;
+      seen.add(s.id);
+      const node = entityNode(s.id);
+      reach.set(node, (reach.get(node) ?? new Set()).add(pid));
+      const n = own.get(s.id) ?? 0;
+      if (n) {
+        total += n;
+        for (const k of s.path) edgeFlow.set(k, (edgeFlow.get(k) ?? 0) + n);
+      }
+      if (s.depth >= 3) continue;
+      for (const r of data.entities[s.id]?.relations ?? []) {
+        const key = `${node}|${entityNode(r.target)}`;
+        const next = { id: r.target, path: [...s.path, key], depth: s.depth + 1 };
+        const followed = CONTROL.has(r.role) || PEOPLE.has(r.role);
+        if (r.until) { if (opts.former && s.kind !== 'indirect' && followed) queue.push({ ...next, kind: 'former' }); continue; }
+        if (s.kind !== 'indirect' && followed) queue.push({ ...next, kind: s.kind });
+        else if (opts.indirect) queue.push({ ...next, kind: 'indirect' });
+      }
+    }
+    productFacts.set(productNode(pid), total);
+  }
+  return { edgeFlow, reach, productFacts };
+}
